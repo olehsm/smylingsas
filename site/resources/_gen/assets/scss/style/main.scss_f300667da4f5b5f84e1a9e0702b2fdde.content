@@ -1,0 +1,6 @@
+.site__footer {
+  margin-top: 5em;
+  padding: 4em 0;
+  color: #333333;
+  /*background: #fafafa;*/
+  background-color: blue; }

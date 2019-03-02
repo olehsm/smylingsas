@@ -1,0 +1,9 @@
+<a href="{{.Permalink}}">
+    <article class="item">
+        {{ with .Params.featureimg }}
+            <img src="{{.}}" alt="fgrwg0" title="{{.Title}}" />
+        {{ end }}
+        <h3>{{.Title}}</h3>
+        <p>{{.Params.featuretext}}</p>
+    </article>
+</a>

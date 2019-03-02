@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main>
+    <article class="main blog-post">
+        <header class="article__header">
+            <h1 class="article__title">{{.Title}}</h1>
+            <h2 class="article__subtitle">sub title</h2>
+        </header>   
+        <div class="article__meta">
+            <p>
+                Published <time pubdate>{{.Params.date}}</time>
+            </p>
+        </div>
+        <section class="article">
+            {{.Content}}
+            <div class="article__related">
+                insert tags...
+            </div>
+        </section>
+    </article>
+</main>
+{{ end }}
+

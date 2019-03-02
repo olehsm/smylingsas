@@ -1,0 +1,19 @@
+baseURL = "https://smylingsas.net/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Smylingsas.net"
+# filesystem path to write files to
+publishDir = "../public"
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+canonifyURLs = "true"
+
+[params]
+    twitteruser = "olehsm"
+    githubuser = "olehsm"
+    instagramuser = "habbheim"
+    googleAnalytics = "UA-123-45"
+    disqusShortname = "yourdiscussshortname"
+    owner = "Ole Halvor Smylingsås"

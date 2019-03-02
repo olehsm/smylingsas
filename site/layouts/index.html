@@ -1,0 +1,24 @@
+{{ define "main" }}
+    <header class="header homepage__header">
+        <h1 class="homepage__title">Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</h1>
+    </header>
+    
+    <main class="main homepage__main">
+        <aside class="aside aside-left homepage__aside">
+            Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.
+        </aside>
+   
+        <section class="all-articles ">
+            {{ range .Data.Pages }}
+                {{ partial "cards/frontpageArticleCard.html" . }}
+            {{ end }}
+        </section>
+    
+        <aside class="aside aside-right homepage__aside">
+
+        </aside>
+    </main>
+{{ end }}
+
+
+        
