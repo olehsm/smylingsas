@@ -1,15 +1,16 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
 
 # TEAM
-
-    <name> -- <role> -- <twitter>
+Your title: Ole Halvor Smylingsås.
+Site: ohsmyl@gmail.com.
+Twitter: @olehsm.
 
 # THANKS
 
     <name>
 
 # TECHNOLOGY COLOPHON
-
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+Last update: 2019/03/03       
+Standards: HTML5, CSS3      
+Components: Normalize.css, HTML5 boilerplate
+Software: Hugo, VS Code 
