@@ -5,10 +5,10 @@
             <h1 class="article__title">{{.Title}}</h1>
             <h2 class="article__subtitle">sub title</h2>
         </header>   
-        <div class="article__meta">
-            <p>
-                Published <time pubdate>{{.Params.date}}</time>
-            </p>
+        <div class="article__publication-details">
+            <span class="author">By Ole Halvor Smylingsås</span>
+            <span class="publication"><cite>?</cite></span>      
+            <time class="pubdate" datetime="{{.Params.date}}">{{.Params.date}}</time>
         </div>
         <section class="article">
             {{.Content}}

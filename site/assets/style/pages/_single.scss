@@ -1,0 +1,53 @@
+.article__header {
+    grid-row: 2;
+    grid-column: 2 / 12;
+    margin-bottom: 1.5em;
+    position: relative;
+}
+
+.article__meta {
+    grid-row: 1;
+    grid-column: 2 / 10;
+    color: $default-font-color;
+    font-size: .8em;
+}
+
+.article {
+    grid-row: 3;
+    grid-column: 2 / 12;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    min-height: 50vh;
+    margin-top: -3em;
+}
+
+.article * {
+    grid-column: 1 / 12;
+}
+
+
+/*article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 10px 740px 10px 1fr 1fr;
+}
+
+article > * {
+    grid-column: 4;
+}
+
+article > figure {
+    grid-column: 2 / -2;
+    margin: 20px 0;
+}
+
+article > blockquote {
+    grid-column: 3 / 5;
+    padding-left: 10px;
+    color: #666;
+    border-left: 3px solid black;
+}
+
+.aside {
+    grid-column: 5;
+}*/
+

@@ -5,6 +5,7 @@ title = "Development Enviroment"
 
 +++
 
+{{<highlight html>}}
 Copyright (C) 2016 Microsoft Corporation. All rights reserved.
 
 PS C:\Users\olehals> d:
@@ -21,7 +22,9 @@ d-----       26.06.2017     21.34                Ny nettside 2017
 d-----       20.05.2017     23.19                Småprosjekter
 d-----       12.03.2017     17.20                Spill
 
+{{</highlight>}}
 
+{{<highlight html>}}
 PS D:\> hugo new site Smylingsas.net
 Congratulations! Your new Hugo site is created in D:\Smylingsas.net.
 
@@ -35,18 +38,27 @@ Just a few more steps and you're ready to go:
 3. Start the built-in live server via "hugo server".
 
 Visit https://gohugo.io/ for quickstart guide and full documentation.
+{{</highlight>}}
+
+{{<highlight html>}}
 PS D:\> hugo new theme Smylingsas
 Error: Unable to locate Config file. Perhaps you need to create a new site.
        Run `hugo help new` for details. (Config File "config" Not Found in "[D:\\]")
+{{</highlight>}}
 
+{{<highlight html>}}
 PS D:\> hugo new "Site Development"\"Development enviroment".html
 Error: Unable to locate Config file. Perhaps you need to create a new site.
        Run `hugo help new` for details. (Config File "config" Not Found in "[D:\\]")
+{{</highlight>}}
 
+{{<highlight html>}}
 PS D:\> hugo server
 Error: Unable to locate Config file. Perhaps you need to create a new site.
        Run `hugo help new` for details. (Config File "config" Not Found in "[D:\\]")
+{{</highlight>}}
 
+{{<highlight html>}}
 PS D:\> ls
 
 
@@ -61,7 +73,9 @@ d-----       04.09.2017     22.16                Smylingsas.net
 d-----       20.05.2017     23.19                Småprosjekter
 d-----       12.03.2017     17.20                Spill
 
+{{</highlight>}}
 
+{{<highlight html>}}
 PS D:\> cd .\Smylingsas.net\
 PS D:\Smylingsas.net> hugo new theme Smylingsas
 PS D:\Smylingsas.net> hugo new "Site Development"\"Development enviroment".html
@@ -82,6 +96,7 @@ d-----       04.09.2017     22.16                static
 d-----       04.09.2017     22.16                themes
 -a----       04.09.2017     22.16             82 config.toml
 
+{{</highlight>}}
 
 PS D:\Smylingsas.net> cd .\themes\
 PS D:\Smylingsas.net\themes> ls

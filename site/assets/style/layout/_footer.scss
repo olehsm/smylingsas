@@ -1,14 +1,14 @@
-$break-medium:  800px;
+/*$break-medium:  800px;
 $break-large: 1000px;
-$break-huge: 1200px;
+$break-huge: 1200px;*/
 
 .footer__site {
     margin-top: 5em;
     padding: 4em 0;
-    color: #333333;
-    background: #fafafa;
+    /*color: #333333;*/
+    /*background: #fafafa;*/
 
-    @media screen and (min-width: $break-medium) {
+    /*@media screen and (min-width: $break-medium) {
     }
 
     @media screen and (min-width: $break-large) {
@@ -17,7 +17,7 @@ $break-huge: 1200px;
     @media screen and (min-width: $break-huge) {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-    }
+    }*/
 }
 
 .footer__more {
