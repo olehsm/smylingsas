@@ -3,8 +3,10 @@ $break-large: 1000px;
 $break-huge: 1200px;*/
 
 .footer__site {
-    margin-top: 5em;
-    padding: 4em 0;
+  margin-top: 5em;
+  padding: 4em 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr)
     /*color: #333333;*/
     /*background: #fafafa;*/
 
@@ -21,44 +23,68 @@ $break-huge: 1200px;*/
 }
 
 .footer__more {
-    grid-column: 2 / 12;
-    display: grid;
-    grid-template-columns: 1fr;
+  grid-column: 2 / 12;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .footer__notes {
-    grid-column: 2 / 12;
-    text-align: center;
-    padding: 4em 0;
-    font-size: .8em;
+  grid-column: 2 / 12;
+  text-align: center;
+  font-size: .8em;
 }
 
 .footer__links {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    margin: 1em 0; 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: 1em 0;
+}
+
+.footer__title {
+  text-align: center;
 }
 
 .footer__links li {
-      font-size: .9em;
-      display: inline-block;
-      vertical-align: middle;
-      margin-right: 2em;
-      padding: 1em 0; 
+  font-size: .9em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2em;
+  padding: 1em 0;
 }
 
-.footer__links li::before 
-{
-        display: none; }
-      .footer__links li a {
-        display: block;
-        width: 100%;
-        border-bottom: 1px solid;
-        text-decoration: none;
-        background: none; }
-        .footer__links li a:hover, .footer__links li a:active {
-          background: none; }
-    @media all and (min-width: 640px) {
-      .footer__links {
-        padding: 0 2em; } }
+.footer-nav {
+  margin: 2em 0;
+  padding: 0;
+}
+
+.footer-nav__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-gap: 3em;
+}
+
+.footer-nav li a {
+  display: block;
+  text-decoration: none;
+  font-family: "Fira Sans", arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+.footer__links li::before {
+  display: none;
+}
+
+.footer__links li a {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid;
+  text-decoration: none;
+  background: none;
+}
+
+.footer__links li a:hover,
+.footer__links li a:active {
+  background: none;
+}
