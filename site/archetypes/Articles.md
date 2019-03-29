@@ -8,4 +8,5 @@ date = {{ .Date }}
 draft = true
 featuretext = ""
 featureimg = ""
+comments = "false"
 +++
