@@ -4,7 +4,7 @@
     <head>
         {{ partial "head.html" . }}
     </head>
-    <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}>
+    <body>
 
         {{ block "main" . }}
           <!-- The part of the page that begins to differ between templates -->
