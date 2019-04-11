@@ -1,6 +1,6 @@
 // Header --------------------------------------------------
 
-header.homepage__header {
+header/*.homepage__header*/ {
     background-size: cover;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -13,7 +13,7 @@ header.homepage__header {
                   // replacing it in browsers that do understand
   }
 
-  h1.homepage__title {
+  h1.homepage__title, h1.article__title {
     margin: 0 auto;
     line-height: 1.1em;
     font-size: 2rem;

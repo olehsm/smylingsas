@@ -1,12 +1,12 @@
 {{ define "main" }}
 <main>
-    <article class="main blog-post">
-        <header class="article__header">
+    <article class="blog-post">
+        <header class="header article__header">
             <h1 class="article__title">{{.Title}}</h1>
             <h2 class="article__subtitle">sub title</h2>
         </header>   
         <div class="article__publication-details">
-            <span class="author">By Ole Halvor Smylingsås</span>
+            Published by <span class="author">Ole Halvor Smylingsås</span>
             <span class="publication"><cite>?</cite></span>      
             <time class="pubdate" datetime="{{.Params.date}}">{{.Params.date}}</time>
         </div>
@@ -16,12 +16,13 @@
                 insert tags...
             </div>
         </section>
+    
+        {{ if .Params.comments }}
+            <div id="comments">
+                {{- partial "comments.html" . -}}
+            </div>
+        {{ end }}
     </article>
-    {{ if .Params.comments }}
-        <div id="comments">
-            {{- partial "comments.html" . -}}
-        </div>
-    {{ end }}
 </main>
 {{ end }}
 
