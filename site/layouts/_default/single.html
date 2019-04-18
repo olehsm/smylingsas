@@ -1,28 +1,31 @@
 {{ define "main" }}
-<main>
-    <article class="blog-post">
-        <header class="header article__header">
-            <h1 class="article__title">{{.Title}}</h1>
-            <h2 class="article__subtitle">sub title</h2>
-        </header>   
+    <header class="header article__header">
+        <h1 class="article__title">{{.Title}}</h1>
+        <!--<h2 class="article__subtitle hidden">sub title</h2>-->
         <div class="article__publication-details">
             Published by <span class="author">Ole Halvor Smylingsås</span>
-            <span class="publication"><cite>?</cite></span>      
-            <time class="pubdate" datetime="{{.Params.date}}">{{.Params.date}}</time>
+            <span class="publication hidden"><cite>?</cite></span>      
+            <time class="article__pubdate" datetime="{{.Params.date}}">{{.Params.date}}</time>
         </div>
-        <section class="article">
-            {{.Content}}
+    </header>  
+
+    <main class="main article__main">
+        <article class="article__blog-post">
+            
+            
+            <section class="article__content">
+                {{.Content}}
+            </section>
             <div class="article__related">
                 insert tags...
             </div>
-        </section>
-    
-        {{ if .Params.comments }}
-            <div id="comments">
-                {{- partial "comments.html" . -}}
-            </div>
-        {{ end }}
-    </article>
-</main>
+        
+            {{ if .Params.comments }}
+                <div class="article__comments" id="comments">
+                    {{- partial "comments.html" . -}}
+                </div>
+            {{ end }}
+        </article>
+    </main>
 {{ end }}
 

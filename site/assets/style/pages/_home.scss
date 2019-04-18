@@ -1,5 +1,3 @@
-// Header --------------------------------------------------
-
 header/*.homepage__header*/ {
     background-size: cover;
     display: grid;
@@ -14,11 +12,27 @@ header/*.homepage__header*/ {
 }
 
 
-h1.homepage__title, h1.article__title {
+h1.homepage__title, 
+h1.article__title, 
+.article__subtitle,
+.article__publication-details {
   margin: 0 auto;
   line-height: 1.1em;
   font-size: 2rem;
   grid-row: 2;
+  grid-column: 2 / 9;
+  padding: 2em 0; // This was added to push the headline down in 
+                  // browsers that don't understand flexbox. Otherwise it has no affect. 
+  @media (min-width: 500px) {
+    font-size: 4rem;
+  }
+}
+
+.article__publication-details {
+  margin: 0 auto;
+  line-height: 1.1em;
+  font-size: 1.5rem;
+  grid-row: 3;
   grid-column: 2 / 9;
   padding: 2em 0; // This was added to push the headline down in 
                   // browsers that don't understand flexbox. Otherwise it has no affect. 
