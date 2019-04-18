@@ -11,42 +11,37 @@ header/*.homepage__header*/ {
                    // in browsers that don't support viewport units
     height: 100vh; // This overrides the height: 500px completely, 
                   // replacing it in browsers that do understand
-  }
+}
 
-  h1.homepage__title, h1.article__title {
-    margin: 0 auto;
-    line-height: 1.1em;
-    font-size: 2rem;
-    grid-row: 2;
-    grid-column: 2 / 9;
-    padding: 2em 0; // This was added to push the headline down in 
-                    // browsers that don't understand flexbox. Otherwise it has no affect. 
-    @media (min-width: 500px) {
-      font-size: 4rem;
-    }
-  }
 
-  
-  main.homepage__main {
+h1.homepage__title, h1.article__title {
+  margin: 0 auto;
+  line-height: 1.1em;
+  font-size: 2rem;
+  grid-row: 2;
+  grid-column: 2 / 9;
+  padding: 2em 0; // This was added to push the headline down in 
+                  // browsers that don't understand flexbox. Otherwise it has no affect. 
+  @media (min-width: 500px) {
+    font-size: 4rem;
+  }
+}
+
+
+.homepage__cardlist {
+  grid-column: 2/12;
+}
+
+
+.l-articles {
+    margin: 0;
+    padding: 0;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 3em 1em;
-  }
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 3em 5em;
+}
 
 
-  aside.homepage__aside {
-    grid-row: 2;
-    grid-column: 2/4;
-  }
-
-
-  .all-articles {
-    grid-row: 2;
-    grid-column: 4/11;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
 
   
 

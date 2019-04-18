@@ -1,9 +1,7 @@
-<a href="{{.Permalink}}">
-    <article class="card__item">
-        {{ with .Params.featureimg }}
-            <img src="{{.}}" alt="fgrwg0" title="{{.Title}}" />
-        {{ end }}
-        <h3 class="card__title">{{.Title}}</h3>
-        <p class="card__feature-text">{{.Params.featuretext}}</p>
-    </article>
-</a>
+<li class="card__item">
+    {{ with .Params.featureimg }}
+        <img src="{{.}}" alt="fgrwg0" title="{{.Title}}" />
+    {{ end }}
+    <a class="card__title" href="{{.Permalink}}">{{.Title}}</a>
+    <p class="card__feature-text">{{.Params.featuretext}}</p>
+</li>
