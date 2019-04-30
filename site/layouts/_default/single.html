@@ -11,13 +11,17 @@
 
     <main class="main article__main">
         <article class="article__blog-post">
-            
-            
+
             <section class="article__content">
                 {{.Content}}
             </section>
-            <div class="article__related">
+            
+            <div class="article__tags">
                 insert tags...
+            </div>
+
+            <div class="article__related">
+                insert related...
             </div>
         
             {{ if .Params.comments }}

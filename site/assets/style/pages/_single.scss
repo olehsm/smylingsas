@@ -10,14 +10,6 @@
 //     grid-column: 2 / 12;
 // }
 
-// .article {
-//     grid-row: 3;
-//     grid-column: 2 / 12;
-//     display: grid;
-//     grid-template-columns: repeat(8, 1fr);
-//     min-height: 50vh;
-//     margin-top: -3em;
-// }
 
 // .article * {
 //     grid-column: 1 / 12;
@@ -44,8 +36,25 @@ article > blockquote {
     color: #666;
     border-left: 3px solid black;
 }
+*/
 
-.aside {
-    grid-column: 5;
-}*/
+.article__blog-post {
+    grid-column: 3 / 11;
+}
+
+.article__content {
+    margin-bottom: 2em;
+    display: grid;
+}
+
+.article__tags {
+    grid-column: 3 / 5;
+}
+
+.article__related {
+    grid-column: 6 / 11;
+}
+
+
+
 
