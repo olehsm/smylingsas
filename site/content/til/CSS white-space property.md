@@ -1,8 +1,16 @@
 +++
+author = "Ole Halvor Smylingsås"
+description = ""
+resources = []
+categories = ["Things I've learned (TIL)"]
+tags = ["TIL", "CSS", "Typography"]   
+slug = ""
+title = "CSS white space property"
 date = "2018-01-02T21:23:24+01:00"
 draft = true
-title = "CSS white space property"
-
+featuretext = ""
+featureimg = ""
+comments = "false"
 +++
 
 >The white space property is a text/content related css property used to controll the flow of 

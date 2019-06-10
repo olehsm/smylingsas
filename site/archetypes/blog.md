@@ -1,7 +1,8 @@
 +++
-Author = "Ole Halvor Smylingsås"
-Description = ""
+author = "Ole Halvor Smylingsås"
+description = ""
 resources = []
+categories = []  
 slug = ""
 title = "{{ replace .Name "-" " " | title }}"
 date = {{ .Date }}

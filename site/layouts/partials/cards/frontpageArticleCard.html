@@ -4,4 +4,5 @@
     {{ end }}
     <a class="card__title" href="{{.Permalink}}">{{.Title}}</a>
     <p class="card__feature-text">{{.Params.featuretext}}</p>
+    <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
 </li>

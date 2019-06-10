@@ -5,7 +5,7 @@
         <div class="article__publication-details">
             Published by <span class="author">Ole Halvor Smylingsås</span>
             <span class="publication hidden"><cite>?</cite></span>      
-            <time class="article__pubdate" datetime="{{.Params.date}}">{{.Params.date}}</time>
+            <time class="article__pubdate" datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "2006.01.02" }}</time>
         </div>
     </header>  
 
@@ -16,13 +16,36 @@
                 {{.Content}}
             </section>
             
+
             <div class="article__tags">
-                insert tags...
+                {{ with .Params.tags }}
+                    <ul class="article-tags1">
+                        {{ range . }}
+                            <li>
+                                <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
             </div>
+
+
 
             <div class="article__related">
                 insert related...
             </div>
+
+            {{ with .Params.categories }}
+                <ul class="article-categories ">
+                    {{ range . }}
+                        <li>
+                            <a href="{{ "categories" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+
+            
         
             {{ if .Params.comments }}
                 <div class="article__comments" id="comments">

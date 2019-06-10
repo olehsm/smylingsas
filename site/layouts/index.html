@@ -4,33 +4,20 @@
     </header>
     
     <main class="main homepage__main">
-    
+
+        
         <section class="latest-articles homepage__cardlist">
-            <h3 class="latest-articles__title">Latest articles:</h3>
-            <ul class="l-articles">
-                {{ range .Data.Pages }}
-                    {{ partial "cards/frontpageArticleCard.html" . }}
-                {{ end }}
-            </ul>
+            {{ range .Pages.GroupBy "Section" }}
+                <h3 class="latest-articles__title">{{ .Key }}</h3>
+                <ul class="l-articles">
+                    {{ range .Pages }}
+                        {{ partial "cards/frontpageArticleCard.html" . }}
+                    {{ end }}
+                </ul>
+            {{ end }}
         </section>
 
-        <section class="latest-articles homepage__cardlist">
-            <h3 class="latest-articles__title">Latest site development articles:</h3>
-            <ul class="l-articles">
-                {{ range .Data.Pages }}
-                    {{ partial "cards/frontpageArticleCard.html" . }}
-                {{ end }}
-            </ul>
-        </section>
 
-        <section class="latest-articles homepage__cardlist">
-            <h3 class="latest-articles__title">Latest web developing articles:</h3>
-            <ul class="l-articles">
-                {{ range .Data.Pages }}
-                    {{ partial "cards/frontpageArticleCard.html" . }}
-                {{ end }}
-            </ul>
-        </section>
 
     </main>
 {{ end }}
