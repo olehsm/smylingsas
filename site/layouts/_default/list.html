@@ -8,8 +8,8 @@
         {{.Content}}
 
         <ul class="list">
-            {{ range .Data.Pages }}
-                <li>TEST</li>
+            {{ range .Pages }}
+                <li><a class="card__title" href="{{.Permalink}}">{{.Title}}</a>{{.Content}}</li>
             {{ end }}
         </ul>
 
