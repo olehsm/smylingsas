@@ -5,20 +5,28 @@
     
     <main class="main homepage__main">
 
-        
+        <h4 class="footer__title">Latest content on this site:</h4>
         <section class="latest-articles homepage__cardlist">
-            {{ range .Pages.GroupBy "Section" }}
-                <h3 class="latest-articles__title">{{ .Key }}</h3>
+            {{ $pages := where $.Site.RegularPages "Type" "in" "blog" }}
+            <h3 class="latest-articles__title">Blog</h3>
                 <ul class="l-articles">
-                    {{ range .Pages }}
+                    {{ range first 5 $pages }}
                         {{ partial "cards/frontpageArticleCard.html" . }}
                     {{ end }}
                 </ul>
-            {{ end }}
+
         </section>
 
+        <section class="latest-articles homepage__cardlist">
+            {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
+            <h3 class="latest-articles__title">TIL</h3>
+                <ul class="l-articles">
+                    {{ range first 5 $pages }}
+                        {{ partial "cards/frontpageArticleCard.html" . }}
+                    {{ end }}
+                </ul>
 
-
+        </section>
     </main>
 {{ end }}
 

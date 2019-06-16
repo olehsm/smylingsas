@@ -24,4 +24,4 @@ canonifyURLs = "true"
     description = "Homepage and blog by Ole Halvor Smylingsås"
     keywords = "homepage, blog, development, programming"
     images = [""]
-    defaultTheme = "dark"
+    mainSections = ["blog", "til"]
