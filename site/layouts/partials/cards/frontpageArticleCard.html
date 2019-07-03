@@ -3,6 +3,8 @@
         <img src="{{.}}" alt="fgrwg0" title="{{.Title}}" />
     {{ end }}
     <a class="card__title" href="{{.Permalink}}">{{.Title}}</a>
-    <p class="card__feature-text">{{.Params.featuretext}}</p>
-    <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+    {{ with .Params.featuretext }}
+        <p class="card__feature-text">{{.}}</p>
+    {{ end }}
+    <div class="card__meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
 </li>
