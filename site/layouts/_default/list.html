@@ -5,19 +5,17 @@
     </header>
     
     <main class="main list__main">
-        {{.Content}}
-
         <ul class="list">
             {{ range .Pages }}
-                <li><a class="card__title" href="{{.Permalink}}">{{.Title}}</a>{{.Content}}</li>
+                {{ partial "cards/archiveCard.html" . }}
             {{ end }}
         </ul>
 
         <div class="list__pagination">
             {{ template "_internal/pagination.html" . }}
         </div>
-        <ul class="list__tag-cloud">
+        <!--<ul class="list__tag-cloud">
             <li>CSS</li>
-        </ul>
+        </ul> -->
     </main>
 {{ end }}
