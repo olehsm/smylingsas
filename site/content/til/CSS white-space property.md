@@ -1,6 +1,6 @@
 +++
 author = "Ole Halvor Smylingsås"
-description = ""
+description = "description testing"
 resources = []
 categories = ["Things I've learned (TIL)"]
 tags = ["TIL", "CSS", "Typography"]   
@@ -8,7 +8,7 @@ slug = ""
 title = "CSS white space property"
 date = "2018-01-02T21:23:24+01:00"
 draft = true
-featuretext = ""
+featuretext = "featuretext fra ccss white prop"
 featureimg = ""
 comments = "false"
 +++
