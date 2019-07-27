@@ -10,6 +10,13 @@
     </header>
     
     <main class="main list__main">
+            {{ $sections := (.Site.GetPage "section" "projects").Sections }}
+            
+            {{ range $sections }}
+            <a class="card__title" href="{{.Permalink}}">
+                    {{.Title}}
+                </a> 
+            {{ end }}
         <ul class="list">
             {{ range .Pages }}
                 {{ partial "cards/defaultCard.html" . }}

@@ -38,7 +38,7 @@ canonifyURLs = "true"
     # The Go Cloud Development Kit URL to deploy to. Examples:
         URL = "s3://<Bucket Name>?region=<AWS region>"  # For S3; see https://gocloud.dev/howto/blob/open-bucket/#s3.    
     # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
-    cloudFrontDistributionID = <ID>
+    cloudFrontDistributionID = "ID"
 
 [[deployment.matchers]]
     #  Cache static assets for 20 years.
