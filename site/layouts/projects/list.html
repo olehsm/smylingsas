@@ -10,11 +10,11 @@
     </header>
     
     <main class="main list__main">
-        {{ .Content }}  
-             
-        <ul class="list">
-            {{ range .Pages }}
-                {{ partial "cards/defaultCard.html" . }}
+        {{ $sections := (.Site.GetPage "section" .Section).Sections }}
+
+        <ul class="list__projects">
+            {{ range $sections }}
+                {{ partial "cards/projectCard.html" . }} 
             {{ end }}
         </ul>
 
