@@ -10,26 +10,14 @@
     </header>
     
     <main class="main list__main">
-        
-        {{ $sections := (.Site.GetPage "section" .Section).Sections }}
-
-        {{ if ( gt ( len .Pages ) 0 ) }}
-
-            <ul class="list">
-                {{ range .Pages }}
-                    {{ partial "cards/projectCard.html" . }}
-                {{ end }}
-            </ul>
-
-        {{ else }}
-
-        <ul class="list__projects">
-            {{ range $sections }}
-                {{ partial "cards/projectCard.html" . }} 
+        {{ .Content }}  
+             
+        <ul class="list__til">
+            {{ range .Pages }}
+                {{ partial "cards/tilCard.html" . }}
             {{ end }}
         </ul>
-
-        {{ end }}
+        
 
     </main>
 {{ end }}
