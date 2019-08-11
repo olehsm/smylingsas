@@ -34,9 +34,9 @@ canonifyURLs = "true"
 
 [[deployment.targets]]
     # An arbitrary name for this target.
-        name = "mydeployment"
+        name = "myHugoToS3Deploy"
     # The Go Cloud Development Kit URL to deploy to. Examples:
-        URL = "s3://<Bucket Name>?region=<AWS region>"  # For S3; see https://gocloud.dev/howto/blob/open-bucket/#s3.    
+        URL = "s3://smylingsas.net?region=eu-west-1"  # For S3; see https://gocloud.dev/howto/blob/open-bucket/#s3.    
     # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
     cloudFrontDistributionID = "ID"
 
