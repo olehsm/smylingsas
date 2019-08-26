@@ -26,8 +26,35 @@
                         {{ partial "cards/frontpageArticleCard.html" . }}
                     {{ end }}
                 </ul>
+        </section>   
+        
+        {{ range .Site.Taxonomies.tags }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+        {{ end }}
 
-        </section>     
+
+
+
+
+        <hr />
+        {{ $taxo := "tags" }}
+<ul class="{{ $taxo }}">
+    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+        {{ range .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
+        {{ end }}
+    {{ end }}
+</ul>
+
+
+
+<ul>
+    {{ range .Data.Terms.Alphabetical }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+    {{ end }}
+</ul>
+
+
     </main>
 {{ end }}
 

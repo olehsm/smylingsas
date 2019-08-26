@@ -1,16 +1,15 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-resources = []
-categories = []  
-tags = []
-title = "Keyboard Submit on Form"
-date = 2019-06-10T12:10:31+02:00
-draft = true
-featuretext = ""
-
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+resources: []
+categories: []  
+tags: ["TIL", "HTML"]  
+title: "Keyboard Submit on Form"
+date: 2019-06-10T12:10:31+02:00
+draft: false
+featuretext: ""
+comments: false
+---
 
 Lorem ipsum dolor sit amet, cum commodo vivendum interpretaris ut. Equidem insolens id sit, vis detracto democritum in. Vero doctus legimus pro at, facer causae signiferumque has cu. Ut posse luptatum repudiandae sed. Te mentitum salutandi mea, vitae dicunt et pro. Et graeci tacimates cum. Pri te debitis qualisque adversarium.
 

@@ -5,7 +5,7 @@ resources = []
 slug = ""
 title = "Hugo Pipes"
 date = 2018-12-29T12:14:53+01:00
-draft = true
+draft = false
 featuretext = ""
 featureimg = ""
 +++
