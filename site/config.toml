@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://smylingsas.net/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Smylingsas.net"
@@ -8,7 +8,7 @@ publishDir = "../public"
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 #disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
-canonifyURLs = "true"
+canonifyURLs = "false"
 uglyURLs = "false"
 
 [params]
