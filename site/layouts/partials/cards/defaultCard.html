@@ -6,5 +6,6 @@
     <time class="card__pubdate" datetime="{{ .Date.Format "2006.01.02" }}">
         {{ .Date.Format "Mon, Jan 2, 2006" }}
     </time>
+    {{ partial "date-and-tags.html" . }}
     
 </li>

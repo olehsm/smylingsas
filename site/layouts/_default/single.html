@@ -6,6 +6,7 @@
             Published by <span class="article__author">{{ .Params.author }}</span>
             <span class="publication hidden"><cite>?</cite></span>      
             <time class="article__pubdate" datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            {{ partial "date-and-tags.html" . }}
         </div>
 
         <div class="article__meta">

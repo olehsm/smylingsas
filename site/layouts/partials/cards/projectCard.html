@@ -6,5 +6,8 @@
     {{ with .Params.featuretext }}
         <p class="card__feature-text">{{.}}</p>
     {{ end }}
-    <div class="card__meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+    <div class="card__meta">
+        {{ .Date.Format "Mon, Jan 2, 2006" }}
+        {{ partial "date-and-tags.html" . }}
+    </div>
 </li>
