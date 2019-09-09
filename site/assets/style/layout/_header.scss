@@ -1,0 +1,15 @@
+.header__site {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    z-index: 10;
+    //padding: calc(1em + 1vw) 0;
+}
+
+.header__site .header__logo {
+    grid-column: 2 / 3;
+    width: 40px;
+    height: 1em;
+    overflow: visible;
+    line-height: 1;
+    z-index: 10;
+}

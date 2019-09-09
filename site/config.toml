@@ -7,7 +7,7 @@ publishDir = "../public"
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
-#disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
 canonifyURLs = "false"
 uglyURLs = "false"
 
@@ -26,23 +26,3 @@ uglyURLs = "false"
     keywords = "homepage, blog, development, programming"
     images = [""]
     mainSections = ["blog", "til"]
-
-[deployment]
-    # By default, files are uploaded in an arbitrary order.
-    # Files that match the regular expressions in the "Order" list
-    # will be uploaded first, in the listed order.
-    order = [".jpg$", ".gif$"]
-
-[[deployment.targets]]
-    # An arbitrary name for this target.
-        name = "myHugoToS3Deploy"
-    # The Go Cloud Development Kit URL to deploy to. Examples:
-        URL = "s3://smylingsas.net?region=eu-west-1"  # For S3; see https://gocloud.dev/howto/blob/open-bucket/#s3.    
-    # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
-    cloudFrontDistributionID = "ID"
-
-[[deployment.matchers]]
-    #  Cache static assets for 20 years.
-        pattern = "^.+\\.(js|css|svg|ttf)$"
-        cacheControl = "max-age=630720000, no-transform, public"
-        gzip = true

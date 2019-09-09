@@ -1,8 +1,16 @@
 +++
-date = "2017-09-04T22:43:58+02:00"
-draft = false
+author = "Ole Halvor Smylingsås"
+description = ""
+resources = []
+categories = []
+tags = ["Hugo"]  
+slug = ""
 title = "Development Enviroment"
-
+date = "2017-09-04T22:43:58+02:00"
+draft = "false"
+featuretext = ""
+featureimg = ""
+comments = "false"
 +++
 
 {{<highlight html>}}

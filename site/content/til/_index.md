@@ -1,7 +1,15 @@
 +++
+author = "Ole Halvor Smylingsås"
+description = ""
+resources = []
+categories = []
+tags = []  
+slug = ""
+title = "TIL"
 date = "2017-09-21T21:28:08+02:00"
 draft = false
-title = "TIL"
-
+featuretext = ""
+featureimg = ""
+comments = "false"
 +++
 

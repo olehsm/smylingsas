@@ -1,5 +1,6 @@
 ---
 title: "About"
+author: "Ole Halvor Smylingsås"
 date: 2019-04-11T22:50:29+02:00
 draft: false
 ---

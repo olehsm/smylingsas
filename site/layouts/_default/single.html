@@ -1,37 +1,5 @@
 {{ define "main" }}
-    <header class="header article__header">
-        <h1 class="article__title">{{.Title}}</h1>
-        <!--<h2 class="article__subtitle hidden">sub title</h2>-->
-        <div class="article__publication-details">
-            Published by <span class="article__author">{{ .Params.author }}</span>
-            <span class="publication hidden"><cite>?</cite></span>      
-            <time class="article__pubdate" datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-            {{ partial "date-and-tags.html" . }}
-        </div>
-
-        <div class="article__meta">
-            {{ with .Params.tags }}
-                <ul class="article__tags">
-                    {{ range . }}
-                        <li>
-                            <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">#{{ . }}</a>
-                        </li>
-                    {{ end }}
-                </ul>
-            {{ end }}
-            
-
-            {{ with .Params.categories }}
-                <ul class="article__categories">
-                    {{ range . }}
-                        <li>
-                            <a href="{{ "categories" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
-                        </li>
-                    {{ end }}
-                </ul>
-            {{ end }}
-        </div>
-    </header>  
+    {{ partial "page-header.html" . }}  
 
     <main class="main article__main">
         <article class="article__blog-post">

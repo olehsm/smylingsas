@@ -3,11 +3,11 @@
 <h1>{{ .Title }}</h1>
 
 {{ range .Data.Terms.Alphabetical }}
-<p>
-  <a href="{{ .Page.Permalink }}">
-    <span>{{ .Count }}</span> {{ .Page.Title }}
-  </a>
-</p>
+  <p>
+    <a href="{{ .Page.Permalink }}">
+      <span>{{ .Count }}</span> {{ .Page.Title }}
+    </a>
+  </p>
 {{ end }}
 
 {{ end }}

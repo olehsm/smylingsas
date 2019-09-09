@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <header class="header homepage__header">
+    <header class="header__page homepage__header">
         <h1 class="homepage__title">Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</h1>
     </header>
     
@@ -7,7 +7,7 @@
 
         <section class="latest-articles homepage__cardlist">
             {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
-            <h3 class="latest-articles__title">TIL</h3>
+            <h3 class="latest-articles__title">Latest published items in <a href="/til">TIL</a></h3>
                 <ul class="l-articles">
                     {{ range first 5 $pages }}
                         {{ partial "cards/frontpageArticleCard.html" . }}
@@ -20,7 +20,7 @@
         <!--<h4 class="footer__title">Latest content on this site:</h4>-->
         <section class="latest-articles homepage__cardlist">
             {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
-            <h3 class="latest-articles__title">Updates from projects</h3>
+            <h3 class="latest-articles__title">Updates from <a href="/projects">projects</a></h3>
                 <ul class="l-articles">
                     {{ range first 5 $pages }}
                         {{ partial "cards/frontpageArticleCard.html" . }}

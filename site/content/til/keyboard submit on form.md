@@ -3,7 +3,7 @@ author: "Ole Halvor Smylingsås"
 description: ""
 resources: []
 categories: []  
-tags: ["TIL", "HTML"]  
+tags: ["HTML", "Forms"]  
 title: "Keyboard Submit on Form"
 date: 2019-06-10T12:10:31+02:00
 draft: false

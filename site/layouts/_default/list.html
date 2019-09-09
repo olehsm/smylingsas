@@ -1,13 +1,6 @@
 {{ define "main" }}
 
-    <header class="header list__header">
-        <h1 class="list__title">{{.Title}}</h1>
-        <div class="list__publication-details">
-            Published by <span class="author">Ole Halvor Smylingsås</span>
-            <span class="publication hidden"><cite>?</cite></span>      
-            <time class="list__pubdate" datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-        </div>
-    </header>
+    {{ partial "page-header.html" . }}
     
     <main class="main list__main">
         {{ .Content }}  
