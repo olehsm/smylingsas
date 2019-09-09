@@ -1,14 +1,14 @@
 +++
 author = "Ole Halvor Smylingsås"
-description = ""
+description = "description testing"
 resources = []
-categories = []
-tags = []     
+tags = []   
 slug = ""
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
+title = "Project: Fun With Alexa"
+date = "2019-08-01T00:31:17+02:00"
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
+

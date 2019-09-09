@@ -3,13 +3,13 @@
     "name": "SMYLINGSAS",
     "icons": [
       {
-        "src": "/img/icon_192.png",
-        "type": "image/png",
+        "src": "/img/icon_192.webp",
+        "type": "image/webp",
         "sizes": "192x192"
       },
       {
-        "src": "/img/icon_512.png",
-        "type": "image/png",
+        "src": "/img/icon_512.webp",
+        "type": "image/webp",
         "sizes": "512x512"
       }
     ],
