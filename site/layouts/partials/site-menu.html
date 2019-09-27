@@ -1,0 +1,39 @@
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <nav class="footer-nav">
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                    <a href="/projects">Projects</a>
+                    <span>A collection of my other work</span>
+                </li>
+        
+                <li class="footer-nav__item">
+                    <a href="/til">TIL</a>
+                    <span>The TIL archive</span>                    
+                </li>
+                <li class="footer-nav__item">
+                    <a href="/about">About</a>
+                    <span>Some more information about me</span>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="/sitemap.xml" target="_blank">Site map</a>
+                    <span>The site map for smylingsas.net</span>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="/humans.txt" target="_blank">Humans.txt</a>
+                    <span>The humans.txt file for smylingsas.net</span>
+                </li>
+            </ul>
+        </nav>
+
+        {{ $taxo := "tags" }}
+        <ul class="{{ $taxo }}">
+            {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+                {{ range .Pages }}
+                    <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+</div>
