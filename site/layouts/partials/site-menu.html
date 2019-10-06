@@ -1,13 +1,15 @@
 <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-        <nav class="footer-nav">
+    <header class="header__site-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </header>
+    
+    <main class="main">
+        <nav class="site-nav">
             <ul class="footer-nav__list">
                 <li class="footer-nav__item">
                     <a href="/projects">Projects</a>
                     <span>A collection of my other work</span>
                 </li>
-        
                 <li class="footer-nav__item">
                     <a href="/til">TIL</a>
                     <span>The TIL archive</span>                    
@@ -26,14 +28,16 @@
                 </li>
             </ul>
         </nav>
-
-        {{ $taxo := "tags" }}
-        <ul class="{{ $taxo }}">
-            {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
-                {{ range .Pages }}
-                    <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
+        <div class="site-menu__tag-cloud">
+            {{ $taxo := "tags" }}
+            <ul class="{{ $taxo }}">
+                {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+                    {{ range .Pages }}
+                        <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
+                    {{ end }}
                 {{ end }}
-            {{ end }}
-        </ul>
-    </div>
+            </ul>
+        </div>
+    </main>
+    
 </div>

@@ -30,10 +30,14 @@
         <script>
             function openNav() {
                 document.getElementById("myNav").style.width = "100%";
+                var body = document.getElementsByTagName("body")[0];
+                body.classList.add("hidden-scrollbar");
             }
             
             function closeNav() {
                 document.getElementById("myNav").style.width = "0%";
+                var body = document.getElementsByTagName("body")[0];
+                body.classList.remove("hidden-scrollbar");
             }
         </script>
     </body>
