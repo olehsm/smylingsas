@@ -6,19 +6,18 @@
     top: 0;
     left: 0;
     background-color: $default-background-color;
-    //background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
 }
   
 
-.overlay-content {
-    position: relative;
-    top: 15%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
+// .overlay-content {
+//     position: relative;
+//     top: 15%;
+//     width: 100%;
+//     text-align: center;
+//     margin-top: 30px;
+// }
   
 
 .overlay a {
@@ -35,13 +34,21 @@
     color: #f1f1f1;
 }
 
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+.site-nav {
+    grid-column: 3 / 7;
 }
+
+.site-menu__tag-cloud {
+    grid-column: 7 / -1;
+}
+
+
+// .overlay .closebtn {
+//     position: absolute;
+//     top: 20px;
+//     right: 45px;
+//     font-size: 60px;
+// }
   
 // @media screen and (max-height: 450px) {
 //     .overlay a {font-size: 20px}
