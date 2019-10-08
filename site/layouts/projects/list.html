@@ -8,7 +8,7 @@
 
         {{ if ( gt ( len .Pages ) 0 ) }}
 
-            <ul class="list">
+            <ul class="l-articles">
                 {{ range .Pages }}
                     {{ partial "cards/projectCard.html" . }}
                 {{ end }}

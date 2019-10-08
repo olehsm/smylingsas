@@ -1,13 +1,13 @@
 <li class="card__item">
-    {{ with .Params.featureimg }}
-        <img src="{{.}}" alt="fgrwg0" title="{{.Title}}" />
-    {{ end }}
-    <a class="card__title" href="{{.Permalink}}">{{.Title}}</a>
-    {{ with .Params.featuretext }}
-        <p class="card__feature-text">{{.}}</p>
-    {{ end }}
-    <div class="card__meta">
-        {{ .Date.Format "Mon, Jan 2, 2006" }}
-        {{ partial "date-and-tags.html" . }}
-    </div>
+    <a href="{{.Permalink}}">
+        <h2 class="card__title">
+            <span>
+                {{.Title}}
+            </span>
+        </h2>
+        {{partial "date-and-tags.html" .}}
+        {{ with .Params.featuretext }}
+            <p class="card__feature-text">{{.}}</p>
+        {{ end }}
+    </a>
 </li>

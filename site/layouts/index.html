@@ -9,7 +9,7 @@
             {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
             <h3 class="latest-articles__title">Latest published items in <a href="/til">TIL</a></h3>
                 <ul class="l-articles">
-                    {{ range first 5 $pages }}
+                    {{ range first 8 $pages }}
                         {{ partial "cards/frontpageArticleCard.html" . }}
                     {{ end }}
                 </ul>
@@ -22,39 +22,11 @@
             {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
             <h3 class="latest-articles__title">Updates from <a href="/projects">projects</a></h3>
                 <ul class="l-articles">
-                    {{ range first 5 $pages }}
+                    {{ range first 8 $pages }}
                         {{ partial "cards/frontpageArticleCard.html" . }}
                     {{ end }}
                 </ul>
         </section>   
-        <!--
-        {{ range .Site.Taxonomies.tags }}
-            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
-        {{ end }}
-
-
-
-
-
-        <hr />
-        {{ $taxo := "tags" }}
-<ul class="{{ $taxo }}">
-    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
-        {{ range .Pages }}
-            <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
-        {{ end }}
-    {{ end }}
-</ul>
-
-
-
-<ul>
-    {{ range .Data.Terms.Alphabetical }}
-            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
-    {{ end }}
-</ul>
--->
-
     </main>
 {{ end }}
 
