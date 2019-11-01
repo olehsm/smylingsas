@@ -5,7 +5,7 @@
     <main class="main list__main">
         {{ .Content }}  
              
-        <ul class="list">
+        <ul class="l-articles">
             {{ range .Pages }}
                 {{ partial "cards/defaultCard.html" . }}
             {{ end }}
