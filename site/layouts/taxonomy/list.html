@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+</head>
+<body>
+    <main class="main">
+        {{.Title}}
+        
+        
+            {{ $taxo := "tags" }}
+            <ul class="{{ $taxo }}">
+                {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+                    {{ range .Pages }}
+                        <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
+                    {{ end }}
+                {{ end }}
+            </ul>
+        
+    </main>
+    
+</body>
+</html>
