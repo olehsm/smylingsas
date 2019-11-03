@@ -2,10 +2,10 @@
 
     {{ partial "page-header.html" . }}
     
-    <main class="main list__main">
+    <main class="main list__main full-viewport-height">
         {{ .Content }}  
              
-        <ul class="l-articles">
+        <ul class="reset-list l-articles placement">
             {{ range .Pages }}
                 {{ partial "cards/defaultCard.html" . }}
             {{ end }}
