@@ -1,0 +1,9 @@
+.render-as-columns {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    column-count: 3;
+}
+
+.placement {
+    grid-column: 2/-2;
+}

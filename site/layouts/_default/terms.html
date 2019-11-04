@@ -1,13 +1,17 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
+{{ partial "page-header.html" . }}
 
-{{ range .Data.Terms.Alphabetical }}
-  <p>
-    <a href="{{ .Page.Permalink }}">
-      <span>{{ .Count }}</span> {{ .Page.Title }}
-    </a>
-  </p>
-{{ end }}
+<main class="main full-viewport-height">
+    <ul class="reset-list render-as-columns placement">
+        {{ range .Data.Terms.Alphabetical }}
+            <li>
+                <a href="{{ .Page.Permalink }}">
+                    {{ .Page.Title }} <span>({{ .Count }} posts)</span>
+                </a>
+            </li>
+        {{ end }}
+    </ul>
+</main>
 
 {{ end }}

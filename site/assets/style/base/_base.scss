@@ -108,7 +108,7 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 3em 1em;
-}
+  }
 
 
 h1 {
@@ -156,6 +156,17 @@ a{
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
+.reset-list {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+
+.full-viewport-height {
+  height: 100vh;
+}
 
 /*
  * Hide visually and from screen readers
