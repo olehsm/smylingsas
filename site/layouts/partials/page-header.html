@@ -2,9 +2,9 @@
     <h1 class="article__title">{{.Title}}</h1>
     <h2 class="article__subtitle hidden">sub title</h2>
     <div class="article__publication-details">
-        Published by <span class="article__author">{{ .Params.author }}</span>
+        Published by <span class="article__author">{{ .Params.author | default "Ole Halvor Smylingsås" }}</span>
         <span class="publication hidden"><cite>?</cite></span>      
-        <time class="article__pubdate" datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+        on <time class="article__pubdate" datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
     </div>
 
     <div class="article__meta">
@@ -12,14 +12,14 @@
             <ul class="article__tags">
                 {{ range . }}
                     <li>
-                        <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">#{{ . }}</a>
+                        <a  href="{{ "tags" | absURL }}/{{ . | urlize }}/">#{{ . }}</a>
                     </li>
                 {{ end }}
             </ul>
         {{ end }}
         
 
-        {{ with .Params.categories }}
+        <!-- {{ with .Params.categories }}
             <ul class="article__categories">
                 {{ range . }}
                     <li>
@@ -27,6 +27,6 @@
                     </li>
                 {{ end }}
             </ul>
-        {{ end }}
+        {{ end }} -->
     </div>
 </header>
