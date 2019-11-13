@@ -1,13 +1,19 @@
 /* Colors */
-$black: #20252d;
-$white: #fff;
-$offwhite: #f4f1d0;
-$magenta: #EA7E38;
-$orange: #EA7E38;
-$green: #EA7E38;
+$colors: (
+    white: #fff,
+    offwhite: #f4f1d0,
+    orange: #EA7E38,
+    grassgreen: #7bb24d,
+    mymagenta: #c44f9d,
+    black: #000,
+    light-blue: #506485,
+    dark-sea-blue: #20252d,
+    blackcurrent: #80495E,
+    overlay-color: #f1f1f1
+);
 
-$default-background-color: $black;
+$default-background-color: map-get($colors, dark-sea-blue);
 $default-font-size: 1em;
 $default-line-height: 1.4;
-$default-font-color: $offwhite;
+$default-font-color: map-get($colors, offwhite)        ;
 $font-family: 'BauerBodoniW01-BoldDisp', georgia, serif;

@@ -152,7 +152,6 @@ a{
 
 
 
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -265,7 +264,7 @@ a{
   *:before,
   *:after {
     background: transparent !important;
-    color: #000 !important;
+    color: map-get($colors, black) !important;
     /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
     box-shadow: none !important;

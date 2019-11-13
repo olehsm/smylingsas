@@ -7,13 +7,6 @@ footer.footer__site {
   height: 100vh;
 }
 
-// .footer__site {
-//   margin-top: 5em;
-//   padding: 4em 0;
-//   display: grid;
-//   grid-template-columns: repeat(12, 1fr);
-//   color: #f4f1d0;
-// }
 
 .footer__site a {
   color: #f4f1d0;
@@ -58,13 +51,6 @@ footer.footer__site {
 }
 
 
-// .footer-nav__list {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-//   grid-gap: 3em;
-// }
-
-
 .footer-nav li a {
   display: block;
   text-decoration: none;
@@ -81,7 +67,7 @@ footer.footer__site {
 .footer__links li a {
   display: block;
   width: 100%;
-  border-bottom: 1px solid #f4f1d0;
+  border-bottom: 1px solid map-get($colors, offwhite);
   text-decoration: none;
   background: none;
 }

@@ -13,7 +13,7 @@ featureimg = ""
 comments = "false"
 +++
 
-<code>
-$ git push -d < remote_name > < branch_name > <br />
+{{<highlight bash>}}
+$ git push -d < remote_name > < branch_name >
 $ git branch -d < branch_name >
-</code>
+{{</highlight>}}

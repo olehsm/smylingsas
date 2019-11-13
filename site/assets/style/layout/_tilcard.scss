@@ -1,6 +1,6 @@
 .list__til .card__item {
-    background-color: #c44f9d;
-    color: #f4f1d0;
+    background-color: map-get($colors, mymagenta);
+    color: map-get($colors, offwhite);
     padding: 5px;
     text-align: left;
     margin: 1em 0;
@@ -14,7 +14,7 @@
     font-size: 1.5em;
     background: none;
     border: none;
-    color: #f4f1d0
+    color: map-get($colors, offwhite);
 }
 
 

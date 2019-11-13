@@ -9,16 +9,7 @@
     overflow-x: hidden;
     transition: 0.5s;
 }
-  
-
-// .overlay-content {
-//     position: relative;
-//     top: 15%;
-//     width: 100%;
-//     text-align: center;
-//     margin-top: 30px;
-// }
-  
+   
 
 .overlay a {
     padding: 8px;
@@ -31,30 +22,15 @@
 
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: map-get($colors, overlay-color);
 }
+
 
 .site-nav {
     grid-column: 3 / 7;
 }
 
+
 .site-menu__tag-cloud {
     grid-column: 7 / -1;
 }
-
-
-// .overlay .closebtn {
-//     position: absolute;
-//     top: 20px;
-//     right: 45px;
-//     font-size: 60px;
-// }
-  
-// @media screen and (max-height: 450px) {
-//     .overlay a {font-size: 20px}
-//     .overlay .closebtn {
-//         font-size: 40px;
-//         top: 15px;
-//         right: 35px;
-//     }
-// }

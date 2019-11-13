@@ -1,9 +1,8 @@
 .header__site {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    //z-index: 10;
-    //padding: calc(1em + 1vw) 0;
 }
+
 
 .header__site .header__logo {
     grid-column: 2 / 3;
@@ -11,8 +10,8 @@
     height: 1em;
     overflow: visible;
     line-height: 1;
-    //z-index: 10;
 }
+
 
 .header__burger-button {
     grid-column: 11 / 12;
