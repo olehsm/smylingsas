@@ -167,6 +167,13 @@ a{
   height: 100vh;
 }
 
+
+.render-as-columns {
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  column-count: 3;
+}
+
 /*
  * Hide visually and from screen readers
  */

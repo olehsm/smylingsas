@@ -13,7 +13,13 @@ featureimg = ""
 comments = "false"
 +++
 
+
+Local branch
+{{<highlight bash>}}
+$ git branch -d < branch_name >
+{{</highlight>}}
+
+Remote branch
 {{<highlight bash>}}
 $ git push -d < remote_name > < branch_name >
-$ git branch -d < branch_name >
 {{</highlight>}}

@@ -31,15 +31,15 @@
 }
 
 .footer-nav__item:nth-child(1) {
-    background-color: map-get($colors, light-blue);
+    background-color: map-get($colors, projectblue);
 }
 
 .footer-nav__item:nth-child(2) {
-    background-color: map-get($colors, mymagenta);
+    background-color: map-get($colors, tilmagenta);
 }
 
 .footer-nav__item:nth-child(3) {
-    background-color: map-get($colors, grassgreen);
+    background-color: map-get($colors, aboutmegreen);
 }
 
 .footer-nav__item:nth-child(4) {

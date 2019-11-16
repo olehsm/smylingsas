@@ -8,19 +8,23 @@
 
         {{ if ( gt ( len .Pages ) 0 ) }}
 
+        <section class="homepage__cardlist">
             <ul class="l-articles">
                 {{ range .Pages }}
-                    {{ partial "cards/projectCard.html" . }}
+                    {{ partial "cards/frontpageArticleCard.html" . }}
                 {{ end }}
             </ul>
-
+        </section>
+           
         {{ else }}
 
-        <ul class="list__projects">
-            {{ range $sections }}
-                {{ partial "cards/projectCard.html" . }} 
-            {{ end }}
-        </ul>
+        <section class="homepage__cardlist">
+            <ul class="l-articles">
+                {{ range $sections }}
+                    {{ partial "cards/frontpageArticleCard.html" . }} 
+                {{ end }}
+            </ul>
+        </section>
 
         {{ end }}
 

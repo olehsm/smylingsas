@@ -1,6 +1,17 @@
 {{ define "main" }}
     <header class="header__page homepage__header">
-        <h1 class="homepage__title">Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</h1>
+        <h1 class="homepage__title border-top aboutme">Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</h1>
+        <div class="homepage__tag-cloud">
+            {{ $taxo := "tags" }}
+            Navigate by tags:
+            <ul class="render-as-columns reset-list {{ $taxo }}">
+                {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+                    {{ range .Pages }}
+                        <li><a href="{{ .Permalink }}">#{{ .Title}}</a></li>
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </div>
     </header>
     
     <main class="main homepage__main">

@@ -1,5 +1,16 @@
 <header class="header__page article__header">
-    <h1 class="article__title">{{.Title}}</h1>
+    {{ if eq .Type "projects" }}
+        <h1 class="article__title border-top project">{{.Title}}</h1>
+    {{ end }}
+    {{ if eq .Type "til" }}
+        <h1 class="article__title border-top til">{{.Title}}</h1>
+    {{ end }}
+    {{ if eq .Type "page" }}
+        <h1 class="article__title border-top aboutme">{{.Title}}</h1>
+    {{ end }}
+    {{ if eq .Type "tags" }}
+        <h1 class="article__title">{{.Title}}</h1>
+    {{ end }}
     <h2 class="article__subtitle hidden">sub title</h2>
     <div class="article__publication-details">
         Published by <span class="article__author">{{ .Params.author | default "Ole Halvor Smylingsås" }}</span>
@@ -9,6 +20,7 @@
 
     <div class="article__meta">
         {{ with .Params.tags }}
+            Filed under:
             <ul class="article__tags">
                 {{ range . }}
                     <li>
@@ -18,15 +30,5 @@
             </ul>
         {{ end }}
         
-
-        <!-- {{ with .Params.categories }}
-            <ul class="article__categories">
-                {{ range . }}
-                    <li>
-                        <a href="{{ "categories" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
-                    </li>
-                {{ end }}
-            </ul>
-        {{ end }} -->
     </div>
 </header>

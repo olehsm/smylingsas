@@ -5,9 +5,9 @@
         {{ partial "head.html" . }}
     </head>
     <body>
-        <header class="header__site">
+        {{/*  <header class="header__site">
             {{ partial "site-header.html" . }}
-        </header>
+        </header>  */}}
         {{ block "main" . }}
           <!-- The part of the page that begins to differ between templates -->
         {{ end }}
@@ -16,7 +16,7 @@
             {{ partial "footer.html" . }}
         </footer>
 
-        {{ partial "site-menu.html" .}}
+        {{/*  {{ partial "site-menu.html" .}}  */}}
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>

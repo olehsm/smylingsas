@@ -8,22 +8,16 @@
                 {{.Content}}
             </section>
                     
-
             <section class="latest-articles homepage__cardlist">
                 {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
                 <h3 class="latest-articles__title">Latest posts in TIL</h3>
-                    <ul class="l-articles">
-                        {{ range first 5 $pages }}
-                            {{ partial "cards/frontpageArticleCard.html" . }}
-                        {{ end }}
-                    </ul>
-    
+                <ul class="l-articles">
+                    {{ range first 3 $pages }}
+                        {{ partial "cards/frontpageArticleCard.html" . }}
+                    {{ end }}
+                </ul>
             </section>
 
-            
-
-            
-        
             {{ if .Params.comments }}
                 <div class="article__comments" id="comments">
                     {{- partial "comments.html" . -}}
@@ -32,4 +26,3 @@
         </article>
     </main>
 {{ end }}
-

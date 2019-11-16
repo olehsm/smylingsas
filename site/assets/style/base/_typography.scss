@@ -1,3 +1,19 @@
 $font-size:$default-font-size;
 $font-color:$default-font-color;
 $line-height: $default-line-height;
+
+.border-top {
+    border-top: 45px solid;
+
+    &.project {
+        border-color: map-get($colors, projectblue);
+    }
+
+    &.til {
+        border-color: map-get($colors, tilmagenta);
+    }
+
+    &.aboutme {
+        border-color: map-get($colors, aboutmegreen);
+    }
+}

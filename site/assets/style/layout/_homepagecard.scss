@@ -7,7 +7,7 @@
 }
 
 .card__item:hover {
-    border-top: 3px solid map-get($colors, mymagenta);
+    border-top: 3px solid map-get($colors, tilmagenta);
     margin-top: calc(1em - 3px);
 }
 
