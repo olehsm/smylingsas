@@ -1,4 +1,5 @@
-<li class="card__container">
+{{ $type := .Type}}
+<li class="card__container i-am-a {{$type}}">
     <a class="card__title" href="{{.Permalink}}">
         {{.Title}}
     </a> 

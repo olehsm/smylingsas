@@ -12,53 +12,79 @@ header.header__page {
 }
 
 
-h1.homepage__title, 
-h1.article__title,
-h1.list__title, 
+.homepage__title, 
+.article__title,
+.list__title, 
 .article__subtitle {
-  line-height: 1.1em;
-  font-size: 2rem;
-  grid-row: 2/8;
-  grid-column: 2 / 8;
-  // padding: 2em 0; // This was added to push the headline down in 
-                  // browsers that don't understand flexbox. Otherwise it has no affect. 
-  @media (min-width: 500px) {
-    font-size: 8rem;
-  }
+	grid-row: 2/8;
+	grid-column: 2 / 8;
+	// padding: 2em 0; // This was added to push the headline down in 
+					// browsers that don't understand flexbox. Otherwise it has no affect. 
+	
+}
+
+
+.homepage__title h1 {
+	line-height: 1.1em;
+	font-size: 2rem;
+	padding-left: 30px;
+	@media (min-width: 500px) {
+		font-size: 8rem;
+	}
+}
+
+
+.article__title h1 {
+	line-height: 1.1em;
+	font-size: 2rem;
+	padding-left: 30px;
+	@media (min-width: 500px) {
+		font-size: 8rem;
+	}
+}
+
+
+.list__title h1 {
+	line-height: 1.1em;
+	font-size: 2rem;
+	padding-left: 30px;
+	@media (min-width: 500px) {
+		font-size: 8rem;
+	}
 }
 
 
 .article__publication-details,
 .list__publication-details {
-  line-height: 1.1em;
-  font-size: 1.7rem;
-  grid-row: 4;
-  grid-column: 2 / 9;
-  padding: 2em 0; // This was added to push the headline down in 
-                  // browsers that don't understand flexbox. Otherwise it has no affect. 
-  // @media (min-width: 500px) {
-  //   font-size: 4rem;
-  // }
+	line-height: 1.1em;
+	font-size: 1.7rem;
+	grid-row: 4;
+	grid-column: 2 / 9;
+	padding: 2em 0; // This was added to push the headline down in 
+					// browsers that don't understand flexbox. Otherwise it has no affect. 
+	// @media (min-width: 500px) {
+	//   font-size: 4rem;
+	// }
 }
 
 
 .homepage__cardlist {
-  grid-column: 3/12;
+  	grid-column: 3/12;
 }
 
 
 .l-articles {
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-  grid-gap: 3em 5em;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+	grid-gap: 3em 5em;
 }
 
 
 .homepage__tag-cloud {
-  grid-column: 9 / -1;
-  grid-row: 5/6;
+	grid-column: 9 / -1;
+	grid-row: 5/6;
 }
 
 

@@ -30,22 +30,32 @@
   line-height: 1.5;
 }
 
+
 .footer-nav__item:nth-child(1) {
     background-color: map-get($colors, projectblue);
 }
+
 
 .footer-nav__item:nth-child(2) {
     background-color: map-get($colors, tilmagenta);
 }
 
+
 .footer-nav__item:nth-child(3) {
     background-color: map-get($colors, aboutmegreen);
 }
+
 
 .footer-nav__item:nth-child(4) {
     background-color: map-get($colors, orange);
 }
 
+
 .footer-nav__item:nth-child(5) {
   background-color: map-get($colors, blackcurrent);
+}
+
+
+.footer-nav__item:nth-child(6) {
+  background-color: map-get($colors, tagyellow);
 }

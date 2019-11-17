@@ -9,7 +9,8 @@ $colors: (
     projectblue: #506485,
     dark-sea-blue: #20252d,
     blackcurrent: #80495E,
-    overlay-color: #f1f1f1
+    overlay-color: #f1f1f1,
+    tagyellow: gold
 );
 
 $default-background-color: map-get($colors, dark-sea-blue);

@@ -1,16 +1,18 @@
 <header class="header__page article__header">
-    {{ if eq .Type "projects" }}
-        <h1 class="article__title border-top project">{{.Title}}</h1>
-    {{ end }}
-    {{ if eq .Type "til" }}
-        <h1 class="article__title border-top til">{{.Title}}</h1>
-    {{ end }}
-    {{ if eq .Type "page" }}
-        <h1 class="article__title border-top aboutme">{{.Title}}</h1>
-    {{ end }}
-    {{ if eq .Type "tags" }}
-        <h1 class="article__title">{{.Title}}</h1>
-    {{ end }}
+    <div class="article__title">
+        {{ if eq .Type "projects" }}
+            <h1 class="border-left project">{{.Title}}</h1>
+        {{ end }}
+        {{ if eq .Type "til" }}
+            <h1 class="border-left til">{{.Title}}</h1>
+        {{ end }}
+        {{ if eq .Type "page" }}
+            <h1 class="border-left about-me">{{.Title}}</h1>
+        {{ end }}
+        {{ if eq .Type "tags" }}
+            <h1 class="border-left tag-title">{{.Title}}</h1>
+        {{ end }}
+    </div>
     <h2 class="article__subtitle hidden">sub title</h2>
     <div class="article__publication-details">
         Published by <span class="article__author">{{ .Params.author | default "Ole Halvor Smylingsås" }}</span>

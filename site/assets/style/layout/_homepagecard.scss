@@ -6,9 +6,22 @@
     font-size: .9em;
 }
 
-.card__item:hover {
-    border-top: 3px solid map-get($colors, tilmagenta);
+
+.i-am-a:hover {
+    border-top: 3px solid;
     margin-top: calc(1em - 3px);
+
+    &.projects {
+        border-color: map-get($colors, projectblue);
+    }
+
+    &.til {
+        border-color: map-get($colors, tilmagenta);
+    }
+
+    &.tag {
+        border-color: map-get($colors, tagyellow);
+    }
 }
 
 
