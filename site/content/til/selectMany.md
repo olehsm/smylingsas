@@ -12,3 +12,17 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
+
+
+{{<highlight c>}}
+var asBuiltLots = allTeams
+        .SelectMany(team => team.Players
+            .Select(player => new Match {
+                Hometeam = team.Name,
+                Awayteam = team.Name,,
+                Goalscorer = player.LastName,
+            })).ToList();
+{{</highlight>}}
+
+
+Flatten a C# multi dimensional array using SelectMany and Select
