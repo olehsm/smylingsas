@@ -1,7 +1,7 @@
 +++
 author = "Ole Halvor Smylingsås"
 description = ""
-resources = ["https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely"]
+pageresources = ["https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely"]
 categories = []
 tags = ["Git"]     
 slug = ""

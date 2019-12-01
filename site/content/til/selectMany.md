@@ -15,7 +15,7 @@ comments = "false"
 
 
 {{<highlight c>}}
-var asBuiltLots = allTeams
+var matchList = allTeams
         .SelectMany(team => team.Players
             .Select(player => new Match {
                 Hometeam = team.Name,

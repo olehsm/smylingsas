@@ -1,32 +1,47 @@
 <header class="header__page article__header">
+    <div class="article__publication-details">
+        Published by <span class="article__author">{{ .author }}</span>
+        <span class="publication hidden"><cite>?</cite></span>      
+        on <time class="article__pubdate" datetime="{{ .publishDate.Format "2006.01.02" }}">{{ .publishDate.Format "Jan 2, 2006" }}</time>
+    </div>
     <div class="article__title">
-        {{ if eq .Type "projects" }}
-            <h1 class="border-left project">{{.Title}}</h1>
+        {{ if eq .contentType "projects" }}
+            <h1 class="border-left project">{{.pageTitle}}</h1>
         {{ end }}
-        {{ if eq .Type "til" }}
-            <h1 class="border-left til">{{.Title}}</h1>
+        {{ if eq .contentType "til" }}
+            <h1 class="border-left til">{{.pageTitle}}</h1>
         {{ end }}
-        {{ if eq .Type "page" }}
-            <h1 class="border-left about-me">{{.Title}}</h1>
+        {{ if eq .contentType "page" }}
+            <h1 class="border-left about-me">{{.pageTitle}}</h1>
         {{ end }}
-        {{ if eq .Type "tags" }}
-            <h1 class="border-left tag-title">{{.Title}}</h1>
+        {{ if eq .contentType    "tags" }}
+            <h1 class="border-left tag-title">{{.pageTitle}}</h1>
         {{ end }}
     </div>
     <h2 class="article__subtitle hidden">sub title</h2>
-    <div class="article__publication-details">
-        Published by <span class="article__author">{{ .Params.author | default "Ole Halvor Smylingsås" }}</span>
-        <span class="publication hidden"><cite>?</cite></span>      
-        on <time class="article__pubdate" datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-    </div>
-
+    
     <div class="article__meta">
-        {{ with .Params.tags }}
+        {{ with .tags }}
             Filed under:
             <ul class="article__tags">
                 {{ range . }}
                     <li>
-                        <a  href="{{ "tags" | absURL }}/{{ . | urlize }}/">#{{ . }}</a>
+                        <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">#{{ . }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        {{ end }}
+
+        {{ with .desc }}
+            {{.}}
+        {{ end }}
+
+        {{ with .pageresources }}
+            Source / additional readings
+            <ul class="article__pageresources">
+                {{ range . }}
+                    <li>
+                        <a href="{{.}}/">{{ . }}</a>
                     </li>
                 {{ end }}
             </ul>

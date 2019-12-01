@@ -19,25 +19,15 @@
     <main class="main homepage__main">
 
         <section class="latest-articles homepage__cardlist">
-            {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
-            <h3 class="latest-articles__title">Latest published items in <a href="/til/">TIL.</a> Search by <a style="text-decoration: underline" href="/tags/">tags</a></h3>
+            {{ $pages := where $.Site.RegularPages "Type" "in" "projects,til" }}
+            <h3 class="latest-articles__title">Latest published items. Search by <a style="text-decoration: underline" href="/tags/">topics</a></h3>
                 <ul class="l-articles">
-                    {{ range first 8 $pages }}
+                    {{ range first 12 $pages }}
                         {{ partial "cards/frontpageArticleCard.html" . }}
                     {{ end }}
                 </ul>
-
         </section>
         
-        <section class="latest-articles homepage__cardlist">
-            {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
-            <h3 class="latest-articles__title">Updates from <a href="/projects/">projects.</a> Search by <a style="text-decoration: underline" href="/tags/">tags</a></h3>
-                <ul class="l-articles">
-                    {{ range first 8 $pages }}
-                        {{ partial "cards/frontpageArticleCard.html" . }}
-                    {{ end }}
-                </ul>
-        </section>   
     </main>
 {{ end }}
 

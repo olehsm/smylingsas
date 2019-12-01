@@ -3,7 +3,6 @@ header.header__page {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 3em 1em;
-    padding: 2rem 0;
     text-shadow: 0px 1px 6px rgba(0,0,0,0.6);
     height: 500px; // This was added to make the header taller 
                    // in browsers that don't support viewport units
@@ -12,15 +11,18 @@ header.header__page {
 }
 
 
-.homepage__title, 
-.article__title,
-.list__title, 
-.article__subtitle {
-	grid-row: 2/8;
+.homepage__title{
+	grid-row: 2/5;
 	grid-column: 2 / 8;
 	// padding: 2em 0; // This was added to push the headline down in 
 					// browsers that don't understand flexbox. Otherwise it has no affect. 
 	
+}
+
+.list__title,
+.article__title {
+	grid-row: 3/5;
+	grid-column: 2 / 8;
 }
 
 
@@ -38,6 +40,7 @@ header.header__page {
 	line-height: 1.1em;
 	font-size: 2rem;
 	padding-left: 30px;
+	margin: 0;
 	@media (min-width: 500px) {
 		font-size: 8rem;
 	}
@@ -58,13 +61,9 @@ header.header__page {
 .list__publication-details {
 	line-height: 1.1em;
 	font-size: 1.7rem;
-	grid-row: 4;
+	grid-row: 2;
 	grid-column: 2 / 9;
-	padding: 2em 0; // This was added to push the headline down in 
-					// browsers that don't understand flexbox. Otherwise it has no affect. 
-	// @media (min-width: 500px) {
-	//   font-size: 4rem;
-	// }
+	
 }
 
 

@@ -9,8 +9,8 @@
             </section>
                     
             <section class="latest-articles homepage__cardlist">
-                {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
-                <h3 class="latest-articles__title">Latest posts in projects</h3>
+                {{ $pages := where $.Site.RegularPages "Type" "in" "projects,til" }}
+                <h3 class="latest-articles__title">Latest posts</h3>
                     <ul class="l-articles">
                         {{ range first 3 $pages }}
                             {{ partial "cards/frontpageArticleCard.html" . }}
