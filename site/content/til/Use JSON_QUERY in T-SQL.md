@@ -1,7 +1,7 @@
 +++
 author = "Ole Halvor Smylingsås"
 description = ""
-resources = ["https://docs.microsoft.com/en-us/sql/t-sql/functions/json-query-transact-sql?view=sql-server-ver15"]
+pageresources = ["https://docs.microsoft.com/en-us/sql/t-sql/functions/json-query-transact-sql?view=sql-server-ver15"]
 categories = []
 tags = ["JSON", "SQL"]     
 slug = ""

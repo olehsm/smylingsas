@@ -1,7 +1,7 @@
 +++
 author = "Ole Halvor Smylingsås"
 description = ""
-resources = ["https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=netframework-4.8"]
+pageresources = ["https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=netframework-4.8"]
 categories = []
 tags = ["C Sharp", "Linq"]     
 slug = ""
