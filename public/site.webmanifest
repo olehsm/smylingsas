@@ -1,0 +1,21 @@
+{
+    "short_name": "SMYLINGSAS",
+    "name": "SMYLINGSAS",
+    "icons": [
+      {
+        "src": "/img/icon_192.webp",
+        "type": "image/webp",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/icon_512.webp",
+        "type": "image/webp",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html?source=pwa",
+    "background_color": "#0099fe",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#0099fe"
+  }

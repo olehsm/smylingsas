@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project: Html Calculator on Smylingsas.net</title>
+    <link>https://smylingsas.net/projects/html-calculator/</link>
+    <description>Recent content in Project: Html Calculator on Smylingsas.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Aug 2019 00:30:31 +0200</lastBuildDate>
+    
+	<atom:link href="https://smylingsas.net/projects/html-calculator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning React</title>
+      <link>https://smylingsas.net/projects/html-calculator/learning-react/</link>
+      <pubDate>Sun, 17 Nov 2019 11:28:53 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/html-calculator/learning-react/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello. My name is Ole Halvor Smylingsås and i&#39;m a fullstack developer. on Smylingsas.net</title>
+    <link>https://smylingsas.net/</link>
+    <description>Recent content in Hello. My name is Ole Halvor Smylingsås and i&#39;m a fullstack developer. on Smylingsas.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Sep 2017 21:05:05 +0200</lastBuildDate>
+    
+	<atom:link href="https://smylingsas.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C# Params</title>
+      <link>https://smylingsas.net/til/c#-params/</link>
+      <pubDate>Sat, 21 Dec 2019 17:26:23 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/til/c#-params/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rename Table Names in T SQL</title>
+      <link>https://smylingsas.net/til/rename-table-names-in-t-sql/</link>
+      <pubDate>Sat, 21 Dec 2019 17:24:08 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/til/rename-table-names-in-t-sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DataTestMethod</title>
+      <link>https://smylingsas.net/til/datatestmethod/</link>
+      <pubDate>Sat, 21 Dec 2019 17:22:02 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/til/datatestmethod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The C# Extension Method</title>
+      <link>https://smylingsas.net/til/the-c#-extension-method/</link>
+      <pubDate>Sat, 21 Dec 2019 17:19:26 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/til/the-c#-extension-method/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The JavaScript Symbol</title>
+      <link>https://smylingsas.net/til/the-javascript-symbol/</link>
+      <pubDate>Sat, 21 Dec 2019 17:16:51 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/til/the-javascript-symbol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using HashSet to Handle Data Sets in C#</title>
+      <link>https://smylingsas.net/til/using-hashset-to-handle-data-sets-in-c/</link>
+      <pubDate>Wed, 20 Nov 2019 21:52:48 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/til/using-hashset-to-handle-data-sets-in-c/</guid>
+      <description>HashSet&amp;lt;int&amp;gt; lowNumbers = new HashSet&amp;lt;int&amp;gt;();HashSet&amp;lt;int&amp;gt; highNumbers = new HashSet&amp;lt;int&amp;gt;();for (int i = 0; i &amp;lt; 6; i++){lowNumbers.Add(i);}for (int i = 3; i &amp;lt; 10; i++){highNumbers.Add(i);}Console.Write(&amp;#34;lowNumbers contains {0} elements: &amp;#34;, lowNumbers.Count);DisplaySet(lowNumbers);Console.Write(&amp;#34;highNumbers contains {0} elements: &amp;#34;, highNumbers.Count);DisplaySet(highNumbers);Console.WriteLine(&amp;#34;highNumbers ExceptWith lowNumbers...&amp;#34;);highNumbers.ExceptWith(lowNumbers);Console.Write(&amp;#34;highNumbers contains {0} elements: &amp;#34;, highNumbers.Count);DisplaySet(highNumbers);void DisplaySet(HashSet&amp;lt;int&amp;gt; set){Console.Write(&amp;#34;{&amp;#34;);foreach (int i in set){Console.</description>
+    </item>
+    
+    <item>
+      <title>Encode and Decode URI</title>
+      <link>https://smylingsas.net/til/encode-and-decode-uri/</link>
+      <pubDate>Wed, 20 Nov 2019 21:38:32 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/til/encode-and-decode-uri/</guid>
+      <description>const decodedUri = decodeURI(www.smylingsas.net)  Angular JS encodes URI automatically.</description>
+    </item>
+    
+    <item>
+      <title>Trying Tensorflow for JavaScript</title>
+      <link>https://smylingsas.net/projects/machine-learning/trying-tensorflow-for-javascript/</link>
+      <pubDate>Sun, 17 Nov 2019 11:34:02 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/machine-learning/trying-tensorflow-for-javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning React</title>
+      <link>https://smylingsas.net/projects/html-calculator/learning-react/</link>
+      <pubDate>Sun, 17 Nov 2019 11:28:53 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/html-calculator/learning-react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Goodby Site Menu</title>
+      <link>https://smylingsas.net/projects/site/goodby-site-menu/</link>
+      <pubDate>Sat, 16 Nov 2019 14:49:47 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/goodby-site-menu/</guid>
+      <description>Removed the main menu from the from the sites header bar. The reason is to focus navigation aroudn topics (tags)</description>
+    </item>
+    
+    <item>
+      <title>Context Aware Colors</title>
+      <link>https://smylingsas.net/projects/site/context-aware-colors/</link>
+      <pubDate>Sat, 16 Nov 2019 14:49:04 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/context-aware-colors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Use JSON_QUERY in SQL</title>
+      <link>https://smylingsas.net/til/use-json_query-in-t-sql/</link>
+      <pubDate>Sat, 19 Oct 2019 21:59:42 +0200</pubDate>
+      
+      <guid>https://smylingsas.net/til/use-json_query-in-t-sql/</guid>
+      <description>JSON_QUERY JSON_MODIFY https://docs.microsoft.com/en-us/sql/t-sql/functions/json-query-transact-sql?view=sql-server-ver15</description>
+    </item>
+    
+    <item>
+      <title>Delete Remote and Local Branch in Git</title>
+      <link>https://smylingsas.net/til/delete-remote-and-local-branch-in-git/</link>
+      <pubDate>Sat, 19 Oct 2019 21:51:36 +0200</pubDate>
+      
+      <guid>https://smylingsas.net/til/delete-remote-and-local-branch-in-git/</guid>
+      <description>Local branch $ git branch -d &amp;lt; branch_name &amp;gt;
+Remote branch $ git push -d &amp;lt; remote_name &amp;gt; &amp;lt; branch_name &amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>Implement Full Screen Overlay Menu</title>
+      <link>https://smylingsas.net/projects/site/implement-full-screen-overlay-menu/</link>
+      <pubDate>Tue, 10 Sep 2019 19:56:50 +0200</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/implement-full-screen-overlay-menu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reduce Load Speed in Chrome</title>
+      <link>https://smylingsas.net/til/reduce-load-speed-in-chrome/</link>
+      <pubDate>Mon, 09 Sep 2019 17:00:17 +0200</pubDate>
+      
+      <guid>https://smylingsas.net/til/reduce-load-speed-in-chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SelectMany</title>
+      <link>https://smylingsas.net/til/selectmany/</link>
+      <pubDate>Mon, 09 Sep 2019 16:58:09 +0200</pubDate>
+      
+      <guid>https://smylingsas.net/til/selectmany/</guid>
+      <description>var matchList = allTeams.SelectMany(team =&amp;gt; team.Players.Select(player =&amp;gt; new Match {Hometeam = team.Name,Awayteam = team.Name,,Goalscorer = player.LastName,})).ToList(); Flatten a C# multi dimensional array using SelectMany and Select</description>
+    </item>
+    
+    <item>
+      <title>Keyboard Submit on Form</title>
+      <link>https://smylingsas.net/til/keyboard-submit-on-form/</link>
+      <pubDate>Mon, 10 Jun 2019 12:10:31 +0200</pubDate>
+      
+      <guid>https://smylingsas.net/til/keyboard-submit-on-form/</guid>
+      <description>Lorem ipsum dolor sit amet, cum commodo vivendum interpretaris ut. Equidem insolens id sit, vis detracto democritum in. Vero doctus legimus pro at, facer causae signiferumque has cu. Ut posse luptatum repudiandae sed. Te mentitum salutandi mea, vitae dicunt et pro. Et graeci tacimates cum. Pri te debitis qualisque adversarium.
+In stet nemore volutpat usu. No vide putent vel, quo graeci elaboraret ex. Agam solum vim id, tale oratio civibus eum te, his erant commune voluptatibus id.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://smylingsas.net/about/</link>
+      <pubDate>Thu, 11 Apr 2019 22:50:29 +0200</pubDate>
+      
+      <guid>https://smylingsas.net/about/</guid>
+      <description>Hello. My name is Ole Halvor Smylingsås and I&amp;rsquo;m a fullstack developer. I work with Angular JS, Node JS, Webpack, .Net Framework, MS SQL. This is mainly just my personal techno blog, I will try to update it from time to time with stuff I learn og figures out. If your&amp;rsquo;re interrested check out my GitHub page or the project area here.</description>
+    </item>
+    
+    <item>
+      <title>Transform Into PWA</title>
+      <link>https://smylingsas.net/projects/site/transform-into-pwa/</link>
+      <pubDate>Tue, 12 Mar 2019 22:26:10 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/transform-into-pwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo Pipes</title>
+      <link>https://smylingsas.net/projects/site/hugo-pipes/</link>
+      <pubDate>Sat, 29 Dec 2018 12:14:53 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/hugo-pipes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setup Hugo</title>
+      <link>https://smylingsas.net/projects/site/setup-hugo/</link>
+      <pubDate>Fri, 28 Dec 2018 19:43:59 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/setup-hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS grid</title>
+      <link>https://smylingsas.net/projects/site/css-grid/</link>
+      <pubDate>Sun, 25 Nov 2018 21:20:37 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/css-grid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS white space property</title>
+      <link>https://smylingsas.net/til/css-white-space-property/</link>
+      <pubDate>Tue, 02 Jan 2018 21:23:24 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/til/css-white-space-property/</guid>
+      <description>The white space property is a text/content related css property used to controll the flow of the text.
+ p{white-space: pre-line} Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary, and on line breaks</description>
+    </item>
+    
+    <item>
+      <title>Development Enviroment</title>
+      <link>https://smylingsas.net/projects/site/developmentenviroment/</link>
+      <pubDate>Mon, 04 Sep 2017 22:43:58 +0200</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/developmentenviroment/</guid>
+      <description>Copyright (C) 2016 Microsoft Corporation. All rights reserved. PS C:\Users\olehals&amp;gt; d: PS D:\&amp;gt; ls Directory: D:\ Mode LastWriteTime Length Name ---- ------------- ------ ---- d----- 24.09.2016 10.32 Ny nettside 2016 d----- 26.06.2017 21.34 Ny nettside 2017 d----- 20.05.2017 23.19 Småprosjekter d----- 12.03.2017 17.20 Spill PS D:\&amp;gt; hugo new site Smylingsas.net Congratulations! Your new Hugo site is created in D:\Smylingsas.net. Just a few more steps and you&amp;#39;re ready to go: 1. Download a theme into the same-named folder.</description>
+    </item>
+    
+  </channel>
+</rss>

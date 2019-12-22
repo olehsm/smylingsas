@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on Smylingsas.net</title>
+    <link>https://smylingsas.net/tags/css/</link>
+    <description>Recent content in CSS on Smylingsas.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Nov 2019 14:49:47 +0100</lastBuildDate>
+    
+	<atom:link href="https://smylingsas.net/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Goodby Site Menu</title>
+      <link>https://smylingsas.net/projects/site/goodby-site-menu/</link>
+      <pubDate>Sat, 16 Nov 2019 14:49:47 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/goodby-site-menu/</guid>
+      <description>Removed the main menu from the from the sites header bar. The reason is to focus navigation aroudn topics (tags)</description>
+    </item>
+    
+    <item>
+      <title>Context Aware Colors</title>
+      <link>https://smylingsas.net/projects/site/context-aware-colors/</link>
+      <pubDate>Sat, 16 Nov 2019 14:49:04 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/context-aware-colors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implement Full Screen Overlay Menu</title>
+      <link>https://smylingsas.net/projects/site/implement-full-screen-overlay-menu/</link>
+      <pubDate>Tue, 10 Sep 2019 19:56:50 +0200</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/implement-full-screen-overlay-menu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo Pipes</title>
+      <link>https://smylingsas.net/projects/site/hugo-pipes/</link>
+      <pubDate>Sat, 29 Dec 2018 12:14:53 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/hugo-pipes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS grid</title>
+      <link>https://smylingsas.net/projects/site/css-grid/</link>
+      <pubDate>Sun, 25 Nov 2018 21:20:37 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/projects/site/css-grid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS white space property</title>
+      <link>https://smylingsas.net/til/css-white-space-property/</link>
+      <pubDate>Tue, 02 Jan 2018 21:23:24 +0100</pubDate>
+      
+      <guid>https://smylingsas.net/til/css-white-space-property/</guid>
+      <description>The white space property is a text/content related css property used to controll the flow of the text.
+ p{white-space: pre-line} Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary, and on line breaks</description>
+    </item>
+    
+  </channel>
+</rss>
