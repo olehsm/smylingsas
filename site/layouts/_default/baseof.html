@@ -21,13 +21,17 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script>
-            if ('serviceWorker' in navigator) {
-                window.addEventListener('load', function() {
-                    navigator.serviceWorker.register('js/service-worker.js');
-                });
+            // Register the Service Worker
+            if('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('js/service-worker.js')
+                .then(reg => console.log('🐳 Service Worker registered', reg))
+                .catch(err => console.error('⛈ Service Worker **not** registered', err));
+            }
+            else {
+                console.warn('Service Worker not supported in this browser');
             }
         </script>
-        <script>
+        <!-- <script>
             function openNav() {
                 document.getElementById("myNav").style.width = "100%";
                 var body = document.getElementsByTagName("body")[0];
@@ -39,6 +43,6 @@
                 var body = document.getElementsByTagName("body")[0];
                 body.classList.remove("hidden-scrollbar");
             }
-        </script>
+        </script> -->
     </body>
 </html>

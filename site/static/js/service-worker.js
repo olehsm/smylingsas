@@ -19,7 +19,7 @@ const CACHE_VERSION = 1;
 let CURRENT_CACHES = {
   offline: 'offline-v' + CACHE_VERSION
 };
-const OFFLINE_URL = 'offline.html';
+const OFFLINE_URL = '../offline.html';
 
 function createCacheBustedRequest(url) {
   let request = new Request(url, {cache: 'reload'});
@@ -34,6 +34,7 @@ function createCacheBustedRequest(url) {
 }
 
 self.addEventListener('install', event => {
+  console.log("install SW");
   event.waitUntil(
     fetch(createCacheBustedRequest(OFFLINE_URL)).then(function(response) {
       return caches.open(CURRENT_CACHES.offline).then(function(cache) {
@@ -63,10 +64,11 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
+  console.log('Handling fetch event for', event.request.url);
   if (event.request.mode === 'navigate' ||
       (event.request.method === 'GET' &&
        event.request.headers.get('accept').includes('text/html'))) {
-    console.log('Handling fetch event for', event.request.url);
+    
     event.respondWith(
       fetch(event.request).catch(error => {
         console.log('Fetch failed; returning offline page instead.', error);
