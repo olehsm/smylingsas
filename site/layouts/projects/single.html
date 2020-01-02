@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{ partial "page-header.html" (dict "contentType" .Type "pageTitle" .Params.title "author" .Params.author "desc" .Params.description "tags" .Params.tags "pageresources" .Params.pageresources "publishDate" .Date ) }}  
 
-    <main class="main article__main">
+    <main class="main article__main" id="main-content">
         <article class="article__blog-post">
 
             <section class="article__content">

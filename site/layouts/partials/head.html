@@ -4,12 +4,13 @@
 <meta name="robots" content="index, follow">
 <meta name="googlebot" content="index, follow, noarchive">
 <meta name="theme-color" content="#f0f">
+<meta name="description" content="{{ $.Site.Params.description }}">
+<meta name="keywords" content="{{ $.Site.Params.keywords }}" />
 <title>{{ .Site.Title }} - {{ .Title }}</title>
 <link rel="icon" href="{{ $.Site.BaseURL }}{{ $.Site.Params.favicon }}">
 <link rel="manifest" href="site.webmanifest">
 <link rel="author" href="humans.txt" />
-<meta name="description" content="{{ $.Site.Params.description }}">
-<meta name="keywords" content="{{ $.Site.Params.keywords }}" />
+<script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>
 
 <!-- CSS -->
 {{ partial "styles.html" . }}

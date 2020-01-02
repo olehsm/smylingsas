@@ -1,8 +1,8 @@
 {{ define "main" }}
 
-{{ partial "page-header.html" (dict "contentType" .Type "pageTitle" .Title "author" .Params.author "desc" .Params.description "tags" .Params.tags "pageresources" .Params.pageresources "publishDate" .Date ) }}
+{{ partial "page-header.html" (dict "contentType" .Type "pageTitle" .Title "author" .Site.Params.owner "desc" .Params.description "tags" .Params.tags "pageresources" .Params.pageresources "publishDate" .Date ) }}
 
-<main class="main full-viewport-height">
+<main class="main full-viewport-height" id="main-content">
     <ul class="reset-list render-as-columns placement">
         {{ range .Data.Terms.Alphabetical }}
             <li>

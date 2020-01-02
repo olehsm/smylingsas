@@ -12,9 +12,6 @@ canonifyURLs = "false"
 uglyURLs = "false"
 
 [params]
-    twitteruser = "olehsm"
-    githubuser = "olehsm"
-    instagramuser = "habbheim"
     googleAnalytics = "UA-123-45"
     disqusShortname = "yourdiscussshortname"
     owner = "Ole Halvor Smylingsås"
@@ -26,3 +23,20 @@ uglyURLs = "false"
     description = "Homepage and blog by Ole Halvor Smylingsås"
     keywords = "homepage, blog, development, programming"
     mainSections = ["blog", "til"]
+
+[params.sociallinks]
+[[params.sociallinks.developer]]
+	name = "GitHub"
+	url = "https://github.com/olehsm"
+	icon = "fab fa-github"
+    desc = "Development takes place here!"
+[[params.sociallinks.developer]]
+	name = "Instagram"
+	url = "https://instagram.com/habbheim"
+	icon = "fab fa-instagram"
+    desc = "Follow me on instagram"
+[[params.sociallinks.developer]]
+	name ="Twitter"
+	url = "https://twitter.com/olehsm"
+	icon = "fab fa-twitter"
+    desc = "Follow me on Twitter"

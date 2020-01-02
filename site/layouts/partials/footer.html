@@ -8,6 +8,27 @@
     {{ partial "footer/footer_notes.html" . }}    
 </div>
 
+{{ $links := .Site.Params.sociallinks }}
+{{ with $links }}
+    {{ with index . "developer"}}
+        {{ template "footer-social-links"  . }}
+    {{ end }}
+{{ end }}
+
+
+
+{{ define "footer-social-links" }}
+    <ul class="footer__social-links">
+        {{ range . }}
+            <li class="" data-toggle="tooltip" data-placement="top" title="{{ .name }}" aria-label="{{ .name }}">
+                <a target="_blank" href="{{ .url }}">
+                    <i class="{{ .icon }}"></i>
+                </a>
+            </li>
+        {{ end }}
+    </ul>
+{{ end }}
+
 
 
 
