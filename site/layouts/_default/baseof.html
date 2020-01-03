@@ -5,9 +5,9 @@
         {{ partial "head.html" . }}
     </head>
     <body>
-        {{/*  <header class="header__site">
+        <header class="header__site">
             {{ partial "site-header.html" . }}
-        </header>  */}}
+        </header> 
         {{ block "main" . }}
           <!-- The part of the page that begins to differ between templates -->
         {{ end }}
@@ -31,18 +31,5 @@
                 console.warn('Service Worker not supported in this browser');
             }
         </script>
-        <!-- <script>
-            function openNav() {
-                document.getElementById("myNav").style.width = "100%";
-                var body = document.getElementsByTagName("body")[0];
-                body.classList.add("hidden-scrollbar");
-            }
-            
-            function closeNav() {
-                document.getElementById("myNav").style.width = "0%";
-                var body = document.getElementsByTagName("body")[0];
-                body.classList.remove("hidden-scrollbar");
-            }
-        </script> -->
     </body>
 </html>
