@@ -18,7 +18,7 @@
 
 
 {{ define "footer-social-links" }}
-    <ul class="footer__social-links">
+    <ul class="footer__social-links reset-list render-as-columns">
         {{ range . }}
             <li class="" data-toggle="tooltip" data-placement="top" title="{{ .name }}" aria-label="{{ .name }}">
                 <a target="_blank" href="{{ .url }}">

@@ -28,6 +28,14 @@ footer.footer__site {
 }
 
 
+.footer__social-links {
+  grid-column: 9/9;
+  grid-row: 4;
+  text-align: center;
+  font-size: .8em;
+}
+
+
 .footer__links {
   margin: 0;
   padding: 0;
