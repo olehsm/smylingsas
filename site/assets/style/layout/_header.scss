@@ -1,6 +1,8 @@
 .header__site {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    height: 10vh;
+    grid-gap: 3em 1em;
 }
 
 

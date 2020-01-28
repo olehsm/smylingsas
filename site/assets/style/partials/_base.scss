@@ -1,0 +1,26 @@
+body {
+    color: map-get($colors, offwhite);
+    font-family: $font-family;
+    line-height: calc(1.1em + 0.5vw);
+    background: map-get($colors, dark-sea-blue);
+    font-size: calc(20px + 0.5vw);
+    margin:0;
+}
+
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+
+h1 {
+    font-size: calc(30px + 1.5vw);
+    line-height: 1;
+  }
+
+h2 {
+    font-size: calc(25px + 1.5vw);
+    line-height: 1;
+  
+}
+

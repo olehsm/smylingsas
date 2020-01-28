@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+ 
+    <head>
+        <title>New homepage!</title>
+        <meta charset="UTF-8">
+ 
+        <style>
+            body {
+                
+                font-size: calc(20px + 0.5vw);
+                line-height: calc(1.5em + 0.5vw);
+                color: #f4f1d0;
+                font-family: 'BauerBodoniW01-BoldDisp', georgia, serif;
+                background: #20252d;
+                margin: 0;
+            }
+
+            h1, h2, h3, h4, p {
+                margin-top: 0;
+                margin-bottom: 1em;
+            }
+
+           
+            h1 {
+                font-size: calc(30px + 1.5vw);
+            }
+
+            h2 {
+                font-size: calc(25px + 1.5vw);
+            }
+
+            .hero {
+                height: 100vh;
+                display: grid;
+                grid-template-columns: minmax(3em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);
+                grid-template-rows: minmax(3em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);
+            }
+
+            .hero h1 {
+                line-height: 1.1;
+	            font-size: calc(6rem + 0.5vw);
+                padding-left: 30px;
+                text-align: left;
+                border-left: 45px solid;
+                border-color:green;
+                grid-column: 2;
+                grid-row: 2;
+                margin: 0;
+            }
+
+            .about-me {
+                display: grid;
+                grid-template-columns: minmax(3em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);
+                grid-template-rows: auto 1fr;
+                grid-gap: 0;
+                margin-bottom: 5vh;
+            }
+
+            .about-me__title {
+                grid-row-start: 1;
+                grid-column-start: 2;
+                grid-column-end: 2;
+                text-align: left;
+
+                padding-left: 30px;
+                border-left: 45px solid;
+                border-color:green;
+            }
+
+            .about-me__text {
+                grid-row-start: 2;
+                grid-column-start: 2;
+                grid-column-end: 2;
+            }
+
+            .blog-posts {
+                display: grid;
+                grid-template-columns: minmax(3em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);
+                grid-template-rows: auto 1fr;
+                grid-gap: 0;
+                margin-bottom: 5vh;
+            }
+
+            .blog__title {
+                grid-row-start: 1;
+                grid-column-start: 2;
+                grid-column-end: 2;
+                text-align: left;
+                padding-left: 30px;
+                border-left: 45px solid;
+                border-color:brown;
+            }
+
+            .blog-item {
+                margin-bottom: 3vh;
+            }
+
+            .blog-items {
+                grid-row-start: 2;
+                grid-column-start: 2;
+                grid-column-end: 2;
+            } 
+
+            .til-posts {
+                display: grid;
+                grid-template-columns: minmax(3em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);
+                grid-template-rows: auto 1fr;
+                grid-gap: 0;
+                margin-bottom: 5vh;
+            }
+
+            .til-title {
+                grid-row-start: 1;
+                grid-column-start: 2;
+                grid-column-end: 2;
+                text-align: left;
+                padding-left: 30px;
+                border-left: 45px solid;
+                border-color:magenta;
+            }
+
+            .til-items {
+                grid-row-start: 2;
+                grid-column-start: 2;
+                grid-column-end: 2;
+            }
+
+            .til-item {
+
+                margin-bottom: 3vh;
+            }
+
+            .pill {
+                display: inline;
+                border: 1px solid #f4f1d0;
+                color: #f4f1d0;
+                padding: 4px;
+            }
+            
+            
+            .pill:hover {
+                border: 0;
+                background-color: #f4f1d0;
+                color: #000;
+                padding: 5px;
+            }
+
+            .blog-item__tags {
+                display: flex;
+            }
+
+
+/*
+            header {
+                grid-column: 1;
+                grid-row-start: 1;
+                background-color: darkolivegreen;
+                height: 100vh;
+                display: grid;
+                grid-template-columns: 5vw 10vw auto;
+                grid-template-rows: 5vh 10vh auto;
+            }
+
+            main {
+                grid-column: 1;
+                background-color: darkred;
+                min-height: 100vh;
+                grid-row-start: 2;
+            }*/
+
+            footer {
+                display: grid;
+                grid-template-columns: minmax(3em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);
+                grid-template-rows: auto 1fr;
+                grid-gap: 0;
+                height: 100vh; 
+            }
+
+            .footer__title {
+                grid-column: 2;
+                grid-row: 1;
+                text-align: left    ;
+            }
+
+            .footer__more {
+                grid-column: 2;
+                grid-row:2
+            }
+
+            .footer__notes {
+                grid-column: 2;
+                grid-row:3;
+                text-align: center;
+                padding-bottom: 5vh;
+            }
+
+            .footer__notes p {
+                margin: 0;
+            }
+
+            .homepage__title{
+                grid-row-start: 3;
+                grid-column-start: 3;
+                
+            }
+
+            .homepage__title h1 {
+                font-size: calc(30px + 1.5vw);
+                margin: 0;
+            }
+
+            .footer-nav {
+                margin:0;
+                padding: 0;
+              }
+              
+              
+              .footer-nav__item::before {
+                display: none;
+              }
+              
+              
+              .footer-nav__item {
+                padding: 1.3em;
+                margin-bottom: 2em;
+              }
+              
+              
+              .footer-nav__item a {
+                display: block;
+                text-decoration: none;
+                background: none;
+                font-weight: 900;
+                font-size: 1.75em;
+              }
+              
+              
+              .footer-nav__item span {
+                display: block;
+                font-size: calc(2rem + 1.5vw);;
+                line-height: 1.5;
+              }
+
+              .footer__site a {
+                color: #f4f1d0;
+                text-decoration: underline;
+              }
+              
+              
+              
+              
+              
+              
+              
+              /*.footer__links {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                margin: 1em 0;
+              }*/
+              
+              
+                            
+              
+              /*.footer__links li {
+                font-size: .9em;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 2em;
+                padding: 1em 0;
+              }*/
+              
+              
+              .footer-nav li a {
+                display: block;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: calc(3rem + 1.5vw);
+                
+
+              }
+              
+              
+              /*.footer__links li::before {
+                display: none;
+              }*/
+              
+              
+              /*.footer__links li a {
+                display: block;
+                width: 100%;
+                border-bottom: 1px solid #f4f1d0;
+                text-decoration: none;
+                background: none;
+              }*/
+              
+              
+              /*.footer__links li a:hover,
+              .footer__links li a:active {
+                background: none;
+              }*/
+
+              .reset-list {
+                margin:0;
+                padding:0;
+                list-style: none;
+              }
+              
+              
+              .footer-nav__item:nth-child(1) {
+                  background-color: darkolivegreen;
+              }
+              
+              
+              .footer-nav__item:nth-child(2) {
+                  background-color: magenta;
+              }
+              
+              
+              .footer-nav__item:nth-child(3) {
+                  background-color: green;
+              }
+              
+              
+              .footer-nav__item:nth-child(4) {
+                  background-color: orange;
+              }
+              
+              
+              .footer-nav__item:nth-child(5) {
+                background-color: brown;
+              }
+              
+              
+              .footer-nav__item:nth-child(6) {
+                background-color: gold;
+              }
+              
+            
+        </style>
+    </head>
+ 
+    <body>
+
+        <div class="hero">
+            <h1>Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</h1>
+        </div>
+
+        <section class="about-me">
+            <h1 class="about-me__title">About me</h1>
+            <div class="about-me__text">
+                <p>Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</p>
+                <p>I work with Angular JS, Node JS, Webpack, .Net Framework, MS SQL. This is mainly just my personal techno blog, I will try to update it from time to time with stuff I learn og figures out. If your're interrested check out my GitHub page or the project area here.</p>
+            </div>            
+        </section>
+
+        <section class="blog-posts">
+            <h1 class="blog__title">Projects</h1>
+            <div class="blog-items">
+                <article class="blog-item">
+                    <h2 class="blog-item__title">Blog item title</h2>
+                    <div class="blog-item__description">
+                        <div class="blog-item__tags">
+                            <h4>Topics:</h4>
+                            <div class="blog-item__tag">
+                                <div class="pill">
+                                    JS
+                                </div>
+                            </div>
+                            <div class="blog-item__tag">
+                                <div class="pill">
+                                    React
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-item__content">
+                            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+                            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+                        </div>
+                        <a class="link link-button">More info</a>
+                    </div>
+                </article>
+                <article class="blog-item">
+                    <h2 class="blog-item__title">Blog item title</h2>
+                    <div class="blog-item__description">
+                        <div class="blog-item__tags">
+                            <h4>Topics:</h4>
+                            <div class="blog-item__tag">
+                                <div class="pill">
+                                    JS
+                                </div>
+                            </div>
+                            <div class="blog-item__tag">
+                                <div class="pill">
+                                    React
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-item__content">
+                            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+                            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+                        </div>
+                        <a class="link link-button">More info</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="til-posts">
+            <h1 class="til-title">TIL</h1>
+            <div class="til-items">
+                <article class="til-item">
+                    <h2 class="til-item__title">HashSet</h2>
+                    <div class="til-item__description">
+                        <div class="blog-item__content">
+                            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+                            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="til-item">
+                    <h2 class="til-item__title">HashSe4t</h2>
+                    <div class="til-item__description">
+                        <div class="blog-item__content">
+                            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+                            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="til-item">
+                    <h2 class="til-item__title">HashSet2</h2>
+                    <div class="til-item__description">
+                        <div class="blog-item__content">
+                            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+                            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <footer class="footer__site">
+            <h1 class="footer__title">More on this site:</h1>
+
+            <div class="footer__more">
+                <nav class="footer-nav">
+                    <ul class="reset-list">
+                        <li class="footer-nav__item">
+                            <a href="/projects/">Projects</a>
+                            <span>A collection of my other work</span>
+                        </li>
+                
+                        <li class="footer-nav__item">
+                            <a href="/til/">TIL</a>
+                            <span>The TIL archive</span>                    
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="/about/">About</a>
+                            <span>Some more information about me</span>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="/sitemap.xml" target="_blank">Site map</a>
+                            <span>The site map for smylingsas.net</span>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="/humans.txt" target="_blank">Humans.txt</a>
+                            <span>The humans.txt file for smylingsas.net</span>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="/tags/">Tags</a>
+                            <span>The tag archive</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer__notes">
+                <p>©Copyright 2020 by Ole Halvor Smylingsås. All rights reversed.</p>
+                <p>This site is built with <a rel="noreferrer" href="https://gohugo.io/" target="_blank">Hugo</a> 
+                and hosted by <a rel="noreferrer" href="https://aws.amazon.com/amplify/" target="_blank">Amazon Amplify</a>. Source code is hosted by <a rel="noreferrer" href="https://github.com/" target="_blank">GitHub</a></p>
+            </div>
+        </footer>
+    </body>
+ 
+</html>

@@ -36,26 +36,9 @@ footer.footer__site {
 }
 
 
-.footer__links {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  margin: 1em 0;
-}
-
-
 .footer__title {
   text-align: center;
   grid-column: 6/8;
-}
-
-
-.footer__links li {
-  font-size: .9em;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 2em;
-  padding: 1em 0;
 }
 
 
@@ -66,22 +49,3 @@ footer.footer__site {
   font-size: 1.6em;
 }
 
-
-.footer__links li::before {
-  display: none;
-}
-
-
-.footer__links li a {
-  display: block;
-  width: 100%;
-  border-bottom: 1px solid map-get($colors, offwhite);
-  text-decoration: none;
-  background: none;
-}
-
-
-.footer__links li a:hover,
-.footer__links li a:active {
-  background: none;
-}
