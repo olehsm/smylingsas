@@ -1,4 +1,4 @@
-.about-me {
+.til-posts {
     display: grid;
     grid-template-columns: minmax(3em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);
     grid-template-rows: auto 1fr;
@@ -7,21 +7,25 @@
 }
 
 
-.about-me__title {
+.til-title {
     grid-row-start: 1;
     grid-column-start: 2;
     grid-column-end: 2;
     text-align: left;
-
     padding-left: 30px;
     border-left: 45px solid;
-    border-color: map-get($colors, aboutmegreen);;
+    border-color:magenta;
 }
 
 
-.about-me__text {
+.til-items {
     grid-row-start: 2;
     grid-column-start: 2;
     grid-column-end: 2;
-    max-width: 11em;
+    max-width: 35em;
+}
+
+
+.til-item {
+    margin-bottom: 3vh;
 }

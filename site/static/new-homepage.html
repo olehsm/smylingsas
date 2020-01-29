@@ -35,6 +35,7 @@
                 display: grid;
                 grid-template-columns: minmax(3em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);
                 grid-template-rows: minmax(3em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);
+                align-items: center;
             }
 
             .hero h1 {
@@ -47,6 +48,7 @@
                 grid-column: 2;
                 grid-row: 2;
                 margin: 0;
+                max-width: 11em;
             }
 
             .about-me {
@@ -72,6 +74,7 @@
                 grid-row-start: 2;
                 grid-column-start: 2;
                 grid-column-end: 2;
+                max-width: 35em;
             }
 
             .blog-posts {
@@ -82,15 +85,32 @@
                 margin-bottom: 5vh;
             }
 
+
+            @media only screen and (min-width: 1000px) {
+                .blog-posts {
+                    /*display: grid;*/
+                    /*grid-template-columns: minmax(1em, 1fr) minmax(2em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);*/
+                    /*grid-template-rows: auto 1fr;
+                    grid-gap: 0;
+                    margin-bottom: 5vh;*/
+                }
+              }
+
             .blog__title {
                 grid-row-start: 1;
                 grid-column-start: 2;
-                grid-column-end: 2;
+                /*grid-column-end: 2;*/
                 text-align: left;
                 padding-left: 30px;
                 border-left: 45px solid;
                 border-color:brown;
             }
+
+            @media only screen and (min-width: 1000px) {
+                /*.blog__title {
+                    grid-column-start: 3;
+                }*/
+              }
 
             .blog-item {
                 margin-bottom: 3vh;
@@ -99,8 +119,23 @@
             .blog-items {
                 grid-row-start: 2;
                 grid-column-start: 2;
-                grid-column-end: 2;
-            } 
+                /*grid-column-end: 2;*/
+                max-width: 35em;
+            }
+            
+            @media only screen and (min-width: 1000px) {
+                
+                .blog-item__tags {
+                    flex-direction: column;
+
+                    position: relative;
+
+                    left: -4.3em;
+                    width: 200px;
+                    height: 0px;
+                    text-align: right;
+                }
+              }
 
             .til-posts {
                 display: grid;
@@ -124,6 +159,7 @@
                 grid-row-start: 2;
                 grid-column-start: 2;
                 grid-column-end: 2;
+                max-width: 35em;
             }
 
             .til-item {
@@ -204,7 +240,7 @@
                 margin: 0;
             }
 
-            .homepage__title{
+            /*.homepage__title{
                 grid-row-start: 3;
                 grid-column-start: 3;
                 
@@ -213,12 +249,12 @@
             .homepage__title h1 {
                 font-size: calc(30px + 1.5vw);
                 margin: 0;
-            }
+            }*/
 
             .footer-nav {
                 margin:0;
                 padding: 0;
-              }
+            }
               
               
               .footer-nav__item::before {
@@ -401,6 +437,7 @@
                                     React
                                 </div>
                             </div>
+                            
                         </div>
                         <div class="blog-item__content">
                             <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
