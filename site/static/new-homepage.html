@@ -8,7 +8,7 @@
         <style>
             body {
                 
-                font-size: calc(20px + 0.5vw);
+                font-size: calc(30px + 0.5vw);
                 line-height: calc(1.5em + 0.5vw);
                 color: #f4f1d0;
                 font-family: 'BauerBodoniW01-BoldDisp', georgia, serif;
@@ -23,11 +23,11 @@
 
            
             h1 {
-                font-size: calc(30px + 1.5vw);
+                font-size: calc(40px + 1.5vw);
             }
 
             h2 {
-                font-size: calc(25px + 1.5vw);
+                font-size: calc(35px + 1.5vw);
             }
 
             .hero {
@@ -133,21 +133,26 @@
 
             .pill {
                 display: inline;
-                border: 1px solid #f4f1d0;
-                color: #f4f1d0;
+                border: 2px solid #f4f1d0;
+                color: #000;
+                background-color: #f4f1d0;
                 padding: 4px;
             }
             
             
-            .pill:hover {
+            /*.pill:hover {
                 border: 0;
                 background-color: #f4f1d0;
                 color: #000;
                 padding: 5px;
-            }
+            }*/
 
             .blog-item__tags {
                 display: flex;
+            }
+
+            .blog-item__tags > *{
+                margin-right: 1em;
             }
 
 
@@ -378,7 +383,7 @@
                             <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
                             <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
                         </div>
-                        <a class="link link-button">More info</a>
+                        <a class="link link-button pill">More info</a>
                     </div>
                 </article>
                 <article class="blog-item">
@@ -401,7 +406,7 @@
                             <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
                             <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
                         </div>
-                        <a class="link link-button">More info</a>
+                        <a class="link link-button pill">More info</a>
                     </div>
                 </article>
             </div>
