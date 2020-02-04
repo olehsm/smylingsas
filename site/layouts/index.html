@@ -1,24 +1,106 @@
 {{ define "main" }}
-    <header class="header__page homepage__header">
-        <div class="homepage__title">
-            <h1 class="border-left about-me">Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</h1>
-        </div>
-        <div class="homepage__tag-cloud">
-            {{ $taxo := "tags" }}
-            Navigate by tags:
-            <ul class="render-as-columns reset-list {{ $taxo }}">
-                {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
-                    {{ range .Pages }}
-                        <li><a href="{{ .Permalink }}">#{{ .Title}}</a></li>
-                    {{ end }}
-                {{ end }}
-            </ul>
-        </div>
-    </header>
-    
-    <main class="main homepage__main">
+    <div class="hero">
+        <h1>Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</h1>
+    </div>
 
-        <section class="latest-articles homepage__cardlist">
+    <section class="about-me">
+        <h1 class="about-me__title">About me</h1>
+        <div class="about-me__text">
+            <p>Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</p>
+            <p>I work with Angular JS, Node JS, Webpack, .Net Framework, MS SQL. This is mainly just my personal techno blog, I will try to update it from time to time with stuff I learn og figures out. If your're interrested check out my GitHub page or the project area here.</p>
+        </div>            
+    </section>
+    
+    <!-- <main> -->
+
+        <section class="blog-posts">
+            <h1 class="blog__title">Projects</h1>
+            <div class="blog-items">
+                <article class="blog-item">
+                    <h2 class="blog-item__title">Blog item title</h2>
+                    <div class="blog-item__description">
+                        <div class="blog-item__tags">
+                            <h4>Topics:</h4>
+                            <div class="blog-item__tag">
+                                <div class="pill">
+                                    JS
+                                </div>
+                            </div>
+                            <div class="blog-item__tag">
+                                <div class="pill">
+                                    React
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-item__content">
+                            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+                            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+                        </div>
+                        <a class="link link-button pill">More info</a>
+                    </div>
+                </article>
+                <article class="blog-item">
+                    <h2 class="blog-item__title">Blog item title</h2>
+                    <div class="blog-item__description">
+                        <div class="blog-item__tags">
+                            <h4>Topics:</h4>
+                            <div class="blog-item__tag">
+                                <div class="pill">
+                                    JS
+                                </div>
+                            </div>
+                            <div class="blog-item__tag">
+                                <div class="pill">
+                                    React
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="blog-item__content">
+                            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+                            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+                        </div>
+                        <a class="link link-button pill">More info</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="til-posts">
+            <h1 class="til-title">TIL</h1>
+            <div class="til-items">
+                <article class="til-item">
+                    <h2 class="til-item__title">HashSet</h2>
+                    <div class="til-item__description">
+                        <div class="blog-item__content">
+                            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+                            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="til-item">
+                    <h2 class="til-item__title">HashSe4t</h2>
+                    <div class="til-item__description">
+                        <div class="blog-item__content">
+                            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+                            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="til-item">
+                    <h2 class="til-item__title">HashSet2</h2>
+                    <div class="til-item__description">
+                        <div class="blog-item__content">
+                            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+                            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- <section class="latest-articles homepage__cardlist">
             {{ $pages := where $.Site.RegularPages "Type" "in" "projects,til" }}
             <h3 class="latest-articles__title">Latest published items. Search by <a style="text-decoration: underline" href="/tags/">topics</a></h3>
                 <ul class="l-articles">
@@ -26,9 +108,9 @@
                         {{ partial "cards/frontpageArticleCard.html" . }}
                     {{ end }}
                 </ul>
-        </section>
+        </section> -->
         
-    </main>
+    <!-- </main> -->
 {{ end }}
 
 

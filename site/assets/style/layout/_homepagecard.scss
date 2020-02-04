@@ -1,5 +1,5 @@
 .card__item {
-    color: map-get($colors, offwhite);
+    //color: map-get($colors, offwhite);
     padding: 5px;
     text-align: left;
     margin: 1em 0;
@@ -7,22 +7,22 @@
 }
 
 
-.i-am-a:hover {
-    border-top: 3px solid;
-    margin-top: calc(1em - 3px);
+// .i-am-a:hover {
+//     border-top: 3px solid;
+//     margin-top: calc(1em - 3px);
 
-    &.projects {
-        border-color: map-get($colors, projectblue);
-    }
+//     &.projects {
+//         border-color: map-get($colors, projectblue);
+//     }
 
-    &.til {
-        border-color: map-get($colors, tilmagenta);
-    }
+//     &.til {
+//         border-color: map-get($colors, tilmagenta);
+//     }
 
-    &.tag {
-        border-color: map-get($colors, tagyellow);
-    }
-}
+//     &.tag {
+//         border-color: map-get($colors, tagyellow);
+//     }
+// }
 
 
 .card__title {
@@ -32,7 +32,7 @@
     background: none;
     border: none;
     margin-top: 2px;
-    color: map-get($colors, offwhite);
+    //color: map-get($colors, offwhite);
 }
 
 

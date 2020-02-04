@@ -12,10 +12,9 @@
     grid-column-start: 2;
     grid-column-end: 2;
     text-align: left;
-
     padding-left: 30px;
     border-left: 45px solid;
-    border-color: map-get($colors, aboutmegreen);;
+    border-color:map-get($colors, aboutmegreen);;
 }
 
 
@@ -23,5 +22,5 @@
     grid-row-start: 2;
     grid-column-start: 2;
     grid-column-end: 2;
-    max-width: 11em;
+    max-width: 35em;
 }

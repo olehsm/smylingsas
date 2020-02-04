@@ -5,15 +5,15 @@
 
 .tag {
     display: inline;
-    border: 1px solid map-get($colors, offwhite);
-    color: map-get($colors, offwhite);
+    //border: 1px solid map-get($colors, offwhite);
+    //color: map-get($colors, offwhite);
     padding: 4px;
 }
 
 
 .tag:hover {
     border: 0;
-    background-color: map-get($colors, offwhite);
-    color: map-get($colors, black);
+    //background-color: map-get($colors, offwhite);
+    //color: map-get($colors, black);
     padding: 5px;
 }
