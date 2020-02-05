@@ -1,6 +1,6 @@
 footer {
     display: grid;
-    grid-template-columns: minmax(3em, 1fr) minmax(auto, 80vw) minmax(3em, 1fr);
+    grid-template-columns: minmax(2em, 1fr) minmax(auto, 80vw) minmax(2em, 1fr);
     grid-template-rows: auto 1fr;
     grid-gap: 0;
     height: 100vh;
@@ -53,8 +53,8 @@ footer {
   
 .footer-nav__item span {
     display: block;
-    font-size: calc(2rem + 1.5vw);;
-    line-height: 1.5;
+    //font-size: calc(2rem + 1.5vw);;
+    //line-height: 1.5;
 }
 
 
@@ -68,7 +68,7 @@ footer {
     display: block;
     text-decoration: none;
     font-weight: 600;
-    font-size: calc(3rem + 1.5vw);
+    //font-size: calc(3rem + 1.5vw);
 }
     
 
@@ -137,12 +137,12 @@ footer {
     }
 
     .footer-nav li a {
-        font-size: inherit;
+        //font-size: inherit;
         line-height: 1.4em;
     }
 
     .footer-nav__item span {
-        font-size: inherit;
+        //font-size: inherit;
         line-height: 1.4em;
     }
 }
