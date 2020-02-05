@@ -1,0 +1,23 @@
+<article class="blog-item">
+    <h2 class="blog-item__title">{{.Title}}</h2>
+    <div class="blog-item__description">
+        <div class="blog-item__tags">
+            <h4>Topics:</h4>
+            <div class="blog-item__tag">
+                <div class="pill">
+                    JS
+                </div>
+            </div>
+            <div class="blog-item__tag">
+                <div class="pill">
+                    React
+                </div>
+            </div>
+        </div>
+        <div class="blog-item__content">
+            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+        </div>
+        <a href="{{.Permalink}}" class="link link-button pill">More info</a>
+    </div>
+</article>
