@@ -24,7 +24,7 @@
     /*grid-column-end: 2;*/
     text-align: left;
     padding-left: 30px;
-    border-left: 45px solid;
+    border-left: $title-border-width solid;
     border-color:brown;
 }
 
@@ -37,7 +37,7 @@
 
 
 .blog-item {
-    margin-bottom: 3vh;
+    margin-bottom: 15vh;
 }
 
 
@@ -45,7 +45,7 @@
     grid-row-start: 2;
     grid-column-start: 2;
     /*grid-column-end: 2;*/
-    max-width: 35em;
+    max-width: 35ch;
 }
 
 
