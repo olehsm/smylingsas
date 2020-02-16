@@ -1,51 +1,54 @@
-<header class="header__page article__header">
-    <div class="article__publication-details">
-        Published by <span class="article__author">{{ .author }}</span>
-        <span class="publication hidden"><cite>?</cite></span>      
-        on <time class="article__pubdate" datetime="{{ .publishDate.Format "2006.01.02" }}">{{ .publishDate.Format "Jan 2, 2006" }}</time>
-    </div>
-    <div class="article__title">
+<header class="page-header">
+    <div class="page-header-content">
+        <div class="page-header__publication-details">
+            Published by <span class="page-header__publication-details__author">{{ .author }}</span>
+            on <time class="page-header__publication-details__pubdate" datetime="{{ .publishDate.Format "2006.01.02" }}">{{ .publishDate.Format "Jan 2, 2006" }}</time>
+        </div>
+    
         {{ if eq .contentType "projects" }}
-            <h1 class="border-left project">{{.pageTitle}}</h1>
+            <h1 class="page-header__title border-left project">{{.pageTitle}}</h1>
         {{ end }}
         {{ if eq .contentType "til" }}
-            <h1 class="border-left til">{{.pageTitle}}</h1>
+            <h1 class="page-header__title border-left til">{{.pageTitle}}</h1>
         {{ end }}
         {{ if eq .contentType "page" }}
-            <h1 class="border-left about-me">{{.pageTitle}}</h1>
+            <h1 class="page-header__title border-left about-me">{{.pageTitle}}</h1>
         {{ end }}
         {{ if eq .contentType "tags" }}
-            <h1 class="border-left tag-title">{{.pageTitle}}</h1>
+            <h1 class="page-header__title border-left tag-title">{{.pageTitle}}</h1>
         {{ end }}
-    </div>
-    <h2 class="article__subtitle hidden">sub title</h2>
     
-    <div class="article__meta">
-        {{ with .tags }}
-            Filed under:
-            <ul class="article__tags">
-                {{ range . }}
-                    <li>
-                        <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">#{{ . }}</a>
-                    </li>
-                {{ end }}
-            </ul>
+        {{ with .pageSubtitle}}
+            <h2 class="page-header__subtitle">{{.pageSubtitle}}</h2>
         {{ end }}
-
-        {{ with .desc }}
-            {{.}}
-        {{ end }}
-
-        {{ with .pageresources }}
-            Source / additional readings
-            <ul class="article__pageresources">
-                {{ range . }}
-                    <li>
-                        <a href="{{.}}/">{{ . }}</a>
-                    </li>
-                {{ end }}
-            </ul>
-        {{ end }}
+        
+        <div class="page-header__meta">
+            {{ with .tags }}
+                <ul class="page-header__tags reset-list">
+                    {{ range . }}
+                        <li class="pill">
+                            <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+    
+            {{ with .desc }}
+                {{.}}
+            {{ end }}
+    
+            {{ with .pageresources }}
+                Source / additional readings
+                <ul class="page-header__pageresources">
+                    {{ range . }}
+                        <li>
+                            <a href="{{.}}/">{{ . }}</a>
+                        </li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+        </div>
+        <a title="Go to content" class="btn btn-link page-header__move-down-arrow" href="#main-content"><i class="fa fa-chevron-circle-down"></i></a> 
     </div>
-    <a title="Go to content" class="btn btn-link move-down-arrow" href="#main-content"><i class="fa fa-chevron-circle-down"></i></a> 
 </header>
+    

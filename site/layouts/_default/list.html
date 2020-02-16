@@ -1,15 +1,15 @@
 {{ define "main" }}
-
     {{ partial "page-header.html" (dict "contentType" .Type "pageTitle" .Params.title "author" .Params.author "desc" .Params.description "tags" .Params.tags "pageresources" .Params.pageresources "publishDate" .Date ) }}
     
-    <main class="main list__main full-viewport-height" id="main-content">
-        {{ .Content }}  
+    <main class="page-main" id="main-content">
+        <article class="page-main-content">
+            {{ .Content }}  
              
-        <ul class="reset-list l-articles placement">
-            {{ range .Pages }}
-                {{ partial "cards/frontpageArticleCard.html" . }}
-            {{ end }}
-        </ul>
-
+            <ul class="reset-list l-articles placement">
+                {{ range .Pages }}
+                    {{ partial "cards/frontpageArticleCard.html" . }}
+                {{ end }}
+            </ul>
+        </article>
     </main>
 {{ end }}

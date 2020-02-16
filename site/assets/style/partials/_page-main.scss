@@ -1,0 +1,16 @@
+.page-main {
+    display: grid;
+    grid-template-columns: minmax(2em, 1fr) minmax(auto, 80vw) minmax(2em, 1fr);
+    grid-template-rows: 2em auto;
+    grid-gap: 0;
+}
+
+
+.page-main > * {
+    grid-column-start: 2;
+}
+
+
+.page-main-content {
+    grid-row-start: 2;
+}

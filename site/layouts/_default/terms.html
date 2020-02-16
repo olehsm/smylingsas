@@ -2,16 +2,18 @@
 
 {{ partial "page-header.html" (dict "contentType" .Type "pageTitle" .Title "author" .Site.Params.owner "desc" .Params.description "tags" .Params.tags "pageresources" .Params.pageresources "publishDate" .Date ) }}
 
-<main class="main full-viewport-height" id="main-content">
-    <ul class="reset-list render-as-columns placement">
-        {{ range .Data.Terms.Alphabetical }}
-            <li>
-                <a href="{{ .Page.Permalink }}">
-                    {{ .Page.Title }} <span>({{ .Count }} posts)</span>
-                </a>
-            </li>
-        {{ end }}
-    </ul>
+<main class="page-main" id="main-content">
+    <article class="page-main-content">
+        <ul class="reset-list render-as-columns placement">
+            {{ range .Data.Terms.Alphabetical }}
+                <li>
+                    <a href="{{ .Page.Permalink }}">
+                        {{ .Page.Title }} <span>({{ .Count }} posts)</span>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
+    </article>
 </main>
 
 {{ end }}
