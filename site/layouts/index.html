@@ -16,7 +16,7 @@
         {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
         <div class="blog-items">
             {{ range first 4 $pages }}
-                {{ partial "cards/frontPageArticleCard2.html" . }}
+                {{ partial "cards/frontpageProjectCard.html" . }}
             {{ end }}
         </div>    
     </section>
@@ -26,7 +26,7 @@
         {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
         <div class="til-items">
             {{ range first 6 $pages }}
-                {{ partial "cards/frontpageArticleCard3.html" . }}
+                {{ partial "cards/frontpageTilCard.html" . }}
             {{ end }}
     </section>
 

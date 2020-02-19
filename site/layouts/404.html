@@ -4,9 +4,6 @@
     {{ partial "head.html" . }}
 </head>
 <body>
-    {{/*  <header class="header__site">
-        {{ partial "site-header.html" . }}
-    </header>  */}}
     <main class="main">
         <div class="not-found__message">
             <h1>Page not found</h1>
@@ -23,16 +20,7 @@
             </ul>
         </div>
     </main>
-    {{/*  {{ partial "site-menu.html" .}}  */}}
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-        }
-        
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
-    </script>
+    
 </body>
 </html>
 <!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->

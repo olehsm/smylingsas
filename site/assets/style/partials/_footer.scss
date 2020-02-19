@@ -78,32 +78,28 @@ footer {
   
   
 .footer-nav__item:nth-child(1) {
-    background-color: darkolivegreen;
+    background-color: map-get($colors, projectbrown);
 }
 
 
 .footer-nav__item:nth-child(2) {
-    background-color: magenta;
+    background-color: map-get($colors, tilmagenta);
 }
 
 
+
 .footer-nav__item:nth-child(3) {
-    background-color: green;
+    background-color: map-get($colors, orange1);
 }
 
 
 .footer-nav__item:nth-child(4) {
-    background-color: orange;
+    background-color: map-get($colors, blackcurrent);
 }
-
-
+  
+  
 .footer-nav__item:nth-child(5) {
-    background-color: brown;
-}
-  
-  
-.footer-nav__item:nth-child(6) {
-    background-color: gold;
+    background-color: map-get($colors, tagblue);
 }
 
 

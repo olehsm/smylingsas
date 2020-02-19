@@ -22,6 +22,7 @@
 	border: 2px solid map-get($colors, offwhite);
 	background-color: map-get($colors, offwhite);
 	padding: 4px;
+	color: map-get($colors, black);
 }
 
 .pill a {
@@ -33,7 +34,7 @@
 	border-left: $title-border-width solid;
 
 	&.project {
-		 border-color: map-get($colors, projectblue);
+		 border-color: map-get($colors, projectbrown);
 	}
 
 	&.til {
@@ -45,6 +46,6 @@
 	}
 
 	&.tag-title {
-		 border-color: map-get($colors, tagyellow);
+		 border-color: map-get($colors, tagblue);
 	}
 }

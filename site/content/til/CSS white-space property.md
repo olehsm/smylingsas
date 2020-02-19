@@ -7,7 +7,7 @@ slug = ""
 title = "CSS white space property"
 date = "2018-01-02T21:23:24+01:00"
 draft = "false"
-featuretext = "white-space: pre-line"
+featuretext = ""
 featureimg = ""
 comments = "false"
 +++

@@ -1,0 +1,28 @@
+<article class="blog-item">
+    <h2 class="blog-item__title">{{.Title}}</h2>
+    <div class="blog-item__description">
+        {{ with .Params.tags }}
+            <br><br>
+            <i data-feather="tag"></i>
+            <div class="blog-item__tags">
+                <h4>Topics:</h4>
+                {{ range . }}
+                    {{ $href := print (absURL "tags/") (urlize .) }}
+                    <div class="blog-item__tag">
+                        <div class="pill">
+                            <a  href="{{ $href }}/">{{ . }}</a>
+                        </div>
+                    </div>
+                    
+                {{ end }}
+            </div>
+        {{ end }}
+        <div class="blog-item__content">
+            <p>The home button is reintroduced at the top of every page, the site header. Materialises as SVG house from Font Awesome.</p>
+            <p>The site header was removed when I decided to use the tag/topic as the main navigation and therby removed the whole site header with the menu button and home link.</p>
+        </div>
+        <div class="pill">
+            <a href="{{.Permalink}}" class="link link-button ">More info</a>
+        </div>
+    </div>
+</article>
