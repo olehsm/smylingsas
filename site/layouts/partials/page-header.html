@@ -1,7 +1,7 @@
 <header class="page-header">
     <div class="page-header-content">
         <div class="page-header__publication-details">
-            Published by <span class="page-header__publication-details__author">{{ .author }}</span>
+            Published by <span class="page-header__publication-details__author">{{ .author | default "Ole Halvor Smylingsås" }}</span>
             on <time class="page-header__publication-details__pubdate" datetime="{{ .publishDate.Format "2006.01.02" }}">{{ .publishDate.Format "Jan 2, 2006" }}</time>
         </div>
     
@@ -32,7 +32,7 @@
                     {{ end }}
                 </ul>
             {{ end }}
-    
+ 
             {{ with .desc }}
                 {{.}}
             {{ end }}
@@ -48,7 +48,7 @@
                 </ul>
             {{ end }}
         </div>
-        <a title="Go to content" title="Move to content" class="btn btn-link page-header__move-down-arrow" href="#main-content"><i class="fa fa-chevron-circle-down"></i></a> 
-    </div>
+    </div> <!-- page-header-content -->
+    <a title="Go to content" title="Move to content" class="btn btn-link page-header__move-down-arrow" href="#main-content"><i class="fa fa-chevron-circle-down"></i></a> 
 </header>
     
