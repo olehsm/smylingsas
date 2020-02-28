@@ -3,7 +3,7 @@ author = "Ole Halvor Smylingsås"
 description = ""
 pageresources = ["https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=netframework-4.8"]
 categories = []
-tags = ["C#", "Linq"]     
+tags = ["C sharp", "Linq"]     
 slug = ""
 title = "Using HashSet to Handle Data Sets in C#"
 date = 2019-11-20T21:52:48+01:00

@@ -1,22 +1,22 @@
-<header class="page-header">
+{{ if eq .contentType "projects" }}
+    <header class="page-header page-header-background project">
+{{ end }}
+{{ if eq .contentType "til" }}
+    <header class="page-header page-header-background til">
+{{ end }}
+{{ if eq .contentType "page" }}
+    <header class="page-header page-header-background about-me">
+{{ end }}
+{{ if eq .contentType "tags" }}
+    <header class="page-header page-header-background tag-title">
+{{ end }}
     <div class="page-header-content">
         <div class="page-header__publication-details">
             Published by <span class="page-header__publication-details__author">{{ .author | default "Ole Halvor Smylingsås" }}</span>
             on <time class="page-header__publication-details__pubdate" datetime="{{ .publishDate.Format "2006.01.02" }}">{{ .publishDate.Format "Jan 2, 2006" }}</time>
         </div>
     
-        {{ if eq .contentType "projects" }}
-            <h1 class="page-header__title border-left project">{{.pageTitle}}</h1>
-        {{ end }}
-        {{ if eq .contentType "til" }}
-            <h1 class="page-header__title border-left til">{{.pageTitle}}</h1>
-        {{ end }}
-        {{ if eq .contentType "page" }}
-            <h1 class="page-header__title border-left about-me">{{.pageTitle}}</h1>
-        {{ end }}
-        {{ if eq .contentType "tags" }}
-            <h1 class="page-header__title border-left tag-title">{{.pageTitle}}</h1>
-        {{ end }}
+        <h1 class="page-header__title">{{.pageTitle}}</h1>
     
         {{ with .pageSubtitle}}
             <h2 class="page-header__subtitle">{{.pageSubtitle}}</h2>

@@ -30,22 +30,22 @@
 }
 
 
-.border-left {
-	border-left: $title-border-width solid;
+.page-header-background {
+	//border-left: $title-border-width solid;
 
 	&.project {
-		 border-color: map-get($colors, projectbrown);
+		background-color: map-get($colors, projectbrown);
 	}
 
 	&.til {
-		 border-color: map-get($colors, tilmagenta);
+		background-color: map-get($colors, tilmagenta);
 	}
 
 	&.about-me {
-		 border-color: map-get($colors, aboutmegreen);
+		background-color: map-get($colors, aboutmegreen);
 	}
 
 	&.tag-title {
-		 border-color: map-get($colors, tagblue);
+		background-color: map-get($colors, tagblue);
 	}
 }
