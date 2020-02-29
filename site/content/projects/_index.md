@@ -14,5 +14,5 @@ comments = "false"
 +++
 
 
-A collection of my other work
+A collection of my side projects
 
