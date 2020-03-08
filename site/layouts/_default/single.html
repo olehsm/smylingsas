@@ -32,12 +32,30 @@
                 </section>
             {{ end }}
 
-            {{ if .Params.comments }}
+            <!-- {{ if .Params.comments }}
                 <section class="page-main__comments" id="comments">
                 <h1 class="page-main__comments-title">Comments</h1>
                     {{- partial "comments.html" . -}}
                 </section>
-            {{ end }}
+            {{ end }} -->
+
+            {{if .PrevInSection}}
+                <a href={{.PrevInSection.Permalink}}>Prev in current section: {{.PrevInSection.Title}}</a>
+            {{end}}
+            <br >
+            {{if .NextInSection}}
+                <a href={{.Permalink}}>Next in current section: {{.NextInSection.Title}}</a>
+            {{end}}
+            <br />
+            {{if .PrevPage}}
+                <a href={{.PrevPage.Permalink}}>Prev: {{.PrevPage.Title}}</a>
+            {{end}}
+            <br />
+            {{if .NextPage}}
+                <a href={{.NextPage.Permalink}}>Next: {{.NextPage.Title}}</a>
+            {{end}}
+
+            <!-- {{- partial "read-next.html" . -}} -->
 
         </article>
     </main>
