@@ -1,0 +1,34 @@
+@media screen and (max-width: 450px) {
+    .site-menu-mobile {
+        position: fixed;
+        bottom: 0em;
+        width: 100vw;
+        background-color: map-get($colors, dark-sea-blue);
+        z-index: 5;
+        color: map-get($colors, offwhite);
+        padding: 0.5em;
+        border-top: 1px solid map-get($colors, aboutmegreen);
+        font-size: 0.8em;
+    }
+
+
+    .site-menu-mobile ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+    }
+
+
+    .site-menu-mobile li {
+        text-align: center;
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (min-width: 451px) {
+    .site-menu-mobile {
+        display: none;
+    }
+}

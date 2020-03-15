@@ -1,5 +1,14 @@
-.header__logo {
-    position: fixed;
-    left: 1em;
-    z-index: 5;
+@media screen and (max-width: 450px) {
+    .header__logo {
+        display: none;
+    }
+}
+  
+
+@media screen and (min-width: 451px) {
+    .header__logo {
+        position: fixed;
+        left: 1em;
+        z-index: 5;
+    }
 }

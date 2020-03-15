@@ -1,0 +1,19 @@
+.blog-item {
+    margin-bottom: 15vh;
+}
+
+
+.blog-item__tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.blog-item__tags > *{
+    margin-right: 1em;
+}
+
+.blog-item__tags {
+    margin-bottom: 3em
+}
