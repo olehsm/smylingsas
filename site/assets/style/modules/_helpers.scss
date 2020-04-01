@@ -10,11 +10,22 @@
 }
   
   
-.render-as-columns {
-	-webkit-columns: 3;
-	-moz-columns: 3;
-	column-count: 3;
+@mixin render-as-columns($number-of-columns) {
+	column-count: $number-of-columns;
 }
+
+
+.render-as-columns {
+	@include render-as-columns(1);
+
+	
+	
+	@media screen and (orientation: landscape) and (min-width: 451px) {
+		@include render-as-columns(3);
+		
+	}
+}
+
 
 
 .pill {
@@ -31,8 +42,6 @@
 
 
 .page-header-background {
-	//border-left: $title-border-width solid;
-
 	&.project {
 		background-color: map-get($colors, projectbrown);
 	}
