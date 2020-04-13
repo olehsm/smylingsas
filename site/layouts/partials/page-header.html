@@ -11,18 +11,18 @@
     <header class="page-header page-header-background tag-title">
 {{ end }}
     <div class="page-header-content">
-        <div class="page-header__publication-details">
+        <div class="page-header__publication-details animate-pop-in">
             Published by <span class="page-header__publication-details__author">{{ .author | default "Ole Halvor Smylingsås" }}</span>
             on <time class="page-header__publication-details__pubdate" datetime="{{ .publishDate.Format "2006.01.02" }}">{{ .publishDate.Format "Jan 2, 2006" }}</time>
         </div>
     
-        <h1 class="page-header__title">{{.pageTitle}}</h1>
+        <h1 class="page-header__title animate-pop-in">{{.pageTitle}}</h1>
     
         {{ with .pageSubtitle}}
-            <h2 class="page-header__subtitle">{{.pageSubtitle}}</h2>
+            <h2 class="page-header__subtitle animate-pop-in">{{.pageSubtitle}}</h2>
         {{ end }}
         
-        <div class="page-header__meta">
+        <div class="page-header__meta animate-pop-in">
             {{ with .tags }}
                 <ul class="page-header__tags reset-list">
                     {{ range . }}
@@ -48,6 +48,13 @@
         {{ .content1 }}
             
     </div> <!-- page-header-content -->
-    <!-- <a title="Go to content" title="Move to content" class="btn btn-link page-header__move-down-arrow" href="#main-content"><i class="fa fa-chevron-circle-down"></i></a>  -->
+    <div class="header-down-arrow">
+        <a title="Move to content" 
+            class="btn btn-link" 
+            href="#main-content">
+                <i class="fa fa-chevron-circle-down"></i>
+        </a>
+    </div>
+    
 </header>
     
