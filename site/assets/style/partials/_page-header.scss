@@ -1,6 +1,6 @@
 .page-header {
     display: grid;
-    grid-template-columns: minmax(2em, 1fr) minmax(auto, 80vw) minmax(2em, 1fr);
+    grid-template-columns: minmax(2em, 1fr) minmax(auto, $default-content-width) minmax(2em, 1fr);
     grid-template-rows: 2em auto 2em;
     grid-gap: 0;
     height: 100vh;

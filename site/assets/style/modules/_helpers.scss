@@ -17,8 +17,6 @@
 
 .render-as-columns {
 	@include render-as-columns(1);
-
-	
 	
 	@media screen and (orientation: landscape) and (min-width: 451px) {
 		@include render-as-columns(3);
@@ -35,6 +33,7 @@
 	padding: 4px;
 	color: map-get($colors, black);
 }
+
 
 .pill a {
 	color: map-get($colors, black);

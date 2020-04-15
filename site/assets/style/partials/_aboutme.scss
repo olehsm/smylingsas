@@ -1,6 +1,6 @@
 .about-me {
     display: grid;
-    grid-template-columns: minmax(2em, 1fr) minmax(auto, 80vw) minmax(2em, 1fr);
+    grid-template-columns: minmax(1em, 1fr) minmax(auto, $default-content-width) minmax(1em, 1fr);
     grid-template-rows: auto 1fr;
     grid-gap: 0;
     margin-bottom: 5vh;

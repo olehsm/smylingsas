@@ -1,7 +1,7 @@
 +++
 author = "Ole Halvor Smylingsås"
 description = ""
-pageresources = []
+pageresources = ["https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/"]
 categories = []
 tags = ["PWA", "JS"]     
 slug = ""
@@ -13,4 +13,3 @@ featureimg = ""
 comments = "false"
 +++
 
-https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/

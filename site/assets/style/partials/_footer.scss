@@ -1,6 +1,6 @@
 footer {
     display: grid;
-    grid-template-columns: minmax(2em, 1fr) minmax(auto, 80vw) minmax(2em, 1fr);
+    grid-template-columns: minmax(1em, 1fr) minmax(auto, $default-content-width) minmax(1em, 1fr);
     grid-template-rows: auto 1fr;
     grid-gap: 0;
     height: 100vh;
@@ -115,15 +115,18 @@ footer {
         grid-template-rows: auto 1fr;
     }
 
+
     .footer__title {
         grid-column: 2 / 4;
         text-align: center;
     }
 
+
     .footer__more {
         grid-column: 2;
         grid-row:2
     }
+
 
     .footer__notes {
         grid-column: 3;
@@ -131,15 +134,18 @@ footer {
         padding-left: 30px
     }
 
+
     .footer-nav__item {
         padding: 0.4em;
         margin-bottom: 0.8em;
     }
 
+
     .footer-nav li a {
         line-height: 1.4em;
     }
 
+    
     .footer-nav__item span {
         line-height: 1.4em;
     }
