@@ -12,3 +12,53 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
+
+{{<highlight js>}}
+import angular from "angular";
+import StackTrace from "stacktrace-js"
+
+
+const shipToServer = (data, apiPath) => {
+    const url = `${apiPath}system/logship`;
+
+    fetch(url, {
+        method: "POST",
+        mode: "cors",
+        credentials: "include",
+        headers: {
+            "Content-Type": "application/json",
+            "client-timezone-offset": new Date().getTimezoneOffset().toString()
+        },
+        body: JSON.stringify(data),
+    })
+    .catch(() => {});
+}
+
+
+angular.module(require("./"))
+    .factory('$exceptionHandler', ['pathProvider', function(pathProvider) {
+        return function myExceptionHandler(exception, cause) {
+            const apiPath = pathProvider.getPath("kongsberg-manufacturing-api");
+            if (apiPath == undefined) {
+                return;
+            }
+            
+            StackTrace.fromError(exception)
+                .then(stackFrames => {
+                    const stringifiedStack = stackFrames.map(stackFrame => stackFrame.toString()).join('\n')
+                    shipToServer({ 
+                        message: exception.message, 
+                        source: stackFrames[0].fileName, 
+                        lineno: stackFrames[0].lineNumber, 
+                        colno: stackFrames[0].columnNumber, 
+                        stack:stringifiedStack, 
+                        url: document.location.href 
+                    }, apiPath); 
+                })
+                .catch(() => {})
+
+            return false;
+        };
+    }]);
+
+{{</highlight>}}
