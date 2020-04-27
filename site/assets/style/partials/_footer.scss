@@ -5,13 +5,13 @@ footer {
     grid-gap: 0;
     height: 100vh;
     align-items: center; 
-}
+}   
 
 
 .footer__title {
     grid-column: 2;
     grid-row: 1;
-    text-align: left    ;
+    text-align: left;
 }
 
 
@@ -103,8 +103,13 @@ footer {
 
 
 .footer__social-links {
-    text-align: center;
-    margin-bottom: 1.5em;
+    // text-align: center;
+    // margin-bottom: 1.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-bottom: 1em;
 }
 
 

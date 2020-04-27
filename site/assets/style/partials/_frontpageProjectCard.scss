@@ -14,6 +14,24 @@
     margin-right: 1em;
 }
 
+
 .blog-item__tags {
-    margin-bottom: 3em
+    margin-bottom: 1em;
+}
+
+
+.blog-item__content {
+    margin-bottom: 1em;
+}
+
+
+.blog-item__description .pill:hover {
+	border: 2px solid map-get($colors, offwhite);
+	background-color: map-get($colors, dark-sea-blue);
+	color: map-get($colors, offwhite);
+}
+
+
+.blog-item__description .pill:hover a {
+	color: map-get($colors, offwhite);
 }

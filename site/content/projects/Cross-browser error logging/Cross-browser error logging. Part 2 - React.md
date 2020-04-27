@@ -3,12 +3,12 @@ author = "Ole Halvor Smylingsås"
 description = ""
 pageresources = []
 categories = []
-tags = ["JS", "React"]     
+tags = ["JS", "React", "TS", "Stacktrace", "DOM"]     
 slug = ""
-title = "Part 2 - React"
+title = "Cross-browser error logging. Part 2 - React"
 date = 2020-04-24T22:30:53+02:00
 draft = "false"
-featuretext = ""
+featuretext = "Implement a cross browser error logging in React and Typescript using Stacktrace.js"
 featureimg = ""
 comments = "false"
 +++

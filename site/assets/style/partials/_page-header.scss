@@ -90,12 +90,14 @@
 .header-down-arrow {
     -webkit-animation: pulse 2s 3s ease-out infinite;
             animation: pulse 2s 3s ease-out infinite;
-        bottom: 4vh;
+        bottom: 8vh;
         left: 0;
     position: absolute;
         right: 0;
     text-align: center;
     z-index: 10;
+    grid-column-start: 1;
+    font-size: 1.5rem;
 }
 
 

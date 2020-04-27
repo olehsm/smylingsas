@@ -5,10 +5,10 @@ pageresources = []
 categories = []
 tags = ["JS", "AngularJS"]     
 slug = ""
-title = "Part 1 - AngularJS"
+title = "Cross-browser error logging. Part 1 - AngularJS"
 date = 2020-04-24T22:30:34+02:00
 draft = "false"
-featuretext = ""
+featuretext = "Implement a cross browser error logging in AngularJS using Stacktrace.js"
 featureimg = ""
 comments = "false"
 +++
