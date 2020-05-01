@@ -34,21 +34,16 @@
             {{ end }}
      
             {{ with .pageresources }}
-                Source / additional readings
-                <ul class="page-header__pageresources">
-                    {{ range . }}
-                        <li>
-                            <a href="{{.}}/">{{ . }}</a>
-                        </li>
-                    {{ end }}
-                </ul>
+                {{ template "page-header__pageresources"  . }}
             {{ end }}            
         </div>
 
-        {{ .content1 }}
+        <div class="page-header__featuretext animate-pop-in">
+            {{ .content1 }}
+        </div>
             
     </div> <!-- page-header-content -->
-    <div class="header-down-arrow">
+    <div class="header-down-arrow invisible-on-phone">
         <a title="Move to content" 
             class="btn btn-link" 
             href="#main-content">
@@ -57,4 +52,15 @@
     </div>
     
 </header>
+
+{{ define "page-header__pageresources" }}
+    Source / additional readings
+    <ul class="page-header__pageresources reset-list">
+        {{ range . }}
+            <li>
+                <a href="{{.}}/">{{ . }}</a>
+            </li>
+        {{ end }}
+    </ul>
+{{ end }}
     

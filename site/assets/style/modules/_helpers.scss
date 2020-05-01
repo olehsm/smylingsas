@@ -22,6 +22,10 @@
 		@include render-as-columns(3);
 		
 	}
+
+	li {
+		margin-bottom: 0.5em
+	}
 }
 
 
@@ -57,3 +61,35 @@
 		background-color: map-get($colors, tagblue);
 	}
 }
+
+
+.page-main__title {
+	border-left: $title-border-width solid;
+	padding-left: 30px;
+	&.project {
+		border-color:map-get($colors, projectbrown);
+	}
+
+	&.til {
+		border-color:map-get($colors, tilmagenta);
+	}
+
+	&.uses {
+		border-color:map-get($colors, aboutmegreen);
+	}
+
+	&.tag-title {
+		border-color:map-get($colors, tagblue);
+	}
+}
+
+
+.invisible-on-phone {
+	display: none;
+
+	@media screen and (orientation: landscape) and (min-width: 451px) {
+		display: block;
+	}
+}
+
+

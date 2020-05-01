@@ -1,10 +1,13 @@
 {{ $dateTime := .PublishDate.Format "2006-01-02" }}
 <time datetime="{{ $dateTime }}">{{ .PublishDate.Format "Jan 2, 2006" }}</time>
-{{ with .Params.tags }}
-    <br><br>
-    <i data-feather="tag"></i>
-    {{ range . }}
-        {{ $href := print (absURL "tags/") (urlize .) }}
-        <a class="pill" href="{{ $href }}/">{{ . }}</a>
+<br><br>
+<div class="invisible-on-phone">
+    {{ with .Params.tags }}
+    
+        <i data-feather="tag"></i>
+        {{ range . }}
+            {{ $href := print (absURL "tags/") (urlize .) }}
+            <a class="pill" href="{{ $href }}/">{{ . }}</a>
+        {{ end }}
     {{ end }}
-{{ end }}
+</div>

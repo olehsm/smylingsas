@@ -1,7 +1,8 @@
 +++
 author = "Ole Halvor Smylingsås"
 description = ""
-pageresources = []
+pageresources = ["https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/"
+]
 categories = []
 tags = ["JS"]     
 slug = ""
