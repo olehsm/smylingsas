@@ -13,6 +13,9 @@ featureimg = ""
 comments = "false"
 +++
 
+Implement a cross browser error logging in AngularJS using Stacktrace.js
+<!--more-->
+
 {{<highlight js>}}
 import angular from "angular";
 import StackTrace from "stacktrace-js"

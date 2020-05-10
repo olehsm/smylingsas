@@ -13,6 +13,9 @@ featureimg = ""
 comments = "false"
 +++
 
+Implement a cross browser error logging in React and Typescript using Stacktrace.js
+<!--more-->
+
 {{<highlight js>}}
 import { getPath } from "src/infrastructure/pathProvider"
 import StackTrace from "stacktrace-js"
