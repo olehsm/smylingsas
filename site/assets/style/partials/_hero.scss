@@ -1,5 +1,7 @@
 .hero {
+    min-height: 100vh;
     height: 100vh;
+    min-height: -webkit-fill-available;
     display: grid;
     grid-template-columns: minmax(1em, 1fr) minmax(auto, $default-content-width) minmax(1em, 1fr);
     align-items: center;
