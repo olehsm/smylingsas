@@ -3,7 +3,7 @@ author = "Ole Halvor Smylingsås"
 description = ""
 pageresources = ["https://docs.microsoft.com/en-us/sql/t-sql/functions/json-query-transact-sql?view=sql-server-ver15"]
 categories = []
-tags = ["JSON", "SQL"]     
+tags = ["json", "sql"]     
 slug = ""
 title = "Use JSON_QUERY in SQL"
 date = 2019-10-19T21:59:42+02:00

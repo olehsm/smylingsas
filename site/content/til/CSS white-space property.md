@@ -2,7 +2,7 @@
 author = "Ole Halvor Smylingsås"
 description = "CSS white space property: pre-line"
 resources = []
-tags = ["CSS", "Typography"]   
+tags = ["css", "typography"]   
 slug = ""
 title = "CSS white space property"
 date = "2018-01-02T21:23:24+01:00"

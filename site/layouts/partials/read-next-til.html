@@ -1,0 +1,17 @@
+{{ with .Params.tags }}
+    {{ $primaryTag := (index . 0) }}
+    <article class="read-next-card">
+        <header class="read-next-card-header">
+            <h3><span>More in</span> <a href="{{ "/tags/" | relLangURL }}{{ $primaryTag | urlize }}">#{{ $primaryTag }}</a></h3>
+        </header>
+        <div class="read-next-card-content">
+            <ul>
+                {{ range first 3 (where (index $.Site.Taxonomies.tags $primaryTag).Pages "Section" "til") }}
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </article>
+{{ end }}

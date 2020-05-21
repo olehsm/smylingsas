@@ -4,7 +4,7 @@ description = ""
 pageresources = ["https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/"
 ]
 categories = []
-tags = ["JS"]     
+tags = ["js"]     
 slug = ""
 title = "Use parseInt to convert string to number"
 date = 2020-04-30T20:13:48+02:00

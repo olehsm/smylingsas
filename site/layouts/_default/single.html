@@ -1,6 +1,7 @@
 {{ define "main" }}
-    {{ partial "page-header.html" (dict "contentType" .Type "pageTitle" .Params.title "author" .Params.author "desc" .Params.description "tags" .Params.tags "pageresources" .Params.pageresources "publishDate" .Date "content1" .Params.featuretext ) }}  
+    {{ partial "page-header.html" (dict "contentType" .Type "pageTitle" .Params.title "author" .Params.author "desc" .Params.description "tags" .Params.tags "pageresources" .Params.pageresources "publishDate" .Date "content1" .Params.featuretext "numberOfWords" .WordCount "readingTime1" .ReadingTime) }}  
     
+
     <main class="page-main" id="main-content">
         <article class="page-main-content">
             
@@ -32,12 +33,6 @@
                 </section>
             {{ end }}
 
-            <!-- {{ if .Params.comments }}
-                <section class="page-main__comments" id="comments">
-                <h1 class="page-main__comments-title">Comments</h1>
-                    {{- partial "comments.html" . -}}
-                </section>
-            {{ end }} -->
 
             {{if .PrevInSection}}
                 <a href={{.PrevInSection.Permalink}}>Prev in current section: {{.PrevInSection.Title}}</a>
@@ -55,7 +50,13 @@
                 <a href={{.NextPage.Permalink}}>Next: {{.NextPage.Title}}</a>
             {{end}}
 
-            <!-- {{- partial "read-next.html" . -}} -->
+            {{ if eq .Type "til" }}
+                {{- partial "read-next-til.html" . -}}
+            {{ end }}
+
+            {{ if eq .Type "projects" }}
+                {{- partial "read-next-projects.html" . -}}
+            {{ end }}
 
         </article>
     </main>
