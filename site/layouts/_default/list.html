@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "contentType" .Type "pageTitle" .Params.title "author" .Params.author "desc" .Params.description "tags" .Params.tags "pageresources" .Params.pageresources "publishDate" .Date "content1" .Params.featuretext "numberOfWords" .WordCount "readingTime1" .ReadingTime) }}  
+{{ partial "page-header.html" (dict "contentType" .Type "pageTitle" .Params.title "author" .Params.author "desc" .Params.description "tags" .Params.tags "pageresources" .Params.pageresources "publishDate" .Date "content1" .Content "numberOfWords" .WordCount "readingTime1" .ReadingTime) }}  
     
     <main class="page-main" id="main-content">
         <article class="page-main-content">

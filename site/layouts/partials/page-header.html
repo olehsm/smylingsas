@@ -15,7 +15,7 @@
             <time class="page-header__publication-details__pubdate" datetime="{{ .publishDate.Format "2006.01.02" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .publishDate.Format "Jan 2, 2006" }}</time>
             <span><i class="fas fa-file-alt"></i>&nbsp;{{ .numberOfWords }}&nbsp;words</span>
             <span><i class="fas fa-clock"></i>&nbsp;{{ .readingTime1 }}&nbsp;minutes</span>
-            <span><i class="fas fa-tag"></i>&nbsp;{{ with .tags }}{{ range . }}<a href="/tags/{{ . | urlize }}/">{{ . }}</a> {{ end }}{{ end }}</span>
+            <span>{{ with .tags }}<i class="fas fa-tag"></i>&nbsp;{{ range . }}<a href="/tags/{{ . | urlize }}/">{{ . }}</a> {{ end }}{{ end }}</span>
         </div>
 
         
@@ -26,7 +26,6 @@
         {{ end }}
         
         <div class="page-header__meta animate-pop-in">
-     
             {{ with .pageresources }}
                 {{ template "page-header__pageresources"  . }}
             {{ end }}            
@@ -48,11 +47,11 @@
 </header>
 
 {{ define "page-header__pageresources" }}
-    Source / additional readings
+    Resources
     <ul class="page-header__pageresources reset-list">
         {{ range . }}
             <li>
-                <a href="{{.}}/">{{ . }}</a>
+                <a target="_blank" href="{{.}}/">{{ . }}</a>
             </li>
         {{ end }}
     </ul>
