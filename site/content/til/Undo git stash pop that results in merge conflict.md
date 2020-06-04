@@ -13,5 +13,7 @@ featureimg = ""
 comments = "false"
 +++
 
+{{<highlight bash>}}
 git reset HEAD
 git stash
+{{</highlight>}}

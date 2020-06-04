@@ -13,10 +13,12 @@ featureimg = ""
 comments = "false"
 +++
 
+
 Basically Switch staments cannot have evaluated statements in the case statement. They must be statically evaluated.
 
 The code below will cause an error:
 
+{{<highlight c>}}
 switch(query.OrderType) {
     case EstimatedToolOrderType.ServiceOrder:
         return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.ServiceOrder);
@@ -30,3 +32,4 @@ switch(query.OrderType) {
     case EstimatedToolOrderType.ProductionSchedule:
        return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.ProductionSchedule);
 }
+{{</highlight>}}

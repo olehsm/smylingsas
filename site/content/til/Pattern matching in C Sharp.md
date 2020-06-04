@@ -13,35 +13,35 @@ featureimg = ""
 comments = "false"
 +++
 
+{{<highlight c>}}
 public EstimatedToolRequirement[] Handle(EstimatedToolRequirementsQuery query)
-        {
-            switch(query.OrderType)
-            {
-                case string s when s == EstimatedToolOrderType.ServiceOrder:
-                    return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.ServiceOrder);
-                case string s when s == EstimatedToolOrderType.SFCProductionOrder:
-                    return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.SFCProductionOrder);
-                case string s when s == EstimatedToolOrderType.MaintenanceWorkOrder:
-                    return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.MaintenanceWorkOrder);
-                case string s when s == EstimatedToolOrderType.ProductionSchedule:
-                    return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.ProductionSchedule);
-                default:
-                    return new EstimatedToolRequirement[0];
-            }
-
-            
-            
-            if(query.OrderType == EstimatedToolOrderType.ServiceOrder)
-                return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.ServiceOrder);
-
-            if (query.OrderType == EstimatedToolOrderType.SFCProductionOrder)
-                return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.SFCProductionOrder);
-
-            if (query.OrderType == EstimatedToolOrderType.MaintenanceWorkOrder)
-                return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.MaintenanceWorkOrder);
-
-            if (query.OrderType == EstimatedToolOrderType.ProductionSchedule)
-                return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.ProductionSchedule);
-
+{
+    switch(query.OrderType)
+    {
+        case string s when s == EstimatedToolOrderType.ServiceOrder:
+            return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.ServiceOrder);
+        case string s when s == EstimatedToolOrderType.SFCProductionOrder:
+            return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.SFCProductionOrder);
+        case string s when s == EstimatedToolOrderType.MaintenanceWorkOrder:
+            return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.MaintenanceWorkOrder);
+        case string s when s == EstimatedToolOrderType.ProductionSchedule:
+            return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.ProductionSchedule);
+        default:
             return new EstimatedToolRequirement[0];
-        }
+    }
+     
+    if(query.OrderType == EstimatedToolOrderType.ServiceOrder)
+        return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.ServiceOrder);
+
+    if (query.OrderType == EstimatedToolOrderType.SFCProductionOrder)
+        return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.SFCProductionOrder);
+
+    if (query.OrderType == EstimatedToolOrderType.MaintenanceWorkOrder)
+        return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.MaintenanceWorkOrder);
+
+    if (query.OrderType == EstimatedToolOrderType.ProductionSchedule)
+        return ToolRequirements(query.OrderNumber, ToolsRequirementPlanningOrderType.ProductionSchedule);
+
+    return new EstimatedToolRequirement[0];
+}
+{{</highlight>}}
