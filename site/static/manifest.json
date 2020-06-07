@@ -13,10 +13,13 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "https://smylingsas.net/index.html",
+    "start_url": "/",
     "background_color": "#0099fe",
     "display": "standalone",
     "scope": "/",
     "theme_color": "#0099fe",
     "orientation": "portrait-primary"
   }
+
+
+  

@@ -11,7 +11,7 @@
     <ul class="footer__social-links reset-list">
         {{ range . }}
             <li class="" data-toggle="tooltip" data-placement="top" title="{{ .name }}" aria-label="{{ .name }}">
-                <a target="_blank" href="{{ .url }}">
+                <a rel="noreferrer" target="_blank" href="{{ .url }}">
                     <i class="{{ .icon }}"></i>
                 </a>
             </li>
