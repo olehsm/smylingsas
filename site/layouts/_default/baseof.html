@@ -18,12 +18,10 @@
             {{ partial "footer.html" . }}
         </footer>
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
         <script>
             // Register the Service Worker
             if('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('service-worker.js')
+                navigator.serviceWorker.register("{{ $.Site.BaseURL }}service-worker.js")
             }
         </script>
     </body>

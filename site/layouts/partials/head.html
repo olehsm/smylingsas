@@ -5,9 +5,10 @@
 <meta name="googlebot" content="index, follow, noarchive">
 <meta name="description" content="{{ $.Site.Params.description }}">
 <meta name="keywords" content="{{ $.Site.Params.keywords }}" />
+{{hugo.Generator}}
 <title>{{ .Site.Title }} - {{ .Title }}</title>
 <link rel="icon" href="{{ $.Site.BaseURL }}{{ $.Site.Params.favicon }}">
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="{{ $.Site.BaseURL }}manifest.json">
 <!-- ios support -->
 <link rel="apple-touch-icon" href="images/icons/icon-72x72.png" />
 <link rel="apple-touch-icon" href="images/icons/icon-96x96.png" />
@@ -21,6 +22,7 @@
 <meta name="theme-color" content="#db4938" />
 <link rel="author" href="humans.txt" />
 <script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>
+
 
 <!-- CSS -->
 {{ partial "styles.html" . }}
