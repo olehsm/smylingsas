@@ -1,4 +1,4 @@
-{{ $style := resources.Get "style/main.scss" | toCSS | minify | fingerprint }} 
+{{ $style := resources.Get "style/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }} 
 <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
 
 {{ if eq .Type "projects" }}
