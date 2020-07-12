@@ -46,23 +46,29 @@
             <section class="page-main__navigation">
                 <h1 class="page-main__title project">Navigation</h1>
                 {{if .PrevInSection}}
-                    <a href={{.PrevInSection.Permalink}}>Prev in current section: {{.PrevInSection.Title}}</a>
+                    <a class="page-main__previous-link" title={{.PrevInSection.Title}} href={{.PrevInSection.Permalink | relURL }}>Previous</a>
                 {{end}}
                 <br >
                 {{if .NextInSection}}
-                    <a href={{.Permalink}}>Next in current section: {{.NextInSection.Title}}</a>
-                {{end}}
-                <br />
-                {{if .PrevPage}}
-                    <a href={{.PrevPage.Permalink}}>Prev: {{.PrevPage.Title}}</a>
-                {{end}}
-                <br />
-                {{if .NextPage}}
-                    <a href={{.NextPage.Permalink}}>Next: {{.NextPage.Title}}</a>
+                    <a class="page-main__next-link" title={{.NextInSection.Title}} href={{.NextInSection.Permalink | relURL }}>Next</a>
                 {{end}}
             </section>
             
         </article>
     </main>
+    <script>
+        document.onkeydown = function(e) {
+          switch (e.keyCode) {
+            case 37:
+              //left key
+              document.querySelector(".page-main__previous-link").click();
+              break;
+            case 39:
+              //right key
+              document.querySelector(".page-main__next-link").click();
+              break;
+          }
+        };
+      </script>
 {{ end }}
 

@@ -13,6 +13,7 @@ featureimg = ""
 comments = "false"
 +++
 
+<!--more-->
 This minor fix did the trick:
 
 The original css class looked like this. It worked find on desktop sized viewport. But on smaller viewports the 100vh was ignored.
