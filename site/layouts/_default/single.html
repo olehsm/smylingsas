@@ -33,31 +33,35 @@
                 </section>
             {{ end }}
 
+            <section class="read-next-card">
+                {{ if eq .Type "til" }}
+                    {{- partial "read-next-til.html" . -}}
+                {{ end }}
 
-            {{if .PrevInSection}}
-                <a href={{.PrevInSection.Permalink}}>Prev in current section: {{.PrevInSection.Title}}</a>
-            {{end}}
-            <br >
-            {{if .NextInSection}}
-                <a href={{.Permalink}}>Next in current section: {{.NextInSection.Title}}</a>
-            {{end}}
-            <br />
-            {{if .PrevPage}}
-                <a href={{.PrevPage.Permalink}}>Prev: {{.PrevPage.Title}}</a>
-            {{end}}
-            <br />
-            {{if .NextPage}}
-                <a href={{.NextPage.Permalink}}>Next: {{.NextPage.Title}}</a>
-            {{end}}
+                {{ if eq .Type "projects" }}
+                    {{- partial "read-next-projects.html" . -}}
+                {{ end }}
+            </section>
 
-            {{ if eq .Type "til" }}
-                {{- partial "read-next-til.html" . -}}
-            {{ end }}
-
-            {{ if eq .Type "projects" }}
-                {{- partial "read-next-projects.html" . -}}
-            {{ end }}
-
+            <section class="page-main__navigation">
+                <h1 class="page-main__title project">Navigation</h1>
+                {{if .PrevInSection}}
+                    <a href={{.PrevInSection.Permalink}}>Prev in current section: {{.PrevInSection.Title}}</a>
+                {{end}}
+                <br >
+                {{if .NextInSection}}
+                    <a href={{.Permalink}}>Next in current section: {{.NextInSection.Title}}</a>
+                {{end}}
+                <br />
+                {{if .PrevPage}}
+                    <a href={{.PrevPage.Permalink}}>Prev: {{.PrevPage.Title}}</a>
+                {{end}}
+                <br />
+                {{if .NextPage}}
+                    <a href={{.NextPage.Permalink}}>Next: {{.NextPage.Title}}</a>
+                {{end}}
+            </section>
+            
         </article>
     </main>
 {{ end }}

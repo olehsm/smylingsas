@@ -7,7 +7,7 @@
             <ul class="reset-list render-as-columns">
                 {{ range .Data.Terms.Alphabetical }}
                     <li>
-                        <a href="{{ .Page.Permalink }}">
+                        <a href="{{ .Page.Permalink }}" style="text-transform: capitalize;">
                             {{ .Page.Title }} <span>({{ .Count }} posts)</span>
                         </a>
                     </li>
