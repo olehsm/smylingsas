@@ -77,6 +77,12 @@
 .page-header__title {
     -webkit-animation-delay:.8s;
         animation-delay:.8s;
+    text-transform: lowercase;
+}
+
+
+.page-header__title::first-letter {
+    text-transform: uppercase;
 }
 
 

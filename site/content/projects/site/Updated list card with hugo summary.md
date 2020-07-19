@@ -1,7 +1,7 @@
 +++
 author = "Ole Halvor Smylingsås"
 description = ""
-pageresources = []
+pageresources = ["https://gohugo.io/content-management/summaries/"]
 categories = []
 tags = ["hugo"]     
 slug = ""
