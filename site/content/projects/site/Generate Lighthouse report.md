@@ -13,7 +13,7 @@ featureimg = ""
 comments = "false"
 +++
 
-# What is Lighthouse?
+## What is Lighthouse?
 Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.
 <!--more-->
 

@@ -1,34 +1,98 @@
 {{ define "main" }}
-    <div class="hero">
+    <section class="hero">
         <h1>Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</h1>
-    </div>
+        <div class="hero-menu">
+            <ul class="reset-list">
+                <li>
+                    <a href="#aboutme-section" title="1">About me</a>
+                    <i class="fas fa-caret-right"></i>
+                    
+                </li>
+                <li>
+                    <a href="#projects-section" title="1">Projects</a>
+                    <i class="fas fa-caret-right"></i>
+                </li>
+                <li>
+                    <a href="#til-section" title="1">TIL</a>
+                    <i class="fas fa-caret-right"></i>
+                </li>
+                <li>
+                    <a href="#topics-section" title="1">Topics</a>
+                    <i class="fas fa-caret-right"></i>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-    <section class="about-me">
-        <h1 class="about-me__title">About me</h1>
+    <section class="about-me" id="aboutme-section">
+        <header class="section-header">
+            <h1 class="about-me__title">About me</h1>
+            <p>My name is Ole Halvor Smylingsås and I'm a fullstack developer.</p>
+            <a href="/uses/" class="link link-button">Uses</a>
+        </header>
         <div class="about-me__text">
-            <p>Hello. My name is Ole Halvor Smylingsås and I'm a fullstack developer.</p>
             <p>I work with Angular JS, Node JS, Webpack, .Net Framework, MS SQL. This is mainly just my personal techno blog, I will try to update it from time to time with stuff I learn og figures out. If your're interrested check out my GitHub page or the project area here.</p>
-            <div class="pill"><a href="/uses/" class="link link-button">/uses</a></div>
         </div>            
     </section>
 
-    <section class="blog-posts">
-        <h1 class="blog__title">Projects</h1>
+    <section class="blog-posts" id="projects-section">
+        <header class="section-header">
+            <div style="display: flex; justify-content: space-between">
+                <h1 class="blog__title">Projects</h1>
+                <a href="/projects"><i style="color: brown;" class="fas fa-arrow-circle-right"></i></a>
+            </div>
+            
+            
+            {{ $pagesInProjects := where $.Site.Pages "Type" "in" "projects" }}
+            <ul class="reset-list">
+                {{ range where $pagesInProjects "Kind" "section"}}
+                    <li><a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a></li>
+                {{ end }}
+            </ul>
+            
+        </header>
+        
         {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
         <div class="blog-items">
-            {{ range first 4 $pages }}
+            {{ range first 10 $pages }}
                 {{ partial "cards/frontpageProjectCard.html" . }}
             {{ end }}
         </div>    
     </section>
 
-    <section class="til-posts">
-        <h1 class="til-title">TIL</h1>
+    <section class="til-posts" id="til-section">
+        <header class="section-header">
+            <div style="display: flex; justify-content: space-between">
+                <h1 class="til-title">TIL</h1>
+                <a href="/til"><i style="color: magenta" class="fas fa-arrow-circle-right"></i></a>
+            </div>
+            <p>"Today I Learned" - A list of all published TIL posts.</p>
+        </header>
         {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
         <div class="til-items">
             {{ range first 6 $pages }}
                 {{ partial "cards/frontpageTilCard.html" . }}
             {{ end }}
+        </div>
+    </section>
+
+    <section class="topics-list" id="topics-section">
+        <header class="section-header">
+            <div style="display: flex; justify-content: space-between">
+                <h1 class="topics-title">Topics</h1>
+                <a href="/tags"><i style="color: #42928c" class="fas fa-arrow-circle-right"></i></a>
+            </div>
+            <p>A list of the most-used tags.</p>
+        </header>
+        <ul class="reset-list render-as-columns">
+            {{ range .Data.Terms.Alphabetical }}
+                <li>
+                    <a href="{{ .Page.Permalink }}">
+                        {{ .Page.Title }} <span>({{ .Count }} posts)</span>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
     </section>
 
 {{ end }}

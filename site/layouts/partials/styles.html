@@ -1,7 +1,7 @@
 {{ $style := resources.Get "style/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }} 
 <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
 
-{{ if eq .Type "projects" }}
+<!-- {{ if eq .Type "projects" }}
 <style>
  
     /* width */
@@ -84,7 +84,7 @@
         background-color: #506485;
     }
     </style>
-{{ end }}
+{{ end }} -->
 
 
 

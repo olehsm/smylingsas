@@ -1,5 +1,7 @@
 .blog-item {
     margin-bottom: 5vh;
+    border-bottom: 1px solid #383d41;
+    min-height: 60vh;
 }
 
 
@@ -22,6 +24,11 @@
 
 .blog-item__content {
     margin-bottom: 1em;
+}
+
+
+.blog-item__description {
+    margin-bottom: 1em
 }
 
 

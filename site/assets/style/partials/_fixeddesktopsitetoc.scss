@@ -1,0 +1,32 @@
+.balluba {
+    background-color: #1c1f23;
+    min-width: 15vw;
+    position: fixed!important;
+    z-index: 5050!important;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding-left: 48px!important;
+    padding-right: 48px!important;
+    padding-bottom: 16px!important;
+    padding-top: 32px!important;
+}
+
+
+.balluba li {
+    border-top-style: solid!important;
+    border-top-width: 1px!important;
+    border-top-color: #383D41 ;
+}
+
+
+.balluba li a {
+    font-size: 0.61538462rem!important;
+    font-weight: 700;
+}
+
+
+.balluba li a:hover {
+    color: map-get($colors , aboutmegreen );
+}

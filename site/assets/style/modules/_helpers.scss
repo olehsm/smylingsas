@@ -30,7 +30,6 @@
 }
 
 
-
 .pill {
 	display: inline;
 	border: 2px solid map-get($colors, offwhite);
@@ -91,4 +90,15 @@
 	@media screen and (orientation: landscape) and (min-width: 451px) {
 		display: block;
 	}
+}
+
+
+.section-header {
+	background: #1C1F23;
+	grid-row-start: 1;
+	grid-column-start: 2;
+	border-radius: 5px!important;
+	box-sizing: border-box;
+	padding: 1em;
+	margin-bottom: 2em;
 }

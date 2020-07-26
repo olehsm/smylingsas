@@ -1,4 +1,4 @@
-.til-posts {
+.topics-list {
     display: grid;
     grid-template-columns: minmax(1em, 1fr) minmax(auto, $default-content-width) minmax(1em, 1fr);
     grid-template-rows: auto 1fr;
@@ -7,29 +7,12 @@
 }
 
 
-.til-title {
+.topics-title {
     grid-row-start: 1;
     grid-column-start: 2;
     grid-column-end: 2;
     text-align: left;
     padding-left: 30px;
     border-left: $title-border-width solid;
-    border-color:magenta;
-}
-
-
-.til-items {
-    grid-row-start: 2;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-
-.til-item {
-    margin-bottom: 3vh;
-}
-
-
-.til-item a:hover {
-    text-decoration: underline;
+    border-color: #42928c;
 }

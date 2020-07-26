@@ -11,7 +11,7 @@
 
 
 .page-header:after {
-    background: map-get($colors, dark-sea-blue);
+    background: $default-background-color;
     content: "";
     height: 15rem;
     left: -5%;
