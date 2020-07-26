@@ -30,3 +30,13 @@
 .balluba li a:hover {
     color: map-get($colors , aboutmegreen );
 }
+
+
+@media (max-width: 980px) {
+    .balluba {
+        opacity: 0;
+        visibility: hidden;
+        //transition: opacity .3s;
+        min-width: auto;
+    }
+}
