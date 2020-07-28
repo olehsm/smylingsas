@@ -40,3 +40,23 @@
         min-width: auto;
     }
 }
+
+
+.animated-slide-from-right {
+    animation: slide-in-from-right 0.6s ease-out forwards;
+    opacity: 0;
+}
+
+
+/* Animation */
+@keyframes slide-in-from-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-4rem) scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
