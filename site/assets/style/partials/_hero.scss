@@ -1,34 +1,47 @@
-.hero {
+.home {
+    background: radial-gradient(#525252, #131313);
     min-height: 100vh;
     height: 100vh;
     min-height: -webkit-fill-available;
-    display: grid;
-    grid-template-columns: minmax(1em, 1fr) minmax(auto, $default-content-width) minmax(1em, 1fr);
-    align-items: center;
+}
+
+
+.hero {
+    padding-top: 10vh;
+    //display: grid;
+    // grid-template-columns: minmax(5rem, 1fr) minmax(auto, $default-content-width) minmax(5rem, 1fr);
+    //grid-template-columns: minmax(5rem, 1fr) minmax(auto, $default-content-width) minmax(5rem, 1fr);
+    //align-items: center;
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 90vh;
 }
 
 
 .hero h1 {
     line-height: 1.1;
-    padding-left: 30px;
+    //padding-left: 30px;
     text-align: left;
-    border-left: 30px solid;
-    border-color:map-get($colors, aboutmegreen);
-    grid-column: 2 / 3;
-    margin: 0;
+    // border-left: 30px solid;
+    // border-color:map-get($colors, aboutmegreen);
+    //grid-column: 2 / 3;
+    //justify-self: center;
+    align-self: center;
     max-width: 11em;
 }
 
 
-.hero-menu {
-    grid-column: 2 / 3;
-}
+// .hero-menu {
+//     grid-column: 2 / 3;
+// }
 
 
-.hero-menu ul {
-    display: flex;
-    justify-content: space-around;
-}
+// .hero-menu ul {
+//     display: flex;
+//     justify-content: space-around;
+// }
 
 
 .hero-animated-pop-in {
@@ -42,9 +55,9 @@
 }
 
 
-.hero-menu {
-    animation-delay: 1.1s;
-} 
+// .hero-menu {
+//     animation-delay: 1.1s;
+// } 
 
 
 /* Animation */

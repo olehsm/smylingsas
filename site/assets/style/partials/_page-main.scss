@@ -1,19 +1,23 @@
 .page-main {
-    display: grid;
-    grid-template-columns: minmax(1em, 1fr) minmax(auto, $default-content-width) minmax(1em, 1fr);
-    grid-template-rows: 2em auto;
-    grid-gap: 0;
+    padding-top: 10vh;
+    //display: grid;
+    // grid-template-columns: minmax(5rem, 1fr) minmax(auto, $default-content-width) minmax(5rem, 1fr);
+    //grid-template-columns: minmax(5rem, 1fr) minmax(auto, $default-content-width) minmax(5rem, 1fr);
+    //align-items: center;
+
+    width: 90%;
+    margin: auto;
+    display: flex;
     min-height: 100vh;
-    min-height: -webkit-fill-available;
 }
 
 
 .page-main > * {
-    grid-column-start: 2;
+    // grid-column-start: 2;
 }
 
 
 .page-main-content {
-    grid-row-start: 2;
-    margin-bottom: 3em;
+    // grid-row-start: 2;
+    margin-bottom: 3rem;
 }

@@ -107,6 +107,7 @@ d-----       04.09.2017     22.16                themes
 
 {{</highlight>}}
 
+{{<highlight html>}}
 PS D:\Smylingsas.net> cd .\themes\
 PS D:\Smylingsas.net\themes> ls
 
@@ -264,3 +265,4 @@ Watching for changes in D:\Smylingsas.net\{data,content,layouts,static}
 Serving pages from memory
 Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
+{{</highlight>}}
