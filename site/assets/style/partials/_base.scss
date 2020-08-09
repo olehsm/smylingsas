@@ -12,13 +12,6 @@ html {
 }
 
 
-// @media screen and (min-width: 50em) {
-//     html {
-//       font-size: 2vw;
-//     }
-// }
-
-
 body, html {
     color: map-get($colors, black-800);
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
@@ -31,7 +24,6 @@ body {
     font-family: $font-family;
     background: $default-background-color;
     min-height: 100%;
-    //background: radial-gradient(#525252, #131313);
 }
 
 @media screen and (min-width: 980px) {
@@ -92,4 +84,12 @@ a {
 // a:hover {
 //     text
 // }
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 30%;
+    }
+     
+}
+
 
