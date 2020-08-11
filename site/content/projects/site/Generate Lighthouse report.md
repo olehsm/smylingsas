@@ -13,11 +13,11 @@ featureimg = ""
 comments = "false"
 +++
 
-## What is Lighthouse?
+What is Lighthouse?<br/>
 Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.
 <!--more-->
 
-## How to generate a Lighthouse report
+How to generate a Lighthouse report
 Full guide: [Developers.google.com](https://developers.google.com/web/tools/lighthouse/#devtools)
 Run Lighthouse in Chrome DevTools
 Lighthouse powers the Lighthouse panel of Chrome DevTools. To run a report:
@@ -27,22 +27,22 @@ Lighthouse powers the Lighthouse panel of Chrome DevTools. To run a report:
 1. Open Chrome DevTools.
 1. Click the Lighthouse tab.
 
-## Results for current page
+Results for current page
 Lighthouse can test and generate reports for several types of pages. I have chosen to run it on the homepage, a list page and and article page
 
-### The homepage
+The homepage
 ![Lighthouse report homepage](/img/lighthouse-homepage.PNG)
 
-##### Full report
+Full report
 [Full Lighthouse for Homepage](/smylingsas.net-20200607T114017.html)
 
-### The list page
+The list page
 ![Lighthouse report list page](/img/lighthouse-list.PNG)
 
-### The article page
+The article page
 ![Lighthouse report article page](/img/lighthouse-article.PNG)
 
-## Goals
+Goals
 The main goal is of course to get as close to a score of 100 in all categories. The side goal is to get all categories above the score of 89
 
 

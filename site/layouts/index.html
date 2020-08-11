@@ -39,6 +39,7 @@
 
     <section class="blog-posts" id="projects-section">
         <header class="section-header">
+            <div class="helllo-hello">
             <div style="display: flex; justify-content: space-between">
                 <h1 class="blog__title">Projects</h1>
                 <a href="/projects"><i style="color: brown;" class="fas fa-arrow-circle-right"></i></a>
@@ -46,11 +47,14 @@
             
             
             {{ $pagesInProjects := where $.Site.Pages "Type" "in" "projects" }}
-            <ul class="reset-list">
-                {{ range where $pagesInProjects "Kind" "section"}}
-                    <li><a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a></li>
-                {{ end }}
-            </ul>
+            <div class="shabla">
+                <ul class="reset-list">
+                    {{ range where $pagesInProjects "Kind" "section"}}
+                        <li><a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
             
         </header>
         
@@ -72,7 +76,7 @@
         </header>
         {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
         <div class="til-items">
-            {{ range first 6 $pages }}
+            {{ range first 12 $pages }}
                 {{ partial "cards/frontpageTilCard.html" . }}
             {{ end }}
         </div>

@@ -3,14 +3,14 @@
     <div class="blog-item__description">
         {{ with .Params.tags }}
             <div class="blog-item__tags">
-                <h4>Topics:</h4>
+                <small>Topics:</small>
                 {{ range . }}
                     {{ $href := print (absURL "tags/") (urlize .) }}
-                    <div class="blog-item__tag">
-                        <div class="pill">
-                            <a  href="{{ $href }}/">{{ . }}</a>
-                        </div>
-                    </div>
+                    <!-- <div class="blog-item__tag">
+                        <div class="pill"> -->
+                            <a href="{{ $href }}/">{{ . }}</a>
+                        <!-- </div>
+                    </div> -->
                     
                 {{ end }}
             </div>
