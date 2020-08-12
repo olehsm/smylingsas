@@ -32,15 +32,9 @@
 
 .pill {
 	display: inline;
-	border: 2px solid map-get($colors, offwhite);
-	background-color: map-get($colors, offwhite);
+	border: 2px solid map-get($colors, projectbrown);
+	background-color: map-get($colors, projectbrown);
 	padding: 4px;
-	color: map-get($colors, black);
-}
-
-
-.pill a {
-	color: map-get($colors, black);
 }
 
 

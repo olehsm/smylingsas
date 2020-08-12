@@ -1,7 +1,7 @@
 {{ with .Params.tags }}
     {{ $primaryTag := (index . 0) }}
     {{ $relatedTagPosts := (where (index $.Site.Taxonomies.tags $primaryTag).Pages "Section" "til") }}
-    <h1 class="page-main__title project">More in <a href="{{ "/tags/" | relLangURL }}{{ $primaryTag | urlize }}">#{{ $primaryTag }}</a></h1>
+    <h1 class="page-main__title til">More in <a href="{{ "/tags/" | relLangURL }}{{ $primaryTag | urlize }}">#{{ $primaryTag }}</a></h1>
     <ul class="reset-list">
         {{ range first 3 $relatedTagPosts }}
             {{ partial "cards/defaultCard.html" . }}

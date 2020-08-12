@@ -37,6 +37,7 @@
 
 .site-nav {
     margin-top: auto;
+    margin-bottom: 2rem;
 }
 
 
@@ -81,14 +82,9 @@
 }
 
 
-// .site-nav__item:nth-child(4) {
-//     background-color: map-get($colors, blackcurrent);
-// }
-  
-  
-// .site-nav__item:nth-child(5) {
-//     background-color: map-get($colors, tagblue);
-// }
+.footer-notes-text p, .footer-notes-text a{
+    font-size: 1.5rem;
+}
 
 
 @media (max-width: 1999px) {

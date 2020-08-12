@@ -32,7 +32,7 @@
         </li>
     </ul>
 
-<!-- {{ $links := .Site.Params.sociallinks }}
+{{ $links := .Site.Params.sociallinks }}
 {{ with $links }}
     {{ with index . "developer"}}
         {{ template "footer-social-links"  . }}
@@ -53,8 +53,12 @@
     </ul>
 {{ end }}
 
-<p>©{{ now.Year}} by {{.Site.Params.owner}}. All rights reversed.</p>
-<p>This site is built with <a rel="noreferrer" href="https://gohugo.io/" target="_blank">Hugo</a> 
-    and hosted by <a rel="noreferrer" href="https://aws.amazon.com/amplify/" target="_blank">Amazon Amplify</a>. Source code is hosted by <a rel="noreferrer" href="https://github.com/" target="_blank">GitHub</a></p> -->
+<div class="footer-notes-text">
+<p style="white-space: pre-line">©{{ now.Year}} by {{.Site.Params.owner}}.<br /> All rights reversed.</p>
+
+<p style="white-space: pre-line">This site is built with <a rel="noreferrer" href="https://gohugo.io/" target="_blank">Hugo</a><br /> Hosted by <a rel="noreferrer" href="https://aws.amazon.com/amplify/" target="_blank">Amazon Amplify</a>. 
+    Source code is hosted by <a rel="noreferrer" href="https://github.com/" target="_blank">GitHub</a>
+</p>
+</div>
 
 </nav>

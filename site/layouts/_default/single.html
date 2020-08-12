@@ -44,7 +44,12 @@
             </section>
 
             <section class="page-main__navigation">
-                <h1 class="page-main__title project">Navigation</h1>
+                {{ if eq .Type "projects" }}
+                    <h1 class="page-main__title project">Navigation</h1>
+                {{ end }}
+                {{ if eq .Type "til" }}
+                    <h1 class="page-main__title til">Navigation</h1>
+                {{ end }}
                 {{if .PrevInSection}}
                     <a class="page-main__previous-link" title={{.PrevInSection.Title}} href={{.PrevInSection.Permalink | relURL }}>Previous</a>
                 {{end}}
