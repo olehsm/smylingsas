@@ -2,6 +2,11 @@
     margin-bottom: 7vh;
     border-bottom: 1px solid #383d41;
     min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 3em;
+    min-width: 40%;
 }
 
 
