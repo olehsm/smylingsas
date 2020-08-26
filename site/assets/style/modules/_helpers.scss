@@ -9,6 +9,16 @@
 	min-height: 100vh;
 	min-height: -webkit-fill-available;
 }
+
+
+.text-red {
+	color:#b11623;
+}
+
+
+.text-orange {
+	color: #F8430A;
+}
   
   
 @mixin render-as-columns($number-of-columns) {
@@ -16,18 +26,18 @@
 }
 
 
-.render-as-columns {
-	@include render-as-columns(1);
+// .render-as-columns {
+// 	@include render-as-columns(1);
 	
-	@media screen and (orientation: landscape) and (min-width: 451px) {
-		@include render-as-columns(3);
+// 	@media screen and (orientation: landscape) and (min-width: 451px) {
+// 		@include render-as-columns(3);
 		
-	}
+// 	}
 
-	li {
-		margin-bottom: 0.5em
-	}
-}
+// 	li {
+// 		margin-bottom: 0.5em
+// 	}
+// }
 
 
 .pill {

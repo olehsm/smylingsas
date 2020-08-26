@@ -1,28 +1,100 @@
 .home {
-    background: linear-gradient(#1c1f23, #2f3337);
     min-height: 100vh;
     height: 100vh;
     min-height: -webkit-fill-available;
+    // background-position: center; 
+    // background-repeat: no-repeat; /* Do not repeat the image */
+    // background-size: cover; /* Resize the background image to cover the entire container */
+    // //background-image: linear-gradient(#0f0f17, #0f0f17), url(/img/hero-background.jpg);
+    // background-image:  url(/img/hero-background4.jpg);
 }
 
 
 .hero {
-    padding-top: 10vh;
+    //display: flex;
+    min-height: 100vh;
+    //grid-template-columns: repeat(10,10%);
+    //grid-template-rows: repeat(10,10%);
     width: 90%;
     margin: auto;
-    display: flex;
-    height: 90vh;
+    display: grid;
+    place-items: center;
+    // align-items: end;
+    // justify-items: right;
 }
 
 
-.hero h1 {
-    line-height: 1.1;
-    text-align: left;
-    align-self: center;
-    max-width: 11em;
-    margin-top: auto;
-    font-size: 11rem;
+.hero-text {
+    line-height: 14rem;
+    text-align: center;
+    //margin-top: auto;
+    font-size: 12rem;
+    font-weight: bolder;
+    
+    //width: 10rem;
+    //margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 4rem;
+    // grid-row: 4/10;
+    // grid-column: 1/4;
+    // background: #000;
+    // padding: 2rem;
+    text-shadow: 1px 1px 2px #F8430A;
 }
+
+
+.call-to-action-projects {
+    grid-row: 4;
+    grid-column: 7;
+    background: brown;
+    padding: 2rem;
+}
+
+
+.call-to-action-topics {
+    grid-row: 6;
+grid-column: 8;
+background: blue;
+padding: 2rem;
+}
+
+
+.call-to-action-til {
+    grid-row: 5;
+grid-column: 9;
+background: green;
+padding: 2rem;
+}
+
+
+// .hero-menu {
+//     grid-row: 4/6;
+//     grid-column: 10/10;
+// }
+
+
+// .hero-menu ul {
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: nowrap;
+//     justify-content: center;
+// }
+
+
+// .hero-menu li {
+//     text-align: center;
+//     margin-bottom: 1rem;
+    
+// }
+
+
+// .hero-menu li a {
+//     font-size: 4rem;
+// }
+
+// .hero-menu li a:hover {
+//     color: #ff4949;
+// }
 
 
 .hero-animated-pop-in {

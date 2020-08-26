@@ -21,16 +21,16 @@ body, html {
 
 body {
     color: $default-font-color;
-    font-family: $font-family;
-    background: $default-background-color;
+    font-family: 'Noto Sans', sans-serif;
+    background: #0f0f17;
     min-height: 100%;
 }
 
-@media screen and (min-width: 2000px) {
-    body {
-        margin-right: 15vw;
-    }
-}
+// @media screen and (min-width: 2000px) {
+//     body {
+//         margin-right: 15vw;
+//     }
+// }
  
 
 h1, h2, h3, h4, p {
@@ -63,7 +63,7 @@ h5 {
 }
 
 
-p, a, * {
+p, a {
     font-size: 2.5rem;
 }
 
