@@ -1,6 +1,6 @@
 .home {
     min-height: 100vh;
-    height: 100vh;
+    //height: 100vh;
     min-height: -webkit-fill-available;
     // background-position: center; 
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -13,6 +13,7 @@
 .hero {
     //display: flex;
     min-height: 100vh;
+    min-height: -webkit-fill-available;
     //grid-template-columns: repeat(10,10%);
     //grid-template-rows: repeat(10,10%);
     width: 90%;
@@ -21,17 +22,18 @@
     place-items: center;
     // align-items: end;
     // justify-items: right;
+    height: 100vh;
 }
 
 
 .hero-text {
-    line-height: 10rem;
+    line-height: 9rem;
     text-align: center;
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 2rem;
     text-shadow: 1px 1px 2px #f8430a;
-    margin: 0;
+    margin-bottom: 10rem;
     // 
     // text-align: center;
     // font-weight: bolder;
@@ -49,11 +51,11 @@
 }
 
 
-.call-to-action-projects {
-    grid-row: 4;
-    grid-column: 7;
-    background: brown;
-    padding: 2rem;
+.call-to-action {
+    font-size: 10rem;
+    line-height: 9rem;
+    text-shadow: 1px 1px 2px #f8430a;
+    text-align: center;
 }
 
 
@@ -65,11 +67,9 @@ padding: 2rem;
 }
 
 
-.call-to-action-til {
-    grid-row: 5;
-grid-column: 9;
-background: green;
-padding: 2rem;
+.flex-it {
+    display: flex;
+    flex-direction: column;
 }
 
 
