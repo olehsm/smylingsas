@@ -53,13 +53,13 @@
     font-size: 6rem;
 }
 
-// @media screen and (min-width: 2200px) {
-//     .hero-text {
-//         font-size: 12rem;
-//         line-height: 14rem;
-//         letter-spacing: 4rem;
-//     }
-// }
+@media screen and (min-width: 2200px) {
+    .hero-text {
+        font-size: 12rem;
+        line-height: 14rem;
+        letter-spacing: 4rem;
+    }
+}
 
 
 .call-to-action {
