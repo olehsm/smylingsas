@@ -27,7 +27,7 @@
 
 
 .hero-text {
-    line-height: 9rem;
+    line-height: 8rem;
     text-align: center;
     font-weight: bolder;
     text-transform: uppercase;
@@ -42,7 +42,7 @@
     // text-shadow: 1px 1px 2px #F8430A;
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 2200px) {
     .hero-text {
         font-size: 12rem;
         line-height: 14rem;
