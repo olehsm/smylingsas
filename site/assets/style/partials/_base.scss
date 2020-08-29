@@ -2,6 +2,7 @@ html {
     //font-size: calc(1em + 1vw);
     font-size: 62.5%;
     line-height: 1.15; 
+    height: -webkit-fill-available;
 }
 
 
@@ -23,7 +24,9 @@ body {
     color: $default-font-color;
     font-family: 'Noto Sans', sans-serif;
     background: #0f0f17;
-    min-height: 100%;
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
 }
 
 // @media screen and (min-width: 2000px) {

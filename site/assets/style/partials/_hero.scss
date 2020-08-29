@@ -1,45 +1,58 @@
 .home {
+    
     min-height: 100vh;
-    //height: 100vh;
     min-height: -webkit-fill-available;
+    height: 100vh;
+    
     // background-position: center; 
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     // //background-image: linear-gradient(#0f0f17, #0f0f17), url(/img/hero-background.jpg);
     background-image:  url(/img/hero-background4.jpg);
-}
-
-
-.hero {
     //display: flex;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
+    //min-height: 100vh;
+    //min-height: -webkit-fill-available;
     //grid-template-columns: repeat(10,10%);
     //grid-template-rows: repeat(10,10%);
-    width: 90%;
-    margin: auto;
     display: grid;
     place-items: center;
     // align-items: end;
     // justify-items: right;
-    height: 100vh;
+    //height: 100vh;
 }
 
 
+.hero {
+    // //display: flex;
+    // min-height: 100vh;
+    // min-height: -webkit-fill-available;
+    // //grid-template-columns: repeat(10,10%);
+    // //grid-template-rows: repeat(10,10%);
+    // width: 90%;
+    // margin: auto;
+    // display: grid;
+    // place-items: center;
+    // // align-items: end;
+    // // justify-items: right;
+    // height: 100vh;
+}
+
+.flex-it {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .hero-text {
-    line-height: 8rem;
+    line-height: 7rem;
     text-align: center;
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 2rem;
     text-shadow: 1px 1px 2px #f8430a;
     margin-bottom: 10rem;
-    // 
-    // text-align: center;
-    // font-weight: bolder;
-    // text-transform: uppercase;
-    // 
-    // text-shadow: 1px 1px 2px #F8430A;
+    font-size: 6rem;
 }
 
 @media screen and (min-width: 2200px) {
@@ -52,8 +65,8 @@
 
 
 .call-to-action {
-    font-size: 10rem;
-    line-height: 9rem;
+    font-size: 8rem;
+    //line-height: 9rem;
     text-shadow: 1px 1px 2px #f8430a;
     text-align: center;
 }
@@ -67,10 +80,6 @@ padding: 2rem;
 }
 
 
-.flex-it {
-    display: flex;
-    flex-direction: column;
-}
 
 
 // .hero-menu {
