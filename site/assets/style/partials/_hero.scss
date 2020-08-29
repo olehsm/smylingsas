@@ -43,9 +43,8 @@
 }
 
 
-
 .hero-text {
-    line-height: 7rem;
+    //line-height: 7rem;
     text-align: center;
     font-weight: bolder;
     text-transform: uppercase;
@@ -55,61 +54,20 @@
     font-size: 6rem;
 }
 
-@media screen and (min-width: 2200px) {
-    .hero-text {
-        font-size: 12rem;
-        line-height: 14rem;
-        letter-spacing: 4rem;
-    }
-}
+// @media screen and (min-width: 2200px) {
+//     .hero-text {
+//         font-size: 12rem;
+//         line-height: 14rem;
+//         letter-spacing: 4rem;
+//     }
+// }
 
 
 .call-to-action {
     font-size: 8rem;
-    //line-height: 9rem;
     text-shadow: 1px 1px 2px #f8430a;
     text-align: center;
 }
-
-
-.call-to-action-topics {
-    grid-row: 6;
-grid-column: 8;
-background: blue;
-padding: 2rem;
-}
-
-
-
-
-// .hero-menu {
-//     grid-row: 4/6;
-//     grid-column: 10/10;
-// }
-
-
-// .hero-menu ul {
-//     display: flex;
-//     flex-direction: column;
-//     flex-wrap: nowrap;
-//     justify-content: center;
-// }
-
-
-// .hero-menu li {
-//     text-align: center;
-//     margin-bottom: 1rem;
-    
-// }
-
-
-// .hero-menu li a {
-//     font-size: 4rem;
-// }
-
-// .hero-menu li a:hover {
-//     color: #ff4949;
-// }
 
 
 .hero-animated-pop-in {
