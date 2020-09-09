@@ -1,7 +1,7 @@
 .home {
-    min-height: 100vh;
+    min-height: 50vh;
     min-height: -webkit-fill-available;
-    height: 100vh;
+    height: 60vh;
     
     // background-position: center; 
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -55,9 +55,9 @@
 
 @media screen and (min-width: 2200px) {
     .hero-text {
-        font-size: 12rem;
-        line-height: 14rem;
-        letter-spacing: 4rem;
+        font-size: 6rem;
+        line-height: 7rem;
+        letter-spacing: 2rem;
     }
 }
 
@@ -80,36 +80,7 @@
 }
 
 
-.button {
-    display: inline-block;
-    padding: 8px 20px;
-    border: 2px solid #f8430a;
-    background-color: transparent;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
-    font-family: Oswald, sans-serif;
-    color: #f8430a;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    text-decoration: none;
-}
 
-
-.button.hero-button {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding: 12px 36px;
-    border: 2px solid #f8430a;
-    background-color: transparent;
-    opacity: 1;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
-    font-family: Oswald, sans-serif;
-    color: #f8430a;
-    font-size: 24px;
-    line-height: 36px;
-}
 
 
 /* Animation */
