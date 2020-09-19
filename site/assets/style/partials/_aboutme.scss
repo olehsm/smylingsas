@@ -2,7 +2,7 @@
     
     // margin: 0 auto;
     //padding-top: 5rem;
-    min-height: 40vh;
+    min-height: 20vh;
     background: #1c1f23;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -26,6 +26,22 @@
     // grid-column-end: 2;
 }
 
+// .circle {
+//     position:relative;
+//   width:50%;
+//   padding-bottom:50%;
+//   background:gold;
+//   border-radius:50%;
+// }
+
+// .circle .lalala {
+//     position:absolute;
+//   top:50%; left:50%;
+//   transform: translate(-50%, -50%);
+//   margin:0;
+// }
+ 
+
 
 .container {
     margin: 0 auto;
@@ -42,6 +58,19 @@
 {
     grid-column-start: 3;
 }
+
+.container-content 
+{
+    margin: 5rem;
+}
+
+.container-content-meh{
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+
 
 .button {
     display: inline-block;
