@@ -1,0 +1,27 @@
+.topics-list-container {
+    display: grid;
+    place-items: center;
+    height: 25vh;
+}
+
+
+.topics-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+
+.topics-list li {
+    margin: 2rem;
+}
+
+
+.section-header {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}

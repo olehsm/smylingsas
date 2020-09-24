@@ -1,75 +1,12 @@
 {{ define "main" }}
-    <section class="home">
-        <!-- <div class="hero"> -->
-            <div class="flex-it">
-                <h1 class="hero-animated-pop-in hero-text text-orange">
-                    Hello.<br /> I'm<br /> Ole Halvor<br /><br />fullstack<br /> developer
-                </h1>
-                <!-- <a class="text-orange call-to-action" title="Move to blog post content">
-                    <i class="fa fa-chevron-circle-down"></i>
-                </a> -->
-                <!-- <a href="#aboutme-section" 
-                    class="button hero-button">Let’s Start</a> -->
-            </div>
-            
-            <!-- <nav class="hero-menu"> -->
-                <!-- <ul class="reset-list">
-                    <li class="hero-menu__item"> -->
-                        <!-- <div class="call-to-action-projects">
-                            <a href="/projects/" title="Smylingsas.net">
-                                <i class="fas fa-project-diagram"></i>
-                                <span>Projects</span>
-                            </a>   
-                        </div> -->
-                         
-                    <!-- </li>
-                    <li class="hero-menu__item"> -->
-                        <!-- <div class="call-to-action-til">
-                            <a href="/til/" title="Smylingsas.net">
-                                <i class="fas fa-calendar-week"></i>
-                                <span>TIL</span>
-                            </a>
-                        </div> -->
-                        
-                    <!-- </li>
-                    <li class="hero-menu__item"> -->
-                        <!-- <div class="call-to-action-topics">
-                            <a href="/tags/" title="Smylingsas.net">
-                                <i class="fas fa-list"></i>
-                                <span>Topics</span>
-                            </a>  
-                        </div> -->
-                                 
-                    <!-- </li>
-                </ul> -->
-            <!-- </nav> -->
-            
-        <!-- </div> -->
-    </section>
-
-    <section class="about-me" id="aboutme-section">
-        <div class="container1">
-            <!-- <h1>Ole Halvor Smylingsås</h1>     -->
-            <div class="container-content">
-                <p>I work with Angular JS, React, Node JS, Webpack, .Net Framework and MS SQL.
-                    <!-- <br/><br/> This is mainly just my personal techno blog, I will try to update it from time to time with stuff I learn og figures out. If your're interrested check out my GitHub page or the project area here. -->
-                </p>
-                <a href="/uses/" class="xlink link-button">Uses</a>
-            </div>
-            
-        </div>
-
-        <div class="container3">
-            <div class="container-content-meh">
-                <a href="#call-to-action-section" 
-                    class="button hero-button">Let’s start</a>
-            </div>
-            
-        </div>
-        
-    </section>
+    
+    {{ partial "homepage/hero.html" . }}
+    
+    {{ partial "homepage/intro.html" . }}
 
     {{ partial "homepage/call-to-action.html" . }}
+
+    {{ partial "homepage/aboutme.html" . }}
 
     <section class="blog-posts" id="projects-section">
         <header class="section-header">
@@ -114,23 +51,6 @@
         </div>
     </section>
 
-    <section class="topics-list" id="topics-section">
-        <header class="section-header">
-            <div style="display: flex; justify-content: space-between">
-                <h1 class="topics-title">Topics</h1>
-                <a href="/tags"><i style="color: #506485" class="fas fa-arrow-circle-right"></i></a>
-            </div>
-            <p>A list of the most-used tags.</p>
-        </header>
-        <ul class="reset-list render-as-columns">
-            {{ range .Data.Terms.Alphabetical }}
-                <li>
-                    <a href="{{ .Page.Permalink }}">
-                        {{ .Page.Title }} <span>({{ .Count }} posts)</span>
-                    </a>
-                </li>
-            {{ end }}
-        </ul>
-    </section>
+    {{ partial "homepage/topics.html" . }}
 
 {{ end }}

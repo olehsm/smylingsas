@@ -97,10 +97,17 @@
 }
 
 
-.section-header {
-	background: #1c1f23;
-	border-radius: 5px !important;
-	padding: 4rem;
-	margin-bottom: 6rem;
-	min-height: 70vh;
+.section {
+	// background: #1c1f23;
+	// border-radius: 5px !important;
+	// padding: 4rem;
+	//margin-bottom: 6rem;
+	// min-height: 70vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+
+.background-orange {
+	background-color: #F8430A;
 }
