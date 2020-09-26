@@ -35,21 +35,7 @@
         </div>    
     </section>
 
-    <section class="til-posts" id="til-section">
-        <header class="section-header">
-            <div style="display: flex; justify-content: space-between">
-                <h1 class="til-title">TIL</h1>
-                <a href="/til"><i style="color: magenta" class="fas fa-arrow-circle-right"></i></a>
-            </div>
-            <p>"Today I Learned" - A list of all published TIL posts.</p>
-        </header>
-        {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
-        <div class="til-items">
-            {{ range first 12 $pages }}
-                {{ partial "cards/frontpageTilCard.html" . }}
-            {{ end }}
-        </div>
-    </section>
+    {{ partial "homepage/til.html" . }}
 
     {{ partial "homepage/topics.html" . }}
 

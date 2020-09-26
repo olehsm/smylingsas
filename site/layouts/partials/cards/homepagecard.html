@@ -1,0 +1,25 @@
+<article class="item">
+    <h2 class="item__title">{{.Title}}</h2>
+    <div class="item__content2">
+        {{ with .Params.tags }}
+            <div class="item__tags">
+                <small>Topics:</small>
+                {{ range . }}
+                    {{ $href := print (absURL "tags/") (urlize .) }}
+                    <!-- <div class="blog-item__tag">
+                        <div class="pill"> -->
+                            <a href="{{ $href }}/">{{ . }}</a>
+                        <!-- </div>
+                    </div> -->
+                    
+                {{ end }}
+            </div>
+        {{ end }}
+        <div class="item__content">
+            {{ .Summary }}
+        </div>
+        <div class="">
+            <a href="{{.Permalink}}" class="link link-button ">More info</a>
+        </div>
+    </div>
+</article>

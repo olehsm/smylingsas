@@ -14,26 +14,28 @@
 // }
 
 
-// .til-items {
-//     display: flex;
-//     flex-direction: row;
-//     flex-wrap: wrap;
-//     width: 100%;
-// }
+.til-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
 
-// .til-item {
-//     margin-bottom: 3vh;
-// // border-bottom: 1px solid #383d41;
-// // min-height: 25vh;
+.item {
+    margin-bottom: 3vh;
+// border-bottom: 1px solid #383d41;
+// min-height: 25vh;
 // display: flex;
 // flex-direction: column;
 // flex: 1;
 // margin-right: 3em;
-// min-width: 40%;
-// }
+height: 40vh;
+width: 33.33%;
+padding: 3rem;
+}
 
 
-// .til-item a:hover {
-//     text-decoration: underline;
-// }
+.til-item a:hover {
+    text-decoration: underline;
+}
