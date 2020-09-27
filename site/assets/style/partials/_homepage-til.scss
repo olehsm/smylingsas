@@ -15,24 +15,37 @@
 
 
 .til-items {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    // width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 }
 
 
 .item {
-    margin-bottom: 3vh;
+    //margin-bottom: 3vh;
 // border-bottom: 1px solid #383d41;
-// min-height: 25vh;
+height: 40vh;
 // display: flex;
 // flex-direction: column;
 // flex: 1;
 // margin-right: 3em;
-height: 40vh;
-width: 33.33%;
+// height: 40vh;
+// width: 33.33%;
 padding: 3rem;
+}
+
+.item:first-child {
+    background-color:  #f8430a;
+}
+
+
+.item:hover {
+    background-color:  #f8430a;
 }
 
 
