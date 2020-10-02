@@ -1,0 +1,25 @@
+<section class="section" id="projects-section">
+    <header class="section-header">
+        <!-- <div style="display: flex; justify-content: space-between"> -->
+            <h1 class="section-title">Projects</h1>
+            <!-- <a href="/projects"><i style="color: brown;" class="fas fa-arrow-circle-right"></i></a> -->
+        </div>
+        
+    </header>
+    {{ $pagesInProjects := where $.Site.Pages "Type" "in" "projects" }}
+    {{ $zyx := where $pagesInProjects "Kind" "section" }}
+
+    <ul class="reset-list">
+        {{ range first 3 (after 1 $zyx.Reverse) }}
+            {{ partial "cards/frontpageProjectCard.html" . }}
+        {{ end }}
+    </ul>
+
+    
+    <!-- {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
+    <div class="blog-items">
+        {{ range first 10 $pages }}
+            {{ partial "cards/frontpageProjectCard.html" . }}
+        {{ end }}
+    </div>     -->
+</section>

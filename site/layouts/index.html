@@ -8,32 +8,7 @@
 
     {{ partial "homepage/aboutme.html" . }}
 
-    <section class="blog-posts" id="projects-section">
-        <header class="section-header">
-            <div style="display: flex; justify-content: space-between">
-                <h1 class="blog__title">Projects</h1>
-                <a href="/projects"><i style="color: brown;" class="fas fa-arrow-circle-right"></i></a>
-            </div>
-            
-            
-            {{ $pagesInProjects := where $.Site.Pages "Type" "in" "projects" }}
-            <div class="shabla">
-                <ul class="reset-list">
-                    {{ range where $pagesInProjects "Kind" "section"}}
-                        <li><a href="{{.Permalink}}" title="{{.Title}}">{{.Title}}</a></li>
-                    {{ end }}
-                </ul>
-            </div>
-            
-        </header>
-        
-        {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
-        <div class="blog-items">
-            {{ range first 10 $pages }}
-                {{ partial "cards/frontpageProjectCard.html" . }}
-            {{ end }}
-        </div>    
-    </section>
+    {{ partial "homepage/projects.html" . }}
 
     {{ partial "homepage/til.html" . }}
 
