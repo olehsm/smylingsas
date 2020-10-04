@@ -1,13 +1,16 @@
 +++
 author = "Ole Halvor Smylingsås"
 description = ""
-resources = []
-tags = ["project"]   
+pageresources = []
+categories = []
+tags = []     
 slug = ""
-title = "Cross-browser error logging"
-date = "2020-04-27T00:31:17+02:00"
+title = "Articles"
+date = 2020-10-04T12:21:00+02:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
+
+hello pikk

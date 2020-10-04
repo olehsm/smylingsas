@@ -7,7 +7,7 @@
             <section class="page-main-list">
                 <ul class="reset-list">
                     {{ range .Pages }}
-                        {{ partial "cards/defaultCard.html" . }}
+                    {{ .Render "summary"}}
                     {{ end }}
                 </ul>
             </section>       

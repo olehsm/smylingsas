@@ -9,7 +9,7 @@
     {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
     <div class="til-items">
         {{ range first 6 $pages }}
-            {{ partial "cards/homepagecard.html" . }}
+        {{ .Render "summary"}}
         {{ end }}
     </div>
 </section>
