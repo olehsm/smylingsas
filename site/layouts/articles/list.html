@@ -1,5 +1,16 @@
 {{ define "main" }}
-{{ range .Site.RegularPages }}
-            {{ .Render "summary"}}
-        {{ end }}
+
+<main class="page-main" id="main-content">
+    <article class="page-main-content">
+    </article>
+        
+    <section class="page-main-list">
+        <ul class="reset-list">
+            {{ range .Site.RegularPages }}
+                {{ .Render "summary"}}
+            {{ end }}
+        </ul>
+    </section>       
+
+</main>
 {{ end }}

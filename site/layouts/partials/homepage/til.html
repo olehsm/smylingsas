@@ -1,15 +1,12 @@
 <section class="section" id="til-section">
-    <header class="section-header">
-        <!-- <div style="display: flex; justify-content: space-between"> -->
-            <h1 class="section-title">TIL</h1>
-            <!-- <a href="/til"><i style="color: magenta" class="fas fa-arrow-circle-right"></i></a> -->
-        <!-- </div> -->
-        <p>Today I Learned.</p>
-    </header>
     {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
     <div class="til-items">
-        {{ range first 6 $pages }}
-        {{ .Render "summary"}}
+        <header class="section-header2 til-test">
+            <h1 class="section-title2">TIL</h1>
+            <p>Today I Learned.</p>
+        </header>
+        {{ range first 7 $pages }}
+            {{ .Render "summary"}}
         {{ end }}
     </div>
 </section>

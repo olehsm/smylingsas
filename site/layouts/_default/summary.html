@@ -1,10 +1,20 @@
-<article class="post">
+<article class="item">
     <header>
-      <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
-      <div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .FuzzyWordCount }} Words </div>
+        <h2 class="item__title">
+            <a href='{{ .Permalink }}'> {{ .Title }}</a>
+        </h2>
+        <div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .FuzzyWordCount }} Words </div>
+        {{ with .Params.tags }}
+            <ul class="reset-list">
+                {{ range . }}
+                    {{ $href := print (absURL "tags/") (urlize .) }}
+                    <li><a href="{{ $href }}/">{{ . }}</a></li>
+                {{ end }}
+            </ul>
+        {{ end }}
     </header>
-    {{ .Summary }}
-    <footer>
-    <a href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
+        {{ .Summary }}
+    <footer style="margin-top: auto">
+        <a class="button" href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
     </footer>
-  </article>
+</article>
