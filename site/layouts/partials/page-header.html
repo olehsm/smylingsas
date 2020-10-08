@@ -1,41 +1,6 @@
-<section class="home">
-    <div class="hero">
-        <h1 class="hero-animated-pop-in">{{.pageTitle}}</h1>
-        {{/*  <div class="hero-menu hero-animated-pop-in">
-            <ul class="reset-list">
-                <li>
-                    <a href="#aboutme-section" title="1">About me</a>
-                    <i class="fas fa-caret-right"></i>
-                    
-                </li>
-                <li>
-                    <a href="#projects-section" title="1">Projects</a>
-                    <i class="fas fa-caret-right"></i>
-                </li>
-                <li>
-                    <a href="#til-section" title="1">TIL</a>
-                    <i class="fas fa-caret-right"></i>
-                </li>
-                <li>
-                    <a href="#topics-section" title="1">Topics</a>
-                    <i class="fas fa-caret-right"></i>
-                </li>
-            </ul>
-        </div>  */}}
-    </div>
-</section>
-{{ if eq .contentType "projects" }}
-    <header class="page-header page-header-background project">
-{{ end }}
-{{ if eq .contentType "til" }}
-    <header class="page-header page-header-background til">
-{{ end }}
-{{ if eq .contentType "page" }}
-    <header class="page-header page-header-background uses">
-{{ end }}
-{{ if eq .contentType "tags" }}
-    <header class="page-header page-header-background tag-title">
-{{ end }}
+<header class="page-header">
+
+
     <div class="page-header-content">
         <div class="page-header__publication-details animate-pop-in">
             <time class="page-header__publication-details__pubdate" datetime="{{ .publishDate.Format "2006.01.02" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .publishDate.Format "Jan 2, 2006" }}</time>
@@ -62,14 +27,6 @@
         </div>
             
     </div> <!-- page-header-content -->
-    <div class="header-down-arrow">
-        <a title="Move to blog post content"
-            aria-label="Move to blog post content" 
-            class="btn btn-link" 
-            href="#main-content">
-                <i class="fa fa-chevron-circle-down"></i>
-        </a>
-    </div>
     
 </header>
 

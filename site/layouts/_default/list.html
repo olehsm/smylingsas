@@ -3,13 +3,13 @@
     
     <main class="page-main" id="main-content">
         <article class="page-main-content">
-            <section class="page-main-list">
-                <ul class="reset-list">
-                    {{ range .Pages }}
-                        {{ .Render "summary"}}
-                    {{ end }}
-                </ul>
-            </section>       
         </article>
+            
+        <section class="page-main-list">    
+                {{ range .Pages }}
+                    {{ .Render "summary"}}
+                {{ end }}
+        </section>       
+        
     </main>
 {{ end }}

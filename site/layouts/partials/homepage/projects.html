@@ -1,13 +1,13 @@
 <section class="section" id="projects-section">
     {{ $pagesInProjects := where $.Site.Pages "Type" "in" "projects" }}
-    {{ $zyx := where $pagesInProjects "Kind" "section" }}
+    {{ $listPages := where $pagesInProjects "Kind" "section" }}
 
     <div class="project-items">
-        <header class="section-header2 project-test">
+        <!-- <header class="section-header2 project-test1">
             <h1 class="section-title2">Projects</h1>
-        </header>
-        {{ range first 3 (after 1 $zyx.Reverse) }}
-            {{ .Render "summary"}}
+        </header> -->
+        {{ range first 3 (after 1 $listPages.Reverse) }}
+            {{ .Render "showcase"}}
         {{ end }}
     </div>
 </section>

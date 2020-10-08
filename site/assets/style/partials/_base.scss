@@ -23,7 +23,7 @@ body, html {
 body {
     color: $default-font-color;
     font-family: 'Noto Sans', sans-serif;
-    background: #0f0f17;
+    background: #1c1f23;
     min-height: 100vh;
     /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
@@ -73,6 +73,11 @@ p, a {
 
 li {
     font-size: 2.5rem;
+}
+
+time {
+    color: #f8430a;
+    font-size: 1.5rem;
 }
 
 

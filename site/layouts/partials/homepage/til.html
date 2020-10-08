@@ -1,11 +1,11 @@
 <section class="section" id="til-section">
     {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
     <div class="til-items">
-        <header class="section-header2 til-test">
+        <!-- <header class="section-header2 til-test">
             <h1 class="section-title2">TIL</h1>
             <p>Today I Learned.</p>
-        </header>
-        {{ range first 7 $pages }}
+        </header> -->
+        {{ range first 6 $pages }}
             {{ .Render "summary"}}
         {{ end }}
     </div>

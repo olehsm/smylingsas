@@ -1,0 +1,17 @@
+<article class="showcase">
+    <div class="showcase-container">
+        
+        <div class="showcase-content">
+            <header>
+                <h2 class="showcase__title">
+                    {{ .Title }}
+                </h2>
+                <time datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            </header>
+                <p>{{ .Summary }}</p>
+            <footer style="margin-top: auto">
+                <a class="button" href='{{ .Permalink }}'><nobr>Show me more →</nobr></a>
+            </footer>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,18 @@
+.aboutme-section {
+    display: grid;
+    grid-template-columns: 30vw 40vw 1fr;
+
+    background-color: white;
+    padding-top: 5vh;
+    color:  #1c1f23;
+    padding-bottom: 10vh;
+}
+
+.section-header {
+    grid-column: 1;
+}
+
+.section-content {
+    grid-column: 2;
+}
+
