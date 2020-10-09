@@ -12,3 +12,5 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
+An implementation guide for the sticky mobile-only menu
+<!--more-->

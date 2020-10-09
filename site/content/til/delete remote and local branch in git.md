@@ -12,7 +12,8 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+How to delete your remote and local branch in Git
+<!--more-->
 
 Local branch
 {{<highlight bash>}}

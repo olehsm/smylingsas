@@ -12,5 +12,5 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
-Today I did some glam-up on the article and list page headers. Using :after I added an absolute positioned overlay to create a rotated cut off to the header element  
+Today I did some glam-up on the article and list page headers. Using :after I added an absolute positioned overlay to create a rotated cut off to the header element 
+<!--more--> 

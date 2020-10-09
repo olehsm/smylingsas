@@ -12,7 +12,6 @@ featuretext = "Implement a cross browser error logging in AngularJS using Stackt
 featureimg = ""
 comments = "false"
 +++
-
 Implement a cross browser error logging in AngularJS using Stacktrace.js
 <!--more-->
 

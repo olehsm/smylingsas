@@ -12,7 +12,7 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+My hugo setup for Smylingsas.net
 <!--more-->
 {{<highlight html>}}
 Copyright (C) 2016 Microsoft Corporation. All rights reserved.

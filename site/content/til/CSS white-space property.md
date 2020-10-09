@@ -12,8 +12,9 @@ featureimg = ""
 comments = "false"
 +++
 
->The white space property is a text/content related css property used to controll the flow of 
->the text. 
+The white space property is a text/content related css property used to controll the flow of 
+the text. 
+<!--more-->
 
 
 {{<highlight css>}}

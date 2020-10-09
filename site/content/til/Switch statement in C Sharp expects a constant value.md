@@ -12,9 +12,8 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
-
-Basically Switch staments cannot have evaluated statements in the case statement. They must be statically evaluated.
+TIL: Basically Switch staments cannot have evaluated statements in the case statement. They must be statically evaluated.
+<!--more-->
 
 The code below will cause an error:
 

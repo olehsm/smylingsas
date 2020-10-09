@@ -12,7 +12,8 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+TIL: Flatten a C# multi dimensional array using SelectMany and Select
+<!--more-->
 
 {{<highlight c>}}
 var matchList = allTeams
@@ -25,4 +26,3 @@ var matchList = allTeams
 {{</highlight>}}
 
 
-Flatten a C# multi dimensional array using SelectMany and Select

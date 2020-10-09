@@ -12,5 +12,6 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
-If you are trying to hide absolute positioned elements make sure the container of those absolute positioned elements is relatively positioned.
+TIL: If you are trying to hide absolute positioned elements... 
+<!--more-->
+make sure the container of those absolute positioned elements is relatively positioned.

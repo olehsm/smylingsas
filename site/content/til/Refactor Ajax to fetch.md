@@ -12,6 +12,8 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
+TIL: Take use of the new Fetch API
+<!--more-->
 
 Ajax    
 {{<highlight js>}}

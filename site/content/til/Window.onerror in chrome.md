@@ -12,8 +12,8 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
-The window.onerror works in Chrome, but not in the console!
+TIL: The window.onerror works in Chrome, but not in the console!
+<!--more-->
 
 {{<highlight js>}}
 window.onerror = function() {

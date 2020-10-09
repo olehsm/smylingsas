@@ -12,7 +12,9 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+TIL: HashSets is super useful!
+<!--more-->
+ 
 {{<highlight c>}}
 HashSet<int> lowNumbers = new HashSet<int>();
 HashSet<int> highNumbers = new HashSet<int>();

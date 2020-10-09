@@ -13,6 +13,8 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
+TIL: Use parseInt to convert string to number in Javascript
+<!--more-->
 
 {{<highlight js>}}
 const str = "100m"

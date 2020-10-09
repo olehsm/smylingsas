@@ -12,7 +12,7 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+<!--more-->
 {{<highlight c>}}
 public EstimatedToolRequirement[] Handle(EstimatedToolRequirementsQuery query)
 {

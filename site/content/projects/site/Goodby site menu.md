@@ -14,3 +14,4 @@ comments = "false"
 +++
 
 Removed the main menu from the from the sites header bar. The reason is to focus navigation aroudn topics (tags)
+<!--more-->

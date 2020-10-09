@@ -12,7 +12,8 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+TIL: to undo a git stash pop
+<!--more-->
 {{<highlight bash>}}
 git reset HEAD
 git stash

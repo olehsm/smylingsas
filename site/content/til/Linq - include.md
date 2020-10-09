@@ -13,7 +13,8 @@ featureimg = ""
 comments = "false"
 +++
 
-In order to use the Include() in a Linq statement...
+TIL: In order to use the Include() in a Linq statement...
+<!--more-->
 
 {{<highlight c>}}
 var matchList = context.Matches

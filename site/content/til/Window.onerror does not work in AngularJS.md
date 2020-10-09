@@ -13,7 +13,8 @@ featureimg = ""
 comments = "false"
 +++
 
-Using Angular, errors wont pass through window.onerror. Handle them using factory
+TIL: Using Angular, errors wont pass through window.onerror. Handle them using "factory"
+<!--more-->
 
 {{<highlight js>}}
 angular

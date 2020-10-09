@@ -12,7 +12,8 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+TIL: That AngularJS encodes URI but that you have to decode the explisit yourself
+<!--more-->
 {{<highlight js>}}
 const decodedUri = decodeURI(www.smylingsas.net)
 {{</highlight>}}

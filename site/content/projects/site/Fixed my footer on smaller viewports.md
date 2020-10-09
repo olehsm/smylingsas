@@ -12,7 +12,7 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+CSS fix for 100vh in mobile webkit
 <!--more-->
 This minor fix did the trick:
 
