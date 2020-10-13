@@ -1,0 +1,45 @@
+.vertical-bar {
+    height: 100%;
+    background-color: #F8430A;
+    // top: 0;
+    // left: 0;
+    // position: absolute;
+    position: fixed!important;
+     z-index: 5050!important;
+     left: 0;
+   top: 0;
+    bottom: 0;
+}
+
+.navigation-icons {
+    height: 80vh;
+    width:80px;
+}
+
+.navigation-icons .fa {
+    margin: 45px 23px;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+}
+
+.social-icons {
+    height: 20vh;
+    width: 80px;
+    background-color: #1c1f23;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    padding-top: 27%;
+
+}
+
+.social-icons .fa {
+    margin: 15px 23px;
+    display: block;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid #F8430A;
+    border-radius: 50%
+}
+

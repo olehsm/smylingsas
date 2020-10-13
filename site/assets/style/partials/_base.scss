@@ -29,11 +29,11 @@ body {
     min-height: -webkit-fill-available;
 }
 
-// @media screen and (min-width: 2000px) {
-//     body {
-//         margin-right: 15vw;
-//     }
-// }
+@media screen and (min-width: 2000px) {
+    body {
+        margin-left: 80px;
+    }
+}
  
 
 h1, h2, h3, h4, p {
