@@ -12,6 +12,5 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
-Removed the main menu from the from the sites header bar. The reason is to focus navigation aroudn topics (tags)
+Removed the main menu from the from the sites header bar. The reason is to focus navigation around topics (tags)
 <!--more-->

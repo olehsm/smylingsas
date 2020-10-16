@@ -145,4 +145,12 @@
 .footer__site {
     background-color: #1c1f23;
     height: 20vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+
+.footer__site p:last-child {
+    margin: 0;
 }
