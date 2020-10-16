@@ -14,7 +14,7 @@
                     {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
                     <h1>Latest project updates</h1>
                     <ul class="reset-list page-main-list">
-                        {{ range first 6 $pages }}
+                        {{ range first 5 $pages }}
                             {{ .Render "summary"}}
                         {{ end }}
                     </ul>
@@ -26,7 +26,7 @@
                     {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
                     <h1>Latest posts in TIL</h1>
                     <ul class="reset-list page-main-list">
-                        {{ range first 6 $pages }}
+                        {{ range first 5 $pages }}
                             {{ .Render "summary"}}
                         {{ end }}
                     </ul>
