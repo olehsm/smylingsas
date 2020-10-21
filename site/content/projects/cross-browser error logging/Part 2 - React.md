@@ -8,7 +8,7 @@ slug = ""
 title = "Cross-browser error logging. Part 2 - React"
 date = 2020-04-24T22:30:53+02:00
 draft = "false"
-featuretext = "Implement a cross browser error logging in React and Typescript using Stacktrace.js"
+featuretext = ""
 featureimg = ""
 comments = "false"
 +++

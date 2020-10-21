@@ -40,6 +40,22 @@
     grid-row-start: 2;
 }
 
+.page-header__publication-details {
+    font-size: 1.5rem !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.page-header__publication-details > * {
+    margin-right: 1.5rem;
+}
+
+.page-header__publication-details a {
+    font-size: 1.5rem
+}
+
 
 .page-header__publication-details,
 .page-header__meta {

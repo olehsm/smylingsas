@@ -1,4 +1,13 @@
 .page-main__content {
     min-height: 50vh;
     margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: minmax(2em,1fr)minmax(auto,100vw)minmax(2em,1fr);
+    // grid-template-rows: 2em auto 2em;
+    grid-gap: 0;
+}
+
+.page-main__content > * {
+    grid-column: 2;
+    grid-row: 1;
 }

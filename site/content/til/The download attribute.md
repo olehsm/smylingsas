@@ -12,9 +12,9 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-TIL:  Adding the download attribute to an anchor tag will result in Save..
+TIL:  Adding the download attribute to an anchor tag... 
 <!--more-->
- - dialog pop up, instead of just showing the picture.
+Will result in Save dialog pop up, instead of just showing the picture.
 {{<highlight html>}}
 <a download href="cat.jpg">
     Download cat pic
