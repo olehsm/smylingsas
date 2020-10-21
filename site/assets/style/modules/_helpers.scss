@@ -11,11 +11,6 @@
 }
 
 
-.text-red {
-	color:#b11623;
-}
-
-
 .text-orange {
 	color: #F8430A;
 }
@@ -26,65 +21,11 @@
 }
 
 
-// .render-as-columns {
-// 	@include render-as-columns(1);
-	
-// 	@media screen and (orientation: landscape) and (min-width: 451px) {
-// 		@include render-as-columns(3);
-		
-// 	}
-
-// 	li {
-// 		margin-bottom: 0.5em
-// 	}
-// }
-
-
 .pill {
 	display: inline;
 	border: 2px solid map-get($colors, projectbrown);
 	background-color: map-get($colors, projectbrown);
 	padding: 4px;
-}
-
-
-.page-header-background {
-	&.project {
-		background-color: map-get($colors, projectbrown);
-	}
-
-	&.til {
-		background-color: map-get($colors, tilmagenta);
-	}
-
-	&.uses {
-		background-color: map-get($colors, aboutmegreen);
-	}
-
-	&.tag-title {
-		background-color: map-get($colors, tagblue);
-	}
-}
-
-
-.page-main__title {
-	border-left: $title-border-width solid;
-	padding-left: 30px;
-	&.project {
-		border-color:map-get($colors, projectbrown);
-	}
-
-	&.til {
-		border-color:map-get($colors, tilmagenta);
-	}
-
-	&.uses {
-		border-color:map-get($colors, aboutmegreen);
-	}
-
-	&.tag-title {
-		border-color:map-get($colors, tagblue);
-	}
 }
 
 
@@ -94,13 +35,6 @@
 	@media screen and (orientation: landscape) and (min-width: 451px) {
 		display: block;
 	}
-}
-
-
-.section {
-	
-	// padding-bottom: 5vh;
-	
 }
 
 

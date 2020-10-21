@@ -6,10 +6,10 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .item {
-    //height: calc(100vh / 3);
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@
     margin-bottom: 2rem;
 }
 
-.item p {
+.item p, .item p a {
     line-height: 1.3;
     font-size: 1.5rem;
 }

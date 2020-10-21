@@ -1,10 +1,4 @@
-$title-border-width: 30px;
 $default-font-color: map-get($colors, black-800);
 $default-link-color: map-get($colors, black-800);
 $default-content-width: 100vw;
-//$content-width-large-screens: 75vw;
 $default-background-color: map-get($colors, verylightgray);
-
-// @media screen and (min-width: 980px) {
-//     $default-content-width: 75vw;
-// }

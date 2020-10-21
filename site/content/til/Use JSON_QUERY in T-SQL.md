@@ -14,6 +14,9 @@ comments = "false"
 +++
 
 JSON_QUERY
+
 JSON_MODIFY
+
+
 https://docs.microsoft.com/en-us/sql/t-sql/functions/json-query-transact-sql?view=sql-server-ver15
 <!--more-->

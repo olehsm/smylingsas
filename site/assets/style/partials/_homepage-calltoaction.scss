@@ -6,13 +6,10 @@
 
 
 .call-to-action{
-    // margin: 0 auto;
-    //padding-top: 5rem;
     min-height: 20vh;
     background: #f8430a;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    // grid-gap: 2rem;
 }
 
 
@@ -33,7 +30,6 @@
 }
 
 .call-to-action-item {
-    // display:block;
     position: relative;
     transform: scale(.85);
     transition: transform 250ms ease-in-out;

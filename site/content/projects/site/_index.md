@@ -14,3 +14,4 @@ comments = "false"
 +++
 
 Updates containing the development of this site is filed below.
+<!--more-->
