@@ -40,3 +40,32 @@ uglyURLs = "false"
 	url = "https://twitter.com/olehsm"
 	icon = "fab fa-twitter"
     desc = "Follow me on Twitter"
+
+
+[menu]
+
+  [[menu.main]]
+    name = "Projects"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/projects/"
+    weight = -110
+
+  [[menu.main]]
+    name = "TIL"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/til/"
+    weight = -100
+
+    [[menu.main]]
+    name = "Sitemap.xml"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/sitemap.xml/"
+    weight = -90
+    target = "_blank"
+
+  [[menu.main]]
+    name = "Humans.txt"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/humans.txt/"
+    weight = -80
+    target = "_blank"
