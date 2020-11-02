@@ -3,7 +3,11 @@
         <a href="/" aria-label="Navigate to home page" title="Go to homepage">
             <i class="fa fa-home"></i>
         </a>
-        <i class="fa fa-th-list"></i>
+        <a class="site-menu-open-link"
+            title="Show menu"
+            href=#
+            onclick="openSiteMenu()">
+            <i class="fa fa-th-list"></i></a>
         
         {{ if eq .Kind "page" }}
             {{if .PrevInSection}}
@@ -27,4 +31,8 @@
         <i class="fa fa-twitter"></i>
         <i class="fa fa-instagram"></i>   
     </div>
+</div>
+
+<div id="vertical-panel-id" class="vertical-panel invisible-on-phone">
+    {{ partial "main-menu.html" . }}
 </div>

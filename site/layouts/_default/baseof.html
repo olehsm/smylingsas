@@ -25,6 +25,15 @@
             if('serviceWorker' in navigator) {
                 navigator.serviceWorker.register("{{ $.Site.BaseURL }}service-worker.js")
             }
+
+            function openSiteMenu() {
+                var body = document.body;
+                body.classList.add("animated-slide-to-the-right");
+                //document.getElementById("myNav").style.display = "block";
+
+                var siteMenu = document.getElementById("vertical-panel-id");
+                siteMenu.classList.add("animated-slide-in-from-left");
+            }
         </script>
     </body>
 </html>

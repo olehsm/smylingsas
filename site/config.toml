@@ -45,6 +45,12 @@ uglyURLs = "false"
 [menu]
 
   [[menu.main]]
+    name = "Archive"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/articles/"
+    weight = -120
+
+  [[menu.main]]
     name = "Projects"
     pre = "<i class='fa fa-heart'></i>"
     url = "/projects/"
@@ -55,6 +61,12 @@ uglyURLs = "false"
     pre = "<i class='fa fa-road'></i>"
     url = "/til/"
     weight = -100
+
+    [[menu.main]]
+    name = "Topics"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/tags/"
+    weight = -99
 
     [[menu.main]]
     name = "Sitemap.xml"

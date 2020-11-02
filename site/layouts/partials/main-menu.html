@@ -1,11 +1,11 @@
-<ul>
+<ul class="reset-list site-menu">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
             <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
                 <a href="#">
                     {{ .Pre }}
-                    <span>11111{{ .Name }}</span>
+                    <span>{{ .Name }}</span>
                 </a>
             </li>
             <ul class="sub-menu">
@@ -18,8 +18,8 @@
         {{ else }}
             <li>
                 <a href="{{ .URL }}">
-                    {{ .Pre }}
-                    <span>22222{{ .Name }}</span>
+                    
+                    <span>{{ .Name }}</span>
                 </a>
             </li>
         {{ end }}
