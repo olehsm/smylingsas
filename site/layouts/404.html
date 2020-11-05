@@ -4,22 +4,35 @@
     {{ partial "head.html" . }}
 </head>
 <body>
+    {{ partial "left-menu.html" . }}
     <main class="main">
         <div class="not-found__message">
             <h1>Page not found</h1>
             <p>Sorry, but the page you were trying to view does not exist.</p>
         </div>
-        <div class="not-found__tag-cloud">
-            {{ $taxo := "tags" }}
-            <ul class="{{ $taxo }}">
-                {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
-                    {{ range .Pages }}
-                        <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
-                    {{ end }}
-                {{ end }}
-            </ul>
-        </div>
     </main>
+    {{ partial "site-menu-mobile.html" . }}
+
+    {{ partial "homepage/topics.html" . }}
+
+    <footer class="footer__site">
+        {{ partial "footer.html" . }}
+    </footer>
+
+    <script>
+        // Register the Service Worker
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register("{{ $.Site.BaseURL }}service-worker.js")
+        }
+
+        function openSiteMenu() {
+            var body = document.body;
+            body.classList.add("animated-slide-to-the-right");
+
+            var siteMenu = document.getElementById("vertical-panel-id");
+            siteMenu.classList.add("animated-slide-in-from-left");
+        }
+    </script>
     
 </body>
 </html>
