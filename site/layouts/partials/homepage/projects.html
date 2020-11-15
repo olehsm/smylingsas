@@ -3,10 +3,7 @@
     {{ $listPages := where $pagesInProjects "Kind" "section" }}
 
     <div class="project-items">
-        <!-- <header class="section-header2 project-test1">
-            <h1 class="section-title2">Projects</h1>
-        </header> -->
-        {{ range first 3 (after 1 $listPages.Reverse) }}
+        {{ range last 3 (after 1 $listPages.Reverse) }}
             {{ .Render "showcase"}}
         {{ end }}
     </div>
