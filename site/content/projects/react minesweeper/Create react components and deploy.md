@@ -13,10 +13,11 @@ featureimg = ""
 comments = "false"
 +++
 
-Demo: https://master.d3ogidykiig19r.amplifyapp.com/
-
 Components
 
 <App>
     <Board>
         <Tile>
+
+
+Deploy to Amplify
