@@ -12,7 +12,7 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+<!--more-->
 Adding typescript support 
 https://create-react-app.dev/docs/adding-typescript/
 https://stackoverflow.com/questions/56577201/why-is-isolatedmodules-error-fixed-by-any-import/56577324
