@@ -12,7 +12,7 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+<!--more-->
 Components
 
 <App>

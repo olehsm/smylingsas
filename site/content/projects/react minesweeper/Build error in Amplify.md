@@ -12,5 +12,5 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+<!--more-->
 Had to manually add support for TypeScript in the build setup

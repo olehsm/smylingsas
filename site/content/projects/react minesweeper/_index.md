@@ -12,5 +12,5 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
+<!--more-->
 Demo: https://master.d3ogidykiig19r.amplifyapp.com/
