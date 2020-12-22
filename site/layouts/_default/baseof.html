@@ -26,6 +26,17 @@
                 navigator.serviceWorker.register("{{ $.Site.BaseURL }}service-worker.js")
             }
 
+
+            if (navigator.share) {
+                navigator.share({
+                  title: 'Smylingsas.net',
+                  text: 'Check out Ole Halvor homepage',
+                  url: 'https://smylingsas.net/',
+                })
+                  .then(() => console.log('Successful share'))
+                  .catch((error) => console.log('Error sharing', error));
+              }
+
             function openSiteMenu() {
                 var body = document.body;
                 body.classList.add("animated-slide-to-the-right");

@@ -1,25 +1,44 @@
 {
+	"name": "smylingsas.net",
     "short_name": "Smylingsas.net",
-    "name": "smylingsas.net",
-    "icons": [
-      {
-        "src": "/img/icon_192.png",
+	"orientation": "portrait-primary",
+	"display": "standalone",
+    "icons": [{
+		"src": "/img/icon_192.png",
         "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
+		"sizes": "192x192",
+		"purpose": "maskable any"
+    },
+    {
         "src": "/img/icon_512.png",
         "type": "image/png",
-        "sizes": "512x512"
-      }
-    ],
+		"sizes": "512x512",
+		"purpose": "maskable any"
+    }],
     "start_url": "/",
-    "background_color": "#0099fe",
-    "display": "standalone",
+    "background_color": "#f1dfd4",
+    "description": "A progressive developer blog",
     "scope": "/",
-    "theme_color": "#0099fe",
-    "orientation": "portrait-primary"
-  }
+	"theme_color": "#cb5454",
+	"shortcuts": [{
+		"name": "Open TIL section",
+		"short_name": "TIL",
+		"description": "View the list of TIL articles published",
+		"url": "/til"
+	},
+	{
+		"name": "Open project section",
+		"short_name": "Projects",
+		"description": "View the list of side projects",
+		"url": "/projects/"
+	},
+	{
+		"name": "Open post archive",
+		"short_name": "Archive",
+		"description": "View the entire archive of published posts",
+		"url": "/articles/"
+	}]
+}
 
 
   
