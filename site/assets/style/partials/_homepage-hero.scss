@@ -76,3 +76,10 @@
         transform: none;
     }
 }
+
+
+@media screen and (max-width: 450px) {
+    .hero-text {
+        margin-left: 5rem;
+    }
+}

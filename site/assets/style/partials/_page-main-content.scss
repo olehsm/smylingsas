@@ -1,3 +1,8 @@
+.page-main {
+    margin: 20rem 5rem;
+}
+
+
 .page-main__content {
     min-height: 50vh;
     margin-bottom: 1em;
@@ -10,4 +15,11 @@
 .page-main__content > * {
     grid-column: 2;
     grid-row: 1;
+}
+
+@media screen and (max-width: 450px) {
+    .page-main  {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }

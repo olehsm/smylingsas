@@ -3,11 +3,14 @@
         position: fixed;
         bottom: 0em;
         width: 100vw;
-        background-color: map-get($colors, dark-sea-blue);
+        background-color: #F8430A;
         z-index: 5;
         color: map-get($colors, offwhite);
         padding: 0.5em;
         font-size: 0.8em;
+        height: 40px;
+        display: grid;
+        place-items: center;
     }
 
 
@@ -21,7 +24,7 @@
 
     .site-menu-mobile li {
         text-align: center;
-        margin-right: 10px;
+        margin-right: 30px;
     }
 }
 

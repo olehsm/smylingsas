@@ -8,7 +8,7 @@
 
 .container {
     margin: 0 auto;
-    max-width: 80vh;
+    max-width: 80vw;
 }
 
 .container1
@@ -78,4 +78,42 @@
 
 .intro-nav li:last-child {
     margin:0;
+}
+
+
+@media screen and (max-width: 450px) {
+    .about-me {
+        min-height: 20vh;
+        background: #1c1f23;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    .container {
+        margin: 0 auto;
+        max-width: 80vw;
+    }
+    
+    .container1
+    {
+        grid-column: 1/-1;
+        background: #f8430a;
+    }
+    
+    .container3
+    {
+        grid-column: 1/-1;
+    }
+    
+    .container-content 
+    {
+        margin: 5rem;
+    }
+    
+    .container-content-meh{
+        display: grid;
+        place-items: center;
+        height: 100%;
+    }
 }
