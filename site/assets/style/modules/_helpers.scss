@@ -21,14 +21,6 @@
 }
 
 
-.pill {
-	display: inline;
-	border: 2px solid map-get($colors, projectbrown);
-	background-color: map-get($colors, projectbrown);
-	padding: 4px;
-}
-
-
 .invisible-on-phone {
 	display: none;
 

@@ -2,6 +2,16 @@
     padding: 5vh;
 }
 
+
+.topics, .topics a {
+    color: #1c1f23
+}
+
+
+// .topics a:hover {
+//     border: 1px solid #e7e8eb
+// }
+
 .topics-list-container {
     display: grid;
     place-items: center;
