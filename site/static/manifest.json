@@ -1,10 +1,10 @@
 {
-	"name": "smylingsas.net",
+	"name": "Smylingsas.net - my tiny dev blog",
     "short_name": "Smylingsas.net",
 	"orientation": "portrait-primary",
 	"display": "standalone",
     "icons": [{
-		"src": "/img/icon_192.png",
+		"src": "/img/olehals_thumb_192.png",
         "type": "image/png",
 		"sizes": "192x192",
 		"purpose": "maskable any"
