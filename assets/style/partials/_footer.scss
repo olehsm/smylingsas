@@ -10,3 +10,11 @@
 .footer__site p:last-child {
     margin: 0;
 }
+
+
+@media screen and (max-width: 450px) {
+    .footer__site {
+        height: 27vh;
+    }
+     
+}
