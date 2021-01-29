@@ -5,14 +5,14 @@ pageresources = []
 categories = []
 tags = ["js", "angularjs", "stacktracejs"]     
 slug = ""
-title = "Cross-browser error logging. Part 1 - AngularJS"
+title = "Logging av feil i klient/nettleser. Del 1 - AngularJS"
 date = 2020-04-24T22:30:34+02:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-Implement a cross browser error logging in AngularJS using Stacktrace.js
+Følgende kodesnutt viser logging av feil i nettleser med AngularJS og Stacktrace.js
 <!--more-->
 
 {{<highlight js>}}
@@ -40,7 +40,7 @@ const shipToServer = (data, apiPath) => {
 angular.module(require("./"))
     .factory('$exceptionHandler', ['pathProvider', function(pathProvider) {
         return function myExceptionHandler(exception, cause) {
-            const apiPath = pathProvider.getPath("kongsberg-manufacturing-api");
+            const apiPath = pathProvider.getPath("/api/");
             if (apiPath == undefined) {
                 return;
             }

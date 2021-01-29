@@ -5,7 +5,7 @@ resources = []
 categories = []
 tags = []  
 slug = ""
-title = "Project section"
+title = "Prosjekter"
 date = "2019-07-03T22:51:06+02:00"
 draft = "false"
 featuretext = ""
@@ -14,5 +14,4 @@ comments = "false"
 +++
 
 
-A collection of my side projects
-
+En samling av mine sideprosjekter

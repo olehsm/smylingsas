@@ -5,12 +5,10 @@ pageresources = []
 categories = []
 tags = []     
 slug = ""
-title = "Articles"
+title = "Arkiv"
 date = 2020-10-04T12:21:00+02:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-
-hello pikk

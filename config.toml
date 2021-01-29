@@ -1,6 +1,6 @@
 baseURL = "https://smylingsas.net/"
-languageCode = "en-us"
-languageLang = "en"
+languageCode = "no-nb"
+languageLang = "no"
 title = "Smylingsas.net"
 # filesystem path to write files to
 publishDir = "../public"
@@ -20,8 +20,8 @@ uglyURLs = "false"
     dateformShort   = "Jan 2"
     dateformNum     = "2006-01-02"
     dateformNumTime = "2006-01-02 15:04 -0700"
-    description = "Homepage and blog by Ole Halvor Smylingsås"
-    keywords = "homepage, blog, development, programming"
+    description = "Hjemmeside og blog for Ole Halvor Smylingsås"
+    keywords = "hjemmeside, blog, utvikling, programering"
     mainSections = ["blog", "til"]
 
 [params.sociallinks]
@@ -29,29 +29,29 @@ uglyURLs = "false"
 	name = "GitHub"
 	url = "https://github.com/olehsm"
 	icon = "fab fa-github"
-    desc = "Development takes place here!"
+  desc = "Følg meg på Github"
 [[params.sociallinks.developer]]
 	name = "Instagram"
 	url = "https://instagram.com/habbheim"
 	icon = "fab fa-instagram"
-    desc = "Follow me on instagram"
+  desc = "Følg meg på Instagram"
 [[params.sociallinks.developer]]
 	name ="Twitter"
 	url = "https://twitter.com/olehsm"
 	icon = "fab fa-twitter"
-    desc = "Follow me on Twitter"
+  desc = "Følg meg på Twitter"
 
 
 [menu]
 
   [[menu.main]]
-    name = "Archive"
+    name = "Arkiv"
     pre = "<i class='fa fa-heart'></i>"
     url = "/articles/"
     weight = -120
 
   [[menu.main]]
-    name = "Projects"
+    name = "Prosjekter"
     pre = "<i class='fa fa-heart'></i>"
     url = "/projects/"
     weight = -110

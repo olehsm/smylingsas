@@ -5,7 +5,7 @@ pageresources = []
 categories = []
 tags = ["navigation", "hugo"]     
 slug = ""
-title = "Cycle through posts with the keyboard"
+title = "Tastaturnavigasjon mellom artikler"
 date = 2020-07-12T13:38:11+02:00
 draft = "false"
 featuretext = ""
@@ -13,7 +13,7 @@ featureimg = ""
 comments = "false"
 +++
 
-I use the Hugo section navigation, the querySelector and the DOM onkeydown - event to implement the possibility to cycle through all the posts in the given section.
+Ved å bruke Hugo sin innebyggede seksjonnavigasjon, javascript sin querySelector og DOM - eventet 'onkeydown' har jeg nå lagt til muligheten for å kunne bla frem og tilbake mellom artiklene på denne siden med piltastene på tastaturet.
 
 <!--more-->
 

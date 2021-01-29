@@ -5,14 +5,14 @@ pageresources = ["https://developers.google.com/web/tools/lighthouse/"]
 categories = []
 tags = ["lighthouse"]     
 slug = ""
-title = "Generate Lighthouse report"
+title = "Generer Lighthouse rapport 07-06-2020"
 date = 2020-06-07T11:51:07+02:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-What is Lighthouse?
+Hva er Lighthouse?
 Lighthouse is an open-source, automated tool for improving the quality of web pages. 
 <!--more-->
 

@@ -3,14 +3,13 @@ author = "Ole Halvor Smylingsås"
 description = ""
 pageresources = []
 categories = []
-tags = ["amplify"]     
+tags = ["css"]     
 slug = ""
-title = "Build error in Amplify"
-date = 2020-12-01T21:48:13+01:00
+title = "Animering av titler"
+date = 2020-04-13T17:39:54+02:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
 <!--more-->
-Had to manually add support for TypeScript in the build setup

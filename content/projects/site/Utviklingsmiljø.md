@@ -5,14 +5,14 @@ resources = []
 categories = []
 tags = ["hugo"]  
 slug = ""
-title = "Development enviroment"
+title = "Utviklingsmiljø"
 date = "2017-09-04T22:43:58+02:00"
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-My hugo setup for Smylingsas.net
+Mitt oppsett av Hugo for Smylingsas.net
 <!--more-->
 {{<highlight html>}}
 Copyright (C) 2016 Microsoft Corporation. All rights reserved.

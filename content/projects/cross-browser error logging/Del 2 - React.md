@@ -5,7 +5,7 @@ pageresources = []
 categories = []
 tags = ["js", "react", "typescript", "stacktracejs"]     
 slug = ""
-title = "Cross-browser error logging. Part 2 - React"
+title = "Logging av feil i klient/nettleser. Del 2 - React"
 date = 2020-04-24T22:30:53+02:00
 draft = "false"
 featuretext = ""
@@ -13,7 +13,7 @@ featureimg = ""
 comments = "false"
 +++
 
-Implement a cross browser error logging in React and Typescript using Stacktrace.js
+Følgende kodesnutt viser logging av feil i nettleser med React og Stacktrace.js
 <!--more-->
 
 {{<highlight js>}}
@@ -41,7 +41,7 @@ export const enableLogShipping = () => {
 }
 
 const shipToServer = (data: any) => {
-    let apiPath = getPath("kongsberg-manufacturing-api")
+    let apiPath = getPath("/api/")
     let url = `${apiPath}system/logship`;
     fetch(url, {
         method: "POST",

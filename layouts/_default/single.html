@@ -13,7 +13,7 @@
             {{ if eq .Type "projects" }}
                 <section class="page-main__latest-articles">
                     {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
-                    <h1>Latest project updates</h1>
+                    <h1>Nyeste prosjektposter</h1>
                     <div class="reset-list page-main-list">
                         {{ range first 5 $pages }}
                             {{ .Render "summary"}}
@@ -25,7 +25,7 @@
             {{ if eq .Type "til" }}
                 <section class="page-main__latest-articles">
                     {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
-                    <h1>Latest posts in TIL</h1>
+                    <h1>Nyeste TIL poster</h1>
                     <div class="reset-list page-main-list">
                         {{ range first 5 $pages }}
                             {{ .Render "summary"}}

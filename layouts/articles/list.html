@@ -5,9 +5,9 @@
     </article>
         
     <section class="page-main-list">
-            {{ range .Site.RegularPages }}
-                {{ .Render "summary"}}
-            {{ end }}
+        {{ range .Site.RegularPages }}
+            {{ .Render "summary"}}
+        {{ end }}
     </section>       
 
 </main>
