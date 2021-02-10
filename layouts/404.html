@@ -7,7 +7,8 @@
     {{ partial "left-menu.html" . }}
     <main class="main">
         <div class="not-found__message">
-            <h1>Siden finnes ikke</h1>
+            <h1>Å nei, siden finnes ikke.</h1>
+            <P>Det kan se ut som fant en utdatert lenke, beklager dette... trykk <a href="/">her</a> for å gå tilbake til forsiden eller velg et topic i listen under.</P>
         </div>
     </main>
     {{ partial "site-menu-mobile.html" . }}
@@ -24,8 +25,16 @@
             navigator.serviceWorker.register("{{ $.Site.BaseURL }}service-worker.js")
         }
 
+        function openSiteMenu() {
+            var body = document.body;
+            body.classList.add("animated-slide-to-the-right");
+
+            var siteMenu = document.getElementById("vertical-panel-id");
+            siteMenu.classList.add("animated-slide-in-from-left");
+        }
     </script>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>
 </body>
 </html>
 <!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
