@@ -47,7 +47,7 @@ uglyURLs = "false"
   [[menu.main]]
     name = "Arkiv"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/articles/"
+    url = "/archive/"
     weight = -120
 
   [[menu.main]]
@@ -67,6 +67,12 @@ uglyURLs = "false"
     pre = "<i class='fa fa-heart'></i>"
     url = "/tags/"
     weight = -99
+
+    [[menu.main]]
+    name = "Artikler"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/articles/"
+    weight = -97
 
     [[menu.main]]
     name = "Sitemap.xml"

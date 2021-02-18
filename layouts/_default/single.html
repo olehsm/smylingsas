@@ -15,7 +15,7 @@
                     {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
                     <h1>Nyeste prosjektposter</h1>
                     <div class="reset-list page-main-list">
-                        {{ range first 5 $pages }}
+                        {{ range first 6 $pages }}
                             {{ .Render "summary"}}
                         {{ end }}
                     </div>
@@ -27,7 +27,7 @@
                     {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
                     <h1>Nyeste TIL poster</h1>
                     <div class="reset-list page-main-list">
-                        {{ range first 5 $pages }}
+                        {{ range first 6 $pages }}
                             {{ .Render "summary"}}
                         {{ end }}
                     </div>

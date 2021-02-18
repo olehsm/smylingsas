@@ -3,7 +3,7 @@
     {{ $relatedTagPosts := (where (index $.Site.Taxonomies.tags $primaryTag).Pages "Section" "projects") }}
     <h1>Flere innlegg i <a href="{{ "/tags/" | relLangURL }}{{ $primaryTag | urlize }}">#{{ $primaryTag }}</a></h1>
     <ul class="reset-list page-main-list">
-        {{ range first 5 $relatedTagPosts }}
+        {{ range first 6 $relatedTagPosts }}
             {{ .Render "summary"}}
         {{ end }}
     </ul>
