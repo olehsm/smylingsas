@@ -47,7 +47,7 @@ uglyURLs = "false"
   [[menu.main]]
     name = "Arkiv"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/archive/"
+    url = "/postarchive/"
     weight = -120
 
   [[menu.main]]
