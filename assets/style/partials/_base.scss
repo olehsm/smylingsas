@@ -31,25 +31,16 @@ body {
 
 @media screen and (min-width: 750px) {
     body {
-        //margin-left: calc(80px + 15vw);
         margin-left: 80px;
     }
 }
 
 .animated-slide-to-the-right {
     animation: slide-to-the-right 0.8s ease-out forwards;
-    //opacity: 0;
 }
 
 /* Animation */
 @keyframes slide-to-the-right {
-    0% {
-        //opacity: 0;
-        //transform: translateX(-4rem) scale(0.8);
-        //left: -300px
-        //margin-left: 80px;
-    }
-
     100% {
         //opacity: 1;
         margin-left: calc(80px + 15vw);
@@ -103,8 +94,8 @@ time {
 
 
 a {
-    text-decoration: none;
-    color: $default-link-color;
+    text-decoration: underline;
+    color: #f8430a;
 }
 
 

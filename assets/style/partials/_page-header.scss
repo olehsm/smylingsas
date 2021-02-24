@@ -40,6 +40,7 @@
     grid-row-start: 2;
 }
 
+
 .page-header__publication-details {
     font-size: 1.5rem !important;
     display: flex;
@@ -48,12 +49,15 @@
     flex-wrap: wrap;
 }
 
+
 .page-header__publication-details > * {
     margin-right: 1.5rem;
 }
 
+
 .page-header__publication-details a {
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    color: #e7e8eb;
 }
 
 

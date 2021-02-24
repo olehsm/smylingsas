@@ -2,12 +2,14 @@
     line-height: 0.4;
 }
 
+
 .item__taglist {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
+
 
 .item {
     padding: 3rem;
@@ -17,6 +19,10 @@
 }
 
 
+.item__title a {
+    color: #e7e8eb;
+    text-decoration: none;
+}
 
 .item:hover {
     background-color:  #f8430a;
@@ -28,6 +34,7 @@
     color: #1c1f23;
 }
 
+
 .item:hover time {
     color: #1c1f23;
 }
@@ -37,22 +44,26 @@
     color: #1c1f23;
 }
 
+
 .item:hover .item__title a{
     color: #1c1f23;
 }
 
 
-.til-item a:hover {
-    text-decoration: underline;
-}
+// .til-item a:hover {
+//     text-decoration: underline;
+// }
+
 
 .item:hover p {
     color: #1c1f23;
 }
 
+
 .post-meta {
     margin-bottom: 2rem;
 }
+
 
 .item p, .item p a {
     line-height: 1.3;

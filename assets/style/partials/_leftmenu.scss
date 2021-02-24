@@ -8,10 +8,12 @@
     bottom: 0;
 }
 
+
 .navigation-icons {
     height: 80vh;
     width:80px;
 }
+
 
 .navigation-icons .fa {
     margin: 45px 23px;
@@ -38,7 +40,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    //opacity: 1;
     display: block;
 }
 
@@ -53,6 +54,8 @@
 
 .site-menu li a {
     font-weight: 700;
+    color: #e7e8eb;
+    text-decoration: none;
 }
 
 
@@ -60,23 +63,17 @@
     color:  #F8430A;
 }
 
+
 .animated-slide-in-from-left {
     animation: slide-in-from-left 0.8s ease-out forwards;
-    //opacity: 0;
     display: block;
     left: -350px;
 }
 
+
 /* Animation */
 @keyframes slide-in-from-left {
-    0% {
-        //opacity: 0;
-        //transform: translateX(-4rem) scale(0.8);
-        //left: -350px
-    }
-
     100% {
-        //opacity: 1;
         left: 80px;
     }
 }

@@ -16,9 +16,13 @@
 .cell0 {
     grid-column-start: 1;
 }
+
+
 .cell1 {
     grid-column-start: 2;
 }
+
+
 .cell2 {
     grid-column-start: 3;
 }
@@ -29,6 +33,7 @@
     flex-direction: column  ;
 }
 
+
 .call-to-action-item {
     position: relative;
     transform: scale(.85);
@@ -37,10 +42,12 @@
     height: 10rem;;
 }
 
+
 .call-to-action-item:hover,
 .call-to-action-item:focus {
     transform: scale(1)
 }
+
 
 .call-to-action-item::after {
     content: '';

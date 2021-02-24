@@ -3,17 +3,3 @@
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     grid-auto-rows: 1fr
 }
-
-
-.til-test {
-    grid-row: 1 / span 2;
-    background-color: #f8430a;
-    grid-column: 1;
-}
-
-
-.project-test {
-    grid-row: 1 / span 2;
-    background-color: #f8430a;
-    grid-column: 3 / span 2;
-}

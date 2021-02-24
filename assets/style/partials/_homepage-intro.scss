@@ -11,29 +11,36 @@
     max-width: 80vw;
 }
 
+
 .container1
 {
     grid-column: 1/3;
     background: #f8430a;
 }
 
+
 .container3
 {
     grid-column-start: 3;
 }
+
 
 .container-content 
 {
     margin: 5rem;
 }
 
+
 .container-content p{
     color: #1c1f23;
 }
 
+
 .container-content .intro-nav a{
     color: #1c1f23;
+    text-decoration: none;
 }
+
 
 .container-content-meh{
     display: grid;
@@ -41,6 +48,10 @@
     height: 100%;
 }
 
+.container-content-meh a {
+    text-decoration: none;
+    color: #e7e8eb;
+} 
 
 
 .button {
@@ -74,15 +85,18 @@
     line-height: 36px;
 }
 
+
 .intro-nav ul {
     display: flex;
     flex-direction: row;
     
 }
 
+
 .intro-nav li {
     margin-right: 4rem;
 }
+
 
 .intro-nav li:last-child {
     margin:0;

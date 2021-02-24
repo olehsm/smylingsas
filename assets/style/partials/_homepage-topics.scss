@@ -8,9 +8,10 @@
 }
 
 
-// .topics a:hover {
-//     border: 1px solid #e7e8eb
-// }
+.topics a {
+    text-decoration: none;
+}
+
 
 .topics-list-container {
     display: grid;

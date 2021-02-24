@@ -3,11 +3,13 @@
     margin-bottom: 10rem;
 }
 
+
 .aboutme-section .container1111{
    display: flex;
    align-items: center;
    justify-content: center;
 }
+
 
 .about-heading {
     text-align: center;
@@ -16,12 +18,14 @@
     margin-bottom: 6rem;
 }
 
+
 .about-heading h1{
     font-size: 10rem;
     opacity: 0.3;
     margin:0;
     color: #f8430a
 }
+
 
 .about-heading h6{
     font-size: 2rem;
@@ -34,6 +38,7 @@
     margin-right: 5rem;
 }
 
+
 .profile-img img{
     //float: right;
 }
@@ -43,17 +48,24 @@
     flex: 1;
 }
 
+
 .social-media {
     margin-top: 5rem;
 }
+
 
 .social-media ul{
     display: flex;
     flex-direction: row;
 }
 
+
 .social-media li{
     margin-right: 3rem;
+}
+
+.social-media a {
+    color: #e7e8eb;
 }
 
 .social-media i{
