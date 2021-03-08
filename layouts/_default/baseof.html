@@ -14,6 +14,8 @@
 
         {{ partial "homepage/topics.html" . }}
 
+        <button class="scrollToTopBtn">☝️</button>
+
         <footer class="footer__site">
             {{ partial "footer.html" . }}
         </footer>
@@ -42,6 +44,34 @@
                 var siteMenu = document.getElementById("vertical-panel-id");
                 siteMenu.classList.add("animated-slide-in-from-left");
             }
+
+            var target = document.querySelector("#topics-section");
+
+            var scrollToTopBtn = document.querySelector(".scrollToTopBtn")
+            var rootElement = document.documentElement
+
+            function callback(entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Show button
+                        scrollToTopBtn.classList.add("showBtn")
+                    } else {
+                        // Hide button
+                        scrollToTopBtn.classList.remove("showBtn")
+                    }
+                });
+            }
+
+            function scrollToTop() {
+                rootElement.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                })
+            }
+            scrollToTopBtn.addEventListener("click", scrollToTop);
+                
+            let observer = new IntersectionObserver(callback);
+            observer.observe(target);
         </script>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>

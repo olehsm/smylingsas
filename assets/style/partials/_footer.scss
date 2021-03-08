@@ -18,3 +18,33 @@
     }
      
 }
+
+
+.scrollToTopBtn {
+    background-color: #1c1f23;
+    border: 1px solid #f8430a;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 48px;
+    width: 48px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all .5s ease
+}
+
+
+.scrollToTopBtn:hover {
+    background-color: #f8430a;
+}
+
+
+.showBtn {
+    opacity: 1;
+    transform: translateX(0)
+}
