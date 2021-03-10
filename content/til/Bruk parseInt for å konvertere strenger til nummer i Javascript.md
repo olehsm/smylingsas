@@ -6,14 +6,14 @@ pageresources = ["https://gomakethings.com/converting-strings-to-numbers-with-va
 categories = []
 tags = ["js"]     
 slug = ""
-title = "Use parseInt to convert string to number"
+title = "Bruk parseInt for å konvertere strenger til nummer i Javascript"
 date = 2020-04-30T20:13:48+02:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-TIL: Use parseInt to convert string to number in Javascript
+TIL: Hvordan bruke parseInt for å konvertere strenger til nummer i Javascript
 <!--more-->
 
 {{<highlight js>}}

@@ -13,7 +13,7 @@ featureimg = ""
 comments = "false"
 +++
 
-TIL: In order to use the Include() in a Linq statement...
+TIL: For å bruke Include() i en Linq-spørring...
 <!--more-->
 
 {{<highlight c>}}
@@ -21,7 +21,7 @@ var matchList = context.Matches
                     .include(s => s.Team);
 {{</highlight>}}
 
-always put
+må alltid dette namespacet være inkludert. (Visual Studio vil ikke alltid forstå at det er denne som mangler)
 
 {{<highlight c>}}
 using System.Data.Entity;

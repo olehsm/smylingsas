@@ -5,22 +5,22 @@ pageresources = ["https://stackoverflow.com/questions/2003505/how-do-i-delete-a-
 categories = []
 tags = ["git"]     
 slug = ""
-title = "Delete remote and local branch in Git"
+title = "Slette brancher i git"
 date = 2019-10-19T21:51:36+02:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-How to delete your remote and local branch in Git
+Hvordan slette remote og local branch i git
 <!--more-->
 
-Local branch
+Lokalt
 {{<highlight bash>}}
 $ git branch -d < branch_name >
 {{</highlight>}}
 
-Remote branch
+På server
 {{<highlight bash>}}
 $ git push -d < remote_name > < branch_name >
 {{</highlight>}}

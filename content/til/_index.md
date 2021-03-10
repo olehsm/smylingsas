@@ -14,4 +14,4 @@ comments = "false"
 +++
 
 "Today I Learned"  
-A list of all published TIL posts.
+En oversikt over alle TIL artikler publisert på denne siden sortert i kronologisk rekkefølge.

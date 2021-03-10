@@ -5,7 +5,7 @@ pageresources = []
 categories = []
 tags = ["html", "angularjs"]     
 slug = ""
-title = "Closing of textarea tag"
+title = "Avslutte en textarea tagg"
 date = 2020-12-16T21:48:34+01:00
 draft = "false"
 featuretext = ""
@@ -14,9 +14,9 @@ comments = "false"
 +++
 
 <!--more-->
-The textarea html tag needs to be closed properly with a closing tag since it contains data. Hence self-closing does not work either. 
+HTML taggen ``` <textarea> ``` må avsluttes med ``` </textarea> ``` siden den kan inneholde data. Derfor fungerer det heller ikke med en self-closing tagg. 
 {{<highlight html>}}
 <textarea></texarea>
 {{</highlight>}}
 
-AngularJS will stop the rendering of a template with wrongly closed textarea tag.
+AngularJS vil stoppe opptegning av html-template dersom en ``` <textarea> ``` er avsluttet galt.

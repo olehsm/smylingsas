@@ -12,3 +12,9 @@ featuretext = ""
 featureimg = ""
 comments = "false"
 +++
+
+```css
+html {
+    scroll-behavior: smooth;
+}
+```
