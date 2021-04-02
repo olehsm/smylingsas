@@ -99,6 +99,12 @@ a {
 }
 
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 @media screen and (max-width: 1000px) {
     html {
         font-size: 50%;

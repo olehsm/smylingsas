@@ -13,7 +13,7 @@ featureimg = ""
 comments = "false"
 +++
 
-TIL Forskjellen på Single() og SingleOrDefault() og når man skal benytte de.
+TIL: Forskjellen på Single() og SingleOrDefault() og når man skal benytte de.
 <!--more-->
 {{<highlight c>}}
     Bruk SingleOrDefault() // if 0 eller 1 elementer er forventet
