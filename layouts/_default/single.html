@@ -10,40 +10,41 @@
                 </div>
             </section>
             
-            {{ if eq .Type "projects" }}
-                <section class="page-main__latest-articles">
-                    {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
-                    <h1>Nyeste prosjektposter</h1>
-                    <div class="reset-list page-main-list">
-                        {{ range first 6 $pages }}
-                            {{ .Render "summary"}}
-                        {{ end }}
-                    </div>
-                </section>
-            {{ end }}
-
-            {{ if eq .Type "til" }}
-                <section class="page-main__latest-articles">
-                    {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
-                    <h1>Nyeste TIL poster</h1>
-                    <div class="reset-list page-main-list">
-                        {{ range first 6 $pages }}
-                            {{ .Render "summary"}}
-                        {{ end }}
-                    </div>
-                </section>
-            {{ end }}
-
-            <section class="read-next-card">
-                {{ if eq .Type "til" }}
-                    {{- partial "read-next-til.html" . -}}
-                {{ end }}
-
+            <div style="margin-left: 5rem; margin-right: 5rem">
                 {{ if eq .Type "projects" }}
-                    {{- partial "read-next-projects.html" . -}}
+                    <section class="page-main__latest-articles">
+                        {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
+                        <h1>Nyeste prosjektposter</h1>
+                        <div class="reset-list page-main-list">
+                            {{ range first 6 $pages }}
+                                {{ .Render "summary"}}
+                            {{ end }}
+                        </div>
+                    </section>
                 {{ end }}
-            </section>
 
+                {{ if eq .Type "til" }}
+                    <section class="page-main__latest-articles">
+                        {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
+                        <h1>Nyeste TIL poster</h1>
+                        <div class="reset-list page-main-list">
+                            {{ range first 6 $pages }}
+                                {{ .Render "summary"}}
+                            {{ end }}
+                        </div>
+                    </section>
+                {{ end }}
+
+                <section class="read-next-card">
+                    {{ if eq .Type "til" }}
+                        {{- partial "read-next-til.html" . -}}
+                    {{ end }}
+
+                    {{ if eq .Type "projects" }}
+                        {{- partial "read-next-projects.html" . -}}
+                    {{ end }}
+                </section>
+            </div>
             
         </article>
     </main>

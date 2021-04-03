@@ -1,10 +1,12 @@
 .page-main {
-    margin: 20rem 5rem;
+    //margin: 20rem;
 }
+
 
 .page-main-content > section {
     margin-bottom: 9em;
 }
+
 
 .page-main-content h1 {
     font-size: 400%;
@@ -14,10 +16,16 @@
 }
 
 
-
 .page-main__content {
     width: clamp(45ch, 50%, 75ch); 
     margin-right: auto;
     margin-left: auto;
     font-size: clamp(1.5rem, 5vw, 3rem);  
 }
+
+
+// .page-main__latest-articles h1,
+// .read-next-card h1{
+//     margin-left: 5rem;
+//     margin-right: 5rem;
+// }
