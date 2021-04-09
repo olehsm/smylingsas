@@ -5,14 +5,14 @@ pageresources = []
 categories = []
 tags = ["js"]     
 slug = ""
-title = "Refactor Ajax to Fetch"
+title = "Refactor Ajax til Fetch"
 date = 2020-04-24T22:27:08+02:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-TIL: Take use of the new Fetch API
+TIL: Ta i bruk den nye Fetch API'et
 <!--more-->
 
 Ajax    

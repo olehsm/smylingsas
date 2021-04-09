@@ -5,12 +5,12 @@ pageresources = []
 categories = []
 tags = ["navigation"]     
 slug = ""
-title = "Mobile-only site navigation"
+title = "Egen sidemeny for mobilskjermer"
 date = 2020-03-15T13:44:08+01:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-An implementation guide for the sticky mobile-only menu
+En implmentasjonsguide for en sticky mobilskjerm meny
 <!--more-->

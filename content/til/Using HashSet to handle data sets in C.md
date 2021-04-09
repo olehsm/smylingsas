@@ -5,14 +5,14 @@ pageresources = ["https://docs.microsoft.com/en-us/dotnet/api/system.collections
 categories = []
 tags = ["csharp", "linq"]     
 slug = ""
-title = "Using HashSet to handle data sets in C#"
+title = "Bruke HashSet for å håndtere i C#"
 date = 2019-11-20T21:52:48+01:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-TIL: HashSets is super useful!
+TIL: HashSets er meget nyttig!
 <!--more-->
  
 {{<highlight c>}}

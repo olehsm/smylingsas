@@ -13,6 +13,9 @@ featureimg = ""
 comments = "false"
 +++
 
+TIL: Hvordan slå på smooth scrolling på en nettside
+<!--more-->
+
 ```css
 html {
     scroll-behavior: smooth;

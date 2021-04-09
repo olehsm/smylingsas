@@ -5,7 +5,7 @@ pageresources = ["https://stackoverflow.com/questions/16192464/window-onerror-no
 categories = []
 tags = ["js", "dom", "angularjs"]     
 slug = ""
-title = "Window.onerror does not work in AngularJS"
+title = "Window.onerror virker ikke i AngularJS"
 date = 2020-04-24T22:17:45+02:00
 draft = "false"
 featuretext = ""
@@ -13,7 +13,7 @@ featureimg = ""
 comments = "false"
 +++
 
-TIL: Using Angular, errors wont pass through window.onerror. Handle them using "factory"
+TIL: Om man kjører AngularJS, vil ikke klientfeil dukke opp i window.onerror, de blir slukt av AngularJS. Bruk denne "factory" -metoden.
 <!--more-->
 
 {{<highlight js>}}

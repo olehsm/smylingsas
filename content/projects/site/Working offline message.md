@@ -5,7 +5,7 @@ pageresources = []
 categories = []
 tags = ["pwa", "serviceworker"]     
 slug = ""
-title = "A working offline message!"
+title = "Du er offline - beskjed"
 date = 2020-06-16T22:14:45+02:00
 draft = "false"
 featuretext = ""
@@ -13,9 +13,9 @@ featureimg = ""
 comments = "false"
 +++
 
-The site will now present a simple message telling the user that he/she is offline! 
+Denne nettsiden vil nå presentere en enkel melding som forteller brukeren at internetttilkoblingen er brutt. 
 <!--more-->
-I have finally found a way to make an offline.html - page work together with Hugo and a service worker
+Har endelig klart å lage en offline.html - side og fått den til å virke med Hugo og en Service Worker
 
 
 ## The service worker

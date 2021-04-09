@@ -5,7 +5,7 @@ pageresources = ["https://medium.com/simply/state-management-with-react-hooks-an
 categories = []
 tags = ["js", "react", "hooks", "contextapi"]     
 slug = ""
-title = "React Hooks and Context API"
+title = "React Hooks og Context API"
 date = 2020-02-23T18:41:11+01:00
 draft = "false"
 featuretext = ""
@@ -13,10 +13,10 @@ featureimg = ""
 comments = "false"
 +++
 
-State Management with React Hooks and Context API.
+State kontroll med React Hooks og Context API.
 <!--more-->
 
-According to the React Docs:
+Fra den offisielle React dokumentasjonen:
 “Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.”
 
 useState Hook
@@ -56,6 +56,5 @@ ReactDOM.render(<App />, rootElement);
 
 
 
-According to the React documentation:
+Fra den offisielle React dokumentasjonen:
 “Context provides a way to pass data through the component tree without having to pass props down manually at every level.”
-

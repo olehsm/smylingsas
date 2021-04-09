@@ -5,16 +5,16 @@ pageresources = ["https://twitter.com/umaar/status/1260182825573191680"]
 categories = []
 tags = ["html"]     
 slug = ""
-title = "The Download attribute"
+title = "Download attributett i html"
 date = 2020-05-22T15:03:17+02:00
 draft = "false"
 featuretext = ""
 featureimg = ""
 comments = "false"
 +++
-TIL:  Adding the download attribute to an anchor tag... 
+TIL:  Om en legger til 'download' attributett i en lenke... 
 <!--more-->
-Will result in Save dialog pop up, instead of just showing the picture.
+Så vil nettleseren svare med dialog for å laste ned filen i stedet for kun å vise den.
 {{<highlight html>}}
 <a download href="cat.jpg">
     Download cat pic
