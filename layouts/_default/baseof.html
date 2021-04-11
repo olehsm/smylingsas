@@ -26,7 +26,8 @@
                 navigator.serviceWorker.register("{{ $.Site.BaseURL }}service-worker.js")
             }
 
-
+            const shareButton = document.querySelector('.shareMeBtn');
+            shareButton.addEventListener('click', event => {
             if (navigator.share) {
                 navigator.share({
                   title: 'Smylingsas.net',
@@ -36,6 +37,7 @@
                   .then(() => console.log('Successful share'))
                   .catch((error) => console.log('Error sharing', error));
               }
+            })
 
             function openSiteMenu() {
                 var body = document.body;
