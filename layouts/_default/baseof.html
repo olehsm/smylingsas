@@ -27,15 +27,16 @@
             }
 
             const shareButton = document.querySelector('.shareMeBtn');
+            var title = document.getElementsByTagName("title")[0].innerHTML;
             shareButton.addEventListener('click', event => {
             if (navigator.share) {
                 navigator.share({
-                  title: 'Smylingsas.net',
-                  text: 'Check out Ole Halvors homepage',
-                  url: 'https://smylingsas.net/',
+                  title: title,
+                  text: 'Sjekk denne artikkelen på Ole Halvors hjemmeside',
+                  url: window.location.href,
                 })
-                  .then(() => console.log('Successful share'))
-                  .catch((error) => console.log('Error sharing', error));
+                .then(() => console.log('Successful share'))
+                .catch((error) => console.log('Error sharing', error));
               }
             })
 

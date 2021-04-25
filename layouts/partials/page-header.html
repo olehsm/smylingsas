@@ -7,7 +7,7 @@
             <span><i class="fas fa-file-alt"></i>&nbsp;{{ .numberOfWords }}&nbsp;ord</span>
             <span><i class="fas fa-clock"></i>&nbsp;{{ .readingTime1 }}&nbsp;minutter</span>
             <span>{{ with .tags }}<i class="fas fa-tag"></i>&nbsp;{{ range . }}<a href="/tags/{{ . | urlize }}/">{{ . }}</a> {{ end }}{{ end }}</span>
-            <button class="shareMeBtn" type="button" title="Del denne artikkelen">Del meg</button>
+            <span><a class="shareMeBtn" title="Del denne artikkelen"><i class="fas fa-share-square"></i></a></span>
         </div>
 
         
