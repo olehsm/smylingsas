@@ -4,21 +4,24 @@
         {{ partial "head.html" . }}
     </head>
     <body>
-        {{ partial "left-menu.html" . }}
-
-        {{ block "main" . }}
-          <!-- The part of the page that begins to differ between templates -->
-        {{ end }}
-
-        {{ partial "site-menu-mobile.html" . }}
-
-        {{ partial "homepage/topics.html" . }}
-
-        <button class="scrollToTopBtn">☝️</button>
-
-        <footer class="footer__site">
+        <header class="header--site">
+            {{ partial "left-menu.html" . }}
+        </header>
+        <nav class="nav--site">
+            {{ partial "main-menu.html" . }}
+        </nav>
+        <section class="content">
+            {{ block "main" . }}
+                <!-- The part of the page that begins to differ between templates -->
+            {{ end }}
+        </section>
+        <section class="topics2">
+            {{ partial "homepage/topics.html" . }}
+        </section>
+        <footer>
             {{ partial "footer.html" . }}
         </footer>
+        <aside class="aside2">11</aside>
 
         <script>
             // Register the Service Worker
