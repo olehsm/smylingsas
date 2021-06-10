@@ -1,3 +1,4 @@
 {{ $style := resources.Get "style/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }} 
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
 <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
+<link rel="stylesheet" href="/assets/css/print.css" media="print">

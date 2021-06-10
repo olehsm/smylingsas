@@ -1,27 +1,27 @@
 <meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<meta name="googlebot" content="index, follow, noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{ .Site.Title }} - {{ .Title }}</title>
+
+{{ partial "styles.html" . }}
+
 <meta name="description" content="{{ $.Site.Params.description }}">
+<meta property="og:title" content="{{ .Site.Title }} - {{ .Title }}">
+<meta property="og:description" content="{{ $.Site.Params.description }}">
+<meta property="og:image" content="image.jpg">
+<meta property="og:locale" content="nb-no">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ $.Site.BaseURL }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f8430a">
+<link rel="icon" href="{{ $.Site.BaseURL }}{{ $.Site.Params.favicon }}">
+<link rel="apple-touch-icon" href="{{ $.Site.BaseURL }}apple-touch-icon.png">
+<link rel="manifest" href="{{ $.Site.BaseURL }}manifest.json">
+
 <meta name="keywords" content="{{ $.Site.Params.keywords }}" />
 {{hugo.Generator}}
-<title>{{ .Site.Title }} - {{ .Title }}</title>
-<link rel="icon" href="{{ $.Site.BaseURL }}{{ $.Site.Params.favicon }}">
-<link rel="manifest" href="{{ $.Site.BaseURL }}manifest.json">
-<!-- ios support -->
-<link rel="apple-touch-icon" href="images/icons/icon-72x72.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-96x96.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-128x128.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-144x144.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-152x152.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-192x192.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-384x384.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-512x512.png" />
-<meta name="apple-mobile-web-app-status-bar" content="#db4938" />
-<meta name="theme-color" content="#db4938" />
 <link rel="author" href="humans.txt" />
-
-
-<!-- CSS -->
-{{ partial "styles.html" . }}
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, noarchive">
+<meta name="twitter:dnt" content="on">
+{{/*  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="My Blog - Manuel Matuzovic">  */}}

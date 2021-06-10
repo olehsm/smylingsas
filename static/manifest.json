@@ -1,5 +1,5 @@
 {
-	"name": "Smylingsas.net - my tiny dev blog",
+	"name": "Smylingsas.net - Min lille utviklerblog",
     "short_name": "Smylingsas.net",
 	"orientation": "portrait-primary",
 	"display": "standalone",
@@ -17,25 +17,25 @@
     }],
     "start_url": "/",
     "background_color": "#f1dfd4",
-    "description": "A progressive developer blog",
+    "description": "..",
     "scope": "/",
 	"theme_color": "#cb5454",
 	"shortcuts": [{
-		"name": "Open TIL section",
+		"name": "Åpne TIL seksjon",
 		"short_name": "TIL",
-		"description": "View the list of TIL articles published",
+		"description": "Samling av alle TIL-artikler",
 		"url": "/til"
 	},
 	{
-		"name": "Open project section",
+		"name": "Prosjektseksjon",
 		"short_name": "Projects",
-		"description": "View the list of side projects",
+		"description": "Oversikt over sideprosjekter",
 		"url": "/projects/"
 	},
 	{
-		"name": "Open post archive",
+		"name": "Artikkelarkiv",
 		"short_name": "Archive",
-		"description": "View the entire archive of published posts",
+		"description": "Liste over alle publiserte tekster",
 		"url": "/articles/"
 	}]
 }
