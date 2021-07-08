@@ -2,26 +2,22 @@
     min-height: 20vh;
     background: #1c1f23;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "intro intro button";
 }
 
 
-.container {
-    margin: 0 auto;
-    max-width: 80vw;
-}
-
-
-.container1
+.about-me--introtext
 {
-    grid-column: 1/3;
+    grid-area: intro;
     background: #f8430a;
 }
 
 
-.container3
+.about-me--startbutton
 {
-    grid-column-start: 3;
+    grid-area: button;
 }
 
 

@@ -1,4 +1,4 @@
-@media screen and (max-width: 450px) {
+//@media screen and (max-width: 450px) {
     .site-menu-mobile {
         position: fixed;
         bottom: 0em;
@@ -31,11 +31,4 @@
     .site-menu-mobile a {
         color: #1c1f23;
     }
-}
-
-
-@media screen and (min-width: 451px) {
-    .site-menu-mobile {
-        display: none;
-    }
-}
+//}
