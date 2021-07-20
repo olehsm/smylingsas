@@ -3,10 +3,6 @@
     max-width: 80vw;
 }
 
-// .timeline {
-//     padding-left: 15rem
-// }
-
 
 .timeline ul{
     border-left: 4px solid #f8430a;
@@ -74,4 +70,11 @@
     height: 1.5rem;
     width: 1.5rem;
     background-color: #313534;
+}
+
+
+@media screen and (max-width: 450px) {
+    .timeline {
+        padding-left: 15rem
+    }
 }

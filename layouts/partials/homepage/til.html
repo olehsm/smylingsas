@@ -1,8 +1,13 @@
 <section class="section" id="til-section">
-    {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
-    <div class="til-items">
-        {{ range first 6 $pages }}
-            {{ .Render "summary"}}
-        {{ end }}
+    <div class="container">
+        <div class="section-heading">
+            <h1>Siste publiserte poster</h1>
+        </div>
+        {{ $pages := where $.Site.RegularPages "Type" "in" "til" }}
+        <div class="til-items">
+            {{ range first 6 $pages }}
+                {{ .Render "summary"}}
+            {{ end }}
+        </div>
     </div>
 </section>

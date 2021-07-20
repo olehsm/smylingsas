@@ -19,10 +19,12 @@
         <section class="topics2">
             {{ partial "homepage/topics.html" . }}
         </section>
+        <button class="scrollToTopBtn">☝️</button>
         <footer>
             {{ partial "footer.html" . }}
         </footer>
         <aside class="aside2">aside content</aside>
+       
         {{ partial "site-menu-mobile.html"}}
         <script>
             // Register the Service Worker
@@ -30,19 +32,23 @@
                 navigator.serviceWorker.register("{{ $.Site.BaseURL }}service-worker.js")
             }
 
+            
             const shareButton = document.querySelector('.shareMeBtn');
-            var title = document.getElementsByTagName("title")[0].innerHTML;
-            shareButton.addEventListener('click', event => {
-            if (navigator.share) {
-                navigator.share({
-                  title: title,
-                  text: 'Sjekk denne artikkelen på Ole Halvors hjemmeside',
-                  url: window.location.href,
+            if(shareButton !== null) {
+                var title = document.getElementsByTagName("title")[0].innerHTML;
+                shareButton.addEventListener('click', event => {
+                if (navigator.share) {
+                    navigator.share({
+                    title: title,
+                    text: 'Sjekk denne artikkelen på Ole Halvors hjemmeside',
+                    url: window.location.href,
+                    })
+                    .then(() => console.log('Successful share'))
+                    .catch((error) => console.log('Error sharing', error));
+                }
                 })
-                .then(() => console.log('Successful share'))
-                .catch((error) => console.log('Error sharing', error));
-              }
-            })
+            }
+            
 
             function openSiteMenu() {
                 var body = document.body;

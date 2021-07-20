@@ -99,12 +99,15 @@
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
     .about-me {
         min-height: 20vh;
         background: #1c1f23;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        //display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "button"
+            "intro";
     }
     
     
@@ -133,5 +136,9 @@
         display: grid;
         place-items: center;
         height: 100%;
+    }
+
+    .about-me--startbutton {
+        margin: 5rem;
     }
 }
