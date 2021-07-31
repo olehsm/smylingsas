@@ -98,13 +98,10 @@ body {
     }
 
 
-    // .site-menu-open-link {
-    //     display: block;
-    // }
     .navigation-icons {
         display: flex;
         flex-direction: column;
-        //justify-content: space-between;
+        position: fixed;
     }
 }
 

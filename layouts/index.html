@@ -1,12 +1,11 @@
 {{ define "main" }}
     
+    <div class="homepage">
     <section class="jumbotron">
         {{ partial "homepage/hero.html" . }}
     </section>
-        {{ partial "homepage/intro.html" . }}
-    <section class="homepage-nav-section">
-        {{ partial "homepage/call-to-action.html" . }}
-    </section>
+    {{ partial "homepage/intro.html" . }}
+    {{ partial "homepage/call-to-action.html" . }}
     <section class="homepage-aboutme-section">  
         {{ partial "homepage/aboutme.html" . }}
     </section>
@@ -19,5 +18,6 @@
     <section class="homepage-projects-section">
         {{ partial "homepage/projects.html" . }}
     </section>
+</div>
 
 {{ end }}

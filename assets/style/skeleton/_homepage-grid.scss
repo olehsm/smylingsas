@@ -16,12 +16,6 @@
 }
 
 
-.homepage-nav-section 
-{
-    grid-area: homepage-nav-section;
-}
-
-
 .homepage-aboutme-section 
 {
     grid-area: homepage-aboutme-section;
@@ -46,6 +40,24 @@
 }
 
 
+.call-to-action-container1
+{
+    grid-area: calltoaction1
+}
+
+
+.call-to-action-container2
+{
+    grid-area: calltoaction2
+}
+
+
+.call-to-action-container3
+{
+    grid-area: calltoaction3
+}
+
+
 .about-me--introtext, 
 .about-me--startbutton 
 {
@@ -53,34 +65,33 @@
 } 
 
 
-
-.content {
+.homepage {
     display: grid;
     grid-template-areas:
-        "jumbotron"
-        "homepage-nav-section"
-        "homepage-aboutme-section"
-        "homepage-experience"
-        "homepage-post-section"
-        "homepage-projects-section";
-    grid-template-columns: 1fr;
-    grid-template-rows: 95vh auto auto auto auto auto; 
+        "jumbotron jumbotron jumbotron"
+        "calltoaction1 calltoaction2 calltoaction3"
+        "homepage-aboutme-section homepage-aboutme-section homepage-aboutme-section"
+        "homepage-experience homepage-experience homepage-experience"
+        "homepage-post-section homepage-post-section homepage-post-section"
+        "homepage-projects-section homepage-projects-section homepage-projects-section";
+    grid-template-columns: 1fr 1fr 1r;
+    grid-template-rows: 95vh 20vh auto auto auto auto; 
 }
 
 
 @media (min-width: 1000px) {
-    .content {
+    .homepage {
         display: grid;
         grid-template-areas:
             "jumbotron jumbotron jumbotron"
             "aboutmetext aboutmetext startbutton"
-            "homepage-nav-section homepage-nav-section homepage-nav-section"
+            "calltoaction1 calltoaction2 calltoaction3"
             "homepage-aboutme-section homepage-aboutme-section homepage-aboutme-section"
             "homepage-experience homepage-experience homepage-experience"
             "homepage-post-section homepage-post-section homepage-post-section"
             "homepage-projects-section homepage-projects-section homepage-projects-section";
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 80vh 20vh auto auto auto auto auto; 
+        grid-template-rows: 80vh 20vh 20vh auto auto auto auto; 
     }
 
 
