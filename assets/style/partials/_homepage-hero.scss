@@ -4,12 +4,7 @@
     background-size: cover; /* Resize the background image to cover the entire container */
     background-image:  url(/img/hero-background4.jpg);
     display: grid;
-    grid-template-rows: 1fr;
-}
-
-
-.flex-it {
-    margin-top: auto;
+    place-items: center;
 }
 
 
