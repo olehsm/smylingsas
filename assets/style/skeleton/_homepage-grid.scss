@@ -1,0 +1,79 @@
+.jumbotron 
+{
+    grid-area: jumbotron;    
+}
+
+
+.about-me--introtext 
+{
+    grid-area: aboutmetext
+}
+
+
+.about-me--startbutton 
+{
+    grid-area: startbutton
+}
+
+
+.homepage-nav-section 
+{
+    grid-area: homepage-nav-section;
+}
+
+
+.homepage-aboutme-section 
+{
+    grid-area: homepage-aboutme-section;
+}
+
+
+.homepage-experience 
+{
+    grid-area: homepage-experience;
+}
+
+
+.homepage-post-section 
+{
+    grid-area: homepage-post-section;
+}
+
+
+.homepage-projects-section 
+{
+    grid-area: homepage-projects-section;
+}
+
+
+.content {
+    display: grid;
+    grid-template-areas:
+        "jumbotron"
+        "aboutmetext"
+        "startbutton"
+        "homepage-nav-section"
+        "homepage-aboutme-section"
+        "homepage-experience"
+        "homepage-post-section"
+        "homepage-projects-section";
+    grid-template-columns: 1fr;
+    grid-template-rows: 55vh 20vh 20vh auto auto auto auto auto; 
+}
+
+
+@media (min-width: 1000px) {
+    .content {
+        display: grid;
+        grid-template-areas:
+            "jumbotron jumbotron jumbotron"
+            "aboutmetext aboutmetext startbutton"
+            "homepage-nav-section homepage-nav-section homepage-nav-section"
+            "homepage-aboutme-section homepage-aboutme-section homepage-aboutme-section"
+            "homepage-experience homepage-experience homepage-experience"
+            "homepage-post-section homepage-post-section homepage-post-section"
+            "homepage-projects-section homepage-projects-section homepage-projects-section";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 80vh 20vh auto auto auto auto auto; 
+    }
+}

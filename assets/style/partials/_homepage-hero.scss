@@ -1,5 +1,5 @@
 .home {
-    height: 80vh;
+    height: 100%;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     background-image:  url(/img/hero-background4.jpg);
@@ -76,9 +76,9 @@
     }
 
 
-    .home {
-        // min-height: 60vh;
-        // height:\ auto;
-        height: 60vh
-    }
+    // .home {
+    //     // min-height: 60vh;
+    //     // height:\ auto;
+    //     height: 50vh
+    // }
 }

@@ -1,23 +1,11 @@
 .about-me {
-    min-height: 20vh;
     background: #1c1f23;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-        "intro intro button";
 }
 
 
 .about-me--introtext
 {
-    grid-area: intro;
     background: #f8430a;
-}
-
-
-.about-me--startbutton
-{
-    grid-area: button;
 }
 
 
@@ -100,15 +88,6 @@
 
 
 @media screen and (max-width: 700px) {
-    .about-me {
-        height: 40vh;
-        background: #1c1f23;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "intro"
-            "button";
-    }
-    
     
     .container {
         margin: 0 auto;

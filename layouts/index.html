@@ -1,17 +1,23 @@
 {{ define "main" }}
     
-    {{ partial "homepage/hero.html" . }}
-    
-    {{ partial "homepage/intro.html" . }}
-
-    {{ partial "homepage/call-to-action.html" . }}
-
-    {{ partial "homepage/aboutme.html" . }}
-
-    {{ partial "homepage/experience.html"}}
-
-    {{ partial "homepage/til.html" . }}
-
-    {{ partial "homepage/projects.html" . }}
+    <section class="jumbotron">
+        {{ partial "homepage/hero.html" . }}
+    </section>
+        {{ partial "homepage/intro.html" . }}
+    <section class="homepage-nav-section">
+        {{ partial "homepage/call-to-action.html" . }}
+    </section>
+    <section class="homepage-aboutme-section">  
+        {{ partial "homepage/aboutme.html" . }}
+    </section>
+    <section class="homepage-experience">
+        {{ partial "homepage/experience.html"}}
+    </section>
+    <section class="homepage-post-section">
+        {{ partial "homepage/til.html" . }}
+    </section>
+    <section class="homepage-projects-section">
+        {{ partial "homepage/projects.html" . }}
+    </section>
 
 {{ end }}
