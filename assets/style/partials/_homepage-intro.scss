@@ -101,13 +101,12 @@
 
 @media screen and (max-width: 700px) {
     .about-me {
-        min-height: 20vh;
+        height: 40vh;
         background: #1c1f23;
-        //display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: 
-            "button"
-            "intro";
+            "intro"
+            "button";
     }
     
     
@@ -116,16 +115,6 @@
         max-width: 80vw;
     }
     
-    .container1
-    {
-        grid-column: 1/-1;
-        background: #f8430a;
-    }
-    
-    .container3
-    {
-        grid-column: 1/-1;
-    }
     
     .container-content 
     {

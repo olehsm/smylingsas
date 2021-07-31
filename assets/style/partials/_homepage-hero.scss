@@ -72,10 +72,13 @@
 @media screen and (max-width: 450px) {
     .hero-text {
         margin-left: 5rem;
+        //color: white;
     }
 
 
-    // .home {
-    //     height: 60vh;
-    // }
+    .home {
+        // min-height: 60vh;
+        // height:\ auto;
+        height: 60vh
+    }
 }
