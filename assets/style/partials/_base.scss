@@ -1,8 +1,8 @@
 html { 
     font-size: 62.5%;
     line-height: 1.15; 
+    min-height: 100vh;
     min-height: -webkit-fill-available;
-    height: 100%;
     scroll-behavior: smooth;
 }
 
@@ -25,18 +25,12 @@ body {
     color: $default-font-color;
     font-family: 'Noto Sans', sans-serif;
     background: #1c1f23;
-    height: 100%;
-    //min-height: 100vh;
     /* mobile viewport bug fix */
+    min-height: 100vh;
     min-height: -webkit-fill-available;
     margin: 0;
 }
 
-@media screen and (min-width: 750px) {
-    // body {
-    //     margin-left: 80px;
-    // }
-}
 
 .animated-slide-to-the-right {
     animation: slide-to-the-right 0.8s ease-out forwards;
