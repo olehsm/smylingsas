@@ -54,12 +54,14 @@
 
     .call-to-action-container-content a {
         display: block;
-        background-color: black;
+        background-color: #1c1f23;
     } 
 
 
     .call-to-action-item {
         display: grid;
         place-content: center;
+        width: 11rem;
+        height: 11rem;;
     }
 }
