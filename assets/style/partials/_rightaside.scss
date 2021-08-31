@@ -1,0 +1,45 @@
+.table-of-content--container 
+{
+    height: 100vh;
+    margin-top: 10rem;
+}
+
+
+.table-of-content {
+    border-left: 4px solid #F8430A;
+    padding-left: 1rem
+}
+
+.table-of-content--container h1 {
+    font-size: 3rem;
+}
+
+
+#TableOfContents ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+    position:sticky;
+}
+
+#TableOfContents li {
+    border-top-style: solid!important;
+    border-top-width: 1px!important;
+    border-top-color: #383D41 ;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+}
+
+
+#TableOfContents li a {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    font-size: 50%;
+}
+
+
+#TableOfContents li a:hover {
+    color: #F8430A;
+}
