@@ -3,10 +3,9 @@
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     grid-auto-rows: 1fr;
     height: auto;
-    grid-gap: 4rem;
-    row-gap: 4rem;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    gap:4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 
