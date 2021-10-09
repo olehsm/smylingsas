@@ -1,9 +1,11 @@
 .page-header {
-    width: clamp(45ch, 50%, 75ch); 
+    //width: clamp(45ch, 50%, 75ch); 
     margin-right: auto;
     margin-left: auto;
     font-size: clamp(1.5rem, 5vw, 3rem);  
     margin-top: 4rem; 
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 
@@ -71,12 +73,12 @@
 .page-header__title {
     -webkit-animation-delay:.8s;
         animation-delay:.8s;
-    text-transform: lowercase;
+    // text-transform: lowercase;
 }
 
 
 .page-header__title::first-letter {
-    text-transform: uppercase;
+    // text-transform: uppercase;
 }
 
 

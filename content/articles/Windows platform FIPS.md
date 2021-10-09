@@ -13,14 +13,17 @@ featureimg = ""
 comments = "false"
 +++
 
-For en tid tilbake dukket følgende feilmelding opp i applikasjonen jeg jobber på: <br/>
-``This implementation is not part of the Windows Platform FIPS validated cryptographic algorithms``
-<br/><br/> 
+
+
+Windows har en innstilling som hindrer applikasjoner på din maskin å benytte krypteringsløsninger som ikke er i samsvar med ``Federal Information Processing Standards(FIPS)``
+<!--more-->
 
 ## Hva er FIPS?
 ``The United States' Federal Information Processing Standards (FIPS) are publicly announced standards developed by the National Institute of Standards and Technology for use in computer systems by non-military American government agencies and government contractors``
 
-Windows har en innstilling som hindrer applikasjoner på din maskin å benytte krypteringsløsninger som ikke er i samsvar med ``Federal Information Processing Standards(FIPS)``
+For en tid tilbake dukket følgende feilmelding opp i applikasjonen jeg jobber på: <br/>
+``This implementation is not part of the Windows Platform FIPS validated cryptographic algorithms``
+<br/><br/> 
 
 
 ## Hva gjør FIPS - mode

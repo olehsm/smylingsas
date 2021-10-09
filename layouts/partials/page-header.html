@@ -1,7 +1,7 @@
 <header class="page-header">
 
-
     <div class="page-header-content">
+        {{ if eq .typeOfPage "page" }}
         <div class="page-header__publication-details animate-pop-in">
             <time class="page-header__publication-details__pubdate" datetime="{{ .publishDate.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .publishDate.Format "Mon, Jan 2, 2006" }}</time>
             <span><i class="fas fa-file-alt"></i>&nbsp;{{ .numberOfWords }}&nbsp;ord</span>
@@ -10,6 +10,7 @@
             <span><i class="fas fa-receipt"></i></span>
             <span>{{ with .tags }}<i class="fas fa-tag"></i>&nbsp;{{ range . }}<a href="/tags/{{ . | urlize }}/">{{ . }}</a> {{ end }}{{ end }}</span>
         </div>
+        {{ end }}
 
         
         <h1 class="page-header__title animate-pop-in">{{.pageTitle}}</h1>
