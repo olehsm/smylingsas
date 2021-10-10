@@ -4,10 +4,13 @@
     <main class="page-main" id="main-content">
         <article class="page-main-content">
         </article>
-            <section class="page-main-list">
-                    {{ range .Pages }}
-                        {{ .Render "summary"}}
-                    {{ end }}
-            </section>       
+        
+        <section class="page-main-list">
+            <ul>
+                {{ range .Pages }}
+                    {{ .Render "summary"}}
+                {{ end }}
+            </ul>    
+        </section>       
     </main>
 {{ end }}

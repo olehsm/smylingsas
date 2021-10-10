@@ -5,7 +5,15 @@
     transform: scale(1);
     transition: transform 250ms ease-in-out;
     background: #2e3039;
-    border-radius: 30px;
+    //border-radius: 30px;
+
+    //display: flex;
+    //flex-direction: column;
+    flex: 1;
+    position: relative;
+    padding: 1rem 1.25rem;
+    //background-color: #fff;
+    //box-shadow: 1px 1px 0 rgb(119 119 136 / 25%);
 }
 
 

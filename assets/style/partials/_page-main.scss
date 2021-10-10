@@ -1,11 +1,23 @@
-.page-main-list {
+.page-main-list ul{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(337px,1fr));
-    grid-auto-rows: 1fr;
-    height: auto;
-    gap:4rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    grid-template-columns: repeat(auto-fill,minmax(40rem,1fr));
+    //grid-template-columns: repeat(auto-fill,minmax(25rem,1fr));
+    //grid-template-columns: repeat(auto-fill, minmax(calc(10% + 7.5rem), 1fr));
+    //grid-auto-rows: 1fr;
+    //height: auto;
+    grid-gap:0.25rem;
+    //margin-left: 4rem;
+    //margin-right: 4rem;
+    padding: 0.25rem;
+}
+
+
+.page-main-list ul>* {
+    display: flex;
+    flex: 1;
+    margin: 0 .25rem .25rem 0;
+    margin: 0;
+    flex: 16em 1 0;
 }
 
 
