@@ -17,7 +17,7 @@
     text-shadow: 1px 1px 2px #f8430a;
     margin-bottom: 7rem;
     font-size: 6rem;
-    margin-left: 5rem;
+    //margin-left: 5rem;
 }
 
 
@@ -66,14 +66,6 @@
 
 @media screen and (max-width: 450px) {
     .hero-text {
-        margin-left: 5rem;
-        //color: white;
+        margin-left: 0rem;
     }
-
-
-    // .home {
-    //     // min-height: 60vh;
-    //     // height:\ auto;
-    //     height: 50vh
-    // }
 }
