@@ -24,6 +24,7 @@ body {
     color: $default-font-color;
     font-family: 'Noto Sans', sans-serif;
     background: #1c1f23;
+    background: #181818;
     min-height: 100vh;
     /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
@@ -89,7 +90,7 @@ time {
 
 a {
     text-decoration: underline;
-    color: #f8430a;
+    color: #00e472;
 }
 
 
