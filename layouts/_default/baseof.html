@@ -20,9 +20,9 @@
         <footer>
             {{ partial "footer.html" . }}
         </footer>
-        <aside class="aside2">
+        <!-- <aside class="aside2">
             {{ partial "asidecontent.html" . }}
-        </aside>
+        </aside> -->
         {{ partial "site-menu-mobile.html" . }}
        
     
@@ -37,15 +37,15 @@
             if(shareButton !== null) {
                 var title = document.getElementsByTagName("title")[0].innerHTML;
                 shareButton.addEventListener('click', event => {
-                if (navigator.share) {
-                    navigator.share({
-                    title: title,
-                    text: 'Sjekk denne artikkelen på Ole Halvors hjemmeside',
-                    url: window.location.href,
-                    })
-                    .then(() => console.log('Successful share'))
-                    .catch((error) => console.log('Error sharing', error));
-                }
+                    if (navigator.share) {
+                        navigator.share({
+                            title: title,
+                            text: 'Sjekk denne artikkelen på Ole Halvors hjemmeside',
+                            url: window.location.href,
+                            })
+                        .then(() => console.log('Successful share'))
+                        .catch((error) => console.log('Error sharing', error));
+                    }
                 })
             }
             

@@ -14,9 +14,9 @@ section .content {
 }
 
 
-.aside2 {
-     grid-area: contentbar;
-}
+// .aside2 {
+//      grid-area: contentbar;
+// }
 
 
 .topics2 {
@@ -139,10 +139,10 @@ body {
     body {
         display: grid;
         grid-template-areas: 
-            "navbar sitenav content contentbar"
-            "navbar sitenav topics contentbar"
-            "navbar sitenav footer contentbar";
-        grid-template-columns: 8rem 14vw 1fr 11vw;
+            "navbar sitenav content"
+            "navbar sitenav topics"
+            "navbar sitenav footer";
+        grid-template-columns: 8rem 14vw 1fr;
         grid-template-rows: auto auto 20vh;    
     }
 

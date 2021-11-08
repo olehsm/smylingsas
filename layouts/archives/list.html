@@ -5,10 +5,11 @@
     </article>
         
     <section class="page-main-list">
-        {{ range .Site.RegularPages }}
-            {{ .Render "summary"}}
-        {{ end }}
+        <ul class="reset-list">
+            {{ range .Site.RegularPages }}
+                {{ .Render "summary"}}
+            {{ end }}
+        </ul>
     </section>       
-
 </main>
 {{ end }}
