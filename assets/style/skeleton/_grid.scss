@@ -4,19 +4,14 @@
 }
 
 
-.nav--site {
-    grid-area: sitenav;
-}
+// .nav--site {
+//     grid-area: sitenav;
+// }
 
 
 section .content {
     grid-area: content;
 }
-
-
-// .aside2 {
-//      grid-area: contentbar;
-// }
 
 
 .topics2 {
@@ -45,11 +40,9 @@ body {
 }
 
 
-.nav--site,
+// .nav--site,
 .site-menu-open-link,
-.aside2,
-.header--site,
-.aside2 {
+.header--site {
     display: none;
 }
 
@@ -110,10 +103,10 @@ body {
     body {
         display: grid;
         grid-template-areas: 
-            "navbar sitenav content"
-            "navbar sitenav topics"
-            "navbar sitenav footer";
-        grid-template-columns: 8rem 13vw 1fr;
+            "navbar content"
+            "navbar topics"
+            "navbar footer";
+        grid-template-columns: 8rem 1fr;
         grid-template-rows: auto 30vh 20vh;    
     }
 
@@ -128,10 +121,10 @@ body {
     }
     
 
-    .nav--site
-    {
-        display: block;
-    }
+    // .nav--site
+    // {
+    //     display: block;
+    // }
 }
 
 
@@ -139,16 +132,16 @@ body {
     body {
         display: grid;
         grid-template-areas: 
-            "navbar sitenav content"
-            "navbar sitenav topics"
-            "navbar sitenav footer";
-        grid-template-columns: 8rem 14vw 1fr;
+            "navbar content"
+            "navbar topics"
+            "navbar footer";
+        grid-template-columns: 8rem 1fr;
         grid-template-rows: auto auto 20vh;    
     }
 
 
-    .aside2
-    {
-        display: block;
-    }
+    // .aside2
+    // {
+    //     display: block;
+    // }
 }
