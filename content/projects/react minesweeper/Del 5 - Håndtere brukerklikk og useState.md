@@ -1,17 +1,17 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = []
-categories = []
-tags = ["react"]     
-slug = ""
-title = "Del 5 - Håndtere brukerklikk og useState"
-date = 2020-12-01T21:55:37+01:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: []
+categories: []
+tags: ["react"]     
+slug: ""
+title: "Del 5 - Håndtere brukerklikk og useState"
+date: 2020-12-01T21:55:37+01:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
 
 Utvidet spillmodellen til å også håndtere hvilke felt bruker har trykket på.
 <!--more-->

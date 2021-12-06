@@ -1,17 +1,18 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = []
-categories = []
-tags = ["css"]     
-slug = ""
-title = "Border Box"
-date = 2020-01-01T23:07:07+01:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: []
+categories: []
+tags: ["css"]     
+slug: ""
+title: "Border Box"
+date: 2020-01-01T23:07:07+01:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
+
 TIL Border box
 >Det er to måter å se border-box på; "content-box" og "border-box"
 <!--more-->

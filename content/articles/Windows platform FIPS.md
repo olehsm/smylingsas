@@ -1,17 +1,17 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = ["https://www.eonesolutions.com/help-article/this-implementation-is-not-part-of-the-windows-platform-fips-validated-cryptographic-algorithms/", "https://www.howtogeek.com/245859/why-you-shouldnt-enable-fips-compliant-encryption-on-windows/", "https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards"]
-categories = []
-tags = []     
-slug = ""
-title = "Windows Platform FIPS"
-date = 2021-08-31T12:08:25+02:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: ["https://www.eonesolutions.com/help-article/this-implementation-is-not-part-of-the-windows-platform-fips-validated-cryptographic-algorithms/", "https://www.howtogeek.com/245859/why-you-shouldnt-enable-fips-compliant-encryption-on-windows/", "https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards"]
+categories: []
+tags: []     
+slug: ""
+title: "Windows Platform FIPS"
+date: 2021-08-31T12:08:25+02:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
 
 
 

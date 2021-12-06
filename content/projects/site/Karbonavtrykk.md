@@ -1,17 +1,18 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = ["https://www.websitecarbon.com/website/smylingsas-net/", "https://www.websitecarbon.com/"]
-categories = []
-tags = []     
-slug = ""
-title = "Karbonavtrykk"
-date = 2021-02-08T21:29:14+01:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: ["https://www.websitecarbon.com/website/smylingsas-net/", "https://www.websitecarbon.com/"]
+categories: []
+tags: []     
+slug: ""
+title: "Karbonavtrykk"
+date: 2021-02-08T21:29:14+01:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
+
 Testet i dag karbonavtrykket til denne nettsiden. 
 <!--more-->
 Fra [websitecarbon.com](https://www.websitecarbon.com/):

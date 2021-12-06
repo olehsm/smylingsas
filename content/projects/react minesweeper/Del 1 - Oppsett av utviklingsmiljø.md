@@ -1,17 +1,18 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = []
-categories = []
-tags = ["react", "git"]     
-slug = ""
-title = "Del 1 - Oppsett av utviklingsmiljø"
-date = 2020-11-09T22:18:55+01:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: []
+categories: []
+tags: ["react", "git"]     
+slug: ""
+title: "Del 1 - Oppsett av utviklingsmiljø"
+date: 2020-11-09T22:18:55+01:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
+
 <!--more-->
 https://chocolatey.org/packages/nodejs#install
 

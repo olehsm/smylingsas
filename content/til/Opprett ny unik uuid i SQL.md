@@ -1,17 +1,17 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = ["https://docs.microsoft.com/en-us/sql/t-sql/functions/newid-transact-sql?view=sql-server-ver15"]
-categories = []
-tags = ["sql"]     
-slug = ""
-title = "Opprett ny unik UUID I SQL"
-date = 2021-08-31T11:47:17+02:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: ["https://docs.microsoft.com/en-us/sql/t-sql/functions/newid-transact-sql?view=sql-server-ver15"]
+categories: []
+tags: ["sql"]     
+slug: ""
+title: "Opprett ny unik UUID I SQL"
+date: 2021-08-31T11:47:17+02:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
 
 TIL: Hvordan opprette GUID?
 <!--more-->
@@ -31,7 +31,7 @@ SELECT NEWID();
 #### Som en variabel:
 {{<highlight sql>}}
 DECLARE @myid uniqueidentifier  
-SET @myid = NEWID()  
+SET @myid: NEWID()  
 PRINT '@myid: '+ CONVERT(varchar(255), @myid) 
 {{</highlight>}}
 

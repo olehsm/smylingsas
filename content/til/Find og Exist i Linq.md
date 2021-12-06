@@ -1,17 +1,17 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = ["https://www.dotnetperls.com/list-find"]
-categories = []
-tags = ["csharp", "linq"]     
-slug = ""
-title = "Find Og Exist I Linq"
-date = 2021-02-08T21:52:49+01:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: ["https://www.dotnetperls.com/list-find"]
+categories: []
+tags: ["csharp", "linq"]     
+slug: ""
+title: "Find Og Exist I Linq"
+date: 2021-02-08T21:52:49+01:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
 
 TIL Exist i Linq
 <!--more-->

@@ -1,17 +1,17 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = []
-categories = []
-tags = ["navigation", "hugo"]     
-slug = ""
-title = "Tastaturnavigasjon mellom artikler"
-date = 2020-07-12T13:38:11+02:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: []
+categories: []
+tags: ["navigation", "hugo"]     
+slug: ""
+title: "Tastaturnavigasjon mellom artikler"
+date: 2020-07-12T13:38:11+02:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
 
 Ved å bruke Hugo sin innebyggede seksjonnavigasjon, javascript sin querySelector og DOM - eventet 'onkeydown' har jeg nå lagt til muligheten for å kunne bla frem og tilbake mellom artiklene på denne siden med piltastene på tastaturet.
 

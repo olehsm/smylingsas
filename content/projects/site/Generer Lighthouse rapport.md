@@ -1,17 +1,18 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = ["https://developers.google.com/web/tools/lighthouse/"]
-categories = []
-tags = ["lighthouse"]     
-slug = ""
-title = "Generer Lighthouse rapport 07-06-2020"
-date = 2020-06-07T11:51:07+02:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: ["https://developers.google.com/web/tools/lighthouse/"]
+categories: []
+tags: ["lighthouse"]     
+slug: ""
+title: "Generer Lighthouse rapport 07-06-2020"
+date: 2020-06-07T11:51:07+02:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
+
 Hva er Lighthouse?
 Lighthouse is an open-source, automated tool for improving the quality of web pages. 
 <!--more-->

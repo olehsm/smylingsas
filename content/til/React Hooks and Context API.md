@@ -1,17 +1,17 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = ["https://medium.com/simply/state-management-with-react-hooks-and-context-api-at-10-lines-of-code-baf6be8302c", "https://www.smashingmagazine.com/2020/01/introduction-react-context-api/", "https://reactjs.org/docs/hooks-state.html"]
-categories = []
-tags = ["js", "react", "hooks", "contextapi"]     
-slug = ""
-title = "React Hooks og Context API"
-date = 2020-02-23T18:41:11+01:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: ["https://medium.com/simply/state-management-with-react-hooks-and-context-api-at-10-lines-of-code-baf6be8302c", "https://www.smashingmagazine.com/2020/01/introduction-react-context-api/", "https://reactjs.org/docs/hooks-state.html"]
+categories: []
+tags: ["js", "react", "hooks", "contextapi"]     
+slug: ""
+title: "React Hooks og Context API"
+date: 2020-02-23T18:41:11+01:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
 
 State kontroll med React Hooks og Context API.
 <!--more-->
@@ -29,29 +29,29 @@ import "./styles.css";
 
 
 function App() {
-  const[theme, setTheme] = React.useState("red");
+  const[theme, setTheme]: React.useState("red");
 
-  const onClickHandler = () => {
+  const onClickHandler: () => {
   setTheme( theme === "red"? "blue": "red");
   }
 
   return (
     <div>
       <Text theme={theme}/>
-      <button onClick = {onClickHandler}>Change theme</button>
+      <button onClick: {onClickHandler}>Change theme</button>
     </div>
   );
 }
 
 function Text({theme}) {
 return(
-  <h1 style = {{
+  <h1 style: {{
      color: `${theme}`
   }}>{theme}</h1>
 );
 }
 
-const rootElement = document.getElementById("root");
+const rootElement: document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 
 

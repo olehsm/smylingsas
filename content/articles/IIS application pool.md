@@ -1,17 +1,17 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = []
-categories = []
-tags = ["iis"]
-slug = ""
-title = "IIS Application Pool - liten oversikt"
-date = 2021-02-18T22:22:00+01:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: []
+categories: []
+tags: ["iis"]
+slug: ""
+title: "IIS Application Pool - liten oversikt"
+date: 2021-02-18T22:22:00+01:00
+draft: false
+featuretext:  ""
+featureimg: ""
+comments: false
+---
 
 En Application pool er en mekanisme i IIS for å isolere webapplikasjoner fra hverandra. Slik at det er mulig å ha unike konfikurasjoner for hver applikasjon (ressurser, sikkert e.l.) og ikke minst hindrer at feil i en applikasjon ikke påvirker andre applikasjoner som kjører på samme server.
 

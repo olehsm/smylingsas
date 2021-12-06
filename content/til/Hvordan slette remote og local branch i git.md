@@ -1,17 +1,17 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = ["https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely"]
-categories = []
-tags = ["git"]     
-slug = ""
-title = "Slette brancher i git"
-date = 2019-10-19T21:51:36+02:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: ["https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely"]
+categories: []
+tags: ["git"]     
+slug: ""
+title: "Slette brancher i git"
+date: 2019-10-19T21:51:36+02:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
 Hvordan slette remote og local branch i git
 <!--more-->
 

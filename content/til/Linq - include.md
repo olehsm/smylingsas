@@ -1,17 +1,17 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-pageresources = []
-categories = []
-tags = ["csharp", "linq"]     
-slug = ""
-title = "Linq .Include"
-date = 2020-01-28T22:42:09+01:00
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+pageresources: []
+categories: []
+tags: ["csharp", "linq"]     
+slug: ""
+title: "Linq .Include"
+date: 2020-01-28T22:42:09+01:00
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
 
 TIL: For å bruke Include() i en Linq-spørring...
 <!--more-->

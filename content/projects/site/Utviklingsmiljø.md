@@ -1,17 +1,18 @@
-+++
-author = "Ole Halvor Smylingsås"
-description = ""
-resources = []
-categories = []
-tags = ["hugo"]  
-slug = ""
-title = "Utviklingsmiljø"
-date = "2017-09-04T22:43:58+02:00"
-draft = "false"
-featuretext = ""
-featureimg = ""
-comments = "false"
-+++
+---
+author: "Ole Halvor Smylingsås"
+description: ""
+resources: []
+categories: []
+tags: ["hugo"]  
+slug: ""
+title: "Utviklingsmiljø"
+date: "2017-09-04T22:43:58+02:00"
+draft: false
+featuretext: ""
+featureimg: ""
+comments: false
+---
+
 Mitt oppsett av Hugo for Smylingsas.net
 <!--more-->
 {{<highlight html>}}
