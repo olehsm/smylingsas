@@ -8,8 +8,6 @@ slug: ""
 title: "Del 2 - TypeScript og datamodell"
 date: 2020-11-22T22:48:13+01:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

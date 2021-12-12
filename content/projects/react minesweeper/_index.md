@@ -8,8 +8,6 @@ slug: ""
 title: "React minesweeper"
 date: 2020-11-09T22:25:07+01:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

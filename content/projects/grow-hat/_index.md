@@ -1,14 +1,17 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["raspberrypi", "ssh", "growhat"]     
-slug: ""
-title: "Raspberry Pi + Grow Hat"
-date: 2021-10-10T12:36:31+02:00
+tags:
+    - raspberrypi
+    - ssh
+    - growhat
+slug: ''
+title: Raspberry Pi + Grow Hat
+date: 2021-10-10T10:36:31.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-12T14:20:56.105Z'
 ---
+

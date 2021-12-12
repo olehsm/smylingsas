@@ -8,8 +8,6 @@ slug: ""
 title: "Editer Kode via SSH (Del 2)"
 date: 2021-10-10T13:09:30+02:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

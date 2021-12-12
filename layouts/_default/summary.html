@@ -1,23 +1,16 @@
 <li>
     <article class="item">
-        <header>
-            <h2 class="item__title">
-                <a href='{{ .Permalink }}'> {{ .Title }}</a>
-            </h2>
-            <div class="post-meta">
-                <time datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format "Mon, Jan 2, 2006" }}</time> - <i class="fas fa-file-alt"></i>&nbsp;{{ .WordCount }} Ord </div>
-            <!-- {{ with .Params.tags2 }}
-                <ul class="reset-list item__taglist">
-                    {{ range . }}
-                        {{ $href := print (absURL "tags/") (urlize .) }}
-                        <li><a class="button" href="{{ $href }}/">{{ . }}</a></li>
-                    {{ end }}
-                </ul>
-            {{ end }} -->
-        </header>
-            <p>{{ .Summary }}</p>
-        <footer style="margin-top: auto">
-            <a class="button" href='{{ .Permalink }}'><nobr>Les mer →</nobr></a>
-        </footer>
+        <div class="visual">
+            <img src="{{.Params.preview}}"/>
+        </div>
+        <h2 class="item__title">
+            {{ .Title }}
+        </h2>
+        <div class="post-meta">
+            <time datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format "Mon, Jan 2, 2006" }}</time> - <i class="fas fa-file-alt"></i>&nbsp;{{ .WordCount }} Ord 
+        </div>
+        
+        <p>{{ .Summary }}</p>
+        <a class="button" href='{{ .Permalink }}'><nobr>Les mer →</nobr></a>
     </article>
 </li>

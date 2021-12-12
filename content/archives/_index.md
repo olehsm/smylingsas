@@ -1,16 +1,15 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: []     
-slug: ""
-title: "Arkiv"
-date: 2020-10-04T12:21:00+02:00
+tags: []
+slug: ''
+title: Arkiv
+date: 2020-10-04T10:21:00.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-12T14:20:11.709Z'
 ---
 
 En oversikt over alle artikler publisert på denne siden sortert i kronologisk rekkefølge

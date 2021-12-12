@@ -1,16 +1,18 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["js", "angularjs", "stacktracejs"]     
-slug: ""
-title: "Logging av feil i klient/nettleser. Del 1 - AngularJS"
-date: 2020-04-24T22:30:34+02:00
+tags:
+    - js
+    - angularjs
+    - stacktracejs
+slug: ''
+title: Logging av feil i klient/nettleser. Del 1 - AngularJS
+date: 2020-04-24T20:30:34.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-12T14:20:31.502Z'
 ---
 
 Følgende kodesnutt viser logging av feil i nettleser med AngularJS og Stacktrace.js

@@ -1,12 +1,12 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: []     
-slug: "/{{kebabCase name}}/"
+tags: []
+slug: '/{{kebabCase name}}/'
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-12T14:19:57.872Z'
 ---
+

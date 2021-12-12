@@ -1,16 +1,15 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: []     
-slug: ""
-title: "Start Raspberry Pi (Del 1)"
-date: 2021-10-10T12:41:10+02:00
+tags: []
+slug: ''
+title: Start Raspberry Pi (Del 1)
+date: 2021-10-10T10:41:10.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-12T14:21:11.471Z'
 ---
 
 Dette er del 1 i prosjektet "Sette opp Raspberry Pi og Grow Hat. 

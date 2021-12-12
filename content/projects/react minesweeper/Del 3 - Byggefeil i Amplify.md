@@ -8,8 +8,6 @@ slug: ""
 title: "Del 3 - Byggefeil i Amplify"
 date: 2020-12-01T21:48:13+01:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

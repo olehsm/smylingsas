@@ -8,8 +8,6 @@ slug: ""
 title: "Del 6 - Dedikert domene"
 date: 2021-02-03T21:58:19+01:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

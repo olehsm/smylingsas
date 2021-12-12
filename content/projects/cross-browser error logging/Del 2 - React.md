@@ -1,16 +1,19 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["js", "react", "typescript", "stacktracejs"]     
-slug: ""
-title: "Logging av feil i klient/nettleser. Del 2 - React"
-date: 2020-04-24T22:30:53+02:00
+tags:
+    - js
+    - react
+    - typescript
+    - stacktracejs
+slug: logging-av-feil-klient-nettleser-del-2-react
+title: Logging av feil i klient/nettleser. Del 2 - React
+date: 2020-04-24T20:30:53.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-12T14:20:39.490Z'
 ---
 
 Følgende kodesnutt viser logging av feil i nettleser med React og Stacktrace.js
