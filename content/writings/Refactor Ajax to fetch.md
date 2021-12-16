@@ -1,17 +1,18 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["js"]     
-slug: ""
-title: "Refactor Ajax til Fetch"
-date: 2020-04-24T22:27:08+02:00
+tags:
+    - js
+slug: ''
+title: Refactor Ajax til Fetch
+date: 2020-04-24T20:27:08.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:40:08.235Z'
 ---
+
 TIL: Ta i bruk den nye Fetch API'et
 <!--more-->
 

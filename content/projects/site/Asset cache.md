@@ -8,8 +8,6 @@ slug: ""
 title: "Asset cache"
 date: 2020-03-11T20:06:24+01:00
 draft: true
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

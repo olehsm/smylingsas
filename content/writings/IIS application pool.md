@@ -11,12 +11,13 @@ date: 2021-02-18T21:22:00.000Z
 draft: false
 comments: false
 preview: /pool.jpg
-lastmod: '2021-12-12T12:25:08.850Z'
+lastmod: '2021-12-16T20:37:06.479Z'
 ---
 
-En Application pool er en mekanisme i IIS for å isolere webapplikasjoner fra hverandra. Slik at det er mulig å ha unike konfikurasjoner for hver applikasjon (ressurser, sikkert e.l.) og ikke minst hindrer at feil i en applikasjon ikke påvirker andre applikasjoner som kjører på samme server.
+En Application pool er en mekanisme i IIS for å isolere webapplikasjoner fra hverandra. 
 
 <!--more-->
+Slik at det er mulig å ha unike konfikurasjoner for hver applikasjon (ressurser, sikkert e.l.) og ikke minst hindrer at feil i en applikasjon ikke påvirker andre applikasjoner som kjører på samme server.
 
 ## Hva er Internet Information Service?
 Internet Information Service (fra nå IIS) er webserverprogramvare fra Microsoft som kjører på Windows

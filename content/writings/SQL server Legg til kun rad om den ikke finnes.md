@@ -1,20 +1,23 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["sql", "tsql", "dapper"]     
-slug: ""
-title: "Legg til kun rad om den ikke finnes"
-date: 2021-05-25T21:38:10+02:00
+tags:
+    - sql
+    - tsql
+    - dapper
+slug: ''
+title: Legg til kun en rad om den ikke finnes
+date: 2021-05-25T19:38:10.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:41:34.744Z'
 ---
 
 TIL: Hindre duplikate Guids i samme tabell med asynkron løsning
 <!--more-->
+
 {{<highlight sql>}}
 BEGIN
    IF NOT EXISTS (SELECT * FROM Hyllevarer 

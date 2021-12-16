@@ -1,20 +1,22 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
-pageresources: ["https://twitter.com/umaar/status/1260182825573191680"]
+author: Ole Halvor Smylingsås
+description: ''
+pageresources:
+    - 'https://twitter.com/umaar/status/1260182825573191680'
 categories: []
-tags: ["html"]     
-slug: ""
-title: "Download attributtet i html"
-date: 2020-05-22T15:03:17+02:00
+tags:
+    - html
+slug: ''
+title: Download attributtet i html
+date: 2020-05-22T13:03:17.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:41:50.907Z'
 ---
 
 TIL:  Om en legger til 'download' attributett i en lenke... 
 <!--more-->
+
 Så vil nettleseren svare med dialog for å laste ned filen i stedet for kun å vise den.
 {{<highlight html>}}
 <a download href="cat.jpg">

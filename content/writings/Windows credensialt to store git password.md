@@ -8,8 +8,6 @@ slug: ""
 title: "Windows credensialt to store Git password"
 date: 2020-02-09T23:35:43+01:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

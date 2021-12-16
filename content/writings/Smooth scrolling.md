@@ -8,8 +8,6 @@ slug: ""
 title: "Smooth scrolling"
 date: 2020-09-01T21:53:39+02:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

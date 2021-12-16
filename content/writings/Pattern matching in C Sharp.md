@@ -1,17 +1,20 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
-pageresources: ["https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching"]
+author: Ole Halvor Smylingsås
+description: ''
+pageresources:
+    - 'https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching'
 categories: []
-tags: ["csharp", "switch"]     
-slug: ""
-title: "Pattern matching i C#"
-date: 2020-02-23T18:48:05+01:00
+tags:
+    - csharp
+    - switch
+slug: ''
+title: 'Pattern matching i C#'
+date: 2020-02-23T17:48:05.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:39:05.868Z'
 ---
+
 <!--more-->
 {{<highlight c>}}
 public EstimatedToolRequirement[] Handle(EstimatedToolRequirementsQuery query)

@@ -1,16 +1,22 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
-pageresources: ["https://medium.com/simply/state-management-with-react-hooks-and-context-api-at-10-lines-of-code-baf6be8302c", "https://www.smashingmagazine.com/2020/01/introduction-react-context-api/", "https://reactjs.org/docs/hooks-state.html"]
+author: Ole Halvor Smylingsås
+description: ''
+pageresources:
+  - 'https://medium.com/simply/state-management-with-react-hooks-and-context-api-at-10-lines-of-code-baf6be8302c'
+  - 'https://www.smashingmagazine.com/2020/01/introduction-react-context-api/'
+  - 'https://reactjs.org/docs/hooks-state.html'
 categories: []
-tags: ["js", "react", "hooks", "contextapi"]     
-slug: ""
-title: "React Hooks og Context API"
-date: 2020-02-23T18:41:11+01:00
+tags:
+  - js
+  - react
+  - hooks
+  - contextapi
+slug: ''
+title: React Hooks og Context API
+date: 2020-02-23T17:41:11.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:39:30.907Z'
 ---
 
 State kontroll med React Hooks og Context API.

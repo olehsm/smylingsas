@@ -1,16 +1,16 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 resources: []
 categories: []
-tags: ["hugo"]  
-slug: ""
-title: "Utviklingsmiljø"
-date: "2017-09-04T22:43:58+02:00"
+tags:
+    - hugo
+slug: ''
+title: Utviklingsmiljø
+date: '2017-09-04T22:43:58+02:00'
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:28:35.477Z'
 ---
 
 Mitt oppsett av Hugo for Smylingsas.net

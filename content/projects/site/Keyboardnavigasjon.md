@@ -8,8 +8,6 @@ slug: ""
 title: "Tastaturnavigasjon mellom artikler"
 date: 2020-07-12T13:38:11+02:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

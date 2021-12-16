@@ -8,7 +8,5 @@ slug: ""
 title: "La til en scroll-til-topp-knapp"
 date: 2021-03-08T22:04:50+01:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---

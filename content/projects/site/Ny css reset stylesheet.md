@@ -8,8 +8,6 @@ slug: ""
 title: "Ny CSS reset stylesheet"
 date: 2021-06-10T21:59:49+02:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

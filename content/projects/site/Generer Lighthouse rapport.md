@@ -8,8 +8,6 @@ slug: ""
 title: "Generer Lighthouse rapport 07-06-2020"
 date: 2020-06-07T11:51:07+02:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

@@ -1,20 +1,22 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
-pageresources: ["https://docs.microsoft.com/en-us/sql/t-sql/functions/newid-transact-sql?view=sql-server-ver15"]
+author: Ole Halvor Smylingsås
+description: ''
+pageresources:
+    - 'https://docs.microsoft.com/en-us/sql/t-sql/functions/newid-transact-sql?view=sql-server-ver15'
 categories: []
-tags: ["sql"]     
-slug: ""
-title: "Opprett ny unik UUID I SQL"
-date: 2021-08-31T11:47:17+02:00
+tags:
+    - sql
+slug: ''
+title: Opprett ny unik UUID I SQL
+date: 2021-08-31T09:47:17.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:38:21.383Z'
 ---
 
 TIL: Hvordan opprette GUID?
 <!--more-->
+
 ## Nøkkelord i T-SQL
 GUID eller unique identifier genereres med følgende funksjon T-SQL
 {{<highlight sql>}}

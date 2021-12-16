@@ -1,14 +1,16 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
-pageresources: ["https://gohugo.io/content-management/summaries/"]
+author: Ole Halvor Smylingsås
+description: ''
+pageresources:
+    - 'https://gohugo.io/content-management/summaries/'
 categories: []
-tags: ["hugo"]     
-slug: ""
-title: "Har tatt i bruk Hugo summary funksjonalitet for card layout i lister"
-date: 2020-05-10T21:45:01+02:00
+tags:
+    - hugo
+slug: ''
+title: Tatt i bruk Hugo summary for card layout i lister
+date: 2020-05-10T19:45:01.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:28:17.895Z'
 ---
+

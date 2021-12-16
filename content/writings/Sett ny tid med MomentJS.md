@@ -8,8 +8,6 @@ slug: ""
 title: "Sett ny tid med MomentJS"
 date: 2021-10-10T13:12:18+02:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

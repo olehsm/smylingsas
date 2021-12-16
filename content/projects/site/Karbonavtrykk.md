@@ -8,8 +8,6 @@ slug: ""
 title: "Karbonavtrykk"
 date: 2021-02-08T21:29:14+01:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

@@ -8,8 +8,6 @@ slug: ""
 title: "Hvordan bruke JSON_QUERY i T-SQL"
 date: 2019-10-19T21:59:42+02:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

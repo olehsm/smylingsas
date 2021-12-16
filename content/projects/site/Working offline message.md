@@ -1,16 +1,17 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["pwa", "serviceworker"]     
-slug: ""
-title: "Du er offline - beskjed"
-date: 2020-06-16T22:14:45+02:00
+tags:
+    - pwa
+    - serviceworker
+slug: ''
+title: Du er offline - beskjed
+date: 2020-06-16T20:14:45.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:29:05.286Z'
 ---
 
 Denne nettsiden vil nå presentere en enkel melding som forteller brukeren at internetttilkoblingen er brutt. 

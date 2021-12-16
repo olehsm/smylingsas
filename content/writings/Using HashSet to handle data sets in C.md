@@ -1,16 +1,18 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
-pageresources: ["https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=netframework-4.8"]
+author: Ole Halvor Smylingsås
+description: ''
+pageresources:
+    - 'https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=netframework-4.8'
 categories: []
-tags: ["csharp", "linq"]     
-slug: ""
-title: "Bruke HashSet for å håndtere i C#"
-date: 2019-11-20T21:52:48+01:00
+tags:
+    - csharp
+    - linq
+slug: ''
+title: 'Bruke HashSet for å håndtere i C#'
+date: 2019-11-20T20:52:48.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:42:39.103Z'
 ---
 
 TIL: HashSets er meget nyttig!

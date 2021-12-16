@@ -8,8 +8,6 @@ slug: ""
 title: "Printe objekter med console log"
 date: 2020-12-16T21:42:55+01:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

@@ -8,8 +8,6 @@ slug: ""
 title: "Fixed my footer on smaller viewports"
 date: 2020-07-11T22:43:37+02:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

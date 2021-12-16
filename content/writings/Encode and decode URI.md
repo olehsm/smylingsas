@@ -1,16 +1,17 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 resources: []
 categories: []
-tags: ["js", "angularjs"]     
-slug: ""
-title: "Encode and Decode URI"
-date: 2019-11-20T21:38:32+01:00
+tags:
+    - js
+    - angularjs
+slug: ''
+title: Encode and Decode URI
+date: 2019-11-20T20:38:32.000Z
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
+lastmod: '2021-12-16T20:32:26.890Z'
 ---
 
 TIL: That AngularJS encodes URI but that you have to decode the explisit yourself

@@ -12,6 +12,7 @@ comments: false
 ---
 
 <!--more-->
+
 HTML taggen ``` <textarea> ``` må avsluttes med ``` </textarea> ``` siden den kan inneholde data. Derfor fungerer det heller ikke med en self-closing tagg. 
 {{<highlight html>}}
 <textarea></texarea>

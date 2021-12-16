@@ -8,8 +8,6 @@ slug: ""
 title: "Linq .Include"
 date: 2020-01-28T22:42:09+01:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

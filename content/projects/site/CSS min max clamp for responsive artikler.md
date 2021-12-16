@@ -8,8 +8,6 @@ slug: ""
 title: "CSS Min(), Max(), Clamp() for Responsive Artikler"
 date: 2021-04-02T23:17:18+02:00
 draft: false
-featuretext: ""
-featureimg: ""
 comments: false
 ---
 

@@ -4,7 +4,7 @@ description: ''
 pageresources: []
 categories: []
 tags: []
-slug: ''
+slug: arkiv
 title: Arkiv
 date: 2020-10-04T10:21:00.000Z
 draft: false

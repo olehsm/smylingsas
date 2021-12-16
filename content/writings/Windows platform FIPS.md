@@ -13,13 +13,15 @@ date: 2021-08-31T10:08:25.000Z
 draft: false
 comments: false
 preview: /keylock.jpg
-lastmod: '2021-12-12T11:52:02.124Z'
+lastmod: '2021-12-16T20:44:55.071Z'
 ---
 
 
 
-Windows har en innstilling som hindrer applikasjoner på din maskin å benytte krypteringsløsninger som ikke er i samsvar med ``Federal Information Processing Standards(FIPS)``
+Federal Information Processing Standards(FIPS)
 <!--more-->
+
+Windows har en innstilling som hindrer applikasjoner på din maskin å benytte krypteringsløsninger som ikke er i samsvar med ``Federal Information Processing Standards(FIPS)``
 
 ## Hva er FIPS?
 ``The United States' Federal Information Processing Standards (FIPS) are publicly announced standards developed by the National Institute of Standards and Technology for use in computer systems by non-military American government agencies and government contractors``
