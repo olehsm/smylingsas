@@ -1,12 +1,13 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: []     
-slug: ""
-title: "Hugo Render Function"
-date: 2020-10-04T13:32:50+02:00
+tags: []
+slug: hugo-render-function
+title: Hugo Render Function
+date: 2020-10-04T11:32:50.000Z
 draft: false
 comments: false
 ---
+
