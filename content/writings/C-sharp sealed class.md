@@ -6,12 +6,13 @@ pageresources:
 categories: []
 tags:
     - csharp
-slug: ''
+slug: sealed-class
 title: 'C# sealed class'
 date: 2020-01-28T21:39:29.000Z
 draft: false
 comments: false
 lastmod: '2021-12-16T20:31:24.292Z'
+preview: /preview-images/dotnet.jpg
 ---
 
 <!--more-->

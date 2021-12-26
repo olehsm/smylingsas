@@ -1,14 +1,17 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["react"]     
-slug: ""
-title: "IsolatedModul Error in React"
-date: 2020-11-22T22:58:05+01:00
+tags:
+    - react
+slug: isolatedmodul-error-react
+title: IsolatedModul Error in React
+date: 2020-11-22T21:58:05.000Z
 draft: false
 comments: false
+preview: /preview-images/react.jpg
+lastmod: '2021-12-26T20:18:53.160Z'
 ---
 
 <!--more-->

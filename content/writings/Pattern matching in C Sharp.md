@@ -7,12 +7,13 @@ categories: []
 tags:
     - csharp
     - switch
-slug: ''
+slug: pattern-matching-
 title: 'Pattern matching i C#'
 date: 2020-02-23T17:48:05.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:39:05.868Z'
+lastmod: '2021-12-26T20:27:08.566Z'
+preview: /preview-images/dotnet.jpg
 ---
 
 <!--more-->

@@ -1,14 +1,18 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["csharp", "linq"]     
-slug: ""
-title: "Linq .Include"
-date: 2020-01-28T22:42:09+01:00
+tags:
+    - csharp
+    - linq
+slug: linq-include
+title: Linq .Include
+date: 2020-01-28T21:42:09.000Z
 draft: false
 comments: false
+lastmod: '2021-12-26T20:25:39.899Z'
+preview: /preview-images/dotnet.jpg
 ---
 
 TIL: For å bruke Include() i en Linq-spørring...

@@ -15,6 +15,7 @@ date: 2020-04-24T20:17:45.000Z
 draft: false
 comments: false
 lastmod: '2021-12-16T20:43:25.029Z'
+preview: /preview-images/angularjs.jpg
 ---
 
 TIL: Om man kjører AngularJS, vil ikke klientfeil dukke opp i window.onerror.

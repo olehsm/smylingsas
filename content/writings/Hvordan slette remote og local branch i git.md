@@ -6,12 +6,13 @@ pageresources:
 categories: []
 tags:
     - git
-slug: ''
+slug: slette-brancher-git
 title: Slette brancher i git
 date: 2019-10-19T19:51:36.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:36:36.163Z'
+lastmod: '2021-12-26T20:13:10.024Z'
+preview: /preview-images/git.jpg
 ---
 
 Hvordan slette remote og local branch i git

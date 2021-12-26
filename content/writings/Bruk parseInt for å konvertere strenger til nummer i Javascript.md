@@ -6,12 +6,13 @@ pageresources:
 categories: []
 tags:
     - js
-slug: ''
+slug: hvordan-konvertere-strenger-til-nummer-javascript
 title: Hvordan konvertere strenger til nummer i Javascript
 date: 2020-04-30T18:13:48.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:30:33.888Z'
+lastmod: '2021-12-26T22:05:33.138Z'
+preview: /javascript.jpg
 ---
 
 TIL: Hvordan bruke parseInt for å konvertere strenger til nummer i Javascript

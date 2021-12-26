@@ -6,12 +6,13 @@ pageresources:
 categories: []
 tags:
     - csharp
-slug: ''
+slug: params
 title: 'C# params'
 date: 2019-12-21T16:26:23.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:31:11.951Z'
+lastmod: '2021-12-26T22:04:26.943Z'
+preview: /preview-images/dotnet.jpg
 ---
 
 <!--more-->

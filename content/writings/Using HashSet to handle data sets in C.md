@@ -7,12 +7,13 @@ categories: []
 tags:
     - csharp
     - linq
-slug: ''
+slug: bruke-hashset-a-handtere-
 title: 'Bruke HashSet for å håndtere i C#'
 date: 2019-11-20T20:52:48.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:42:39.103Z'
+lastmod: '2021-12-26T20:19:08.697Z'
+preview: /preview-images/dotnet.jpg
 ---
 
 TIL: HashSets er meget nyttig!

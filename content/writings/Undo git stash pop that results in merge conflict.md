@@ -6,12 +6,13 @@ pageresources:
 categories: []
 tags:
     - git
-slug: ''
+slug: angre-git-stash-pop-som-ender-en-mergekonflikt
 title: Angre 'git stash pop' som ender i en mergekonflikt
 date: 2020-04-01T19:51:01.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:42:28.983Z'
+lastmod: '2021-12-26T20:11:41.868Z'
+preview: /preview-images/git.jpg
 ---
 
 TIL: Angre en "git stash pop"

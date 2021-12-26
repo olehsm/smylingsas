@@ -6,12 +6,13 @@ categories: []
 tags:
     - csharp
     - linq
-slug: ''
+slug: selectmany
 title: 'C# SelectMany'
 date: 2019-09-09T14:58:09.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:31:36.141Z'
+lastmod: '2021-12-26T20:30:27.085Z'
+preview: /preview-images/dotnet.jpg
 ---
 
 TIL: Flat ut et multidimensjonalt array i C# med .SelectMany() og .Select().

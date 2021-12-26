@@ -7,12 +7,13 @@ categories: []
 tags:
     - csharp
     - linq
-slug: ''
+slug: single-singleordefault
 title: Single vs SingleOrDefault
 date: 2021-02-08T20:19:45.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:40:29.645Z'
+lastmod: '2021-12-26T20:27:45.047Z'
+preview: /preview-images/dotnet.jpg
 ---
 
 TIL: Forskjellen på Single() og SingleOrDefault() og når man skal benytte de.

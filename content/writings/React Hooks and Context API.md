@@ -11,12 +11,13 @@ tags:
   - react
   - hooks
   - contextapi
-slug: ''
+slug: react-hooks-og-context-api
 title: React Hooks og Context API
 date: 2020-02-23T17:41:11.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:39:30.907Z'
+lastmod: '2021-12-26T22:04:01.750Z'
+preview: /preview-images/react.jpg
 ---
 
 State kontroll med React Hooks og Context API.

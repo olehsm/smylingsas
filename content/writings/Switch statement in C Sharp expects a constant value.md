@@ -7,12 +7,13 @@ categories: []
 tags:
     - csharp
     - switch
-slug: ''
+slug: switch-utrykk-krever-en-konstant-verdi
 title: 'Switch-utrykk i C# krever en konstant verdi'
 date: 2020-02-23T17:54:41.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:41:17.028Z'
+lastmod: '2021-12-26T20:28:08.325Z'
+preview: /preview-images/dotnet.jpg
 ---
 
 TIL: Et Switch-uttrykk i C# kan ikke inneholve evaluerte uttrykk i case. De må være statisk evaluert.

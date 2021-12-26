@@ -1,14 +1,19 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
-pageresources: ["https://www.dotnetperls.com/list-find"]
+author: Ole Halvor Smylingsås
+description: ''
+pageresources:
+    - 'https://www.dotnetperls.com/list-find'
 categories: []
-tags: ["csharp", "linq"]     
-slug: ""
-title: "Find Og Exist I Linq"
-date: 2021-02-08T21:52:49+01:00
+tags:
+    - csharp
+    - linq
+slug: find-og-exist-linq
+title: Find Og Exist I Linq
+date: 2021-02-08T20:52:49.000Z
 draft: false
 comments: false
+lastmod: '2021-12-26T20:29:30.627Z'
+preview: /preview-images/dotnet.jpg
 ---
 
 TIL: Exist i Linq

@@ -5,12 +5,13 @@ pageresources: []
 categories: []
 tags:
     - js
-slug: ''
+slug: refactor-ajax-til-fetch
 title: Refactor Ajax til Fetch
 date: 2020-04-24T20:27:08.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:40:08.235Z'
+lastmod: '2021-12-26T22:06:43.794Z'
+preview: /javascript.jpg
 ---
 
 TIL: Ta i bruk den nye Fetch API'et
