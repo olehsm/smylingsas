@@ -5,12 +5,13 @@ resources: []
 categories: []
 tags:
     - hugo
-slug: ''
+slug: utviklingsmiljo
 title: Utviklingsmiljø
 date: '2017-09-04T22:43:58+02:00'
 draft: false
 comments: false
-lastmod: '2021-12-16T20:28:35.477Z'
+lastmod: '2021-12-28T16:35:13.460Z'
+preview: /hugo-logo.png
 ---
 
 Mitt oppsett av Hugo for Smylingsas.net

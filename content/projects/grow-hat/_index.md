@@ -7,11 +7,12 @@ tags:
     - raspberrypi
     - ssh
     - growhat
-slug: ''
+slug: raspberry-pi-grow-hat
 title: Raspberry Pi + Grow Hat
 date: 2021-10-10T10:36:31.000Z
 draft: false
 comments: false
-lastmod: '2021-12-12T14:20:56.105Z'
+lastmod: '2021-12-28T18:25:33.564Z'
+preview: /preview-images/finishedgrowpi.jpg
 ---
 

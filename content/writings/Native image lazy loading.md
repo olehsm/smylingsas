@@ -6,11 +6,12 @@ pageresources:
 categories: []
 tags:
     - html
-slug: ''
+slug: lazy-lasting-av-bilder
 title: Lazy lasting av bilder
 date: 2020-09-02T20:12:20.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:38:01.278Z'
+lastmod: '2021-12-28T15:54:53.660Z'
+preview: /preview-images/html.jpg
 ---
 

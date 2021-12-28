@@ -6,12 +6,13 @@ pageresources:
 categories: []
 tags:
     - html
-slug: ''
+slug: download-attributtet-html
 title: Download attributtet i html
 date: 2020-05-22T13:03:17.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:41:50.907Z'
+lastmod: '2021-12-28T16:26:01.672Z'
+preview: /preview-images/html.jpg
 ---
 
 TIL:  Om en legger til 'download' attributett i en lenke... 

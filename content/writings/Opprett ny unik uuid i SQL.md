@@ -6,12 +6,13 @@ pageresources:
 categories: []
 tags:
     - sql
-slug: ''
+slug: opprett-ny-unik-uuid-sql
 title: Opprett ny unik UUID I SQL
 date: 2021-08-31T09:47:17.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:38:21.383Z'
+lastmod: '2021-12-28T15:54:13.969Z'
+preview: /preview-images/microsoft-sql-server4529.jpg
 ---
 
 TIL: Hvordan opprette GUID?

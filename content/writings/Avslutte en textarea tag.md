@@ -1,14 +1,18 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["html", "angularjs"]     
-slug: ""
-title: "Avslutte en textarea tagg"
-date: 2020-12-16T21:48:34+01:00
+tags:
+    - html
+    - angularjs
+slug: avslutte-en-textarea-tagg
+title: Avslutte en textarea tagg
+date: 2020-12-16T20:48:34.000Z
 draft: false
 comments: false
+lastmod: '2021-12-28T16:27:25.988Z'
+preview: /preview-images/html.jpg
 ---
 
 <!--more-->

@@ -6,12 +6,13 @@ categories: []
 tags:
     - pwa
     - serviceworker
-slug: ''
+slug: du-er-offline-beskjed
 title: Du er offline - beskjed
 date: 2020-06-16T20:14:45.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:29:05.286Z'
+lastmod: '2021-12-28T16:31:27.538Z'
+preview: /javascript.jpg
 ---
 
 Denne nettsiden vil nå presentere en enkel melding som forteller brukeren at internetttilkoblingen er brutt. 

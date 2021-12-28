@@ -1,14 +1,17 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["css"]     
-slug: ""
-title: "Border Box"
-date: 2020-01-01T23:07:07+01:00
+tags:
+    - css
+slug: border-box
+title: Border Box
+date: 2020-01-01T22:07:07.000Z
 draft: false
 comments: false
+lastmod: '2021-12-28T16:42:09.497Z'
+preview: /preview-images/css.jpg
 ---
 
 TIL Border box

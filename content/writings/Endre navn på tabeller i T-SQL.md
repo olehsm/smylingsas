@@ -6,11 +6,12 @@ pageresources:
 categories: []
 tags:
     - sql
-slug: ''
+slug: endre-navn-pa-tabeller-sql
 title: Endre navn på tabeller i T-SQL
 date: 2019-12-21T16:24:08.000Z
 draft: false
 comments: false
 lastmod: '2021-12-16T20:34:55.839Z'
+preview: /preview-images/microsoft-sql-server4529.jpg
 ---
 
