@@ -5,7 +5,7 @@
 
 
 .timeline ul{
-    border-left: 4px solid #00e472;
+    border-left: 4px solid $default-theme-color;
     background-color: rgba(0,0,0,.05);
     margin: 0 auto;
     position: relative;
@@ -64,7 +64,7 @@
 
 .timeline .date::after {
     content: '';
-    box-shadow: 0 0 0 4px #00e472;
+    box-shadow: 0 0 0 4px $default-theme-color;
     border-radius: 100%;
     left: -6rem;
     height: 1.5rem;

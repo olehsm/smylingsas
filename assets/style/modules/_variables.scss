@@ -1,4 +1,7 @@
 $default-font-color: map-get($colors, black-800);
-$default-link-color: map-get($colors, black-800);
 $default-content-width: 100vw;
 $default-background-color: map-get($colors, verylightgray);
+$default-theme-color: map-get($colors, gamer-green);
+$default-font-size: 62.5%;
+$default-line-height: 1.15;
+$default-font-family: 'Noto Sans', sans-serif, Helvetica

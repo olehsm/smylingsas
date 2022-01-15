@@ -2,7 +2,7 @@
     height: 70vh;
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: #1c1f23;;
+    background-color: map-get($colors, blackpearl);
     display: grid;
     place-items: center;
 }
@@ -26,6 +26,6 @@
 
 
 .showcase:nth-child(odd) {
-    background-color: white;
-    color:  #1c1f23;
+    background-color: map-get($colors, og-white);
+    color:  map-get($colors, blackpearl);
 }

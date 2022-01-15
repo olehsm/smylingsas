@@ -1,8 +1,8 @@
 .call-to-action {
     font-size: 8rem;
-    text-shadow: 1px 1px 2px #00e472;
+    text-shadow: 1px 1px 2px $default-theme-color;
     text-align: center;
-    background: #00e472;
+    background: $default-theme-color;
 }
 
 
@@ -31,7 +31,7 @@
 .call-to-action-item:hover,
 .call-to-action-item:focus {
     transform: scale(1);
-    color: #00e472
+    color: $default-theme-color;
 }
 
 
@@ -40,7 +40,7 @@
     position: absolute;
     padding: 100% 100% 0 0;
     border-radius: 50%;
-    background: #1c1f23;
+    background: map-get($colors, blackpearl);
     top: -30px;
     left: -4px;
     z-index: -1;
@@ -55,7 +55,7 @@
 
     .call-to-action-container-content a {
         display: block;
-        background-color: #1c1f23;
+        background-color: map-get($colors, blackpearl);
     } 
 
 

@@ -1,11 +1,11 @@
 .about-me {
-    background: #1c1f23;
+    background: map-get($colors, blackpearl);
 }
 
 
 .about-me--introtext
 {
-    background: #00e472;
+    background: $default-theme-color;
 }
 
 
@@ -16,12 +16,12 @@
 
 
 .container-content p{
-    color: #1c1f23;
+    color: map-get($colors, blackpearl);
 }
 
 
 .container-content .intro-nav a{
-    color: #1c1f23;
+    color: map-get($colors, blackpearl);
     text-decoration: none;
 }
 
@@ -29,12 +29,12 @@
 .button {
     display: inline-block;
     padding: 8px 20px;
-    border: 2px solid #00e472;
+    border: 2px solid $default-theme-color;
     background-color: transparent;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
+    //-webkit-transition: all 500ms ease;
+    //transition: all 500ms ease;
     font-family: Oswald, sans-serif;
-    color: #00e472;
+    color: $default-theme-color;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -46,20 +46,20 @@
     margin-top: 4px;
     margin-bottom: 4px;
     padding: 12px 36px;
-    border: 2px solid #00e472;
+    border: 2px solid $default-theme-color;
     background-color: transparent;
     opacity: 1;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
+    //-webkit-transition: all 500ms ease;
+    //transition: all 500ms ease;
     font-family: Oswald, sans-serif;
-    color: #00e472;
+    color: $default-theme-color;
     font-size: 24px;
     line-height: 36px;
 
     &.inverted {
         border: none;
-        border: 2px solid #1c1f23;
-        color: #1c1f23;
+        border: 2px solid map-get($colors, blackpearl);
+        color: map-get($colors, blackpearl);
     }
 }
 
@@ -95,7 +95,6 @@
     }
     
     
-
     .about-me--startbutton {
         margin: 5rem;
     }

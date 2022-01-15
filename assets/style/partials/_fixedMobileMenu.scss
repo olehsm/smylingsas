@@ -2,9 +2,9 @@
     position: fixed;
     bottom: 0em;
     width: 100%;
-    background-color: #00e472;
+    background-color: $default-theme-color;
     z-index: 5;
-    color: #1c1f23;
+    color: map-get($colors, blackpearl);
     padding: 0.5em;
     font-size: 0.8em;
     min-height: 52px;
@@ -31,7 +31,7 @@
 
 
 .site-menu-mobile a {
-    color: #1c1f23;
+    color: map-get($colors, blackpearl);
     display: flex;
     flex-direction: column;
     height: auto;

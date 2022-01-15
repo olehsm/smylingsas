@@ -1,5 +1,5 @@
 .footer__site {
-    background-color: #1c1f23;
+    background-color: map-get($colors, blackpearl);
     height: 20vh;
     display: grid;
     place-items: center;
@@ -20,36 +20,5 @@
 
     .footer__site p:last-child {
         margin: 3rem;
-    }
-     
-}
-
-
-.scrollToTopBtn {
-    background-color: #1c1f23;
-    border: 1px solid #00e472;
-    border-radius: 50%;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 48px;
-    width: 48px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 100;
-    opacity: 0;
-    transform: translateX(100px);
-    transition: all .5s ease
-}
-
-
-.scrollToTopBtn:hover {
-    background-color: #00e472;
-}
-
-
-.showBtn {
-    opacity: 1;
-    transform: translateX(0)
+    }     
 }

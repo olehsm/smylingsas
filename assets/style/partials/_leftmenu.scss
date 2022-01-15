@@ -1,13 +1,13 @@
 .navigation-icons .fa {
     margin: 25px 23px;
     display: block;
-    color: #1c1f23;
+    color: map-get($colors, blackpearl);
     font-size: 30px;
 }
 
 
 .vertical-panel {
-    background-color: #1c1f23;
+    background-color: map-get($colors, blackpearl);
     padding-left: 48px!important;
     padding-right: 48px!important;
     padding-bottom: 16px!important;
@@ -37,7 +37,7 @@
 
 
 .site-menu li a:hover {
-    color:  #00e472;
+    color:  $default-theme-color;
 }
 
 

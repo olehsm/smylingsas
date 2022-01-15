@@ -20,6 +20,18 @@
 }
 
 
+.home a {
+    border-radius:50px
+}
+
+
+.home-content .button:first-of-type{
+    color: #1c1f23; 
+    border: 2px solid #1c1f23; 
+    background: #00e472; 
+}
+
+
 @media screen and (min-width: 2200px) {
     .hero-text {
         font-size: 6rem;
