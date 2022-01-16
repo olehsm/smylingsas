@@ -43,47 +43,27 @@ uglyURLs = "false"
 
 
 [menu]
+  [[menu.main]]
+    name = "Hjem"
+    pre = "<i class='fas fa-home'></i>"
+    url = "/"
+    weight = -140
 
   [[menu.main]]
     name = "Arkiv"
     pre = "<i class='fa fa-heart'></i>"
     url = "/archives/"
-    weight = -120
+    weight = -80
 
   [[menu.main]]
     name = "Prosjekter"
-    pre = "<i class='fa fa-heart'></i>"
+    pre = "<i class='fas fa-project-diagram'></i>"
     url = "/projects/"
     weight = -110
 
   [[menu.main]]
-    name = "TIL"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/til/"
-    weight = -100
-
-    [[menu.main]]
-    name = "Topics"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/tags/"
-    weight = -99
-
-    [[menu.main]]
     name = "Artikler"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/articles/"
+    pre = "<i class='fas fa-list'></i>"
+    url = "/writings/"
     weight = -97
 
-    [[menu.main]]
-    name = "Sitemap.xml"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/sitemap.xml/"
-    weight = -90
-    target = "_blank"
-
-  [[menu.main]]
-    name = "Humans.txt"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/humans.txt/"
-    weight = -80
-    target = "_blank"

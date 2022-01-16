@@ -8,7 +8,7 @@
     padding: 0.5em;
     font-size: 0.8em;
     min-height: 52px;
-    height: 10vh;
+    height: auto;
     border-top: 1px solid #000;
 }
 
@@ -26,7 +26,7 @@
 .site-menu-mobile li {
     display: flex;
     position: relative;
-    flex: 1 1 calc(100%/5);
+    flex: 1 1 calc(100%/4);
 }
 
 

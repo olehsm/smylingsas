@@ -4,12 +4,13 @@ description: ''
 resources: []
 categories: []
 tags: []
-slug: ''
+slug: smylingsas-net
 title: Smylingsas.net
 date: '2019-07-16T10:30:06+02:00'
 draft: false
 comments: false
-lastmod: '2021-12-16T20:25:30.019Z'
+lastmod: '2022-01-16T12:27:26.590Z'
+preview: /preview-images/mysite-project.png
 ---
 
 Oppdateringer om utviklingen av denne nettsiden.
