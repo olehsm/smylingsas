@@ -4,8 +4,8 @@
     margin-left: auto;
     font-size: clamp(1.5rem, 5vw, 3rem);  
     margin-top: 4rem; 
-    margin-left: 4rem;
-    margin-right: 4rem;
+    // margin-left: 4rem;
+    // margin-right: 4rem;
 }
 
 
@@ -19,7 +19,7 @@
 
 
 .page-header__publication-details {
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -28,12 +28,12 @@
 
 
 .page-header__publication-details > * {
-    margin-right: 1.5rem;
+    margin-right: 2rem;
 }
 
 
 .page-header__publication-details a {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #e7e8eb;
 }
 

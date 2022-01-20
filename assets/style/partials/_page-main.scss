@@ -6,24 +6,8 @@
 .page-main-list ul{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(40rem,1fr));
-    //grid-template-columns: repeat(auto-fill,minmax(25rem,1fr));
-    //grid-template-columns: repeat(auto-fill, minmax(calc(10% + 7.5rem), 1fr));
-    //grid-auto-rows: 1fr;
-    //height: auto;
     gap: 6rem 3rem;
-    //margin-left: 4rem;
-    //margin-right: 4rem;
-    padding: 0.25rem;
 }
-
-
-// .page-main-list ul>* {
-//     display: flex;
-//     flex: 1;
-//     margin: 0 .25rem .25rem 0;
-//     margin: 0;
-//     flex: 16em 1 0;
-// }
 
 
 .read-next-card h1 a {
