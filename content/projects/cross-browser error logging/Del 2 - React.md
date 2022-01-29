@@ -13,7 +13,8 @@ title: Logging av feil i klient/nettleser. Del 2 - React
 date: 2020-04-24T20:30:53.000Z
 draft: false
 comments: false
-lastmod: '2021-12-12T14:20:39.490Z'
+lastmod: '2022-01-27T19:16:55.957Z'
+preview: /preview-images/logging.jpg
 ---
 
 Følgende kodesnutt viser logging av feil i nettleser med React og Stacktrace.js

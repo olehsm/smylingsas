@@ -13,7 +13,7 @@
                     {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
                     <h1>Nyeste prosjektposter</h1>
                     <div class="page-main-list">
-                        <ul calss="reset-list">
+                        <ul class="reset-list">
                             {{ range first 4 $pages }}
                                 {{ .Render "summary"}}
                             {{ end }}

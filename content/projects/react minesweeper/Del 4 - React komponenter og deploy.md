@@ -1,14 +1,19 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["react", "html", "amplify"]     
-slug: ""
-title: "Del 4 - React komponenter og deploy"
-date: 2020-11-15T21:46:06+01:00
+tags:
+    - react
+    - html
+    - amplify
+slug: del-4-react-komponenter-og-deploy
+title: Del 4 - React komponenter og deploy
+date: 2020-11-15T20:46:06.000Z
 draft: false
 comments: false
+preview: /preview-images/minesweeper-project.png
+lastmod: '2022-01-27T19:14:00.414Z'
 ---
 
 <!--more-->

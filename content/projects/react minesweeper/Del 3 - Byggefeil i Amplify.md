@@ -1,14 +1,17 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["amplify"]     
-slug: ""
-title: "Del 3 - Byggefeil i Amplify"
-date: 2020-12-01T21:48:13+01:00
+tags:
+  - amplify
+slug: del-3-byggefeil-amplify
+title: Del 3 - Byggefeil i Amplify
+date: 2020-12-01T20:48:13.000Z
 draft: false
 comments: false
+preview: /preview-images/minesweeper-project.png
+lastmod: '2022-01-27T19:13:15.916Z'
 ---
 
 <!--more-->

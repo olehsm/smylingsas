@@ -1,14 +1,18 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: ["react", "git"]     
-slug: ""
-title: "Del 1 - Oppsett av utviklingsmiljø"
-date: 2020-11-09T22:18:55+01:00
+tags:
+    - react
+    - git
+slug: del-1-oppsett-av-utviklingsmiljo
+title: Del 1 - Oppsett av utviklingsmiljø
+date: 2020-11-09T21:18:55.000Z
 draft: false
 comments: false
+preview: /preview-images/minesweeper-project.png
+lastmod: '2022-01-27T19:11:45.944Z'
 ---
 
 <!--more-->

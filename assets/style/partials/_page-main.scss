@@ -1,12 +1,11 @@
 .page-main-list {
     margin: 3rem;
-}
 
-
-.page-main-list ul{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(40rem,1fr));
-    gap: 6rem 3rem;
+    ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(40rem,1fr));
+        gap: 6rem 3rem;
+    }
 }
 
 

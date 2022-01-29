@@ -1,14 +1,16 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
-categories:  []
-tags: []     
-slug: ""
-title: "Del 2 - TypeScript og datamodell"
-date: 2020-11-22T22:48:13+01:00
+categories: []
+tags: []
+slug: del-2-typescript-og-datamodell
+title: Del 2 - TypeScript og datamodell
+date: 2020-11-22T21:48:13.000Z
 draft: false
 comments: false
+preview: /preview-images/react.jpg
+lastmod: '2022-01-27T19:40:35.988Z'
 ---
 
 <!--more-->

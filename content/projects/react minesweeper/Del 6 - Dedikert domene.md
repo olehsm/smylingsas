@@ -1,14 +1,16 @@
 ---
-author: "Ole Halvor Smylingsås"
-description: ""
+author: Ole Halvor Smylingsås
+description: ''
 pageresources: []
 categories: []
-tags: []     
-slug: ""
-title: "Del 6 - Dedikert domene"
-date: 2021-02-03T21:58:19+01:00
+tags: []
+slug: del-6-dedikert-domene
+title: Del 6 - Dedikert domene
+date: 2021-02-03T20:58:19.000Z
 draft: false
 comments: false
+lastmod: '2022-01-27T19:12:15.666Z'
+preview: /preview-images/minesweeper-project.png
 ---
 
 Ble lei av testadressen Amplify hadde sjenket meg, ønsket meg et enklere subdomene
