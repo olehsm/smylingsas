@@ -16,7 +16,7 @@
 
 
 .experience {
-    margin-bottom: 10rem;
+    margin-bottom: 10em;
 }
 
 
@@ -24,15 +24,15 @@
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 300;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     opacity: 0.3;
 }
 
 
 .timeline .date{
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
     position: relative;
 }
 
@@ -75,6 +75,6 @@
 
 @media screen and (max-width: 450px) {
     .timeline {
-        padding-left: 15rem
+        padding-left: 15em
     }
 }

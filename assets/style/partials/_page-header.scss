@@ -3,19 +3,14 @@
     margin-right: auto;
     margin-left: auto;
     font-size: clamp(1.5rem, 5vw, 3rem);  
-    margin-top: 4rem; 
-    // margin-left: 4rem;
-    // margin-right: 4rem;
+    margin-top: 1.5em;
+    
+    h1 {
+        line-height: 1.1;
+        text-align: left;
+        word-wrap: break-word;
+    }
 }
-
-
-.page-header h1 {
-    line-height: 1.1;
-    text-align: left;
-    word-wrap: break-word;
-}
-
-
 
 
 .page-header__publication-details {
@@ -28,7 +23,7 @@
 
 
 .page-header__publication-details > * {
-    margin-right: 2rem;
+    margin-right: 1em;
 }
 
 
@@ -40,7 +35,7 @@
 
 .page-header__publication-details,
 .page-header__meta {
-    margin-bottom: 4em;
+    margin-bottom: 1.5em;
 }
 
 
@@ -74,11 +69,6 @@
     -webkit-animation-delay:.8s;
         animation-delay:.8s;
     // text-transform: lowercase;
-}
-
-
-.page-header__title::first-letter {
-    // text-transform: uppercase;
 }
 
 
