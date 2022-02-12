@@ -8,42 +8,44 @@
                 {{.Content}}
             </section>
             
-            {{ if eq .Type "projects" }}
-                <section class="page-main__latest-articles">
-                    {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
-                    <h1>Nyeste prosjektposter</h1>
-                    <div class="page-main-list">
-                        <ul class="reset-list">
-                            {{ range first 4 $pages }}
-                                {{ .Render "summary"}}
-                            {{ end }}
-                        </ul>    
-                    </div>
-                </section>
-            {{ end }}
+            <section class="page-footer">
+                {{ if eq .Type "projects" }}
+                    <section class="page-main__latest-articles">
+                        {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
+                        <h1>Nyeste prosjektposter</h1>
+                        <div class="page-main-list">
+                            <ul class="reset-list">
+                                {{ range first 4 $pages }}
+                                    {{ .Render "summary"}}
+                                {{ end }}
+                            </ul>    
+                        </div>
+                    </section>
+                {{ end }}
 
-            {{ if eq .Type "writings" }}
-                <section class="page-main__latest-articles">
-                    {{ $pages := where $.Site.RegularPages "Type" "in" "writings" }}
-                    <h1>Nyeste poster</h1>
-                    <div class="page-main-list">
-                        <ul class="reset-list">
-                            {{ range first 4 $pages }}
-                                {{ .Render "summary"}}
-                            {{ end }}
-                        </ul>
-                    </div>
-                </section>
-            {{ end }}
+                {{ if eq .Type "writings" }}
+                    <section class="page-main__latest-articles">
+                        {{ $pages := where $.Site.RegularPages "Type" "in" "writings" }}
+                        <h1>Nyeste poster</h1>
+                        <div class="page-main-list">
+                            <ul class="reset-list">
+                                {{ range first 4 $pages }}
+                                    {{ .Render "summary"}}
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </section>
+                {{ end }}
 
-            
-            {{ if eq .Type "writings" }}
-                {{- partial "read-next-writings.html" . -}}
-            {{ end }}
+                
+                {{ if eq .Type "writings" }}
+                    {{- partial "read-next-writings.html" . -}}
+                {{ end }}
 
-            {{ if eq .Type "projects" }}
-                {{- partial "read-next-projects.html" . -}}
-            {{ end }}
+                {{ if eq .Type "projects" }}
+                    {{- partial "read-next-projects.html" . -}}
+                {{ end }}
+            </section>
             
             
         </article>

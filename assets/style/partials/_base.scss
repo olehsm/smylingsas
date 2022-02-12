@@ -45,7 +45,7 @@ body {
  
 
 h1, h2, h3, h4, p {
-    margin-bottom: 3rem;
+    margin-bottom: 0.5em;
 }
 
 
@@ -91,10 +91,13 @@ a {
 }
 
 
-img {
-    //max-width: 100%;
-    //height: auto;
-    max-width: 100%;
+img,
+video,
+iframe {
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    object-fit: cover;
 }
 
 
