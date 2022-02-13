@@ -4,20 +4,25 @@
     {{ partial "head.html" . }}
 </head>
 <body>
-    {{ partial "left-menu.html" . }}
-    <main class="main">
-        <div>
-            <h1>Å nei, siden finnes ikke.</h1>
-            <P>Det kan se ut som fant en utdatert lenke, beklager dette... trykk <a href="/">her</a> for å gå tilbake til forsiden eller velg et topic i listen under.</P>
-        </div>
-    </main>
-    {{ partial "site-menu-mobile.html" . }}
-
-    {{ partial "homepage/topics.html" . }}
-
-    <footer class="footer__site">
+    <header class="header--site">
+        {{ partial "left-menu.html" . }}
+    </header>
+    <section class="content">
+        <main class="main">
+            <div>
+                <h1>Å nei, siden finnes ikke.</h1>
+                <P>Det kan se ut som fant en utdatert lenke, beklager dette... trykk <a href="/">her</a> for å gå tilbake til forsiden eller velg et topic i listen under.</P>
+            </div>
+        </main>
+    </section>
+    <section class="topics2">
+        {{ partial "homepage/topics.html" . }}
+    </section>
+    <footer>
         {{ partial "footer.html" . }}
     </footer>
+    {{ partial "site-menu-mobile.html" . }}
+
 
     <script>
         // Register the Service Worker
