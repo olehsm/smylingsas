@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 html { 
     font-size: $default-font-size;
     line-height: $default-line-height; 
@@ -6,16 +13,8 @@ html {
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 body, html {
     color: $default-font-color;
-    //font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
     line-height: 1.30769231;
 }
 
@@ -23,24 +22,11 @@ body, html {
 body {
     color: $default-font-color;
     font-family: $default-font-family;
-    //background: #1c1f23;
     background: map-get($colors, blackedblue);
     min-height: 100vh;
     /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
     margin: 0;
-}
-
-
-.animated-slide-to-the-right {
-    animation: slide-to-the-right 0.8s ease-out forwards;
-}
-
-/* Animation */
-@keyframes slide-to-the-right {
-    100% {
-        margin-left: calc(80px + 15vw);
-    }
 }
  
 
@@ -101,16 +87,16 @@ iframe {
 }
 
 
-@media screen and (max-width: 1000px) {
-    html {
-        font-size: 50%;
-    }    
-}
+// @media screen and (max-width: 1000px) {
+//     html {
+//         font-size: 50%;
+//     }    
+// }
 
 
-@media screen and (max-width: 450px) {
-    html {
-        font-size: 30%;
-    }
+// @media screen and (max-width: 450px) {
+//     html {
+//         font-size: 30%;
+//     }
      
-}
+// }

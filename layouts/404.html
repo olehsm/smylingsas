@@ -29,14 +29,6 @@
         if('serviceWorker' in navigator) {
             navigator.serviceWorker.register("{{ $.Site.BaseURL }}service-worker.js")
         }
-
-        function openSiteMenu() {
-            var body = document.body;
-            body.classList.add("animated-slide-to-the-right");
-
-            var siteMenu = document.getElementById("vertical-panel-id");
-            siteMenu.classList.add("animated-slide-in-from-left");
-        }
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>
