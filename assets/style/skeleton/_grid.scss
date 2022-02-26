@@ -4,11 +4,6 @@
 }
 
 
-// .nav--site {
-//     grid-area: sitenav;
-// }
-
-
 section .content {
     grid-area: content;
 }
@@ -40,23 +35,21 @@ body {
 }
 
 
-// .nav--site,
 .site-menu-open-link,
 .header--site {
     display: none;
 }
 
 
-@media (min-width: 700px) {    
+@media (min-width: 810px) {    
     body {
         display: grid;
         grid-template-areas:
-            "navbar"
-            "content"
-            "topics"
-            "footer";
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto 20vh;  
+            "navbar content"
+            "navbar topics"
+            "navbar footer";
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: auto auto 20vh;  
     }
 
     
@@ -69,24 +62,17 @@ body {
     .site-menu-open-link {
         display: block;
     }
-    
-    
-    .navigation-icons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
 }
 
 
-@media (min-width: 1000px) {
+@media (min-width: 1600px) {
     body {
-        display: grid;
+        display: grid;  
         grid-template-areas:
         "navbar content"
         "navbar topics"
         "navbar footer";
-        grid-template-columns: 8rem 1fr;
+        grid-template-columns: 350px 1fr;
         grid-template-rows: auto auto 20vh;  
     }
 
@@ -96,52 +82,4 @@ body {
         flex-direction: column;
         position: fixed;
     }
-}
-
-
-@media (min-width: 1600px) {
-    body {
-        display: grid;
-        grid-template-areas: 
-            "navbar content"
-            "navbar topics"
-            "navbar footer";
-        grid-template-columns: 8rem 1fr;
-        grid-template-rows: auto 30vh 20vh;    
-    }
-
-
-    .navigation-icons {
-        flex-direction: column;
-    }
-
-
-    .site-menu-open-link {
-        display: none;
-    }
-    
-
-    // .nav--site
-    // {
-    //     display: block;
-    // }
-}
-
-
-@media (min-width: 2100px) {
-    body {
-        display: grid;
-        grid-template-areas: 
-            "navbar content"
-            "navbar topics"
-            "navbar footer";
-        grid-template-columns: 8rem 1fr;
-        grid-template-rows: auto auto 20vh;    
-    }
-
-
-    // .aside2
-    // {
-    //     display: block;
-    // }
 }
