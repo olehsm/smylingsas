@@ -1,46 +1,46 @@
 .container {
     margin: 0 auto;
-    max-width: 80vw;
+    max-width: 90vw;
 }
 
+.timeline {
+    padding-left: 10em;
 
-.timeline ul{
-    border-left: 4px solid $default-theme-color;
-    background-color: rgba(0,0,0,.05);
-    margin: 0 auto;
-    position: relative;
-    padding: 5rem;
-    text-align: left;
-    width: 80%;
+    ul{
+        border-left: 4px solid $default-theme-color;
+        background-color: rgba(0,0,0,.05);
+        margin: 0 auto;
+        position: relative;
+        padding: 0.5em;
+        text-align: left;
+        width: 60%;
+    }
+
+    h1{
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-bottom: 1em;
+        opacity: 0.3;
+    }
+
+    .date{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 0.5em;
+        padding-bottom: 0.5em;
+        position: relative;
+    }
+
+    .date:last-of-type {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: none
+    }
 }
 
 
 .experience {
-    margin-bottom: 10em;
-}
-
-
-.timeline h1{
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-bottom: 1em;
-    opacity: 0.3;
-}
-
-
-.timeline .date{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-    position: relative;
-}
-
-
-.timeline .date:last-of-type {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border: none
+    margin-bottom: 2em;
 }
 
 
@@ -55,10 +55,10 @@
 
 .timeline .date::before {
     content: attr(data-date);
-    left: -21rem;
+    left: -8rem;
     text-align: right;
-    min-width: 12rem;
-    font-size: 1.5rem;
+    min-width: 1rem;
+    font-size: 1rem;
 }
 
 
@@ -66,15 +66,8 @@
     content: '';
     box-shadow: 0 0 0 4px $default-theme-color;
     border-radius: 100%;
-    left: -6rem;
+    left: -12rem;
     height: 1.5rem;
     width: 1.5rem;
     background-color: #313534;
-}
-
-
-@media screen and (max-width: 450px) {
-    .timeline {
-        padding-left: 15em
-    }
 }

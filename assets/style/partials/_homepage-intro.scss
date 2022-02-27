@@ -28,15 +28,13 @@
 
 .button {
     display: inline-block;
-    padding: 8px 20px;
+    padding: 0.4em 0.5em;
     border: 2px solid $default-theme-color;
     background-color: transparent;
-    //-webkit-transition: all 500ms ease;
-    //transition: all 500ms ease;
     font-family: Oswald, sans-serif;
     color: $default-theme-color;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 0.7rem;
+    line-height: 1.5;
     text-align: center;
     text-decoration: none;
 }
@@ -49,12 +47,10 @@
     border: 2px solid $default-theme-color;
     background-color: transparent;
     opacity: 1;
-    //-webkit-transition: all 500ms ease;
-    //transition: all 500ms ease;
     font-family: Oswald, sans-serif;
     color: $default-theme-color;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 0.7rem;
+    line-height: 1.7;
 
     &.inverted {
         border: none;
@@ -99,10 +95,3 @@
         margin: 5em;
     }
 }
-
-
-.container-content-meh{
-        display: grid;
-        place-items: center;
-        height: 100%;
-    }

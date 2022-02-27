@@ -1,6 +1,6 @@
 .aboutme-section {
-    margin-top: 10em;
-    margin-bottom: 10em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 
@@ -15,12 +15,12 @@
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
-    margin-bottom: 6em;
+    margin-bottom: 1em;
 }
 
 
 .about-heading h1{
-    font-size: 10rem;
+    font-size: 3rem;
     opacity: 0.3;
     margin:0;
     color: $default-theme-color;
@@ -28,19 +28,16 @@
 
 
 .about-heading h6{
-    font-size: 2rem;
+    font-size: 0.6rem;
     font-weight: 300;
 }
 
 
-.profile-img {
-    flex: 1;
-    margin-right: 5em;
-}
 
-
-.profile-img img{
-    border-radius: 50%;
+.profile-img {  
+    img{
+        border-radius: 50%;
+    }
 }
 
 
@@ -56,26 +53,22 @@
 
 .social-media {
     margin-top: 5em;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    i {
+        font-size: 1rem
+    }
+
+    li{
+        margin-right: 0.9em;
+    }
 }
 
 
-.social-media ul{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.social-media li{
-    margin-right: 3em;
-}
-
-.social-media a {
-    color: #e7e8eb;
-}
-
-.social-media i{
-    font-size: 5rem
-}
 
 .fa-github:hover,
 .fa-twitter:hover,
@@ -83,11 +76,9 @@
     color: $default-theme-color;
 }
 
-.container1111 {
+.about-me-container {
     width: 90%;
-    max-width: 170rem;
     height: 100%;
     margin: 0 auto;
-    position: relative;
 }
 

@@ -1,24 +1,24 @@
 .page-main {
-    margin-bottom: 10em;
-}
-
-
-.page-main-content > section {
     margin-bottom: 5em;
 }
 
 
+.page-main-content > section {
+    margin-bottom: 2em;
+}
+
+
 .page-main-content h1 {
-    font-size: 6rem;
+    font-size: 2.5rem;
     border-top: 1px solid $default-theme-color;
 }
 
 
 .page-main__content {
-    width: clamp(45ch, 50%, 75ch); 
+    width: clamp(34ch, 50%, 75ch); 
     margin-right: auto;
     margin-left: auto;
-    font-size: clamp(1.5rem, 5vw, 3rem);
+    font-size: clamp(0.9rem, 5vw, 2.9rem);
     
     ul, ol {
         margin-left: 1.5em;
@@ -28,7 +28,7 @@
 
 
 .page-footer {
-    margin: 3em;
+    margin: 1em;
     .page-main-list {
         margin:0;
     }

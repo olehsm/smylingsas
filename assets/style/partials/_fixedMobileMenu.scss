@@ -1,12 +1,11 @@
 .site-menu-mobile {
     position: fixed;
-    bottom: 0em;
+    bottom: 0;
     width: 100%;
     background-color: $default-theme-color;
     z-index: 5;
     color: map-get($colors, blackpearl);
     padding: 0.5em;
-    font-size: 0.8em;
     min-height: 52px;
     height: auto;
     border-top: 1px solid #000;
@@ -37,9 +36,10 @@
     height: auto;
     text-align: center;
     text-decoration: none;
-    padding: 8px 14px;
+    padding: 1em;
     box-sizing: border-box;
     width: 100%;
+    font-size: 0.8rem;
 }
 
 

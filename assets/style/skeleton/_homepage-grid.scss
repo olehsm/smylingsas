@@ -4,18 +4,6 @@
 }
 
 
-// .about-me--introtext 
-// {
-//     grid-area: aboutmetext
-// }
-
-
-// .about-me--startbutton 
-// {
-//     grid-area: startbutton
-// }
-
-
 .homepage-aboutme-section 
 {
     grid-area: homepage-aboutme-section;
@@ -40,12 +28,6 @@
 }
 
 
-// .about-me--startbutton 
-// {
-//     display: none;
-// } 
-
-
 .homepage {
     display: grid;
     grid-template-areas:
@@ -53,12 +35,12 @@
         "homepage-aboutme-section"
         "homepage-experience"
         "homepage-post-section"
-        "homepage-projects-section";
+        "homepage-projects-section"
+        
+        ;
     grid-template-columns: 1fr;
-    grid-template-rows: 90vh auto auto auto auto; 
+    grid-template-rows: 90vh auto auto auto auto ; 
 }
-
-
 
 
 @media (min-width: 1000px) {
@@ -70,14 +52,9 @@
             "homepage-aboutme-section"
             "homepage-experience"
             "homepage-post-section"
-            "homepage-projects-section";
+            "homepage-projects-section"
+            ;
         grid-template-columns: 1fr;
         grid-template-rows: 80vh auto auto auto auto auto; 
     }
-
-    
-    // .about-me--startbutton 
-    // {
-    //     display: block;
-    // } 
 }

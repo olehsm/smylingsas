@@ -1,7 +1,7 @@
 .item {
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    padding: 0.5em;
     background: #1f1e1e;
     min-height: 100%;
     border-radius: 3%;
@@ -17,7 +17,7 @@
 .visual {
     height: auto;
     width: 100%;
-    margin-bottom:1em;
+    margin-bottom:0.2em;
 
     img {
         margin-left: auto;
@@ -30,9 +30,9 @@
 .item__title {
     color: #fff;
     text-decoration: none;
-    font-size: 2rem;
-    margin: 0 0 1em 0;
-    min-height: 5rem;
+    font-size: 1.2rem;
+    margin: 0 0 0.5em 0;
+    min-height: 2rem;
 }
 
 

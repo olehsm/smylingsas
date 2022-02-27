@@ -4,21 +4,13 @@
     display: grid;
     place-items: center;
     text-align: center;
-}
+    margin: 1em;
 
+    p {
+        font-size: 0.9rem;
 
-.footer__site p:last-child {
-    margin: 0;
-}
-
-
-@media screen and (max-width: 450px) {
-    .footer__site {
-        height: 27vh;
+        a {
+            font-size: 0.9rem;
+        }
     }
-
-
-    .footer__site p:last-child {
-        margin: 3em;
-    }     
 }
