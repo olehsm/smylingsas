@@ -2,6 +2,44 @@
 <html lang="no-nb">
     <head>
         {{ partial "head.html" . }}
+        <style>
+            .page-wrapper {
+                display: grid;
+                grid-template-columns: 
+                    1fr 
+                    min(65ch, 100% - 64px) 
+                    1fr;
+                grid-column-gap: 32px;
+                font-size:  2.5rem;
+                line-height: 1.7;
+            }
+
+
+            .page-wrapper p {
+                font-size: 1.9rem;
+            }
+        
+            h2,h3, h4 {
+                font-size:2.6rem;
+                margin-top: 2.8em;
+                margin-bottom: 1.4em;
+            }
+            
+            .page-wrapper ul, ol {
+                margin-left: 1.5em;
+                margin-bottom: 1em;
+            }
+
+            
+            .page-wrapper > * {
+                grid-column: 2;
+            }
+            
+            .full-bleed {
+                width: 100%;
+                grid-column: 1 / -1;
+            }
+        </style>
     </head>
     <body>
         <header class="header--site">
@@ -43,5 +81,6 @@
         </script>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>
+        
     </body>
 </html>
