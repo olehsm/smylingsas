@@ -1,7 +1,7 @@
 baseURL = "https://smylingsas.net/"
 languageCode = "no-nb"
 languageLang = "no"
-title = "Smylingsas.net"
+title = ""
 # filesystem path to write files to
 publishDir = "public"
 # RSS, categories and tags disabled for an easy start

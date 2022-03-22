@@ -24,11 +24,6 @@ body {
 }
  
 
-h1, h2, h3, h4, p {
-    margin-bottom: 0.5em;
-}
-
-
 a {
     text-decoration: underline;
     color: $default-theme-color;
@@ -46,18 +41,6 @@ iframe {
     object-fit: cover;
 }
 
-
-h1 {
-    font-size: 5rem;
-}
-h2 {
-    font-size: 4rem;
-
-}
-
-h3 {
-    font-size: 3rem;
-}
 
 p {
     font-size: 1.5rem;

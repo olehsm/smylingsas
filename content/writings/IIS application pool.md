@@ -1,17 +1,17 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources: []
 categories: []
 tags:
-    - iis
+  - iis
 slug: iis-application-pool-liten-oversikt
 title: IIS Application Pool - liten oversikt
 date: 2021-02-18T21:22:00.000Z
 draft: false
 comments: false
 preview: /pool.jpg
-lastmod: '2021-12-16T20:37:06.479Z'
+lastmod: 2022-03-22T20:52:39.139Z
 ---
 
 En Application pool er en mekanisme i IIS for å isolere webapplikasjoner fra hverandra. 
@@ -36,12 +36,6 @@ En ulempe ved å slå av denne instilligen er et at applikasjonen(e) som tilhør
 http://msdn.microsoft.com/en-us/library/ms525803(v=vs.90).aspx
 > When applications are recycled, it is possible for session state to be lost. During an overlapped recycle, the  occurrence of multi-instancing is also a possibility.
 Loss of session state: Many IIS applications depend on the ability to store state. IIS 6.0 can cause state to  > be lost if it automatically shuts down a worker process that has timed out due to idle processing, or if it  restarts a worker process during recycling.
+
 Occurrence of multi-instancing: In multi-instancing, two or more instances of a process run simultaneously. Depending on how the application pool is configured, it is possible for multiple instances of a worker process to run, each possibly loading and running the same application code. The occurrence of an overlapped recycle is an example of multi-instancing, as is a Web garden in which two or more processes serve the application pool regardless of the recycling settings.
 If your application cannot run in a multi-instance environment, you must configure only one worker process for an application pool (which is the default value), and disable the overlapped recycling feature if application pool recycling is being used.
-
-| Attribute | Description |
-| ----------- | ----------- |
-| disallowOverlappingRotation | Optional Boolean attribute. Specifies whether the WWW Service should start another worker process to replace the existing worker process while that process is shutting down. The value of this property should be set to true if the worker process loads any application code that does not support multiple worker processes. The default value is false |
-
-
-
