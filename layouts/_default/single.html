@@ -2,15 +2,16 @@
 
     
     <div class="page-wrapper">
+        <span><a class="shareMeBtn" title="Del denne artikkelen"><i class="fas fa-share-square"></i></a></span>
         <h1>{{.Params.title}}</h1>
-        {{/*  <div class="page-header__publication-details">
+        <div class="page-header__publication-details">
             <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
             <span><i class="fas fa-file-alt"></i>&nbsp;{{ .WordCount }}&nbsp;ord</span>
             <span><i class="fas fa-clock"></i>&nbsp;{{ .ReadingTime }}&nbsp;minutter</span>
-            <span><a class="shareMeBtn" title="Del denne artikkelen"><i class="fas fa-share-square"></i></a></span>
-            <span><i class="fas fa-receipt"></i></span>
-            <span>{{ with .Params.tags }}<i class="fas fa-tag"></i>&nbsp;{{ range . }}<a href="/tags/{{ . | urlize }}/">{{ . }}</a> {{ end }}{{ end }}</span>
-        </div>  */}}
+            
+            {{/*  <span><i class="fas fa-receipt"></i></span>  */}}
+            
+        </div>
    
             {{.Content}}
  
@@ -21,12 +22,15 @@
                 
             </article>
     
-            <div class="page-header__meta">
-                {{ with .Params.pageresources }}
-                    {{ template "page-header__pageresources"  . }}
-                {{ end }}            
-            </div>
+            
         </main>  */}}
+        <div>{{ with .Params.tags }}<i class="fas fa-tag"></i>&nbsp;{{ range . }}<a href="/tags/{{ . | urlize }}/">{{ . }}</a> {{ end }}{{ end }}</div>
+        
+        <div class="page-header__meta">
+            {{ with .Params.pageresources }}
+                {{ template "page-header__pageresources"  . }}
+            {{ end }}            
+        </div>
     </div>
 
         {{ if eq .Type "projects" }}
