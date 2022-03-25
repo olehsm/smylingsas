@@ -2,15 +2,12 @@
 
     
     <div class="page-wrapper">
-        <span><a class="shareMeBtn" title="Del denne artikkelen"><i class="fas fa-share-square"></i></a></span>
+        {{/*  <span><a class="shareMeBtn" title="Del denne artikkelen"><i class="fas fa-share-square"></i></a></span>  */}}
         <h1>{{.Params.title}}</h1>
         <div class="page-header__publication-details">
             <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
             <span><i class="fas fa-file-alt"></i>&nbsp;{{ .WordCount }}&nbsp;ord</span>
             <span><i class="fas fa-clock"></i>&nbsp;{{ .ReadingTime }}&nbsp;minutter</span>
-            
-            {{/*  <span><i class="fas fa-receipt"></i></span>  */}}
-            
         </div>
    
             {{.Content}}
@@ -69,8 +66,6 @@
         {{ if eq .Type "projects" }}
             {{- partial "read-next-projects.html" . -}}
         {{ end }}
-
-    
 
     <script>
         document.onkeydown = function(e) {
