@@ -10,8 +10,9 @@ categories: []
 tags: []
 draft: false
 comments: false
-lastmod: 2022-04-03T13:35:17.603Z
+lastmod: 2022-04-03T14:25:08.192Z
 preview: /preview-images/css.jpg
 ---
 
+<!-- more-->
 OBS Måtte angi skriftstørrelse i wrapperklassen for at dette skulle fungere fint på litt større skjermer

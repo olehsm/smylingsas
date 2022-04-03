@@ -1,10 +1,14 @@
 .item {
     display: flex;
     flex-direction: column;
-    padding: 0.5em;
+    padding: 1em;
     background: #1f1e1e;
     min-height: 100%;
     border-radius: 3%;
+
+    p{
+        font-size: 1.1rem;
+    }
 }
 
 
@@ -17,11 +21,11 @@
 .visual {
     height: auto;
     width: 100%;
-    margin-bottom:0.2em;
+    margin-bottom: 1em;
 
     img {
-        margin-left: auto;
-        margin-right: auto;
+        // margin-left: auto;
+        // margin-right: auto;
         border-radius: 1%;
     }
 }
@@ -30,7 +34,7 @@
 .item__title {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     margin: 0 0 0.5em 0;
     min-height: 2rem;
 }
