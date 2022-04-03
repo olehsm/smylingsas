@@ -1,9 +1,12 @@
 {{ define "main" }}
-{{ partial "page-header.html" (dict "contentType" .Type "pageTitle" .Params.title "author" .Params.author "desc" .Params.description "tags" .Params.tags "pageresources" .Params.pageresources "publishDate" .Date "content1" .Content "numberOfWords" .WordCount "readingTime1" .ReadingTime "typeOfPage" .Kind) }}  
-    
+<div class="page-wrapper">
+    <h1>{{.Params.title}}</h1>
+
+    {{.Content}}
+</div>    
+
+
     <main class="page-main" id="main-content">
-        <article class="page-main-content">
-        </article>
             
         <section class="page-main-list">
             <ul class="reset-list">
