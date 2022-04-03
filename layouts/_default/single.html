@@ -10,7 +10,7 @@
             <span><i class="fas fa-clock"></i>&nbsp;{{ .ReadingTime }}&nbsp;minutter</span>
         </div>
    
-            {{.Content}}
+        {{.Content}}
  
         
         
@@ -21,51 +21,58 @@
     
             
         </main>  */}}
-        <div>{{ with .Params.tags }}<i class="fas fa-tag"></i>&nbsp;{{ range . }}<a href="/tags/{{ . | urlize }}/">{{ . }}</a> {{ end }}{{ end }}</div>
+        <div class="article-tags">
+            {{ with .Params.tags }}
+                <i class="fas fa-tag"></i>&nbsp;
+                {{ range . }}
+                    <a href="/tags/{{ . | urlize }}/">{{ . }}</a> 
+                {{ end }}
+            {{ end }}
+        </div>
         
-        <div class="page-header__meta">
+        <div class="article-resources">
             {{ with .Params.pageresources }}
                 {{ template "page-header__pageresources"  . }}
             {{ end }}            
         </div>
     </div>
 
-        {{ if eq .Type "projects" }}
-            <section class="page-main__latest-articles">
-                {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
-                <h1>Nyeste prosjektposter</h1>
-                <div class="page-main-list">
-                    <ul class="reset-list">
-                        {{ range first 4 $pages }}
-                            {{ .Render "summary"}}
-                        {{ end }}
-                    </ul>    
-                </div>
-            </section>
-        {{ end }}
+    {{ if eq .Type "projects" }}
+        <section class="page-main__latest-articles">
+            {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
+            <h1>Nyeste prosjektposter</h1>
+            <div class="page-main-list">
+                <ul class="reset-list">
+                    {{ range first 4 $pages }}
+                        {{ .Render "summary"}}
+                    {{ end }}
+                </ul>    
+            </div>
+        </section>
+    {{ end }}
 
-        {{ if eq .Type "writings" }}
-            <section class="page-main__latest-articles">
-                {{ $pages := where $.Site.RegularPages "Type" "in" "writings" }}
-                <h1>Nyeste poster</h1>
-                <div class="page-main-list">
-                    <ul class="reset-list">
-                        {{ range first 4 $pages }}
-                            {{ .Render "summary"}}
-                        {{ end }}
-                    </ul>
-                </div>
-            </section>
-        {{ end }}
+    {{ if eq .Type "writings" }}
+        <section class="page-main__latest-articles">
+            {{ $pages := where $.Site.RegularPages "Type" "in" "writings" }}
+            <h1>Nyeste poster</h1>
+            <div class="page-main-list">
+                <ul class="reset-list">
+                    {{ range first 4 $pages }}
+                        {{ .Render "summary"}}
+                    {{ end }}
+                </ul>
+            </div>
+        </section>
+    {{ end }}
 
-        
-        {{ if eq .Type "writings" }}
-            {{- partial "read-next-writings.html" . -}}
-        {{ end }}
+    
+    {{ if eq .Type "writings" }}
+        {{- partial "read-next-writings.html" . -}}
+    {{ end }}
 
-        {{ if eq .Type "projects" }}
-            {{- partial "read-next-projects.html" . -}}
-        {{ end }}
+    {{ if eq .Type "projects" }}
+        {{- partial "read-next-projects.html" . -}}
+    {{ end }}
 
     <script>
         document.onkeydown = function(e) {

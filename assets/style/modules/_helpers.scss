@@ -29,9 +29,12 @@
 }
 
 .highlight {
-	font-size: 2rem;
+	font-size: 1.3rem;
+	width: 100%;
+  	grid-column: 1 / 4 !important;
 }
 
 .highlight pre {
-	padding: 2em;
+	padding: 0.5em 1.8em;
+	overflow: auto;
 }
