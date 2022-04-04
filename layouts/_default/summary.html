@@ -2,12 +2,14 @@
     <a class="item__link" href='{{ .Permalink }}'>
         <article class="item">
             <div class="visual">
-                <img loading="lazy" width="384" height="230" src="{{.Params.preview}}"/>
+                <img loading="lazy" width="390" height="230" src="{{.Params.preview}}"/>
             </div>
-            <h2 class="item__title">
-                {{ .Title }}
-            </h2>
-            {{ .Summary }}
+            <div class="item__body">
+                <h2 class="item__title">
+                    {{ .Title }}
+                </h2>
+                {{ .Summary }}
+            </div>
         </article>
     </a>
 </li>

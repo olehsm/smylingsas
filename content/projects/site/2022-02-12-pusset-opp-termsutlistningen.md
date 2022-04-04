@@ -1,14 +1,14 @@
 ---
 title: Pusset opp termsutlistningen
-description: ''
-date: '2022-02-12T16:34:14.779Z'
-preview: /hugo-logo.png
-draft: ''
+description: ""
+date: 2022-02-12T16:34:14.779Z
+preview: /preview-images/320hugo_logo.png
+draft: ""
 tags:
-    - navigation
-categories: ''
+  - navigation
+categories: ""
 slug: pusset-opp-termsutlistningen
-lastmod: '2022-02-12T16:49:58.853Z'
+lastmod: 2022-04-04T18:51:52.270Z
 ---
 <!--more-->
 Har pusset opp termsutlistningen. Nå vil siden ikke lenger bare liste opp denne nettsidens benyttede tags, men også liste ut hvilke blogposter som hører til. Terms finner en på /tags
