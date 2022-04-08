@@ -7,9 +7,9 @@
                 display: grid;
                 grid-template-columns: 
                     1fr 
-                    min(65ch, 100% - 50px) 
+                    min(65ch, 100% - 30px) 
                     1fr;
-                grid-column-gap: 25px;
+                grid-column-gap: 15px;
                 font-size:  1.6rem;
                 line-height: 1.8;
                 margin-bottom: 5em;
@@ -67,6 +67,16 @@
             .full-bleed {
                 width: 100%;
                 grid-column: 1 / -1;
+            }
+
+            .page-main__latest-articles h1,
+            .page-main__read-next-card h1 {
+                padding-left: 15px;
+        padding-right: 15px;
+        font-size: 1.9rem;
+                margin-top: 2.3em;
+                color: #00e472;
+                line-height: 1.8;
             }
         </style>
     </head>
