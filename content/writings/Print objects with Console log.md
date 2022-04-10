@@ -1,17 +1,17 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://twitter.com/chriscoyier/status/1326192332518133762'
+  - https://twitter.com/chriscoyier/status/1326192332518133762
 categories: []
 tags:
-    - js
+  - javascript
 slug: printe-objekter-med-console-log
 title: Printe objekter med console log
 date: 2020-12-16T20:42:55.000Z
 draft: false
 comments: false
-lastmod: '2021-12-26T22:07:01.886Z'
+lastmod: 2022-04-10T16:17:36.440Z
 preview: /javascript.jpg
 ---
 

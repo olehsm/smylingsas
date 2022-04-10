@@ -1,18 +1,17 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching'
+  - https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching
 categories: []
 tags:
-    - csharp
-    - switch
+  - csharp
 slug: pattern-matching-
-title: 'Pattern matching i C#'
+title: Pattern matching i C#
 date: 2020-02-23T17:48:05.000Z
 draft: false
 comments: false
-lastmod: '2021-12-26T20:27:08.566Z'
+lastmod: 2022-04-10T16:23:25.831Z
 preview: /preview-images/dotnet.jpg
 ---
 

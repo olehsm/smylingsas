@@ -1,17 +1,17 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 resources: []
 categories: []
 tags:
-    - js
-    - angularjs
+  - javascript
+  - angularjs
 slug: encode-decode-uri
 title: Encode and Decode URI
 date: 2019-11-20T20:38:32.000Z
 draft: false
 comments: false
-lastmod: '2021-12-26T20:28:53.164Z'
+lastmod: 2022-04-10T16:17:29.324Z
 preview: /preview-images/angularjs.jpg
 ---
 

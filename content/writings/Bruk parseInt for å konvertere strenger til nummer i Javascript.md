@@ -1,17 +1,17 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/'
+  - https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/
 categories: []
 tags:
-    - js
+  - javascript
 slug: hvordan-konvertere-strenger-til-nummer-javascript
 title: Hvordan konvertere strenger til nummer i Javascript
 date: 2020-04-30T18:13:48.000Z
 draft: false
 comments: false
-lastmod: '2021-12-26T22:05:33.138Z'
+lastmod: 2022-04-10T16:17:19.440Z
 preview: /javascript.jpg
 ---
 

@@ -1,19 +1,18 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://stackoverflow.com/questions/16192464/window-onerror-not-working-in-chrome'
+  - https://stackoverflow.com/questions/16192464/window-onerror-not-working-in-chrome
 categories: []
 tags:
-    - js
-    - dom
-    - chrome
+  - javascript
+  - chrome
 slug: window-onerror-chrome
 title: Window.onerror i chrome
 date: 2020-04-24T20:06:31.000Z
 draft: false
 comments: false
-lastmod: '2021-12-26T20:04:03.496Z'
+lastmod: 2022-04-10T16:18:50.974Z
 preview: /preview-images/angularjs.jpg
 ---
 

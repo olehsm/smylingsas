@@ -7,12 +7,15 @@ author: Ole Halvor Smylingsås
 pageresources:
   - https://www.joshwcomeau.com/css/full-bleed/
 categories: []
-tags: []
+tags:
+  - css
+  - html
 draft: false
 comments: false
-lastmod: 2022-04-03T14:25:08.192Z
+lastmod: 2022-04-10T16:14:13.560Z
 preview: /preview-images/css.jpg
 ---
+TIL: OBS Måtte angi skriftstørrelse i wrapperklassen for at dette skulle fungere fint på litt større skjermer
+<!--more-->
 
-<!-- more-->
-OBS Måtte angi skriftstørrelse i wrapperklassen for at dette skulle fungere fint på litt større skjermer
+

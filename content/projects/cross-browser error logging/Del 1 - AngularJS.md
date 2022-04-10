@@ -1,18 +1,18 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources: []
 categories: []
 tags:
-    - js
-    - angularjs
-    - stacktracejs
+  - javascript
+  - angularjs
+  - stacktracejs
 slug: logging-av-feil-klient-nettleser-del-1-angularjs
 title: Logging av feil i klient/nettleser. Del 1 - AngularJS
 date: 2020-04-24T20:30:34.000Z
 draft: false
 comments: false
-lastmod: '2022-01-27T19:16:32.958Z'
+lastmod: 2022-04-10T16:16:52.232Z
 preview: /preview-images/logging.jpg
 ---
 

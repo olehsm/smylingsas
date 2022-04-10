@@ -1,18 +1,17 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://stackoverflow.com/questions/7593377/switch-case-in-c-sharp-a-constant-value-is-expected'
+  - https://stackoverflow.com/questions/7593377/switch-case-in-c-sharp-a-constant-value-is-expected
 categories: []
 tags:
-    - csharp
-    - switch
+  - csharp
 slug: switch-utrykk-krever-en-konstant-verdi
-title: 'Switch-utrykk i C# krever en konstant verdi'
+title: Switch-utrykk i C# krever en konstant verdi
 date: 2020-02-23T17:54:41.000Z
 draft: false
 comments: false
-lastmod: '2021-12-26T20:28:08.325Z'
+lastmod: 2022-04-10T16:23:24.272Z
 preview: /preview-images/dotnet.jpg
 ---
 

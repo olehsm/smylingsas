@@ -1,17 +1,19 @@
 {{ define "main" }}
+<main class="page-main" id="main-content">
     <div class="page-wrapper">
         <h1>{{.Params.title}}</h1>
-
         {{.Content}}
+        {{ partial "homepage/topics.html" . }}
     </div>
+    
+    
 
-    <main class="page-main" id="main-content">            
-        <section class="page-main-list">
-            <ul class="reset-list">
-                {{ range .Site.RegularPages }}
-                    {{ .Render "summary"}}
-                {{ end }}
-            </ul>
-        </section>       
-    </main>
+    <section class="page-main-list">
+        <ul class="reset-list">
+            {{ range .Site.RegularPages }}
+                {{ .Render "summary"}}
+            {{ end }}
+        </ul>
+    </section>       
+</main>
 {{ end }}

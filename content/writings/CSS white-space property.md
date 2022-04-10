@@ -1,16 +1,15 @@
 ---
 author: Ole Halvor Smylingsås
-description: 'CSS white space property: pre-line'
+description: "CSS white space property: pre-line"
 resources: []
 tags:
-    - css
-    - typography
+  - css
 slug: css-white-space-property
 title: CSS white space property
-date: '2018-01-02T21:23:24+01:00'
+date: 2018-01-02T21:23:24+01:00
 draft: false
 comments: false
-lastmod: '2021-12-28T16:25:00.415Z'
+lastmod: 2022-04-10T16:23:41.396Z
 preview: /preview-images/css.jpg
 ---
 

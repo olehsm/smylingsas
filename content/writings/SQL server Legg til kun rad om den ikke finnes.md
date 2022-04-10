@@ -1,18 +1,16 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources: []
 categories: []
 tags:
-    - sql
-    - tsql
-    - dapper
+  - sql
 slug: legg-til-kun-en-rad-om-den-ikke-finnes
 title: Legg til kun en rad om den ikke finnes
 date: 2021-05-25T19:38:10.000Z
 draft: false
 comments: false
-lastmod: '2021-12-16T20:41:34.744Z'
+lastmod: 2022-04-10T16:19:36.080Z
 preview: /preview-images/microsoft-sql-server4529.jpg
 ---
 

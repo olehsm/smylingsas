@@ -1,28 +1,25 @@
 {{ define "main" }}
 
-
+<main>
     <div class="page-wrapper">
-        <h1>{{.Title}}</h1>
+            <h1>{{.Title}}</h1>
 
-        {{.Content}}
+            {{.Content}}
     </div>   
+    
+    <ul class="reset-list page-main-list">
+        {{ range $key, $value := .Data.Terms.Alphabetical }}
+        <h2> {{ .Page.Title }} </h2>
+        <li>
+            <ul class="reset-list">
+                {{ range $value.Pages }}
+                {{ .Render "summary"}}
 
-    <main class="page-main" id="main-content">
-        <article class="page-main-content">
-            <ul class="reset-list page-main-list">
-                {{ range $key, $value := .Data.Terms.Alphabetical }}
-                <h2> {{ .Page.Title }} </h2>
-                <li>
-                    <ul class="reset-list">
-                        {{ range $value.Pages }}
-                        {{ .Render "summary"}}
-
-                        {{ end }}
-                    </ul>
-                </li>    
                 {{ end }}
             </ul>
-        </article>
-    </main>
+        </li>            
+        {{ end }}
+    </ul>
+</main>
 
 {{ end }}

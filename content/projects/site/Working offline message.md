@@ -1,17 +1,16 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources: []
 categories: []
 tags:
-    - pwa
-    - serviceworker
+  - pwa
 slug: du-er-offline-beskjed
 title: Du er offline - beskjed
 date: 2020-06-16T20:14:45.000Z
 draft: false
 comments: false
-lastmod: '2021-12-28T16:31:27.538Z'
+lastmod: 2022-04-10T16:21:34.736Z
 preview: /javascript.jpg
 ---
 

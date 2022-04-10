@@ -1,19 +1,19 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources: []
 categories: []
 tags:
-    - js
-    - react
-    - typescript
-    - stacktracejs
+  - javascript
+  - react
+  - typescript
+  - stacktracejs
 slug: logging-av-feil-klient-nettleser-del-2-react
 title: Logging av feil i klient/nettleser. Del 2 - React
 date: 2020-04-24T20:30:53.000Z
 draft: false
 comments: false
-lastmod: '2022-01-27T19:16:55.957Z'
+lastmod: 2022-04-10T16:17:01.656Z
 preview: /preview-images/logging.jpg
 ---
 

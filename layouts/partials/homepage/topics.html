@@ -1,10 +1,5 @@
-<section class="section topics background-orange" id="topics-section">
-    <header class="section-header">
-        <!-- <h1 class="section-title">Topics</h1> -->
-        <p>Bla gjennom topics.</p>
-    </header>
     <div class="topics-list-container">
-        <ul class="topics-list">
+        <ul class="topics-list reset-list">
             {{ range .Site.Taxonomies.tags }}
                 <li>
                     <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
@@ -12,4 +7,3 @@
             {{ end }}
         </ul>
     </div>
-</section>
