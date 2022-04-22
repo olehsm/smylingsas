@@ -1,9 +1,10 @@
 {{ define "main" }}
 <main class="page-main" id="main-content">
     <div class="page-wrapper">
+        {{ partial "homepage/topics.html" . }}
         <h1>{{.Params.title}}</h1>
         {{.Content}}
-        {{ partial "homepage/topics.html" . }}
+        
     </div>
     
     

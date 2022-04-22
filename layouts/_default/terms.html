@@ -13,8 +13,20 @@
         <li>
             <ul class="reset-list">
                 {{ range $value.Pages }}
-                {{ .Render "summary"}}
-
+                <a class="item__link" href='{{ .Permalink }}'>
+                    <article class="item">
+                        <div class="visual">
+                            <img loading="lazy" width="415" height="230" src="{{.Params.preview}}"/>
+                        </div>
+                        <div class="item__body">
+                            <h2 class="item__title">
+                                {{ .Title }}
+                            </h2>
+                            {{ .Summary }}
+                        </div>
+                    </article>
+                </a>
+                
                 {{ end }}
             </ul>
         </li>            

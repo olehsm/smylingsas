@@ -6,13 +6,16 @@
 }
 
 .topics-list {
-    justify-content: space-around;
     flex-direction: row;
     align-items: stretch;
     display: flex;
     gap: 1.5em;
-    margin-left: 0 !important;
-    margin-bottom: 0 !important;
+    margin-left: 0.7em!important;
+    margin-bottom: 0.5em!important;
+    margin-top: 0.5em;
+    scroll-snap-type: x;
+    scroll-padding: 1rem;
+    position: relative;
     
 
     li {
@@ -23,7 +26,9 @@
     a{
         border: 2px solid $default-theme-color;
         display: block;
-        padding: 0.7em;
+        padding: 0.2em 1em;
         word-break: normal;
+        border-radius: 20px;
+        text-decoration: none;
     }
 }
