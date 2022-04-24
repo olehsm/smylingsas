@@ -10,10 +10,10 @@
     align-items: stretch;
     display: flex;
     gap: 1.5em;
-    margin-left: 0.7em!important;
-    margin-bottom: 0.5em!important;
-    margin-top: 1.5em;
-    scroll-snap-type: x;
+    margin-left: 0.9em!important;
+    /* margin-bottom: 0.5em!important; */
+    /* margin-top: 1.5em; */
+    scroll-snap-type: x mandatory;
     scroll-padding: 1rem;
     position: relative;
     
@@ -21,6 +21,7 @@
     li {
         margin-bottom: 0 !important;
         flex-grow: 1;
+        scroll-snap-align: start;
     }
 
     a{

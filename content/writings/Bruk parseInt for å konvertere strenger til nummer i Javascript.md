@@ -7,11 +7,11 @@ categories: []
 tags:
   - javascript
 slug: hvordan-konvertere-strenger-til-nummer-javascript
-title: Hvordan konvertere strenger til nummer i Javascript
+title: Konvertere strenger til nummer i Javascript
 date: 2020-04-30T18:13:48.000Z
 draft: false
 comments: false
-lastmod: 2022-04-10T16:17:19.440Z
+lastmod: 2022-04-24T16:19:30.172Z
 preview: /javascript.jpg
 ---
 
