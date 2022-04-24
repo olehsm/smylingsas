@@ -9,7 +9,7 @@
     
     <ul class="reset-list page-main-list">
         {{ range $key, $value := .Data.Terms.Alphabetical }}
-        <h2> {{ .Page.Title }} </h2>
+        <a href="{{.Page.Permalink}}"><h2> {{ .Page.Title }}</h2></a>
         <li>
             <ul class="reset-list">
                 {{ range $value.Pages }}

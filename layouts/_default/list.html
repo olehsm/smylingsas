@@ -1,7 +1,10 @@
 {{ define "main" }}
+    
     <div class="page-wrapper">
         <h1>{{.Params.title}}</h1>
-
+        {{if eq .Kind "term" }}
+            {{ partial "homepage/topics.html" . }}
+        {{end}}
         {{.Content}}
     </div>    
 
