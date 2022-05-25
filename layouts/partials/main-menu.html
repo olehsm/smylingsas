@@ -18,8 +18,8 @@
         {{ else }}
             <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
                 <a href="{{ .URL }}">
-                    <span class="link-item-logo">{{ .Pre }}</span>
-                    <span class="link-item-text">{{ .Name }}</span>
+                    {{ .Pre }}
+                    {{ .Name }}
                 </a>
             </li>
         {{ end }}
