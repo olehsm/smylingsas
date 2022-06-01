@@ -3,15 +3,10 @@
     grid-area: jumbotron;    
 }
 
+
 .homepage-experience 
 {
     grid-area: homepage-experience;
-}
-
-
-.homepage-post-section 
-{
-    grid-area: homepage-post-section;
 }
 
 
@@ -26,12 +21,10 @@
     grid-template-areas:
         "jumbotron"
         "homepage-experience"
-        "homepage-post-section"
-        "homepage-projects-section"
-        
+        "homepage-projects-section"        
         ;
     grid-template-columns: 1fr;
-    grid-template-rows: 100vh auto auto auto ; 
+    grid-template-rows: 100vh 50vh auto ; 
 }
 
 
@@ -41,10 +34,9 @@
         grid-template-areas:
             "jumbotron"
             "homepage-experience"
-            "homepage-post-section"
             "homepage-projects-section"
             ;
         grid-template-columns: 1fr;
-        grid-template-rows: 100vh auto auto auto; 
+        grid-template-rows: 100vh auto auto; 
     }
 }

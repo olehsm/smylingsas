@@ -1,10 +1,12 @@
-.container {
-    margin: 0 auto;
-    max-width: 90vw;
-}
+// .experience .page-wrapper {
+//     ul {
+//         margin-left: 0;
+//     }
+// }
+
 
 .timeline {
-    padding-left: 10em;
+    padding-left: 9em;
 
     ul{
         border-left: 4px solid $default-theme-color;
@@ -13,11 +15,12 @@
         position: relative;
         padding: 0.5em;
         text-align: left;
-        width: 60%;
+        width: 65%;
+        padding-left: 1.5em;
     }
 
     h1{
-        font-size: 0.7rem;
+        font-size: 2rem !important;
         text-transform: uppercase;
         font-weight: 300;
         margin-bottom: 1em;
@@ -35,6 +38,10 @@
         padding-bottom: 0;
         margin-bottom: 0;
         border: none
+    }
+
+    p {
+        font-size: 1.5rem;
     }
 }
 
@@ -55,10 +62,10 @@
 
 .timeline .date::before {
     content: attr(data-date);
-    left: -8rem;
+    left: -14rem;
     text-align: right;
     min-width: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 
@@ -66,7 +73,7 @@
     content: '';
     box-shadow: 0 0 0 4px $default-theme-color;
     border-radius: 100%;
-    left: -12rem;
+    left: -17rem;
     height: 1.5rem;
     width: 1.5rem;
     background-color: #313534;
