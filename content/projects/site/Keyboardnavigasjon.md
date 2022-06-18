@@ -1,23 +1,23 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources: []
 categories: []
 tags:
-    - navigation
-    - hugo
+  - navigation
+  - hugo
 slug: tastaturnavigasjon-mellom-artikler
 title: Tastaturnavigasjon mellom artikler
 date: 2020-07-12T11:38:11.000Z
 draft: false
 comments: false
-lastmod: '2021-12-26T22:07:47.001Z'
+lastmod: 2022-06-18T10:12:50.163Z
 preview: /javascript.jpg
 ---
 
+<!--more-->
 Ved å bruke Hugo sin innebyggede seksjonnavigasjon, javascript sin querySelector og DOM - eventet 'onkeydown' har jeg nå lagt til muligheten for å kunne bla frem og tilbake mellom artiklene på denne siden med piltastene på tastaturet.
 
-<!--more-->
 
 {{<highlight js>}}
 document.onkeydown = function(e) {
