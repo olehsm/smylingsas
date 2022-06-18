@@ -25,6 +25,12 @@
     text-decoration: none;
 }
 
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 
 .button {
     display: inline-block;
@@ -33,31 +39,31 @@
     background-color: transparent;
     font-family: Oswald, sans-serif;
     color: $default-theme-color;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     text-align: center;
     text-decoration: none;
 }
 
 
-.button.hero-button {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding: 12px 36px;
-    border: 2px solid $default-theme-color;
-    background-color: transparent;
-    opacity: 1;
-    font-family: Oswald, sans-serif;
-    color: $default-theme-color;
-    font-size: 0.7rem;
-    line-height: 1.7;
+// .button.hero-button {
+//     margin-top: 4px;
+//     margin-bottom: 4px;
+//     padding: 12px 36px;
+//     border: 2px solid $default-theme-color;
+//     background-color: transparent;
+//     opacity: 1;
+//     font-family: Oswald, sans-serif;
+//     color: $default-theme-color;
+//     font-size: 0.7rem;
+//     line-height: 1.7;
 
-    &.inverted {
-        border: none;
-        border: 2px solid map-get($colors, blackpearl);
-        color: map-get($colors, blackpearl);
-    }
-}
+//     &.inverted {
+//         border: none;
+//         border: 2px solid map-get($colors, blackpearl);
+//         color: map-get($colors, blackpearl);
+//     }
+// }
 
 
 .intro-nav ul {
