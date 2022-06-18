@@ -66,6 +66,7 @@
         .logo {
             transform: none;
             top: 4em;
+            bottom: unset;
         }
         a{
             color: white;
@@ -98,10 +99,6 @@
             }
         }
 
-
-        .link-item-text {
-            display: block;    
-        }
     }
 
     .site-menu {
