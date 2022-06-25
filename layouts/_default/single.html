@@ -71,20 +71,5 @@
     {{ if eq .Type "projects" }}
         {{- partial "read-next-projects.html" . -}}
     {{ end }}
-
-    <script>
-        document.onkeydown = function(e) {
-          switch (e.keyCode) {
-            case 37:
-              //left key
-              document.querySelector(".page-main__previous-link").click();
-              break;
-            case 39:
-              //right key
-              document.querySelector(".page-main__next-link").click();
-              break;
-          }
-        };
-      </script>
 {{ end }}
 

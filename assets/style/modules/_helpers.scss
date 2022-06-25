@@ -5,16 +5,6 @@
 }
 
 
-.text-orange {
-	color: $default-theme-color;
-}
-  
-  
-@mixin render-as-columns($number-of-columns) {
-	column-count: $number-of-columns;
-}
-
-
 .invisible-on-phone {
 	display: none;
 
@@ -28,11 +18,13 @@
 	background-color: $default-theme-color;
 }
 
+
 .highlight {
 	font-size: 1.3rem;
 	width: 100%;
   	grid-column: 1 / -1 !important;
 }
+
 
 .highlight pre {
 	padding: 0.5em 1.8em;

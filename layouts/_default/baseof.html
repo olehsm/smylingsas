@@ -100,23 +100,6 @@
             if('serviceWorker' in navigator) {
                 navigator.serviceWorker.register("{{ $.Site.BaseURL }}service-worker.js")
             }
-
-            
-            const shareButton = document.querySelector('.shareMeBtn');
-            if(shareButton !== null) {
-                var title = document.getElementsByTagName("title")[0].innerHTML;
-                shareButton.addEventListener('click', event => {
-                    if (navigator.share) {
-                        navigator.share({
-                            title: title,
-                            text: 'Sjekk denne artikkelen på Ole Halvors hjemmeside',
-                            url: window.location.href,
-                            })
-                        .then(() => console.log('Successful share'))
-                        .catch((error) => console.log('Error sharing', error));
-                    }
-                })
-            }
         </script>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>
