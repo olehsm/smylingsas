@@ -73,3 +73,14 @@
     {{ end }}
 {{ end }}
 
+
+{{ define "page-header__pageresources" }}
+    <h2>Referanser:</h2>
+    <ul class="page-header__pageresources">
+        {{ range . }}
+            <li>
+                <a rel="noreferrer" target="_blank" href="{{.}}/">{{ . }}</a>
+            </li>
+        {{ end }}
+    </ul>
+{{ end }}
