@@ -1,32 +1,12 @@
 
-.page-main__content {
-    line-height: 1.7;
-    p {
-        font-size: 2.5rem;
-    }
 
-    h2,h3, h4 {
-        font-size:3rem;
-        margin-top: 3em;
-        margin-bottom: 1.4em;
-    }
+.page-main-list {
+    margin:0;
+}
+
+
+
+// .page-footer {
+//     margin: 1em;
     
-    ul, ol {
-        margin-left: 1.5em;
-        margin-bottom: 1em;
-    }
-}
-
-.article-tags {
-    margin-top: 2.3em;
-}
-
-
-
-
-.page-footer {
-    margin: 1em;
-    .page-main-list {
-        margin:0;
-    }
-}
+// }
