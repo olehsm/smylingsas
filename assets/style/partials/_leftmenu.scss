@@ -17,9 +17,9 @@
 
 .aside .logo {
     position: absolute;
-    bottom: 9em;
+    top: 1em;
     text-transform: capitalize;
-    transform: rotate(-90deg);
+    //transform: rotate(-90deg);
     
     a {
         font-size: 3rem;
@@ -33,6 +33,10 @@
 
 .site-menu li a {
     padding: 9px 8px;
+}
+
+.logo-full {
+    display: none;
 }
 
 @media (min-width: 810px) { 
@@ -60,14 +64,22 @@
 
 
 @media (min-width: 1300px) {    
+    .logo-mini {
+        display: none;
+    }
+    
+    .logo-full {
+        display: block;
+    }
+
     .aside {
         width: 220px;
         padding: 1.3em;
         background-color: #222222;//map-get($colors, blackedblue);
         .logo {
-            transform: none;
-            top: 4em;
-            bottom: unset;
+            //transform: none;
+            //top: 4em;
+            //bottom: unset;
         }
         a{
             //color: white;
