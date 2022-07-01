@@ -134,3 +134,11 @@ section.hero > * {
         text-align:left;
     }
 }
+
+
+@media only screen and (min-width: 2000px)
+{
+    .hero-text{
+        font-size: 13rem;
+    }
+}
