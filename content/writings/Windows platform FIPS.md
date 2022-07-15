@@ -15,7 +15,7 @@ date: 2021-08-31T10:08:25.000Z
 draft: false
 comments: false
 preview: /keylock.jpg
-lastmod: 2022-04-03T15:39:26.159Z
+lastmod: 2022-07-09T17:02:09.038Z
 ---
 
 
@@ -49,6 +49,12 @@ Det er flere måter å slå av eller på FIPS mode i Windows
 Det går også fint å søke opp Local Security Policy fra Start - menyen.
 
 ![Local Security Policy overview](/img/Local-Security-Policy.png)
-> Åpne *Local Policies* og deretter *Security*
+> Åpne *Local Policies* og deretter *Security Options*
 
+![Slå av fips 1](/img/fips1.PNG)
+
+![Slå av fips 2](/img/fips2.PNG)
+
+![Slå av fips 3](/img/fips3.PNG)
+> I listen over *Policies* velger du *Systemkryptografi: Bruk FIPS-kompatible algoritmer til kryptering, hash-kodisk og sign..*
 
