@@ -83,12 +83,14 @@
 }
 
 
-.page-header__publication-details  i{
+.page-header__publication-details  i,
+.last-moded i{
     color: $default-theme-color;
 }
 
 
-.page-header__publication-details {
+.page-header__publication-details,
+.last-moded {
     margin-bottom: 1.5em;
 }
 

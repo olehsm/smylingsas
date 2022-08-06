@@ -2,87 +2,87 @@
 
     <div class="single">
         <section class="list-of-content">
+            {{ if eq .Type "projects" }}
+                <section class="page-main__latest-articles">
 
-        </section>
-        <section class="article-section">
-
-        </section>
-    </div>
-
-    <div class="page-wrapper">
-        <h1>{{.Params.title}}</h1>
-        <div class="page-header__publication-details">
-            <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-            <span><i class="fas fa-file-alt"></i>&nbsp;{{ .WordCount }}&nbsp;ord</span>
-            <span><i class="fas fa-clock"></i>&nbsp;{{ .ReadingTime }}&nbsp;minutter</span>
-        </div>
-        <div class="last-moded">
-            <time class="page-header__publication-details__pubdate" datetime="{{ .Lastmod.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Lastmod.Format "Mon, Jan 2, 2006" }}</time>
-        </div>
-   
-        {{.Content}}
- 
-        
-        
-        {{/*  <main class="page-main1" id="main-content">
-            <article class="page-main__content">
-                
-            </article>
-    
-            
-        </main>  */}}
-        <div class="article-tags">
-            {{ with .Params.tags }}
-                <i class="fas fa-tag"></i>&nbsp;
-                {{ range . }}
-                    <a href="/tags/{{ . | urlize }}/">{{ . }}</a> 
-                {{ end }}
+                    {{ $pages := where $.Site.RegularPages  "Type" "in" "projects"}}
+                    <h1>Nyeste prosjektposter</h1>
+                    <div class="page-main-list">
+                        <ul class="reset-list">
+                            {{ range $pages }}
+                                {{ .Render "summary"}}
+                            {{ end }}
+                        </ul>    
+                    </div>
+                </section>
             {{ end }}
-        </div>
+
+            {{ if eq .Type "writings" }}
+                <section class="page-main__latest-articles">
+                    {{ $pages := where $.Site.RegularPages "Type" "in" "writings" }}
+                    <h1>Nyeste poster</h1>
+                    <div class="page-main-list">
+                        <ul class="reset-list">
+                            {{ range first 4 $pages }}
+                                {{ .Render "summary"}}
+                            {{ end }}
+                        </ul>
+                    </div>
+                </section>
+            {{ end }}
+
+            
+            {{ if eq .Type "writings" }}
+                {{- partial "read-next-writings.html" . -}}
+            {{ end }}
+
+            {{ if eq .Type "projects" }}
+                {{- partial "read-next-projects.html" . -}}
+            {{ end }}
+        </section>
+
+        <section class="article-section">
+            <div class="page-wrapper">
+                <h1>{{.Params.title}}</h1>
+                <div class="page-header__publication-details">
+                    <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+                    <span><i class="fas fa-file-alt"></i>&nbsp;{{ .WordCount }}&nbsp;ord</span>
+                    <span><i class="fas fa-clock"></i>&nbsp;{{ .ReadingTime }}&nbsp;minutter</span>
+                </div>
+                <div class="last-moded">
+                    <time class="page-header__publication-details__pubdate" datetime="{{ .Lastmod.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Lastmod.Format "Mon, Jan 2, 2006" }}</time>
+                </div>
+           
+                {{.Content}}
+         
+                
+                
+                {{/*  <main class="page-main1" id="main-content">
+                    <article class="page-main__content">
+                        
+                    </article>
+            
+                    
+                </main>  */}}
+                <div class="article-tags">
+                    {{ with .Params.tags }}
+                        <i class="fas fa-tag"></i>&nbsp;
+                        {{ range . }}
+                            <a href="/tags/{{ . | urlize }}/">{{ . }}</a> 
+                        {{ end }}
+                    {{ end }}
+                </div>
+                
+                <div class="article-resources">
+                    {{ with .Params.pageresources }}
+                        {{ template "page-header__pageresources"  . }}
+                    {{ end }}            
+                </div>
+            </div>
         
-        <div class="article-resources">
-            {{ with .Params.pageresources }}
-                {{ template "page-header__pageresources"  . }}
-            {{ end }}            
-        </div>
+        </section>
     </div>
-
-    {{ if eq .Type "projects" }}
-        <section class="page-main__latest-articles">
-            {{ $pages := where $.Site.RegularPages "Type" "in" "projects" }}
-            <h1>Nyeste prosjektposter</h1>
-            <div class="page-main-list">
-                <ul class="reset-list">
-                    {{ range first 4 $pages }}
-                        {{ .Render "summary"}}
-                    {{ end }}
-                </ul>    
-            </div>
-        </section>
-    {{ end }}
-
-    {{ if eq .Type "writings" }}
-        <section class="page-main__latest-articles">
-            {{ $pages := where $.Site.RegularPages "Type" "in" "writings" }}
-            <h1>Nyeste poster</h1>
-            <div class="page-main-list">
-                <ul class="reset-list">
-                    {{ range first 4 $pages }}
-                        {{ .Render "summary"}}
-                    {{ end }}
-                </ul>
-            </div>
-        </section>
-    {{ end }}
-
     
-    {{ if eq .Type "writings" }}
-        {{- partial "read-next-writings.html" . -}}
-    {{ end }}
-
-    {{ if eq .Type "projects" }}
-        {{- partial "read-next-projects.html" . -}}
-    {{ end }}
 {{ end }}
 
 

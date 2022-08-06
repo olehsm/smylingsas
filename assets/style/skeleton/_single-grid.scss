@@ -1,0 +1,33 @@
+.list-of-content {
+    grid-area: listofcontent;
+}
+
+
+.article-section {
+    grid-area: articlesection;
+}
+
+
+.single {
+    display: grid;
+    grid-template-areas:
+        "articlesection"
+        "listofcontent"        
+        ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh auto; 
+}
+
+
+@media (min-width: 1300px) {
+    .single {
+        display: grid;
+        grid-template-areas:
+            "listofcontent articlesection"        
+            ;
+        grid-template-columns: 400px 1fr;
+        grid-template-rows: auto; 
+    }
+}
+
+
