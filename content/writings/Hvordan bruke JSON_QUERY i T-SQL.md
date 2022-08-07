@@ -6,14 +6,14 @@ pageresources:
 categories: []
 tags:
   - sql
-  - json
 slug: hvordan-bruke-json-query-sql
 title: Hvordan bruke JSON_QUERY i T-SQL
 date: 2019-10-19T19:59:42.000Z
 draft: false
 comments: false
-lastmod: 2022-04-10T16:19:06.767Z
+lastmod: 2022-08-07T09:20:49.695Z
 preview: /preview-images/microsoft-sql-server4529.jpg
+type: default
 ---
 
 JSON_QUERY

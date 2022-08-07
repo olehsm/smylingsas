@@ -5,7 +5,7 @@ pageresources: []
 categories: []
 tags:
   - git
-  - windows
+  - misc
 slug: bruk-windows-credensials-til-a-lagre-git-passord
 title: Bruk Windows credensials til å lagre Git passord
 date: 2020-02-09T22:35:43.000Z

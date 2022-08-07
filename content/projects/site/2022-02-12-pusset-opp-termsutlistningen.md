@@ -5,10 +5,11 @@ date: 2022-02-12T16:34:14.779Z
 preview: /preview-images/320hugo_logo.png
 draft: ""
 tags:
-  - navigation
+  - css
+  - hugo
 categories: ""
 slug: pusset-opp-termsutlistningen
-lastmod: 2022-04-04T18:51:52.270Z
+lastmod: 2022-08-07T09:35:17.277Z
 ---
 <!--more-->
 Har pusset opp termsutlistningen. Nå vil siden ikke lenger bare liste opp denne nettsidens benyttede tags, men også liste ut hvilke blogposter som hører til. Terms finner en på /tags

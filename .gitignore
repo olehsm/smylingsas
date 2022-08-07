@@ -1,7 +1,6 @@
 archive
 node_modules
 package-lock.json
-frontmatter.json
 .frontmatter/content/mediaDb.json
 .frontmatter/templates/article.md
 .hugo_build.lock

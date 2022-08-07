@@ -1,18 +1,18 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://developers.google.com/web/tools/lighthouse/'
+  - https://developers.google.com/web/tools/lighthouse/
 categories: []
 tags:
-    - lighthouse
+  - misc
 slug: generer-lighthouse-rapport-07-06-2020
 title: Generer Lighthouse rapport 07-06-2020
 date: 2020-06-07T09:51:07.000Z
 draft: false
 comments: false
 preview: /preview-images/google-chrome-logo.png
-lastmod: '2022-01-27T19:54:05.723Z'
+lastmod: 2022-01-27T19:54:05.723Z
 ---
 
 Hva er Lighthouse?

@@ -4,7 +4,7 @@ description: ""
 pageresources: []
 categories: []
 tags:
-  - pwa
+  - css
 slug: du-er-offline-beskjed
 title: Du er offline - beskjed
 date: 2020-06-16T20:14:45.000Z

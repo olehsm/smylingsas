@@ -6,7 +6,6 @@ pageresources:
 categories: []
 tags:
   - javascript
-  - momentjs
 slug: sett-ny-tid-med-momentjs
 title: Sett ny tid med MomentJS
 date: 2021-10-10T11:12:18.000Z

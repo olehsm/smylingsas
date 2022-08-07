@@ -4,14 +4,14 @@ description: ""
 pageresources: []
 categories: []
 tags:
-  - navigation
   - hugo
+  - javascript
 slug: tastaturnavigasjon-mellom-artikler
 title: Tastaturnavigasjon mellom artikler
 date: 2020-07-12T11:38:11.000Z
 draft: false
 comments: false
-lastmod: 2022-06-18T10:12:50.163Z
+lastmod: 2022-08-07T09:35:55.218Z
 preview: /javascript.jpg
 ---
 

@@ -4,14 +4,14 @@ description: ""
 pageresources: []
 categories: []
 tags:
-  - iis
+  - misc
 slug: iis-application-pool-liten-oversikt
 title: IIS Application Pool - liten oversikt
 date: 2021-02-18T21:22:00.000Z
 draft: false
 comments: false
 preview: /pool.jpg
-lastmod: 2022-03-25T06:09:22.386Z
+lastmod: 2022-08-07T09:33:49.894Z
 ---
 
 En Application pool er en mekanisme i IIS for å isolere webapplikasjoner fra hverandra. 

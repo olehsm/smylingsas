@@ -1,12 +1,14 @@
 ---
-author: "Ole Halvor Smylingsås"
+author: Ole Halvor Smylingsås
 description: ""
 resources: []
 categories: []
-tags: ["project", "react", "amplify"]  
+tags:
+  - amplify
+  - react
 slug: ""
-title: "Html Calculator"
-date: "2019-08-01T00:30:31+02:00"
+title: Html Calculator
+date: 2019-08-01T00:30:31+02:00
 draft: true
 comments: false
 ---

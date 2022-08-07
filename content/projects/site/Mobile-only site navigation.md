@@ -1,17 +1,16 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources: []
 categories: []
 tags:
-    - navigation
-    - css
+  - css
 slug: egen-sidemeny-mobilskjermer
 title: Egen sidemeny for mobilskjermer
 date: 2020-03-15T12:44:08.000Z
 draft: false
 comments: false
-lastmod: '2021-12-28T16:32:41.729Z'
+lastmod: 2022-08-07T09:35:34.222Z
 preview: /preview-images/css.jpg
 ---
 

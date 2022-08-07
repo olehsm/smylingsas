@@ -1,9 +1,9 @@
 ---
-author: "Ole Halvor Smylingsås"
+author: Ole Halvor Smylingsås
 description: ""
 resources: []
 categories: []
-tags: ["project"]     
+tags: []
 slug: ""
 title: "Project: Machine Learning"
 date: 2019-11-17T11:32:50+01:00

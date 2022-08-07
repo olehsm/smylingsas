@@ -6,7 +6,6 @@ pageresources:
 categories: []
 tags:
   - csharp
-  - linq
 slug: single-singleordefault
 title: Single vs SingleOrDefault
 date: 2021-02-08T20:19:45.000Z

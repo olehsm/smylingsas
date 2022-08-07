@@ -4,9 +4,8 @@ description: ""
 pageresources: []
 categories: []
 tags:
-  - react
   - javascript
-  - gamedev
+  - react
 slug: react-minesweeper
 title: React minesweeper
 date: 2020-11-09T21:25:07.000Z

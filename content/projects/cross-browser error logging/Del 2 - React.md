@@ -4,10 +4,9 @@ description: ""
 pageresources: []
 categories: []
 tags:
+  - css
   - javascript
   - react
-  - typescript
-  - stacktracejs
 slug: logging-av-feil-klient-nettleser-del-2-react
 title: Logging av feil i klient/nettleser. Del 2 - React
 date: 2020-04-24T20:30:53.000Z

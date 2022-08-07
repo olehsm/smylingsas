@@ -6,13 +6,12 @@ pageresources:
 categories: []
 tags:
   - javascript
-  - chrome
 slug: window-onerror-chrome
 title: Window.onerror i chrome
 date: 2020-04-24T20:06:31.000Z
 draft: false
 comments: false
-lastmod: 2022-04-10T16:18:50.974Z
+lastmod: 2022-08-07T09:37:04.393Z
 preview: /preview-images/angularjs.jpg
 ---
 

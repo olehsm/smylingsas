@@ -6,7 +6,6 @@ pageresources:
 categories: []
 tags:
   - csharp
-  - linq
 slug: find-og-exist-linq
 title: Find Og Exist I Linq
 date: 2021-02-08T20:52:49.000Z
