@@ -122,3 +122,26 @@
     font-size: inherit;
     color: #e7e8eb;
 }
+
+
+
+@media (min-width: 1300px) {
+    .page-main__latest-articles h1, .page-main__read-next-card h1 {
+        margin-top: 1em;
+    }
+
+    .page-main-list {
+        padding: 0;
+    }
+
+    .list-of-content {
+        background-color: #222;
+        border-right: 2px solid #393939;
+    }
+
+    .item {
+        background: #222;
+    }
+    
+
+}

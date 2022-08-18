@@ -10,7 +10,7 @@
                     <div class="page-main-list">
                         <ul class="reset-list">
                             {{ range $pages }}
-                                {{ .Render "summary"}}
+                                {{ .Render "summary2"}}
                             {{ end }}
                         </ul>    
                     </div>
@@ -23,8 +23,8 @@
                     <h1>Nyeste poster</h1>
                     <div class="page-main-list">
                         <ul class="reset-list">
-                            {{ range first 4 $pages }}
-                                {{ .Render "summary"}}
+                            {{ range $pages }}
+                                {{ .Render "summary2"}}
                             {{ end }}
                         </ul>
                     </div>
