@@ -1,0 +1,25 @@
+.grid-header {
+    grid-area: gridheader;
+}
+
+
+.grid-main {
+    grid-area: gridmain;
+}
+
+
+
+@media (min-width: 1300px) {
+    .list-grid {
+        display: grid;
+        grid-template-areas:
+            "gridheader" 
+            "gridmain"        
+            ;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        min-height: 80vh; 
+    }
+}
+
+

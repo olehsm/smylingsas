@@ -5,7 +5,7 @@
                 <h2 class="item__title">
                     {{ .Title }}
                 </h2>
-                {{ .Summary }}
+                <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
             </div>
         </article>
     </a>

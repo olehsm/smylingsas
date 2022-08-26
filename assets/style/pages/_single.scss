@@ -126,11 +126,12 @@
 
 
 @media (min-width: 1300px) {
-    .page-main__latest-articles h1, .page-main__read-next-card h1 {
+    .list-of-content .page-main__latest-articles h1, 
+    .list-of-content .page-main__read-next-card h1 {
         margin-top: 1em;
     }
 
-    .page-main-list {
+    .list-of-content .page-main-list {
         padding: 0;
     }
 
@@ -139,8 +140,12 @@
         border-right: 2px solid #393939;
     }
 
-    .item {
+    .list-of-content .item {
         background: #222;
+    }
+
+    .list-of-content .item__body {
+        padding: 0.5em 1em
     }
     
 

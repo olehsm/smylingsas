@@ -20,7 +20,7 @@
             {{ if eq .Type "writings" }}
                 <section class="page-main__latest-articles">
                     {{ $pages := where $.Site.RegularPages "Type" "in" "writings" }}
-                    <h1>Nyeste poster</h1>
+                    <h1>Artikler</h1>
                     <div class="page-main-list">
                         <ul class="reset-list">
                             {{ range $pages }}

@@ -8,14 +8,15 @@ pageresources:
   - https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing
   - https://csrc.nist.gov/publications/detail/fips/140/2/final
 categories: []
-tags: []
+tags:
+  - misc
 slug: windows-platform-fips
 title: Windows Platform FIPS
 date: 2021-08-31T10:08:25.000Z
 draft: false
 comments: false
 preview: /keylock.jpg
-lastmod: 2022-07-09T17:02:09.038Z
+lastmod: 2022-08-26T21:22:13.174Z
 ---
 
 
