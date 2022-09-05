@@ -9,6 +9,6 @@
 		"[markdown]": {
 		},
 		"frontMatter.framework.startCommand": "hugo server",
-		"frontMatter.preview.host": "http://localhost:1313/projects/site/"
+		"frontMatter.preview.host": ""
 	}
 }
