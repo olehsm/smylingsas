@@ -3,7 +3,8 @@
     margin-bottom: 0.7em;
     font-size: 4rem;
     line-height: 1.1;
-    color: $default-theme-color;
+    //color: $default-theme-color;
+    color: var(--theme-color);
 }
 
 
@@ -12,7 +13,8 @@
 .page-wrapper h4 {
     font-size: 1.9rem;
     margin-top: 2.3em;
-    color: $default-theme-color;
+    //color: $default-theme-color;
+    color: var(--theme-color)
 }
 
 
@@ -39,7 +41,8 @@
 
 
 .page-wrapper blockquote {
-    border-left: 2px solid $default-theme-color;
+    //border-left: 2px solid $default-theme-color;
+    border-left: 2px solid var(--theme-color);
     padding-left: 2em;
     margin: 1em 0;
 }
@@ -62,7 +65,8 @@
     padding-right: 15px;
     font-size: 1.9rem;
     margin-top: 2.3em;
-    color: $default-theme-color;
+    //color: $default-theme-color;
+    color: var(--theme-color);
     line-height: 1.8;
 }
 
@@ -85,7 +89,8 @@
 
 .page-header__publication-details  i,
 .last-moded i{
-    color: $default-theme-color;
+    //color: $default-theme-color;
+    color: var(--theme-color);
 }
 
 

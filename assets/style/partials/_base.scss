@@ -26,7 +26,8 @@ body {
 
 a {
     text-decoration: underline;
-    color: $default-theme-color;
+    //color: $default-theme-color;
+    color: var(--theme-color);
     word-break: break-word;
     font-size: 1.5rem;
 }

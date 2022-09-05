@@ -2,7 +2,8 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: $default-theme-color;
+    //background-color: $default-theme-color;
+    background-color: var(--theme-color);
     z-index: 5;
     color: map-get($colors, blackpearl);
     padding: 0.5em;

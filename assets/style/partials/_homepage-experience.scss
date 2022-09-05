@@ -2,7 +2,8 @@
     padding-left: 9em;
 
     ul{
-        border-left: 4px solid $default-theme-color;
+        //border-left: 4px solid $default-theme-color;
+        border-left: 4px solid var(--theme-color);
         background-color: rgba(0,0,0,.05);
         margin: 0 auto;
         position: relative;
@@ -64,7 +65,8 @@
 
 .timeline .date::after {
     content: '';
-    box-shadow: 0 0 0 4px $default-theme-color;
+    //box-shadow: 0 0 0 4px $default-theme-color;
+    box-shadow: 0 0 0 4px var(--theme-color);
     border-radius: 100%;
     left: -17rem;
     height: 1.5rem;

@@ -4,7 +4,7 @@
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 1rem;
-    text-shadow: 1px 1px 2px $default-theme-color;
+    text-shadow: 1px 1px 2px var(--theme-color);
     font-size: 3rem;
 }
 
@@ -23,8 +23,8 @@
         position: absolute;
         width: 80px;
         height: 80px;
-        border-bottom: 5px solid $default-theme-color;
-        border-left: 5px solid $default-theme-color;
+        border-bottom: 5px solid var(--theme-color);
+        border-left: 5px solid var(--theme-color);
         bottom: 0;
         left:0;
     }
@@ -34,8 +34,8 @@
         position: absolute;
         width: 80px;
         height: 80px;
-        border-top: 5px solid $default-theme-color;
-        border-right: 5px solid $default-theme-color;
+        border-top: 5px solid var(--theme-color);
+        border-right: 5px solid var(--theme-color);
         top: 0;
         right:0;
     }
@@ -57,7 +57,7 @@
 
 
 section.hero {
-    color: #00e472;
+    color: var(--theme-color);
     display: grid;
     grid-template-columns: 
         1fr 
@@ -77,13 +77,13 @@ section.hero {
     
 
     .down-arrow {
-        stroke: #00e472;
+        stroke: var(--theme-color);
         position: absolute;
         bottom: 15em;
         width: 2em;
 
         path {
-            fill: #00e472;
+            fill: var(--theme-color);
         }
     }
 }

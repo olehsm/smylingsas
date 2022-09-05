@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-left: 3px solid $default-theme-color;
+    border-left: 3px solid var(--theme-color);
     border-right: 2px solid #393939;
     a{
         color: white;
@@ -35,8 +35,8 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    border-bottom: 5px solid $default-theme-color;
-    border-left: 5px solid $default-theme-color;
+    border-bottom: 5px solid var(--theme-color);
+    border-left: 5px solid var(--theme-color);
     bottom: 0;
     left:0;
 }
@@ -46,21 +46,35 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    border-top: 5px solid $default-theme-color;
-    border-right: 5px solid $default-theme-color;
+    border-top: 5px solid var(--theme-color);
+    border-right: 5px solid var(--theme-color);
     top: 0;
     right:0;
 }
-
 
 
 .site-menu li a {
     padding: 9px 8px;
 }
 
+
 .logo-full {
     display: none;
 }
+
+
+.aside .theme-switcher-button {
+    position: absolute;
+    bottom: 3em;
+    
+    a {
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 0.3em 0.7em;
+        position: relative;
+    }
+}
+
 
 @media (min-width: 810px) { 
     .aside {
@@ -98,31 +112,10 @@
         padding: 1.3em;
         background-color: #222222;//map-get($colors, blackedblue);
         a{
-            //color: white;
             font-size: 1.7rem;
             text-align: left;
             display: inline;
-            // &::before {
-            //     content: '';
-            //     position: absolute;
-            //     width: 20px;
-            //     height: 20px;
-            //     border-bottom: 5px solid $default-theme-color;
-            //     border-left: 5px solid $default-theme-color;
-            //     bottom: 0;
-            //     left:0;
-            // }
-    
-            // &::after {
-            //     content: '';
-            //     position: absolute;
-            //     width: 20px;
-            //     height: 20px;
-            //     border-top: 5px solid $default-theme-color;
-            //     border-right: 5px solid $default-theme-color;
-            //     top: 0;
-            //     right:0;
-            // }
+            
             i {
                 display: inline;
             }
