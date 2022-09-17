@@ -11,7 +11,8 @@ title: "Project: Machine Learning"
 date: 2019-11-17T11:32:50+01:00
 draft: false
 comments: false
-lastmod: 2022-09-05T08:39:18.012Z
+lastmod: 2022-09-17T18:01:43.090Z
+preview: /preview-images/ml-logo.jpg
 ---
 
 <!--more-->

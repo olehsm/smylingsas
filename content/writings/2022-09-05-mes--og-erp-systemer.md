@@ -2,7 +2,7 @@
 title: MES- og ERP-systemer
 description: ""
 date: 2022-09-05T08:14:53.947Z
-preview: ""
+preview: /preview-images/erpln.png
 draft: ""
 tags:
   - misc
@@ -12,7 +12,7 @@ pageresources:
   - https://www.cognizant.com/nb-no/glossary/manufacturing-execution-system#list-E
   - https://www.cognizant.com/no/nb/glossary/erp
 comments: 2022-09-05T08:14:53.948Z
-lastmod: 2022-09-05T08:18:01.734Z
+lastmod: 2022-09-17T17:59:54.690Z
 type: ""
 slug: mes-og-erp-systemer
 ---

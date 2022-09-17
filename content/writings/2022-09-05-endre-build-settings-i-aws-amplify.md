@@ -2,7 +2,7 @@
 title: Endre build settings i AWS Amplify
 description: ""
 date: 2022-09-05T08:03:41.038Z
-preview: ""
+preview: /preview-images/aws-logo.jpg
 draft: ""
 tags:
   - amplify
@@ -10,7 +10,7 @@ categories: ""
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-05T08:03:41.038Z
-lastmod: 2022-09-05T08:10:01.124Z
+lastmod: 2022-09-17T17:46:00.440Z
 type: ""
 slug: endre-build-settings-aws-amplify
 ---

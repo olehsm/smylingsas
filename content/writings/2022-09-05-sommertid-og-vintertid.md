@@ -2,7 +2,7 @@
 title: Sommertid og vintertid
 description: ""
 date: 2022-09-05T07:21:53.435Z
-preview: ""
+preview: /preview-images/clock.jpg
 draft: ""
 tags:
   - misc
@@ -11,7 +11,7 @@ author: Ole Halvor Smylingsås
 pageresources:
   - https://www.regjeringen.no/no/aktuelt/naringsministeren-varsler-en-ny-tid/id2880267/
 comments: 2022-09-05T07:21:53.435Z
-lastmod: 2022-09-05T07:25:37.832Z
+lastmod: 2022-09-17T17:37:02.142Z
 type: ""
 slug: sommertid-og-vintertid
 ---

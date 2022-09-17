@@ -2,7 +2,7 @@
 title: Redeploy av bygg med nye variabler i Octopus deploy
 description: ""
 date: 2022-09-05T06:42:09.460Z
-preview: ""
+preview: /preview-images/octo-logo.png
 draft: ""
 tags:
   - octopus
@@ -10,7 +10,7 @@ categories: ""
 author: ""
 pageresources: {}
 comments: 2022-09-05T06:42:09.460Z
-lastmod: 2022-09-05T07:19:02.492Z
+lastmod: 2022-09-17T17:50:08.063Z
 type: ""
 slug: redeploy-av-bygg-med-nye-variabler-octopus-deploy
 ---
