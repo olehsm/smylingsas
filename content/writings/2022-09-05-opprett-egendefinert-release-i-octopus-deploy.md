@@ -4,12 +4,13 @@ description: ""
 date: 2022-09-05T07:40:47.972Z
 preview: /preview-images/octo-logo.png
 draft: ""
-tags: ""
+tags:
+  - octopus
 categories: ""
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-05T07:40:47.973Z
-lastmod: 2022-09-17T17:50:33.648Z
+lastmod: 2022-09-17T22:34:09.132Z
 type: ""
 slug: opprett-egendefinert-release-octopus-deploy
 ---

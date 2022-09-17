@@ -1,0 +1,33 @@
+.topics-section {
+    background-color: var(--theme-color);
+    min-height: 30vh;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: grid;
+    place-content: center;
+
+    ul {
+        display: flex;    
+        justify-content: space-between;
+
+        a {
+            width: auto;
+            margin: 1em;
+            display: block;
+            padding: 1em;
+            text-align: center;
+            text-transform: capitalize;
+            border: 2px dashed #f4f4f4;
+
+            &:hover {
+                border: 2px solid #f4f4f4;
+            }
+        }
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+
+    }
+}
