@@ -31,3 +31,20 @@
 
     }
 }
+
+.all-tags-link {
+    a {
+        width: auto;
+        margin: 1em;
+        display: block;
+        padding: 1em;
+        text-align: center;
+        text-transform: capitalize;
+        background: #181818;
+        color: var(--theme-color);
+
+        &:hover {
+            border: 2px solid #f4f4f4;
+        }
+    }
+}

@@ -52,7 +52,7 @@ uglyURLs = "false"
   [[menu.main]]
     name = "Arkiv"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/archives/"
+    url = "/tags/"
     weight = -80
 
   [[menu.main]]
@@ -66,4 +66,3 @@ uglyURLs = "false"
     pre = "<i class='fas fa-list'></i>"
     url = "/writings/"
     weight = -97
-

@@ -1,5 +1,8 @@
 <section class="topics-section">
     <ul class="reset-list">
+        <li class="all-tags-link">
+            <a href="/tags/">Alle tags</a>
+        </li>
         {{ range .Site.Taxonomies.tags }}
             <li>
                 <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
