@@ -26,7 +26,8 @@
             "listofcontent articlesection"        
             ;
         grid-template-columns: 400px 1fr;
-        grid-template-rows: auto; 
+        grid-template-rows: auto;
+        min-height: 80vh;  
     }
 }
 
