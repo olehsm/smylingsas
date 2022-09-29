@@ -10,14 +10,6 @@
     {
       "title": "writings",
       "path": "[[workspace]]/content/writings"
-    },
-    {
-      "title": "react minesweeper",
-      "path": "[[workspace]]/content/projects/react minesweeper"
-    },
-    {
-      "title": "site",
-      "path": "[[workspace]]/content/projects/site"
     }
   ],
   "frontMatter.taxonomy.tags": [
