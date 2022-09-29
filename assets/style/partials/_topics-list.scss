@@ -7,8 +7,9 @@
     place-content: center;
 
     ul {
-        display: flex;    
-        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;        
+        justify-content: center;
 
         a {
             width: auto;
