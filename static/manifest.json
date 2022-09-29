@@ -1,4 +1,24 @@
 {
+"screenshots": [
+  {
+    "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+    "sizes": "2880x1800",
+    "type": "image/png",
+    "description": "PWABuilder Home Screen"
+  },
+  {
+    "src": "https://www.pwabuilder.com/assets/screenshots/screen2.png",
+    "sizes": "2880/1800",
+    "type": "image/png",
+    "description": "PWABuilder Report Card"
+  },
+  {
+    "src": "https://www.pwabuilder.com/assets/screenshots/screen3.png",
+    "sizes": "2880x1800",
+    "type": "image/png",
+    "description": "Manifest information on the Report Card"
+  }
+], 
 	"name": "Smylingsas.net - Min lille utviklerblog",
     "short_name": "Smylingsas.net",
 	"orientation": "portrait-primary",
@@ -14,10 +34,10 @@
 		"type":"image/png"
 	}],
     "start_url": "/",
-    "background_color": "#f1dfd4",
+    "background_color": "#181818",
     "description": "..",
     "scope": "/",
-	"theme_color": "#cb5454",
+	"theme_color": "#181818",
 	"shortcuts": [{
 		"name": "Åpne TIL seksjon",
 		"short_name": "TIL",
