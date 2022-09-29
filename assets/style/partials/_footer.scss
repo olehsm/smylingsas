@@ -1,6 +1,6 @@
 .footer__site {
     background-color: map-get($colors, blackpearl);
-    height: 20vh;
+    height: 30vh;
     display: grid;
     place-items: center;
     text-align: center;
@@ -8,10 +8,35 @@
     margin-bottom: 2em;
 
     p {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
 
         a {
-            font-size: 1.7rem;
+            font-size: 1.2rem;
         }
     }
 }
+
+@media (min-width: 810px) {    
+    .footer__site {
+        height: 20vh;
+        p {
+            font-size: 1.7rem;
+    
+            a {
+                font-size: 1.7rem;
+            }
+        }
+    }
+}
+
+
+// @media (min-width: 1300px) {
+//     body {
+//         display: grid;  
+//         grid-template-areas:
+//         "navbar content"
+//         "navbar footer";
+//         grid-template-columns: 220px 1fr;
+//         grid-template-rows: auto 20vh;  
+//     }
+// }

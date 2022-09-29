@@ -9,5 +9,5 @@ title: Trying Tensorflow for JavaScript
 date: 2019-11-17T11:34:02+01:00
 draft: true
 comments: false
-lastmod: 2022-09-05T08:36:32.892Z
+lastmod: 2022-09-29T08:54:03.021Z
 ---
