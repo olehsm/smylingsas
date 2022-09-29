@@ -14,13 +14,16 @@ categories: ""
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-29T07:50:17.020Z
-lastmod: 2022-09-29T08:43:07.811Z
+lastmod: 2022-09-29T12:39:39.703Z
 type: ""
 resources: {}
 slug: smylingsas-net
 ---
 
 <!--more-->
+## 25 september 2022 
+En Dockerfil lagt til i prosjektet. Den skal gjøre den enklere å endre Go- og Hugo-versjon på Smylingsas.net uten å måtte installere det på min på egen maskin. Planen videre er også å lage en Hugo/Go/Node - basert utvikerkontainer til nedlasting.
+
 ## 15 september 2022
 Implementert en statisk venstremeny for alle mellomstore og store skjermstørrelser. Denne forsvinner på mobil og blir erstattet av en egen mobilmeny
 
