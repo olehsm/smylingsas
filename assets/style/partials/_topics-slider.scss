@@ -1,8 +1,13 @@
 
 .topics-list-container {
     width: 100%;
-    grid-column: 1 / -1 !important;
-    overflow: auto;
+    overflow-x: auto;
+    padding-bottom: 2em;
+    background-color: #222;
+    padding-top: 2em;
+    border-top: 2px solid #393939;
+    border-bottom: 2px solid #393939;
+    margin-bottom: 2em;
 }
 
 .topics-list {
@@ -16,6 +21,7 @@
     scroll-snap-type: x mandatory;
     scroll-padding: 1rem;
     position: relative;
+    text-align: center;
     
 
     li {
