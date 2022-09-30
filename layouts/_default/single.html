@@ -32,13 +32,7 @@
             {{ end }}
 
             
-            {{/*  {{ if eq .Type "writings" }}
-                {{- partial "read-next-writings.html" . -}}
-            {{ end }}
-
-            {{ if eq .Type "projects" }}
-                {{- partial "read-next-projects.html" . -}}
-            {{ end }}  */}}
+            
         </section>
 
         <section class="article-section">
@@ -78,6 +72,7 @@
                         {{ template "page-header__pageresources"  . }}
                     {{ end }}            
                 </div>
+                {{- partial "related-tag.html" . -}}
             </div>
         
         </section>

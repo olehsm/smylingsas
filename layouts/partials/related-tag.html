@@ -1,0 +1,14 @@
+{{ with .Params.tags }}
+    {{ $primaryTag := (index . 0) }}
+    {{ $relatedTagPosts := (index $.Site.Taxonomies.tags $primaryTag).Pages }}
+    <section class="page-main__read-next-card">
+        <h1>Andre innlegg i <a href="{{ "/tags/" | relLangURL }}{{ $primaryTag | urlize }}">#{{ $primaryTag }}</a></h1>
+        <div class="page-main-list">
+            <ul class="reset-list">
+                {{ range first 10 $relatedTagPosts }}
+                    {{ .Render "summary2"}}
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+{{ end }}
