@@ -8,7 +8,10 @@
                 </h2>
                 <time datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
             </header>
-                {{ .Summary }}
+            <div class="visual">
+                <img loading="lazy" width="415" height="230" src="{{.Params.preview}}"/>
+            </div> 
+            {{ .Summary }}
             <footer style="margin-top: auto">
                 <a class="button" href='{{ .Permalink }}'><nobr>Les mer →</nobr></a>
             </footer>

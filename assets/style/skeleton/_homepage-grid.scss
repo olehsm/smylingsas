@@ -25,8 +25,8 @@
     display: grid;
     grid-template-areas:
         "jumbotron"
-        "homepage-experience"
         "homepage-projects-section"
+        "homepage-experience"
         "homepage-topics-section"        
         ;
     grid-template-columns: 1fr;
@@ -39,8 +39,8 @@
         display: grid;
         grid-template-areas:
             "jumbotron"
-            "homepage-experience"
             "homepage-projects-section"
+            "homepage-experience"
             "homepage-topics-section"
             ;
         grid-template-columns: 1fr;

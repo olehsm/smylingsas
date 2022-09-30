@@ -1,10 +1,13 @@
 <section class="section" id="projects-section">
-    {{ $pagesInProjects := where $.Site.Pages "Type" "in" "projects" }}
-    {{ $listPages := where $pagesInProjects "Kind" "section" }}
-
-    <div class="project-items">
-        {{ range last 3 (after 1 $listPages.Reverse) }}
-            {{ .Render "showcase"}}
-        {{ end }}
-    </div>
+    
+        
+        {{$pages := where site.RegularPages "Type" "in" "projects" }}
+        <div class="project-items">
+            <ul class="reset-list">
+                {{ range first 5 $pages.Reverse }}
+                    {{ .Render "showcase"}}
+                {{ end }}
+            </ul>
+        </div>
+    
 </section>
