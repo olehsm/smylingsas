@@ -4,7 +4,7 @@
         <section class="list-of-content">
             {{ if eq .Type "projects" }}
                 <section class="page-main__latest-articles">
-
+                    {{- partial "related-tag.html" . -}}
                     {{ $pages := where $.Site.RegularPages  "Type" "in" "projects"}}
                     <h1>Andre prosjekter</h1>
                     <div class="page-main-list">
@@ -19,6 +19,11 @@
 
             {{ if eq .Type "writings" }}
                 <section class="page-main__latest-articles">
+                    {{/*  <div class="">
+                        <a href="#">Nyeste</a>
+                        <a href="#">Relaterte</a>
+                    </div>  */}}
+                    {{- partial "related-tag.html" . -}}
                     {{ $pages := where $.Site.RegularPages "Type" "in" "writings" }}
                     <h1>Artikler</h1>
                     <div class="page-main-list">
@@ -72,7 +77,7 @@
                         {{ template "page-header__pageresources"  . }}
                     {{ end }}            
                 </div>
-                {{- partial "related-tag.html" . -}}
+                
             </div>
         
         </section>
