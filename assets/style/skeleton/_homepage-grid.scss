@@ -2,20 +2,6 @@
 {
     grid-area: jumbotron;    
 }
-
-
-.homepage-experience 
-{
-    grid-area: homepage-experience;
-}
-
-
-.homepage-projects-section 
-{
-    grid-area: homepage-projects-section;
-}
-
-
 .homepage-topics-section {
     grid-area: homepage-topics-section;
 }
@@ -25,25 +11,8 @@
     display: grid;
     grid-template-areas:
         "jumbotron"
-        "homepage-projects-section"
-        "homepage-experience"
         "homepage-topics-section"        
         ;
     grid-template-columns: 1fr;
-    grid-template-rows: 100vh auto auto auto; 
-}
-
-
-@media (min-width: 1000px) {
-    .homepage {
-        display: grid;
-        grid-template-areas:
-            "jumbotron"
-            "homepage-projects-section"
-            "homepage-experience"
-            "homepage-topics-section"
-            ;
-        grid-template-columns: 1fr;
-        grid-template-rows: 100vh auto auto auto; 
-    }
+    grid-template-rows: 100vh auto; 
 }
