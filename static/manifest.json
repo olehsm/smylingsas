@@ -38,12 +38,7 @@
     "description": "..",
     "scope": "/",
 	"theme_color": "#181818",
-	"shortcuts": [{
-		"name": "Åpne TIL seksjon",
-		"short_name": "TIL",
-		"description": "Samling av alle TIL-artikler",
-		"url": "/til"
-	},
+	"shortcuts": [
 	{
 		"name": "Prosjektseksjon",
 		"short_name": "Projects",
@@ -54,6 +49,6 @@
 		"name": "Artikkelarkiv",
 		"short_name": "Archive",
 		"description": "Liste over alle publiserte tekster",
-		"url": "/articles/"
+		"url": "/writings/"
 	}]
 }
