@@ -53,7 +53,7 @@
 	}
 ],
 "display_override": [
-    "browser"
+    "standalone"
   ],
 "categories": [
 "education"
