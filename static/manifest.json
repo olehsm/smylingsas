@@ -4,8 +4,8 @@
 "start_url": "/",
 "display": "standalone",
 "description": "Mitt lille hjørne med tips og triks på web",
-"lang": "Norsk",
-"dir": "auto",
+"lang": "nb",
+"dir": "ltr",
 "theme_color": "#181818",
 "background_color": "#181818",
 "orientation": "any",
@@ -37,19 +37,25 @@
         "url": " The URL to your app in that app store"
     }
 ],
-"prefer_related_applications": "false",
+"prefer_related_applications": true,
 "shortcuts": [
 	{
 		"name": "Prosjektseksjon",
-		"short_name": "Projects",
+		"short_name": "Prosjekter",
 		"description": "Oversikt over sideprosjekter",
 		"url": "/projects/"
 	},
 	{
 		"name": "Artikkelarkiv",
-		"short_name": "Archive",
+		"short_name": "Blog",
 		"description": "Liste over alle publiserte tekster",
 		"url": "/writings/"
 	}
-]
+],
+"display_override": [
+    "browser"
+  ],
+  "categories": [
+    "education"
+  ]
 }
