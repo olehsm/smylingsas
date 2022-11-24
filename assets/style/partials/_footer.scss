@@ -1,11 +1,12 @@
 .footer__site {
-    background-color: map-get($colors, blackpearl);
+    background-color: map-get($colors, blackedblue);
     height: 25vh;
     display: grid;
     place-items: center;
     text-align: center;
     padding: 1em;
     margin-bottom: 2em;
+    border-top: 2px solid var(--theme-color);
 
     p {
         font-size: 1.3rem;

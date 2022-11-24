@@ -18,16 +18,16 @@
             padding: 1em;
             text-align: center;
             text-transform: capitalize;
-            border: 2px dashed #f4f4f4;
+            border: 2px dashed #181818;
 
             &:hover {
-                border: 2px solid #f4f4f4;
+                border: 2px solid #181818;
             }
         }
     }
 
     a {
-        color: white;
+        color: #181818;
         text-decoration: none;
 
     }
@@ -45,7 +45,7 @@
         color: var(--theme-color);
 
         &:hover {
-            border: 2px solid #f4f4f4;
+            border: 2px solid #181818;
         }
     }
 }

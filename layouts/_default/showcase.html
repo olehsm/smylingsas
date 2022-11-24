@@ -9,7 +9,7 @@
                 <time datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
             </header>
             <div class="visual">
-                <img loading="lazy" width="415" height="230" src="{{.Params.preview}}"/>
+                <img loading="lazy" width="415" height="230" src="{{.Params.preview}}" alt="{{ .Title}}"/>
             </div> 
             {{ .Summary }}
             <footer style="margin-top: auto">
