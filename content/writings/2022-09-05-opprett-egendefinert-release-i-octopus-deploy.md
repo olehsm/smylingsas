@@ -6,7 +6,7 @@ preview: /preview-images/octo-logo.png
 draft: ""
 tags:
   - octopus
-categories: ""
+categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-05T07:40:47.973Z

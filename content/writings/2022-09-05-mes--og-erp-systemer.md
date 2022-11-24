@@ -6,7 +6,7 @@ preview: /preview-images/erpln.png
 draft: ""
 tags:
   - misc
-categories: ""
+categories: []
 author: Ole Halvor Smylingsås
 pageresources:
   - https://www.cognizant.com/nb-no/glossary/manufacturing-execution-system#list-E

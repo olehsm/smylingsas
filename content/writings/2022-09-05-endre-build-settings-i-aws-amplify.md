@@ -6,7 +6,7 @@ preview: /preview-images/aws-logo.jpg
 draft: ""
 tags:
   - amplify
-categories: ""
+categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-05T08:03:41.038Z

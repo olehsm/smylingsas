@@ -6,7 +6,7 @@ preview: /preview-images/css.jpg
 draft: ""
 tags:
   - css
-categories: ""
+categories: []
 author: Ole Halvor Smylingsås
 pageresources:
   - https://stackoverflow.com/questions/3012716/css-how-to-remove-pseudo-elements-after-before

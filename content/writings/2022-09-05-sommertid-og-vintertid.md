@@ -6,7 +6,7 @@ preview: /preview-images/clock.jpg
 draft: ""
 tags:
   - misc
-categories: ""
+categories: []
 author: Ole Halvor Smylingsås
 pageresources:
   - https://www.regjeringen.no/no/aktuelt/naringsministeren-varsler-en-ny-tid/id2880267/

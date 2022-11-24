@@ -6,7 +6,7 @@ preview: /preview-images/microsoft-sql-server4529.jpg
 draft: ""
 tags:
   - sql
-categories: ""
+categories: []
 author: Ole Halvor Smylingsås
 pageresources:
   - https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-shrinkfile-transact-sql?view=sql-server-ver16

@@ -10,7 +10,7 @@ tags:
   - html
   - hugo
   - javascript
-categories: ""
+categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-29T07:50:17.020Z

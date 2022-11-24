@@ -6,7 +6,7 @@ preview: ""
 draft: true
 tags:
   - docker
-categories: ""
+categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: false

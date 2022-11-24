@@ -6,7 +6,7 @@ preview: /preview-images/css.jpg
 draft: ""
 tags:
   - css
-categories: ""
+categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-05T07:46:20.308Z

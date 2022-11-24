@@ -6,7 +6,7 @@ preview: /preview-images/octo-logo.png
 draft: ""
 tags:
   - octopus
-categories: ""
+categories: []
 author: ""
 pageresources: {}
 comments: 2022-09-05T06:42:09.460Z
