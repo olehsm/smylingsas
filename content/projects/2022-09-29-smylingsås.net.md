@@ -14,13 +14,16 @@ categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-29T07:50:17.020Z
-lastmod: 2022-09-29T12:39:39.703Z
+lastmod: 2022-11-25T23:08:28.790Z
 type: ""
 resources: {}
-slug: smylingsas-net
+slug: oppdateringer-om-utviklingen-av-dette-nettstedet
 ---
 
 <!--more-->
+## 25 november 2022
+La til egendefinerte headere for cachekontroll. Les mer om caching av resurser i Amplify
+
 ## 25 september 2022 
 En Dockerfil lagt til i prosjektet. Den skal gjøre den enklere å endre Go- og Hugo-versjon på Smylingsas.net uten å måtte installere det på min på egen maskin. Planen videre er også å lage en Hugo/Go/Node - basert utvikerkontainer til nedlasting.
 
