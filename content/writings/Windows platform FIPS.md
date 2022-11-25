@@ -15,8 +15,8 @@ title: Windows Platform FIPS
 date: 2021-08-31T10:08:25.000Z
 draft: false
 comments: false
-preview: /keylock.jpg
-lastmod: 2022-08-26T21:22:13.174Z
+preview: /preview-images/keylock.jpg
+lastmod: 2022-11-25T22:11:16.619Z
 ---
 
 

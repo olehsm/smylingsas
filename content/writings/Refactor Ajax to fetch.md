@@ -10,8 +10,8 @@ title: Refactor Ajax til Fetch
 date: 2020-04-24T20:27:08.000Z
 draft: false
 comments: false
-lastmod: 2022-04-10T16:18:30.927Z
-preview: /javascript.jpg
+lastmod: 2022-11-25T22:08:49.840Z
+preview: /preview-images/javascript.jpg
 ---
 
 TIL: Ta i bruk den nye Fetch API'et

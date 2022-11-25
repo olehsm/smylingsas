@@ -11,8 +11,8 @@ title: JavaScript Symbol
 date: 2019-12-21T16:16:51.000Z
 draft: false
 comments: false
-lastmod: 2022-04-10T16:18:15.232Z
-preview: /javascript.jpg
+lastmod: 2022-11-25T22:08:54.854Z
+preview: /preview-images/javascript.jpg
 ---
 
 TIL: Symboltypen i JavaScript

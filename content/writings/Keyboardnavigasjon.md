@@ -11,8 +11,8 @@ title: Tastaturnavigasjon mellom artikler
 date: 2020-07-12T11:38:11.000Z
 draft: false
 comments: false
-lastmod: 2022-09-29T08:53:41.214Z
-preview: /javascript.jpg
+lastmod: 2022-11-25T22:08:29.097Z
+preview: /preview-images/javascript.jpg
 ---
 
 <!--more-->
