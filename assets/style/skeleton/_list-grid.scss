@@ -12,16 +12,15 @@
 }
 
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
     .list-grid {
         display: grid;
         grid-template-areas:
             "gridheader" 
-            "gridmain"        
+            "gridmain"
+            "footer"        
             ;
         grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr;
+        grid-template-rows: auto 1fr auto;
     }
 }
-
-

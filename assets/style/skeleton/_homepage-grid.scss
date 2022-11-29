@@ -11,8 +11,9 @@
     display: grid;
     grid-template-areas:
         "jumbotron"
-        "homepage-topics-section"        
+        "homepage-topics-section" 
+        "footer"       
         ;
     grid-template-columns: 1fr;
-    grid-template-rows: 100vh auto; 
+    grid-template-rows: 100vh auto auto; 
 }
