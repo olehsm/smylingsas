@@ -12,8 +12,6 @@ canonifyURLs = "false"
 uglyURLs = "false"
 
 [params]
-    googleAnalytics = "UA-123-45"
-    disqusShortname = "yourdiscussshortname"
     owner = "Ole Halvor Smylingsås"
     dateform        = "Jan 2, 2006"
     favicon = "favicon.svg"
@@ -22,7 +20,6 @@ uglyURLs = "false"
     dateformNumTime = "2006-01-02 15:04 -0700"
     description = "Hjemmeside og blog for Ole Halvor Smylingsås"
     keywords = "hjemmeside, blog, utvikling, programering"
-    mainSections = ["blog", "til"]
 
 [params.sociallinks]
 [[params.sociallinks.developer]]
@@ -66,3 +63,9 @@ uglyURLs = "false"
     pre = "<i class='fas fa-list'></i>"
     url = "/writings/"
     weight = -97
+  
+  [[menu.main]]
+    name = "Bokmerker"
+    pre = "<i class='fas fa-list'></i>"
+    url = "/bookmarks/"
+    weight = -120
