@@ -10,16 +10,17 @@
     <section class="content">
         <main class="main">
             <div>
-                <h1>Å nei, siden finnes ikke.</h1>
-                <P>Det kan se ut som fant en utdatert lenke, beklager dette... trykk <a href="/">her</a> for å gå tilbake til forsiden eller velg et topic i listen under.</P>
+                <h1 class="hero-text">Å nei, siden finnes ikke.</h1>
+                <P class="subhead">Det kan se ut som fant en utdatert lenke, beklager dette... trykk <a href="/">her</a> for å gå tilbake til forsiden eller velg et topic i listen under.</P>
             </div>
         </main>
         {{ partial "topics.html" .}}
+        <footer>
+            {{ partial "footer/footer.html" . }}
+        </footer>
     </section>
     
-    <footer>
-        {{ partial "footer/footer.html" . }}
-    </footer>
+    
     {{ partial "site-menu-mobile.html" . }}
 
 
