@@ -10,8 +10,7 @@ categories: []
 author: ""
 pageresources: {}
 comments: 2022-09-05T06:42:09.460Z
-lastmod: 2022-09-17T17:50:08.063Z
-type: ""
+lastmod: 2022-12-30T23:48:36.308Z
 slug: redeploy-av-bygg-med-nye-variabler-octopus-deploy
 ---
 

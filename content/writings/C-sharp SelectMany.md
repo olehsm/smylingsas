@@ -1,7 +1,6 @@
 ---
 author: Ole Halvor Smylingsås
 description: ""
-resources: []
 categories: []
 tags:
   - csharp
@@ -10,7 +9,7 @@ title: C# SelectMany
 date: 2019-09-09T14:58:09.000Z
 draft: false
 comments: false
-lastmod: 2021-12-26T20:30:27.085Z
+lastmod: 2022-12-30T23:35:26.623Z
 preview: /preview-images/dotnet.jpg
 ---
 

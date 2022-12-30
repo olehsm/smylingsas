@@ -11,9 +11,8 @@ title: Hvordan bruke JSON_QUERY i T-SQL
 date: 2019-10-19T19:59:42.000Z
 draft: false
 comments: false
-lastmod: 2022-08-07T09:20:49.695Z
+lastmod: 2022-12-30T23:48:30.337Z
 preview: /preview-images/microsoft-sql-server4529.jpg
-type: default
 ---
 
 JSON_QUERY

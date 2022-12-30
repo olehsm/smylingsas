@@ -30,7 +30,6 @@
   "frontMatter.content.autoUpdateDate": true,
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.templates.enabled": false,
-  "frontMatter.taxonomy.categories": [],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
@@ -93,17 +92,6 @@
           "title": "lastmod",
           "name": "lastmod",
           "type": "datetime"
-        },
-        {
-          "title": "type",
-          "name": "type",
-          "type": "string"
-        },
-        {
-          "title": "resources",
-          "name": "resources",
-          "type": "fields",
-          "fields": []
         }
       ]
     }

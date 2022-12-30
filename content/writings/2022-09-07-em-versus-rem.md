@@ -10,9 +10,7 @@ categories: []
 author: Ole Halvor Smylingsås
 pageresources:
   - https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/
-lastmod: 2022-09-07T12:08:41.218Z
-type: ""
-resources: {}
+lastmod: 2022-12-30T23:48:17.218Z
 slug: em-rem
 ---
 

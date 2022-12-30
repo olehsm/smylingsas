@@ -1,7 +1,6 @@
 ---
 author: Ole Halvor Smylingsås
 description: ""
-resources: []
 categories: []
 tags:
   - javascript
@@ -11,7 +10,7 @@ title: Encode and Decode URI
 date: 2019-11-20T20:38:32.000Z
 draft: false
 comments: false
-lastmod: 2022-04-10T16:17:29.324Z
+lastmod: 2022-12-30T23:35:44.801Z
 preview: /preview-images/angularjs.jpg
 ---
 

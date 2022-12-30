@@ -10,9 +10,7 @@ categories: ""
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: false
-lastmod: 2022-11-25T23:02:32.060Z
-type: ""
-resources: {}
+lastmod: 2022-12-30T23:47:36.417Z
 slug: egendefinerte-headere-aws-amplify
 keywords: []
 ---

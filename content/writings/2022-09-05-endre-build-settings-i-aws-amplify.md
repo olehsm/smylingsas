@@ -10,8 +10,7 @@ categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-05T08:03:41.038Z
-lastmod: 2022-09-17T17:46:00.440Z
-type: ""
+lastmod: 2022-12-30T23:47:20.321Z
 slug: endre-build-settings-aws-amplify
 ---
 

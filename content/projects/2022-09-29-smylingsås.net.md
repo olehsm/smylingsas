@@ -14,9 +14,7 @@ categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-29T07:50:17.020Z
-lastmod: 2022-11-25T23:08:28.790Z
-type: ""
-resources: {}
+lastmod: 2022-12-30T23:48:52.916Z
 slug: oppdateringer-om-utviklingen-av-dette-nettstedet
 ---
 

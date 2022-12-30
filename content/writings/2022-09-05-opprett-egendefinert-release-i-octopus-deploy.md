@@ -10,8 +10,7 @@ categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-05T07:40:47.973Z
-lastmod: 2022-09-17T22:34:09.132Z
-type: ""
+lastmod: 2022-12-30T23:47:18.578Z
 slug: opprett-egendefinert-release-octopus-deploy
 ---
 

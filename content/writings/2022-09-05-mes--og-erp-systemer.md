@@ -12,8 +12,7 @@ pageresources:
   - https://www.cognizant.com/nb-no/glossary/manufacturing-execution-system#list-E
   - https://www.cognizant.com/no/nb/glossary/erp
 comments: 2022-09-05T08:14:53.948Z
-lastmod: 2022-09-17T17:59:54.690Z
-type: ""
+lastmod: 2022-12-30T23:48:41.513Z
 slug: mes-og-erp-systemer
 ---
 

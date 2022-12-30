@@ -10,8 +10,7 @@ categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
 comments: 2022-09-05T07:46:20.308Z
-lastmod: 2022-09-05T07:52:30.192Z
-type: ""
+lastmod: 2022-12-30T23:47:25.585Z
 slug: scss-feil-ved-bruk-av-verdier-med-ulike-benevninger
 ---
 
