@@ -6,6 +6,7 @@
         <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
         </a>
+        {{.Title}}
     {{ else if ne .Kind "home" }}
         {{.Title}}
     {{ end}}
