@@ -1,14 +1,13 @@
 ---
-title: Flytt Docker deploy til Git
+title: Flytt Octopus deploy til Git
 description: ""
 date: 2022-12-19T08:10:42.392Z
 preview: ""
 draft: true
-tags: ""
-categories: ""
+tags:
+  - octopus
 author: Ole Halvor Smylingsås
 pageresources: {}
-comments: 2022-12-19T08:10:42.392Z
-lastmod: 2022-12-30T23:47:49.978Z
-slug: flytt-docker-deploy-til-git
+lastmod: 2023-01-05T20:13:06.271Z
+slug: flytt-octopus-deploy-til-git
 ---

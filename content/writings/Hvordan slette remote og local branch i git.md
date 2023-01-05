@@ -1,17 +1,15 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely'
-categories: []
+  - https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
 tags:
-    - git
+  - git
 slug: slette-brancher-git
 title: Slette brancher i git
 date: 2019-10-19T19:51:36.000Z
 draft: false
-comments: false
-lastmod: '2021-12-26T20:13:10.024Z'
+lastmod: 2023-01-05T20:15:38.649Z
 preview: /preview-images/git.jpg
 ---
 

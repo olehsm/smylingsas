@@ -4,7 +4,6 @@ description: ""
 pageresources:
   - https://stackoverflow.com/questions/16192464/window-onerror-not-working-in-chrome/32595040#32595040
   - https://docs.angularjs.org/api/ng/service/$exceptionHandler
-categories: []
 tags:
   - javascript
   - angularjs
@@ -12,8 +11,7 @@ slug: ""
 title: Window.onerror virker ikke i AngularJS
 date: 2020-04-24T20:17:45.000Z
 draft: false
-comments: false
-lastmod: 2022-04-10T16:25:14.569Z
+lastmod: 2023-01-05T20:18:46.151Z
 preview: /preview-images/angularjs.jpg
 ---
 

@@ -1,12 +1,11 @@
 ---
-author: "Ole Halvor Smylingsås"
+author: Ole Halvor Smylingsås
 description: ""
 pageresources: []
-categories: []
-tags: []     
+tags: []
 slug: ""
-title: "Artikler"
+title: Artikler
 date: 2021-02-18T22:19:49+01:00
 draft: false
-comments: false
+lastmod: 2023-01-05T20:10:01.587Z
 ---

@@ -7,16 +7,14 @@ pageresources:
   - https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards
   - https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing
   - https://csrc.nist.gov/publications/detail/fips/140/2/final
-categories: []
 tags:
   - misc
 slug: windows-platform-fips
 title: Windows Platform FIPS
 date: 2021-08-31T10:08:25.000Z
 draft: false
-comments: false
 preview: /preview-images/keylock.jpg
-lastmod: 2022-11-25T22:11:16.619Z
+lastmod: 2023-01-05T20:18:01.253Z
 ---
 
 

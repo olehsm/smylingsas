@@ -8,9 +8,8 @@ pageresources:
   - https://stackoverflow.com/questions/3012716/css-how-to-remove-pseudo-elements-after-before
 tags:
   - css
-categories: []
 slug: sla-av-og
-lastmod: 2022-07-08T17:33:12.496Z
+lastmod: 2023-01-05T20:19:46.408Z
 ---
 <!--more-->
 

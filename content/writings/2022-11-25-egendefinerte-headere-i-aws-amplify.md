@@ -6,11 +6,9 @@ preview: /preview-images/aws-logo.jpg
 draft: ""
 tags:
   - amplify
-categories: ""
 author: Ole Halvor Smylingsås
 pageresources: {}
-comments: false
-lastmod: 2022-12-30T23:47:36.417Z
+lastmod: 2023-01-05T20:11:48.621Z
 slug: egendefinerte-headere-aws-amplify
 keywords: []
 ---

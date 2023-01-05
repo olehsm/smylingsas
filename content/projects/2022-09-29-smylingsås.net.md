@@ -10,11 +10,9 @@ tags:
   - html
   - hugo
   - javascript
-categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
-comments: 2022-09-29T07:50:17.020Z
-lastmod: 2022-12-30T23:48:52.916Z
+lastmod: 2023-01-05T20:19:35.488Z
 slug: oppdateringer-om-utviklingen-av-dette-nettstedet
 ---
 

@@ -1,17 +1,15 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://twitter.com/IMAC2/status/1298222172616499200'
-categories: []
+  - https://twitter.com/IMAC2/status/1298222172616499200
 tags:
-    - css
+  - css
 slug: smooth-scrolling
 title: Smooth scrolling
 date: 2020-09-01T19:53:39.000Z
 draft: false
-comments: false
-lastmod: '2021-12-28T15:52:45.679Z'
+lastmod: 2023-01-05T20:17:53.645Z
 preview: /preview-images/css.jpg
 ---
 

@@ -6,11 +6,9 @@ preview: /preview-images/aws-logo.jpg
 draft: ""
 tags:
   - amplify
-categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
-comments: 2022-09-05T08:03:41.038Z
-lastmod: 2022-12-30T23:47:20.321Z
+lastmod: 2023-01-05T20:10:22.243Z
 slug: endre-build-settings-aws-amplify
 ---
 

@@ -2,7 +2,6 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources: []
-categories: []
 tags:
   - react
   - git
@@ -12,9 +11,8 @@ slug: minesweeper-react
 title: Minesweeper i React
 date: 2020-11-09T21:18:55.000Z
 draft: false
-comments: false
 preview: /preview-images/minesweeper-project.png
-lastmod: 2022-09-29T07:39:18.354Z
+lastmod: 2023-01-05T20:09:44.283Z
 ---
 
 <!--more-->

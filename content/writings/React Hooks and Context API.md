@@ -5,7 +5,6 @@ pageresources:
   - https://medium.com/simply/state-management-with-react-hooks-and-context-api-at-10-lines-of-code-baf6be8302c
   - https://www.smashingmagazine.com/2020/01/introduction-react-context-api/
   - https://reactjs.org/docs/hooks-state.html
-categories: []
 tags:
   - react
   - javascript
@@ -13,8 +12,7 @@ slug: react-hooks-og-context-api
 title: React Hooks og Context API
 date: 2020-02-23T17:41:11.000Z
 draft: false
-comments: false
-lastmod: 2022-04-10T16:17:55.849Z
+lastmod: 2023-01-05T20:17:39.254Z
 preview: /preview-images/react.jpg
 ---
 

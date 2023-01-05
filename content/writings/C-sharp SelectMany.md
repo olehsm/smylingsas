@@ -1,15 +1,13 @@
 ---
 author: Ole Halvor Smylingsås
 description: ""
-categories: []
 tags:
   - csharp
 slug: selectmany
 title: C# SelectMany
 date: 2019-09-09T14:58:09.000Z
 draft: false
-comments: false
-lastmod: 2022-12-30T23:35:26.623Z
+lastmod: 2023-01-05T20:14:26.258Z
 preview: /preview-images/dotnet.jpg
 ---
 

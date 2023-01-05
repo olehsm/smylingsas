@@ -6,11 +6,9 @@ preview: /preview-images/css.jpg
 draft: ""
 tags:
   - css
-categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
-comments: 2022-09-05T07:46:20.308Z
-lastmod: 2022-12-30T23:47:25.585Z
+lastmod: 2023-01-05T20:11:20.100Z
 slug: scss-feil-ved-bruk-av-verdier-med-ulike-benevninger
 ---
 

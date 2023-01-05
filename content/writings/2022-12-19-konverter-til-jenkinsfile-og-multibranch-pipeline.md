@@ -5,11 +5,9 @@ date: 2022-12-19T08:06:58.266Z
 preview: ""
 draft: true
 tags: ""
-categories: ""
 author: Ole Halvor Smylingsås
 pageresources: {}
-comments: 2022-12-19T08:06:58.266Z
-lastmod: 2022-12-30T23:48:05.379Z
+lastmod: 2023-01-05T20:13:22.584Z
 slug: konverter-til-jenkinsfile-og-multibranch-pipeline
 ---
 

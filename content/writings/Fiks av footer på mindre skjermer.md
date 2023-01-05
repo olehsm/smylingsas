@@ -1,18 +1,16 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://css-tricks.com/css-fix-for-100vh-in-mobile-webkit/'
-    - 'https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/'
-categories: []
+  - https://css-tricks.com/css-fix-for-100vh-in-mobile-webkit/
+  - https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/
 tags:
-    - css
+  - css
 slug: fixed-footer-smaller-viewports
 title: Fixed my footer on smaller viewports
 date: 2020-07-11T20:43:37.000Z
 draft: false
-comments: false
-lastmod: '2021-12-28T16:31:49.924Z'
+lastmod: 2023-01-05T20:15:00.961Z
 preview: /preview-images/css.jpg
 ---
 

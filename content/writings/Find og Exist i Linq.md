@@ -3,15 +3,13 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - https://www.dotnetperls.com/list-find
-categories: []
 tags:
   - csharp
 slug: find-og-exist-linq
 title: Find Og Exist I Linq
 date: 2021-02-08T20:52:49.000Z
 draft: false
-comments: false
-lastmod: 2022-04-03T13:42:43.863Z
+lastmod: 2023-01-05T20:15:08.257Z
 preview: /preview-images/dotnet.jpg
 ---
 

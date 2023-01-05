@@ -3,15 +3,13 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching
-categories: []
 tags:
   - csharp
 slug: pattern-matching-
 title: Pattern matching i C#
 date: 2020-02-23T17:48:05.000Z
 draft: false
-comments: false
-lastmod: 2022-04-10T16:23:25.831Z
+lastmod: 2023-01-05T20:17:30.653Z
 preview: /preview-images/dotnet.jpg
 ---
 

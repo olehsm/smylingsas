@@ -6,11 +6,9 @@ preview: ""
 draft: true
 tags:
   - docker
-categories: []
 author: Ole Halvor Smylingsås
 pageresources: {}
-comments: false
-lastmod: 2022-12-30T23:48:11.506Z
+lastmod: 2023-01-05T20:11:39.436Z
 slug: introduksjon-til-docker-og-kontainere
 ---
 

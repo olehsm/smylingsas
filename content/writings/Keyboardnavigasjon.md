@@ -2,7 +2,6 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources: []
-categories: []
 tags:
   - hugo
   - javascript
@@ -10,8 +9,7 @@ slug: tastaturnavigasjon-mellom-artikler
 title: Tastaturnavigasjon mellom artikler
 date: 2020-07-12T11:38:11.000Z
 draft: false
-comments: false
-lastmod: 2022-11-25T22:08:29.097Z
+lastmod: 2023-01-05T20:16:07.719Z
 preview: /preview-images/javascript.jpg
 ---
 

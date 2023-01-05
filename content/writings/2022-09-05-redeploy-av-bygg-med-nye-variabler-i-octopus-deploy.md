@@ -6,11 +6,9 @@ preview: /preview-images/octo-logo.png
 draft: ""
 tags:
   - octopus
-categories: []
 author: ""
 pageresources: {}
-comments: 2022-09-05T06:42:09.460Z
-lastmod: 2022-12-30T23:48:36.308Z
+lastmod: 2023-01-05T20:11:08.668Z
 slug: redeploy-av-bygg-med-nye-variabler-octopus-deploy
 ---
 

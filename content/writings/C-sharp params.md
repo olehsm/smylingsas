@@ -1,17 +1,15 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://www.geeksforgeeks.org/c-sharp-params/'
-categories: []
+  - https://www.geeksforgeeks.org/c-sharp-params/
 tags:
-    - csharp
+  - csharp
 slug: params
-title: 'C# params'
+title: C# params
 date: 2019-12-21T16:26:23.000Z
 draft: false
-comments: false
-lastmod: '2021-12-26T22:04:26.943Z'
+lastmod: 2023-01-05T20:14:10.665Z
 preview: /preview-images/dotnet.jpg
 ---
 

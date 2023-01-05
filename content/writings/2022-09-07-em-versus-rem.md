@@ -6,11 +6,10 @@ preview: /preview-images/css.jpg
 draft: false
 tags:
   - css
-categories: []
 author: Ole Halvor Smylingsås
 pageresources:
   - https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/
-lastmod: 2022-12-30T23:48:17.218Z
+lastmod: 2023-01-05T20:21:27.235Z
 slug: em-rem
 ---
 

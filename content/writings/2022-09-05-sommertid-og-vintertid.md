@@ -6,12 +6,10 @@ preview: /preview-images/clock.jpg
 draft: ""
 tags:
   - misc
-categories: []
 author: Ole Halvor Smylingsås
 pageresources:
   - https://www.regjeringen.no/no/aktuelt/naringsministeren-varsler-en-ny-tid/id2880267/
-comments: 2022-09-05T07:21:53.435Z
-lastmod: 2022-12-30T23:47:31.393Z
+lastmod: 2023-01-05T20:11:29.523Z
 slug: sommertid-og-vintertid
 ---
 

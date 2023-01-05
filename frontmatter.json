@@ -10,6 +10,10 @@
     {
       "title": "writings",
       "path": "[[workspace]]/content/writings"
+    },
+    {
+      "title": "bookmarks",
+      "path": "[[workspace]]/content/bookmarks"
     }
   ],
   "frontMatter.taxonomy.tags": [
@@ -68,25 +72,16 @@
           "type": "tags"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
           "title": "author",
           "name": "author",
-          "type": "string"
+          "type": "string",
+          "default": "Ole Halvor Smylingsås"
         },
         {
           "title": "pageresources",
           "name": "pageresources",
           "type": "fields",
           "fields": []
-        },
-        {
-          "title": "comments",
-          "name": "comments",
-          "type": "datetime"
         },
         {
           "title": "lastmod",

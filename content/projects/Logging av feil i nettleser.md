@@ -2,7 +2,6 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources: []
-categories: []
 tags:
   - javascript
   - react
@@ -11,8 +10,7 @@ slug: logging-av-feil-klient-nettleser
 title: Logging av feil i klient/nettleser.
 date: 2020-04-24T20:30:53.000Z
 draft: false
-comments: false
-lastmod: 2022-09-29T07:21:53.574Z
+lastmod: 2023-01-05T20:09:32.948Z
 preview: /preview-images/logging.jpg
 ---
 

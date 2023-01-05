@@ -6,12 +6,10 @@ preview: /preview-images/microsoft-sql-server4529.jpg
 draft: ""
 tags:
   - sql
-categories: []
 author: Ole Halvor Smylingsås
 pageresources:
   - https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-shrinkfile-transact-sql?view=sql-server-ver16
-comments: 2022-09-05T06:06:37.229Z
-lastmod: 2022-09-05T06:25:08.912Z
+lastmod: 2023-01-05T20:10:37.955Z
 slug: krympe-transaksjonslog-sql
 ---
 

@@ -1,17 +1,15 @@
 ---
 author: Ole Halvor Smylingsås
-description: ''
+description: ""
 pageresources:
-    - 'https://twitter.com/AllThingsSmitty/status/1254151507412496384'
-categories: []
+  - https://twitter.com/AllThingsSmitty/status/1254151507412496384
 tags:
-    - css
+  - css
 slug: 100vh-viewport-bugfix
 title: 100vh viewport bugfix
 date: 2020-05-13T19:59:03.000Z
 draft: false
-comments: false
-lastmod: '2022-01-16T12:00:15.319Z'
+lastmod: 2023-01-05T20:10:11.826Z
 preview: /preview-images/css.jpg
 ---
 
