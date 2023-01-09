@@ -7,9 +7,9 @@ draft: true
 tags: ""
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2023-01-05T20:22:31.141Z
+lastmod: 2023-01-05T20:37:43.051Z
 slug: pagespeed-insights
 ---
 
 <!--more-->
-https://developers.google.com/speed/pagespeed/insights_extensions
+https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect

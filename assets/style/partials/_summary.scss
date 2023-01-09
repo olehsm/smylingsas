@@ -42,6 +42,11 @@
 }
 
 
+.item__title:hover {
+    color: var(--theme-color)
+}
+
+
 .item:hover {
     background-color: #262525;
 }

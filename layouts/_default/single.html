@@ -41,6 +41,19 @@
         </section>
 
         <section class="article-section">
+            <div class="fixed-header">
+                {{ if eq .Kind "home"}}
+                <img src="img/logo.png"
+                    alt="Big S on orange background" />
+                {{ else if ne .Kind "section" "taxonomy" "home" }}
+                    <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </a>
+                    {{.Title}}
+                {{ else if ne .Kind "home" }}
+                    {{.Title}}
+                {{ end}}
+                </div>
             <div class="page-wrapper">
                 <h1>{{.Params.title}}</h1>
                 <div class="page-header__publication-details">
