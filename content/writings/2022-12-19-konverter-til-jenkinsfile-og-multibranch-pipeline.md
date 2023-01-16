@@ -8,7 +8,7 @@ tags:
   - jenkins
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2023-01-09T18:18:20.793Z
+lastmod: 2023-01-13T07:02:59.865Z
 slug: konverter-til-jenkinsfile-og-multibranch-pipeline
 ---
 
@@ -89,6 +89,7 @@ pipeline {
 > Lærdom 1: Når man klikker på "Convert This Job To Pipeline" så trudde jeg de kunne være lurt å ikke gi den nye prosjektet et navn slik at det kun er den inneværende prosjektet som blir et pipelineprosjekt. Dette var ikke riktig - Jenkins vil alltid navn nytt pipeline prosjekt "*-pipeline". 
 > Lærdom 2: Et pipeline prosjekt er ikke det samme som et multibranch prosjekt. Pipelineprosjektet gir meg en Jenkinsfil med byggestep og mulighet for Blue Ocean til å visualisere byggeprogresjonen i nettleseren. Noe som for Portalprosjektet var tilstrekkelig.
 > Lærdom 3: Automatisk generering av jenkinsfil vil bruke syntaks som ikke bygger.
+> Lærdom 4: Det var enklere deaktivere et prosjekt enn å fjerne det, men det er altså mulig om man går til Jenkinsforsiden og viser alle prosjekter. Det er en meny tilknyttet hvert eneste prosjekt.
 
 Hva så med multibranch pipeline?
 
