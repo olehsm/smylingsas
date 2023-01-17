@@ -1,5 +1,6 @@
 .list-of-content {
     grid-area: listofcontent;
+    display: none;
 }
 
 
@@ -12,16 +13,19 @@
     display: grid;
     grid-template-areas:
         "articlesection"
-        "listofcontent"
         "footer"        
         ;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto;
     min-height: 80vh; 
 }
 
 
 @media (min-width: 1400px) {
+    .list-of-content {
+        display: block;
+    }
+
     .single {
         display: grid;
         grid-template-areas:
