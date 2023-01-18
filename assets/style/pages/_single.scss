@@ -54,9 +54,8 @@
 }
 
 
-.full-bleed {
-    width: 100%;
-    grid-column: 1 / -1;
+.page-wrapper img {
+    margin: 0 auto;
 }
 
 
@@ -193,5 +192,9 @@
 
     .page-wrapper > p {
         font-size: 1.6rem;
+    }
+
+    .page-wrapper p:has(img) {
+        grid-column: 1 / -1;
     }
 }
