@@ -22,13 +22,16 @@
 
 
 .highlight pre {
-	padding: 0.5em 1.8em;
 	overflow: auto;
 }
 
 
 .highlight code {
 	margin: 0 auto;
-    width: 83ch;
+    width: 79ch;
     display: block;
+	@media screen and (min-width: 1400px) {
+		width: $default-article-with;
+	}
+	
 }

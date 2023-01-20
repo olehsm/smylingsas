@@ -10,6 +10,10 @@
     color: var(--theme-color);
 }
 
+.page-wrapper p:has(img) {
+    grid-column: 1 / -1;
+}
+
 
 .page-wrapper h2,
 .page-wrapper h3,
@@ -56,6 +60,7 @@
 
 .page-wrapper img {
     margin: 0 auto;
+    aspect-ratio: unset;
 }
 
 
@@ -144,7 +149,7 @@
     .list-of-content {
         background-color: #222;
         border-right: 2px solid #393939;
-        position: fixed;
+        //position: fixed;
         max-height: 100vh;
         overflow-y: auto;
     }
@@ -194,7 +199,5 @@
         font-size: 1.6rem;
     }
 
-    .page-wrapper p:has(img) {
-        grid-column: 1 / -1;
-    }
+    
 }
