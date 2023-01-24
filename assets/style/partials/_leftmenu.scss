@@ -56,6 +56,13 @@
 }
 
 
+.site-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6em;
+}
+
+
 .site-menu li a {
     padding: 19px 0px;
 }
@@ -129,9 +136,6 @@
 
     .site-menu {
         text-align: left;
-        li {
-            margin-bottom: 1.5em;
-        }
         margin-top: 15em;
     }
 
