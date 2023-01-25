@@ -133,6 +133,25 @@
 }
 
 
+@media (min-width: 810px) {
+    .fixed-header {
+        display: block;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: rgba(24,24,24,1);
+        z-index: 5;
+        color: var(--theme-color);
+        padding: 1em;
+        min-height: 55px;
+        height: auto;
+        border-bottom: 1px solid #000;
+        font-size: 1.8rem;
+        a{
+            text-decoration: none;
+        }
+    }
+}
 
 
 
@@ -160,25 +179,6 @@
 
     .list-of-content .item__body {
         padding: 0.5em 1em
-    }
-
-
-    .fixed-header {
-        display: block;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: rgba(24,24,24,1);
-        z-index: 5;
-        color: var(--theme-color);
-        padding: 1em;
-        min-height: 55px;
-        height: auto;
-        border-bottom: 1px solid #000;
-        font-size: 1.8rem;
-        a{
-            text-decoration: none;
-        }
     }
 }
 
