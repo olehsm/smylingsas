@@ -48,7 +48,11 @@
                     <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
                         <i class="fa fa-arrow-left" aria-hidden="true"></i>
                     </a>
-                    {{.Title}}
+                    {{$pageTitle := .Title}}
+                    {{$body := "Sjekk ut denne artikkelen"}}
+                    {{$pageUrl := "/"}}
+                    {{ $pageTitle}}
+                    <button class="sharebutton" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )">Del <i class="fa fa-share-alt-square" aria-hidden="true"></i></button>
                 {{ else if ne .Kind "home" }}
                     {{.Title}}
                 {{ end}}

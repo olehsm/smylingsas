@@ -36,6 +36,31 @@
                 navigator.serviceWorker.register("{{ $.Site.BaseURL }}service-worker.js")
             }
         </script>
+
+
+        <script>
+            function share(title, text, url) {
+                const shareData = {
+                    title,
+                    text,
+                    url
+                }
+                //console.log(shareData) 
+                //const btn = document.querySelector('sharebutton');
+                //const resultPara = document.querySelector('.result');
+                  
+                // Share must be triggered by "user activation"
+                //btn.addEventListener('click', async () => {
+                    try {
+                        navigator.share(shareData);
+                        //resultPara.textContent = 'MDN shared successfully';
+                    } catch (err) {
+                        //resultPara.textContent = `Error: ${err}`;
+                    }
+                //});
+            }
+            
+        </script>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>
         
