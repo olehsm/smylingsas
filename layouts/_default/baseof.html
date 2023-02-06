@@ -20,7 +20,7 @@
         {{ partial "site-header-mobile.html" . }}
         <header class="header--site">
             {{ partial "left-menu.html" . }}
-        </header>
+        </header>       
         <section class="content">
             {{ block "main" . }}
                 <!-- The part of the page that begins to differ between templates -->
@@ -45,19 +45,11 @@
                     text,
                     url
                 }
-                //console.log(shareData) 
-                //const btn = document.querySelector('sharebutton');
-                //const resultPara = document.querySelector('.result');
-                  
-                // Share must be triggered by "user activation"
-                //btn.addEventListener('click', async () => {
-                    try {
-                        navigator.share(shareData);
-                        //resultPara.textContent = 'MDN shared successfully';
-                    } catch (err) {
-                        //resultPara.textContent = `Error: ${err}`;
-                    }
-                //});
+
+                try {
+                    navigator.share(shareData);
+                } catch (err) {
+                }
             }
             
         </script>
