@@ -1,5 +1,5 @@
-.list-of-content {
-    grid-area: listofcontent;
+.article-aside {
+    grid-area: articleaside;
     display: none;
 }
 
@@ -22,15 +22,15 @@
 
 
 @media (min-width: 1400px) {
-    .list-of-content {
+    .article-aside {
         display: block;
     }
 
     .single {
         display: grid;
         grid-template-areas:
-            "listofcontent articlesection"
-            "listofcontent footer"        
+            "articleaside articlesection"
+            "articleaside footer"        
             ;
         grid-template-columns: 400px 1fr;
         grid-template-rows: auto;  
