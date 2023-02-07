@@ -171,17 +171,16 @@
         margin-top: 1em;
     }
 
+    
     .list-of-content .page-main-list {
         padding: 0;
     }
 
-    .list-of-content {
-        left: 220px;
-    }
 
     .list-of-content .item {
         background: #222;
     }
+
 
     .list-of-content .item__body {
         padding: 0.5em 1em
@@ -190,6 +189,10 @@
 
 
 @media (min-width: 1600px) {
+    .list-of-content {
+        left: 220px;
+    }
+    
     .page-header__publication-details a {
         font-size: 1.6rem;
     }

@@ -102,6 +102,12 @@
     
     }
 
+    .site-menu .site-menu-item:nth-child(2),
+    .site-menu .site-menu-item:nth-child(3)  {
+        display: none;
+    }
+
+
     .site-menu {
         text-align: center;
         margin-top: 10em;
@@ -131,13 +137,20 @@
                 display: inline;
             }
         }
-
     }
+
+
+    .site-menu .site-menu-item:nth-child(2),
+    .site-menu .site-menu-item:nth-child(3)  {
+        display: block;
+    }
+
 
     .site-menu {
         text-align: left;
         margin-top: 15em;
     }
+
 
     .site-menu li a {
         font-size: 1.7rem;
