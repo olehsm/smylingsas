@@ -7,12 +7,11 @@
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
         </a>
         {{.Title}}
-    {{ else if ne .Kind "home" }}
-        {{.Title}}
         {{$pageTitle := .Title}}
         {{$body := "Sjekk ut denne artikkelen"}}
         {{$pageUrl := "/"}}
-        {{ $pageTitle}}
         <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><i class="fa fa-share-square-o" aria-hidden="true"></i></button>
+    {{ else if ne .Kind "home" }}
+        {{.Title}}
     {{ end}}
 </header>
