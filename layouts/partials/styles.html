@@ -1,5 +1,5 @@
 {{ $style := resources.Get "style/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }} 
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+<link rel="stylesheet" type="text/css" href="{{ $.Site.BaseURL }}css/reset.min.css" />
 <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
 <link rel="stylesheet" type="text/css" href="{{ $.Site.BaseURL }}css/skins/theme-1.css" class="alternate-style" title="theme-1" />
 <link rel="stylesheet" type="text/css" href="{{ $.Site.BaseURL }}css/skins/theme-2.css" class="alternate-style" title="theme-2" disabled/>
