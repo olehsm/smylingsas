@@ -7,17 +7,20 @@
         <section class="article-section">
             <div class="fixed-header">
                 {{ if eq .Kind "home"}}
-                <img src="img/logo.png"
-                    alt="Big S on orange background" />
+                    <img src="img/logo.png"
+                        alt="Big S on orange background" />
                 {{ else if ne .Kind "section" "taxonomy" "home" }}
-                    <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
-                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                    </a>
+                    <div class="">
+                        <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
+                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    
                     {{$pageTitle := .Title}}
                     {{$body := "Sjekk ut denne artikkelen"}}
                     {{$pageUrl := "/"}}
                     {{ $pageTitle}}
-                    <button class="sharebutton" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )">Del <i class="fa fa-share-alt-square" aria-hidden="true"></i></button>
+                    <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><i class="fa fa-share-square-o" aria-hidden="true"></i></button>
                 {{ else if ne .Kind "home" }}
                     {{.Title}}
                 {{ end}}

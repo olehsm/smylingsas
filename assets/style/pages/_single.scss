@@ -135,8 +135,9 @@
 
 @media (min-width: 810px) {
     .fixed-header {
-        display: block;
-        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
         top: 0;
         width: 100%;
         background-color: rgba(24,24,24,1);
@@ -149,7 +150,14 @@
         font-size: 1.8rem;
         a{
             text-decoration: none;
-        }
+        }        
+    }
+
+    .sharebutton {
+        background-color: rgba(24,24,24,1);
+        color: var(--theme-color);
+        cursor: pointer;
+        border: none;
     }
 
     .list-of-content {
