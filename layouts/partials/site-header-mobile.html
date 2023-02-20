@@ -1,7 +1,7 @@
 <header class="header--site-mobile">
     {{ if eq .Kind "home"}}
     <img src="img/logo.png"
-        alt="Big S on orange background" width="30" height="30"/>
+        alt="Big S on orange background"/>
     {{ else if ne .Kind "section" "taxonomy" "home" }}
         <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
