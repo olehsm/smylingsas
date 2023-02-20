@@ -28,4 +28,19 @@
             </div>
         </section>
     {{ end }}
+
+    {{ if eq .Type "bookmarks" }}
+        <section class="page-main__latest-articles">
+            {{- partial "related-tag.html" . -}}
+            {{ $pages := where $.Site.RegularPages "Type" "in" "bookmarks" }}
+            <h1>Bokmerker</h1>
+            <div class="page-main-list">
+                <ul class="reset-list">
+                    {{ range $pages }}
+                        {{ .Render "summary2"}}
+                    {{ end }}
+                </ul>
+            </div>
+        </section>
+    {{ end }}
 </section>
