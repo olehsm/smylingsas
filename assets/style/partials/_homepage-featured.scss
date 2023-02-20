@@ -1,0 +1,22 @@
+.featured-section {
+    min-height: 30vh;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: grid;
+    place-content: center;
+}
+
+.featured-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+@media (min-width: 810px) {
+    .featured-items {        
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

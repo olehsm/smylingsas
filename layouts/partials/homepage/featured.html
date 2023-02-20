@@ -1,0 +1,33 @@
+{{$bookmarkpages := where site.RegularPages "Type" "in" "bookmarks" }}
+{{$projectpages := where site.RegularPages "Type" "in" "projects" }}
+{{$writingpages := where site.RegularPages "Type" "in" "writings" }}
+
+
+<section class="featured-section" id="featured-section">
+    <div class="featured-items">
+        <div>
+            <h2>Sist oppdaterte artikkel</h2>
+            <ul class="reset-list">
+                {{ range first 1 $writingpages }}
+                    {{ .Render "summary"}}
+                {{ end }}
+            </ul>
+        </div>
+        <div>
+            <h2>Sist oppdaterte prosjekt</h2>
+            <ul class="reset-list">
+                {{ range first 1 $projectpages }}
+                    {{ .Render "summary"}}
+                {{ end }}
+            </ul>
+        </div>
+        <div>
+            <h2>Sist oppdaterte bokmerke</h2>
+            <ul class="reset-list">
+                {{ range first 1 $bookmarkpages }}
+                    {{ .Render "summary"}}
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>

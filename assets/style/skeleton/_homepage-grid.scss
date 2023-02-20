@@ -2,8 +2,15 @@
 {
     grid-area: jumbotron;    
 }
+
+
 .homepage-topics-section {
     grid-area: homepage-topics-section;
+}
+
+
+.featured-articles-section {
+    grid-area: featured-articles-section;
 }
 
 
@@ -11,9 +18,10 @@
     display: grid;
     grid-template-areas:
         "jumbotron"
+        "featured-articles-section"
         "homepage-topics-section" 
         "footer"       
         ;
     grid-template-columns: 1fr;
-    grid-template-rows: 100vh auto auto; 
+    grid-template-rows: 100vh auto auto auto; 
 }
