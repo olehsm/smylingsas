@@ -5,7 +5,7 @@
         <h1>{{.Title}}</h1>
         <a href="/archives/">Se alle artikler uten gruppering</a>
     </div>   
-    {{ partial "topics-slider.html" . }}    
+    {{/*  {{ partial "topics-slider.html" . }}      */}}
     
     <ul class="reset-list common-padding">
         {{ range $key, $value := .Data.Terms.Alphabetical }}
