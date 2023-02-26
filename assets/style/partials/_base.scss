@@ -49,6 +49,7 @@ body {
     /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
     margin: 0;
+    overflow-x: hidden;
 }
  
 
