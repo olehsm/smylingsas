@@ -5,26 +5,22 @@
         <h1>{{.Title}}</h1>
         <a href="/archives/">Se alle artikler uten gruppering</a>
     </div>   
+    {{ partial "topics-slider.html" . }}    
     
-    <ul class="reset-list page-main-list">
+    <ul class="reset-list common-padding">
         {{ range $key, $value := .Data.Terms.Alphabetical }}
             <li class="tag-content-line">
                 <h2 class="tag-header">{{.Page.Title }} <a title="Bla gjennom" href="{{.Page.Permalink}}">></a></h2>
-                <ul class="reset-list">
+                <ul class="reset-list media-scroller snaps-inline">
                     {{ range $value.Pages }}
                         <li>
                             <a class="item__link" href='{{ .Permalink }}'>
-                                <article class="item">
-                                    <div class="visual">
-                                        <img loading="lazy" width="415" height="230" src="{{.Params.preview}}" alt="{{.Title}}"/>
-                                    </div>
-                                    <div class="item__body">
-                                        <h2 class="item__title">
-                                            {{ .Title }}
-                                        </h2>
-                                        {{ .Summary }}
-                                    </div>
-                                </article>
+                                <div class="media-element">
+                                    <img loading="lazy" src="{{.Params.preview}}" alt="{{.Title}}"/>
+                                    <h2 class="item__title">
+                                        {{ .Title }}
+                                    </h2>
+                                </div>          
                             </a>
                         </li>
                     {{ end }}

@@ -1,6 +1,9 @@
-.tag-content-line {
-    margin-bottom: 6em;
+.common-padding {
+    padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 10em;
 }
+
 
 .tag-header {
     font-size: 3rem;
@@ -10,4 +13,42 @@
         text-decoration: none;
         font-size: inherit;
     }    
+}
+
+
+.media-scroller {
+    display: grid;
+    gap: 2rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    padding: 0 0 2em;  
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+
+
+.media-element {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 2em;
+    background: #1f1e1e;
+    padding: 1em;
+}
+
+
+.media-element img {
+    inline-size: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+
+.snaps-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 1rem;
+}
+
+
+.snaps-inline > * {
+    scroll-snap-align: center;   
 }
