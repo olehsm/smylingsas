@@ -5,15 +5,6 @@
 }
 
 
-.invisible-on-phone {
-	display: none;
-
-	@media screen and (min-width: 750px) {
-		display: block;
-	}
-}
-
-
 .highlight {
 	font-size: 1.3rem;
 	width: 100%;
@@ -34,4 +25,18 @@
 		width: $default-article-with;
 	}
 	
+}
+
+
+.button {
+    display: inline-block;
+    padding: 0.8em 0.9em;
+    border: 2px solid var(--theme-color);
+    background-color: transparent;
+    font-family: Oswald, sans-serif;
+    color: var(--theme-color);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
 }

@@ -89,14 +89,24 @@ section.hero {
     }
 }
 
+
 section.hero > * {
     grid-column: 2;
     margin-bottom: 1em;
 }
 
+
 .hero-info > * {
     margin-bottom: 1em;
 }
+
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 
 @media only screen and (min-width: 920px) {
     .hero-img {
