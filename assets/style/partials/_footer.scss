@@ -17,7 +17,7 @@
     }
 }
 
-@media (min-width: 810px) {    
+@media (min-width: $small-screen-end) {    
     .footer__site {
         height: 20vh;
         p {

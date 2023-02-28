@@ -5,3 +5,8 @@ $default-font-size: 16px;
 $default-line-height: 1.15;
 $default-font-family: 'Noto Sans', sans-serif, Helvetica;
 $default-article-with: 104ch;
+
+/* Responsive breakpoints */
+$small-screen-end: 810px;
+$small-leftmenu-end: 1600px;
+$invisible-contentmenu-end: 1300px;

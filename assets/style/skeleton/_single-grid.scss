@@ -21,7 +21,7 @@
 }
 
 
-@media (min-width: 1300px) {
+@media (min-width: $invisible-contentmenu-end) {
     .article-aside {
         display: block;
     }

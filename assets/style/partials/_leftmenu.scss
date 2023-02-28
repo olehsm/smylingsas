@@ -86,7 +86,7 @@
 }
 
 
-@media (min-width: 810px) { 
+@media (min-width: $small-screen-end) { 
     .aside {
         background-color: #222222;
         a{
@@ -115,7 +115,7 @@
 }
 
 
-@media (min-width: 1600px) {    
+@media (min-width: $small-leftmenu-end) {    
     .logo-mini {
         display: none;
     }
