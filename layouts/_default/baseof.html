@@ -53,6 +53,32 @@
             }
             
         </script>
+
+        <script>
+            const sentinel = document.getElementById("sentinel");
+            const header = document.getElementById("fixed-header");
+
+            const options = {
+                rootMargin: '0px',
+                threshold: 0
+            }
+            
+            const callback = (entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) 
+                    {
+                        header.classList.remove('show');
+                        header.classList.add('hide');
+                    } else {
+                        header.classList.remove('hide');
+                        header.classList.add('show');
+                    }
+                });
+            }
+
+            observer = new IntersectionObserver(callback, options);
+            observer.observe(sentinel);
+        </script>
         <script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>
         
     </body>
