@@ -1,4 +1,4 @@
-.footer__social-links {
+.social-links ul{
     display: grid;
     place-content: center;
     grid-template-columns: 1fr;
@@ -10,7 +10,7 @@
 
 
 @media (min-width: $small-screen-end) {
-    .footer__social-links {
+    .social-links  ul{
         grid-template-columns: repeat(3,1fr);
         gap: 1em;
     }

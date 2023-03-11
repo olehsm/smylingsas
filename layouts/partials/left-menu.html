@@ -14,7 +14,12 @@
         
         <div class="site-menu-item">
             <h2>Sosiale medier</h2>
-            ...
+            {{ $links := .Site.Params.sociallinks }}
+            {{ with $links }}
+                {{ with index . "developer"}}
+                    {{ template "social-links"  . }}
+                {{ end }}
+            {{ end }}
         </div>
         
         <div class="site-menu-item">
