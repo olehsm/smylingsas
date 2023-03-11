@@ -29,12 +29,9 @@
                 <h1>{{.Params.title}}</h1>
                 <div id="sentinel" class="sentinel"></div>
                 <div class="page-header__publication-details">
-                    <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+                    <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format "Jan 2, 2006" }}</time>/<time class="page-header__publication-details__pubdate" datetime="{{ .Lastmod.Format "Mon, Jan 2, 2006" }}"></i>&nbsp;Sist oppdatert:&nbsp;{{ .Lastmod.Format "Jan 2, 2006" }}</time>
                     <span><i class="fas fa-file-alt"></i>&nbsp;{{ .WordCount }}&nbsp;ord</span>
-                    <span><i class="fas fa-clock"></i>&nbsp;{{ .ReadingTime }}&nbsp;minutter</span>
-                </div>
-                <div class="last-moded">
-                    <time class="page-header__publication-details__pubdate" datetime="{{ .Lastmod.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;Sist oppdatert:&nbsp;{{ .Lastmod.Format "Mon, Jan 2, 2006" }}</time>
+                    <span><i class="fas fa-clock"></i>&nbsp;{{ .ReadingTime }}&nbsp;minutt(er)</span>
                 </div>
            
                 {{.Content}}
