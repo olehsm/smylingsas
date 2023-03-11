@@ -7,17 +7,17 @@
 
 ::-webkit-scrollbar {
     width: 12px;
-    background-color: #F5F5F5;
+    background-color: var(--card-background);
 }
 
 
 ::-webkit-scrollbar-track {
-    background-color: #222;
+    background-color: var(--column-border);
 }
 
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--theme-color);;
+    background-color: var(--theme-color);
 }
 
 
@@ -40,9 +40,9 @@ html {
 
 
 body {
-    color: $default-font-color;
+    color: var(--paragraph);
     font-family: $default-font-family;
-    background: map-get($colors, blackedblue);
+    background: var(--background);
     min-height: 100vh;
     /* mobile viewport bug fix */
     min-height: -webkit-fill-available;

@@ -66,26 +66,16 @@ section.hero {
         1fr;
     grid-column-gap: 15px;
     
+
     h1 {
         margin: 2.5em 0 1em 0;
         line-height: 1.1;
     }
     
+    
     .subhead {
         font-size: 1.7rem;
-        color: #fff;
-    }
-    
-
-    .down-arrow {
-        stroke: var(--theme-color);
-        position: absolute;
-        bottom: 15em;
-        width: 2em;
-
-        path {
-            fill: var(--theme-color);
-        }
+        color: var(--headline);
     }
 }
 

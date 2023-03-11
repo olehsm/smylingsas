@@ -31,12 +31,16 @@
 .button {
     display: inline-block;
     padding: 0.8em 0.9em;
-    border: 2px solid var(--theme-color);
-    background-color: transparent;
+    border: 2px solid var(--button-border);
+    background-color: var(--button-background); //transparent;
     font-family: Oswald, sans-serif;
-    color: var(--theme-color);
+    color: var(--button-text);
     font-size: 1.5rem;
     line-height: 1.5;
     text-align: center;
     text-decoration: none;
+
+    &:hover {
+        color: var(--background);
+    }
 }

@@ -12,7 +12,7 @@ tags:
   - javascript
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2023-01-05T20:19:35.488Z
+lastmod: 2023-03-11T21:24:27.311Z
 slug: oppdateringer-om-utviklingen-av-dette-nettstedet
 ---
 
@@ -103,7 +103,6 @@ Full guide: [Developers.google.com](https://developers.google.com/web/tools/ligh
 
 ### Hjemmeside
 ![Lighthouse report homepage](/img/lighthouse-homepage.PNG)
-[Full Lighthouse for Homepage](/smylingsas.net-20200607T114017.html)
 
 ### Listeside
 ![Lighthouse raport listeside](/img/lighthouse-list.PNG)

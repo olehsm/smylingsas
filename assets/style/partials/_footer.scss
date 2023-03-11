@@ -1,5 +1,5 @@
 .footer__site {
-    background-color: map-get($colors, blackedblue);
+    background-color: var(--background);
     height: 25vh;
     display: grid;
     place-items: center;

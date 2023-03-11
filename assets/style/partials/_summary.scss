@@ -1,7 +1,7 @@
 .item {
     display: flex;
     flex-direction: column;
-    background: #1f1e1e;
+    background: var(--card-background);
     min-height: 100%;
 }
 
@@ -30,7 +30,7 @@
 
 
 .item__title {
-    color: #fff;
+    color: var(--card-heading);
     text-decoration: none;
     font-size: 1.7rem;
     margin: 0 0 0.5em 0;
@@ -40,9 +40,4 @@
 
 .item__title:hover {
     color: var(--theme-color)
-}
-
-
-.item:hover {
-    background-color: #262525;
 }

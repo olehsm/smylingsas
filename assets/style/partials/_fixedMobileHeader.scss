@@ -2,13 +2,13 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: map-get($colors, blackpearl);
+    background-color: var(--background);
     z-index: 5;
     color: var(--theme-color);
     padding: 1em;
     min-height: 55px;
     height: auto;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--column-border);
     font-size: 1.8rem;
     a{
         text-decoration: none;

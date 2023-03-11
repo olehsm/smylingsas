@@ -4,11 +4,11 @@
     width: 100%;
     background-color: var(--theme-color);
     z-index: 5;
-    color: map-get($colors, blackpearl);
+    color: var(--tag-color);
     padding: 1.7em 0.5em;
     min-height: 100px;
     height: auto;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--column-border);
 }
 
 
@@ -30,7 +30,7 @@
 
 
 .site-menu-mobile a {
-    color: map-get($colors, blackpearl);
+    color: var(--tag-color);
     display: flex;
     flex-direction: column;
     height: auto;
