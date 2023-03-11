@@ -5,8 +5,8 @@
         <h1>Andre innlegg i <a href="{{ "/tags/" | relLangURL }}{{ $primaryTag | urlize }}">#{{ $primaryTag }}</a></h1>
         <div class="page-main-list">
             <ul class="reset-list">
-                {{ range first 10 $relatedTagPosts }}
-                    {{ .Render "summary2"}}
+                {{ range $relatedTagPosts }}
+                    {{ .Render "summary"}}
                 {{ end }}
             </ul>
         </div>
