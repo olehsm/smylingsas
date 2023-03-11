@@ -2,12 +2,12 @@
 title: PageSpeed Insights
 description: ""
 date: 2023-01-05T20:02:15.374Z
-preview: ""
-draft: true
+preview: /preview-images/pagespeed.png
+draft: false
 tags: ""
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2023-01-05T20:37:43.051Z
+lastmod: 2023-03-11T13:18:34.898Z
 slug: pagespeed-insights
 ---
 
