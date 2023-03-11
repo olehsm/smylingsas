@@ -1,0 +1,17 @@
+.footer__social-links {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr;
+    margin-bottom: 2em;
+    a {
+        text-decoration: none
+    }
+}
+
+
+@media (min-width: $small-screen-end) {
+    .footer__social-links {
+        grid-template-columns: repeat(3,1fr);
+        gap: 1em;
+    }
+}

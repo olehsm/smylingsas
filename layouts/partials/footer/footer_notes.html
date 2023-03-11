@@ -1,4 +1,4 @@
-{{ $links := .Site.Params.sociallinks2 }}
+{{ $links := .Site.Params.sociallinks }}
 {{ with $links }}
     {{ with index . "developer"}}
         {{ template "footer-social-links"  . }}
@@ -12,7 +12,7 @@
         {{ range . }}
             <li class="" data-toggle="tooltip" data-placement="top" title="{{ .name }}">
                 <a aria-label="{{ .name }}" rel="noreferrer" target="_blank" href="{{ .url }}">
-                    <i class="{{ .icon }}"></i>
+                    <i class="{{ .icon }}"></i> {{ .name }}
                 </a>
             </li>
         {{ end }}
