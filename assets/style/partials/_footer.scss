@@ -17,6 +17,11 @@
     }
 }
 
+
+.footer-menu {
+    display: none;
+}
+
 @media (min-width: $small-screen-end) {    
     .footer__site {
         height: 20vh;
@@ -26,6 +31,19 @@
             a {
                 font-size: 1.7rem;
             }
+        }
+    }
+
+    .footer-menu {
+        display: block;
+    }
+
+    .footer-menu ul{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 1em;
+        a {
+            text-decoration: none
         }
     }
 }
