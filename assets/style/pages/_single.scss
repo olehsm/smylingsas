@@ -38,8 +38,9 @@
 }
 
 
-.page-wrapper ul, ol {
-    margin-left: 3.2em;
+.page-wrapper ul, 
+.page-wrapper ol {
+    margin-left: 1.2em;
     margin-bottom: 1em;
 }
 
@@ -230,19 +231,35 @@
         left: 220px;
     }
     
+    
     .page-header__publication-details a {
         font-size: 1.6rem;
     }
 
+    
     .page-header__publication-details {
         font-size: 1.6rem;
     }
 
+    
     .page-wrapper blockquote p{
         font-size: 1.6rem;
     }
 
+    
     .page-wrapper > p {
         font-size: 1.6rem;
     }  
+
+
+    .page-wrapper ul,
+    .page-wrapper ol {
+        font-size: 1.6rem;
+    }
+    
+
+    .page-wrapper li {
+        margin:0;
+    }
+
 }
