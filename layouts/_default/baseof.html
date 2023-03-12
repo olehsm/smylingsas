@@ -80,10 +80,70 @@
     
                 observer = new IntersectionObserver(callback, options);
                 observer.observe(sentinel);
-            }
-
-            
+            }    
         </script>
+
+        {{ if eq .Kind "home"}}
+        
+        {{ else if ne .Kind "section" "taxonomy" "home" }}
+        <script>
+            const mobileHeader = document.getElementById("header-mobile-content")
+            const pagePubDetails = document.getElementsByClassName("page-header__publication-details")[0]
+
+            if(mobileHeader && pagePubDetails) {
+                const options = {
+                    rootMargin: '0px',
+                    threshold: 0
+                }
+                
+                const callback = (entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) 
+                        {
+                            mobileHeader.classList.remove('show-title');
+                            mobileHeader.classList.add('hide-title');
+                        } else {
+                            mobileHeader.classList.remove('hide-title');
+                            mobileHeader.classList.add('show-title');
+                        }
+                    });
+                }
+    
+                observer = new IntersectionObserver(callback, options);
+                observer.observe(pagePubDetails);
+            }
+        </script>
+        
+        {{ else if ne .Kind "home" }}
+            <script>
+                const mobileHeader = document.getElementById("header-mobile-content")
+                const pageHeader = document.getElementsByClassName("list-page-header")[0]
+
+                if(mobileHeader && pageHeader) {
+                    const options = {
+                        rootMargin: '0px',
+                        threshold: 0
+                    }
+                    
+                    const callback = (entries, observer) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) 
+                            {
+                                mobileHeader.classList.remove('show-title');
+                                mobileHeader.classList.add('hide-title');
+                            } else {
+                                mobileHeader.classList.remove('hide-title');
+                                mobileHeader.classList.add('show-title');
+                            }
+                        });
+                    }
+        
+                    observer = new IntersectionObserver(callback, options);
+                    observer.observe(pageHeader);
+                }
+            </script>
+        {{ end }}    
+
         <script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>
         
     </body>

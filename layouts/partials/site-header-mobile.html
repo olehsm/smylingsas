@@ -3,6 +3,7 @@
     <img src="img/logo.png"
         alt="Big S on orange background"/>
     {{ else if ne .Kind "section" "taxonomy" "home" }}
+    <span id="header-mobile-content">
         <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
         </a>
@@ -11,7 +12,10 @@
         {{$body := "Sjekk ut denne artikkelen"}}
         {{$pageUrl := "/"}}
         <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><i class="fa fa-share-square-o" aria-hidden="true"></i></button>
+    </span>
     {{ else if ne .Kind "home" }}
-        {{.Title}}
+    <span id="header-mobile-content" class="hide-title">
+        <h1>{{.Title}}</h1>
+    </span>
     {{ end}}
 </header>
