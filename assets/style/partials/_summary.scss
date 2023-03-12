@@ -39,5 +39,9 @@
 
 
 .item__title:hover {
-    color: var(--theme-color)
+    color: var(--theme-color);
+}
+
+.item .page-header__publication-details__pubdate {
+    color:var(--card-paragraph);
 }

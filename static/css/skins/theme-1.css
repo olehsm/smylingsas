@@ -1,5 +1,6 @@
 :root {
     /* --theme-color: #f77240; */
+    /* --paragraph: #a7a9be; */
     --theme-color: #ff8906; 
 
     --background: #0f0e17;
@@ -7,8 +8,8 @@
     --button-border:var(--theme-color);
     --headline: #fffffe;
     --button-text: #fffffe;
-    --paragraph: #a7a9be;
-    --sub-headline: #2e2f3e;
+    --paragraph: #fffffe;
+    --sub-headline: #a7a9be;
     --card-background: #fffffe;
     --card-heading: #0f0e17;
     --card-paragraph: #2e2f3e;
@@ -17,6 +18,4 @@
     --tag-color: #181818;
     --link-color: var(--theme-color);
     --site-border-color: var(--theme-color)
-       
-    
 }

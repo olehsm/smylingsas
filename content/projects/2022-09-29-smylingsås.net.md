@@ -12,11 +12,17 @@ tags:
   - javascript
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2023-03-11T21:24:27.311Z
+lastmod: 2023-03-12T15:20:45.122Z
 slug: oppdateringer-om-utviklingen-av-dette-nettstedet
 ---
 
 <!--more-->
+## 12 mars 2023 
+Ferdig imlplementert nytt fargetema. Alle farger hentes fra en egen fil med CSS variabler 
+
+## 5 mars 2023
+La til en sticky tittel som dukker opp ved scrolling
+
 ## 25 november 2022
 La til egendefinerte headere for cachekontroll. Les mer om caching av resurser i Amplify
 

@@ -231,6 +231,10 @@
     .list-of-content .item__title:hover {
         color: var(--theme-color);
     }
+
+    .list-of-content .page-header__publication-details__pubdate {
+        color: var(--sub-headline);
+    }
 }
 
 
