@@ -6,7 +6,7 @@
 <section class="featured-section" id="featured-section">
     <div class="featured-items">
         <div>
-            <h2>Sist oppdaterte artikkel</h2>
+            <h2 class="featured-type-title">Sist oppdaterte artikkel</h2>
             <ul class="reset-list">
                 {{ range first 1 $writingpages }}
                     {{ .Render "summary"}}
@@ -14,7 +14,7 @@
             </ul>
         </div>
         <div>
-            <h2>Sist oppdaterte prosjekt</h2>
+            <h2 class="featured-type-title">Sist oppdaterte prosjekt</h2>
             <ul class="reset-list">
                 {{ range first 1 $projectpages }}
                     {{ .Render "summary"}}
@@ -22,7 +22,7 @@
             </ul>
         </div>
         <div>
-            <h2>Sist oppdaterte bokmerke</h2>
+            <h2 class="featured-type-title">Sist oppdaterte bokmerke</h2>
             <ul class="reset-list">
                 {{ range first 1 $bookmarkpages }}
                     {{ .Render "summary"}}
