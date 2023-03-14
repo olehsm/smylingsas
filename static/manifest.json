@@ -6,8 +6,8 @@
 "description": "Mitt lille hjørne med tips og triks på web",
 "lang": "nb",
 "dir": "ltr",
-"theme_color": "#181818",
-"background_color": "#181818",
+"theme_color": "#0f0e17",
+"background_color": "#0f0e17",
 "orientation": "any",
 "icons": [
     {
@@ -55,9 +55,23 @@
 	},
 	{
 		"name": "Artikkelarkiv",
-		"short_name": "Blog",
+		"short_name": "Blogg",
 		"description": "Liste over alle publiserte tekster",
 		"url": "/writings/",
+        "icons": [
+            {
+               "src": "/img/icon_96.png",
+               "sizes": "96x96",
+               "type": "image/png",
+               "purpose": "any"
+            }
+         ]
+	},
+	{
+		"name": "Bokmerker",
+		"short_name": "Bokmerker",
+		"description": "Alle publiserte bokmerker",
+		"url": "/bookmarks/",
         "icons": [
             {
                "src": "/img/icon_96.png",

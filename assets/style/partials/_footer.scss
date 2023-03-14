@@ -1,11 +1,11 @@
 .footer__site {
     background-color: var(--background);
-    height: 25vh;
+    min-height: 25vh;
     display: grid;
     place-items: center;
     text-align: center;
     padding: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 6em;
     border-top: 2px solid var(--theme-color);
 
     p {
@@ -32,6 +32,7 @@
                 font-size: 1.7rem;
             }
         }
+        margin-bottom: 2em;
     }
 
     .footer-menu {

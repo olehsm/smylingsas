@@ -7,8 +7,6 @@
         <section class="article-section">
             <div id="fixed-header" class="hide">
                 {{ if eq .Kind "home"}}
-                    <img src="img/logo.png"
-                        alt="Big S on orange background" />
                 {{ else if ne .Kind "section" "taxonomy" "home" }}
                     <div>
                         <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
@@ -26,7 +24,7 @@
                 {{ end}}
             </div>
             <div class="page-wrapper">
-                <h1>{{.Params.title}}</h1>
+                <h1 id="article-title">{{.Params.title}}</h1>
                 <div id="sentinel" class="sentinel"></div>
                 <div class="page-header__publication-details">
                     <span>

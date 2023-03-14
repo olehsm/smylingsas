@@ -23,17 +23,17 @@
 .page-main-list {
         padding-left: 15px;
         padding-right: 15px;
-        margin-bottom: 10em;
-    ul{
-        display: grid;
-        grid-template-columns: repeat(auto-fill,minmax(19rem,1fr));
-        gap: 2rem 1.5rem;
+        margin-bottom: 20em;
+        ul{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(19rem,1fr));
+            gap: 2rem 1.5rem;
 
-        p {
-            margin-bottom: 0em;
-            
+            p {
+                margin-bottom: 0em;
+                
+            }
         }
-    }
 }
 
 

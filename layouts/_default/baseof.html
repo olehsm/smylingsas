@@ -12,7 +12,7 @@
                 grid-column-gap: 15px;
                 font-size:  2rem;
                 line-height: 1.8;
-                margin-bottom: 5em;
+                margin-bottom: 20em;
             }
         </style>
     </head>
@@ -88,9 +88,9 @@
         {{ else if ne .Kind "section" "taxonomy" "home" }}
         <script>
             const mobileHeader = document.getElementById("header-mobile-content")
-            const pagePubDetails = document.getElementsByClassName("page-header__publication-details")[0]
+            const title = document.getElementById("article-title")
 
-            if(mobileHeader && pagePubDetails) {
+            if(mobileHeader && title) {
                 const options = {
                     rootMargin: '0px',
                     threshold: 0
@@ -110,16 +110,16 @@
                 }
     
                 observer = new IntersectionObserver(callback, options);
-                observer.observe(pagePubDetails);
+                observer.observe(title);
             }
         </script>
         
         {{ else if ne .Kind "home" }}
             <script>
                 const mobileHeader = document.getElementById("header-mobile-content")
-                const pageHeader = document.getElementsByClassName("list-page-header")[0]
+                const listTitle = document.getElementById("list-title")
 
-                if(mobileHeader && pageHeader) {
+                if(mobileHeader && listTitle) {
                     const options = {
                         rootMargin: '0px',
                         threshold: 0
@@ -139,7 +139,7 @@
                     }
         
                     observer = new IntersectionObserver(callback, options);
-                    observer.observe(pageHeader);
+                    observer.observe(listTitle);
                 }
             </script>
         {{ end }}    
