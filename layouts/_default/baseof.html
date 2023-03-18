@@ -29,7 +29,7 @@
         {{ partial "site-menu-mobile.html" . }}
         {{/*  {{ partial "theme-switcher.html" }}  */}}
        
-    
+        <!-- Service worker -->
         <script>
             // Register the Service Worker
             if('serviceWorker' in navigator) {
@@ -37,7 +37,7 @@
             }
         </script>
 
-
+        <!-- Share page -->
         <script>
             function share(title, text, url) {
                 const shareData = {
@@ -54,6 +54,7 @@
             
         </script>
 
+        <!-- Fixed header large screens -->
         <script>
             const sentinel = document.getElementById("sentinel");
             const header = document.getElementById("fixed-header");
@@ -85,7 +86,8 @@
 
         {{ if eq .Kind "home"}}
         
-        {{ else if ne .Kind "section" "taxonomy" "home" }}
+        {{ else if ne .Kind "section" "taxonomy" "home" "term"}}
+        <!-- Fixed header mobile -->
         <script>
             const mobileHeader = document.getElementById("header-mobile-content")
             const title = document.getElementById("article-title")
@@ -141,7 +143,7 @@
                     observer = new IntersectionObserver(callback, options);
                     observer.observe(listTitle);
                 }
-            </script>
+            </script> 
         {{ end }}    
 
         <script src="https://kit.fontawesome.com/b4c5540066.js" crossorigin="anonymous"></script>

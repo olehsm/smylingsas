@@ -2,7 +2,7 @@
     {{ if eq .Kind "home"}}
     <img src="img/logo.png"
         alt="Big S on orange background"/>
-    {{ else if ne .Kind "section" "taxonomy" "home" }}
+    {{ else if ne .Kind "section" "taxonomy" "home" "term"}}
     <span id="header-mobile-content">
         <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
