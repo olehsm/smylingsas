@@ -45,25 +45,16 @@ uglyURLs = "false"
     pre = "<i class='fas fa-home'></i>"
     url = "/"
     weight = -140
-
-  [[menu.main]]
-    name = "Arkiv"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/tags/"
-    weight = -80
-
   [[menu.main]]
     name = "Prosjekter"
     pre = "<i class='fas fa-project-diagram'></i>"
     url = "/projects/"
     weight = -110
-
   [[menu.main]]
     name = "Artikler"
     pre = "<i class='fas fa-list'></i>"
     url = "/writings/"
     weight = -97
-  
   [[menu.main]]
     name = "Bokmerker"
     pre = "<i class='fas fa-list'></i>"
