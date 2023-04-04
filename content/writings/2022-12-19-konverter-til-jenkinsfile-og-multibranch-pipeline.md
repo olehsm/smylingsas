@@ -2,13 +2,13 @@
 title: Konverter til Jenkinsfile og Multibranch pipeline
 description: ""
 date: 2022-12-19T08:06:58.266Z
-preview: ""
-draft: true
+preview: /preview-images/bookmarks/1500px_Jenkins_logo.png
+draft: false
 tags:
   - jenkins
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2023-01-13T07:02:59.865Z
+lastmod: 2023-04-04T07:46:34.175Z
 slug: konverter-til-jenkinsfile-og-multibranch-pipeline
 ---
 

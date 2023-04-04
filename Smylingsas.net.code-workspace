@@ -10,5 +10,8 @@
 		},
 		"frontMatter.framework.startCommand": "hugo server",
 		"frontMatter.preview.host": ""
+	},
+	"extensions": {
+		"recommendations": ["bungcip.better-toml", "budparr.language-hugo-vscode", "eamodio.gitlens", "eliostruyf.vscode-front-matter", "pwabuilder.pwa-studio"]
 	}
 }
