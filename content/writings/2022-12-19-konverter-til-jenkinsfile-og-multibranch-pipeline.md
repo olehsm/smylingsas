@@ -8,7 +8,7 @@ tags:
   - jenkins
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2023-04-04T07:46:34.175Z
+lastmod: 2023-04-04T18:09:02.853Z
 slug: konverter-til-jenkinsfile-og-multibranch-pipeline
 ---
 
@@ -21,8 +21,9 @@ Startet med å trykke på "Convert This Job To Pipeline". Får da opp en dialog 
 
 Jeg sjekker at Jenkinsfilen er lagt til på roten av prosjektet. Ser at Jenkins har forsøkt å generere konfigurasjonen til prosjektet inn i filen, med litt ukjent syntaks. Forsøker så å bygge prosjeket i Jenking (Dette prosjektet er ikke satt opp med å automastisk trigge et bygg ved en git push - event). Bygget feilet, ville ikke starte, syntaksfeil
 
-Syntaken som ble automatisk generert var som følger:
-```
+Syntaksen som ble automatisk generert var som følger:
+
+```bash
 timestamps {
     node () {
         stage ('Portal - Checkout') {
@@ -48,10 +49,12 @@ timestamps {
     }
 }
 ```
+
 Det er benyttet funksjoner som timestamps og node i denne jenkinsfilen noe som fikk bygget ti å feile. Jeg begynte med å erstatte timestamps med pipeline, men da ble det også nødvendig å kaste ut node() da det ikke støttes av pipeline. Node ble erstattet av stages. Når jeg da hadde et overbygg med pipeline og stages kunne jeg bryte opp jenkinsfilen i stage og enda mindre enhetene steps.
 
 Ender opp med en fungerende jenkinsfil:
-```
+
+```bash
 pipeline {
     agent any
 	environment {
@@ -87,8 +90,11 @@ pipeline {
 ```
 
 > Lærdom 1: Når man klikker på "Convert This Job To Pipeline" så trudde jeg de kunne være lurt å ikke gi den nye prosjektet et navn slik at det kun er den inneværende prosjektet som blir et pipelineprosjekt. Dette var ikke riktig - Jenkins vil alltid navn nytt pipeline prosjekt "*-pipeline". 
+
 > Lærdom 2: Et pipeline prosjekt er ikke det samme som et multibranch prosjekt. Pipelineprosjektet gir meg en Jenkinsfil med byggestep og mulighet for Blue Ocean til å visualisere byggeprogresjonen i nettleseren. Noe som for Portalprosjektet var tilstrekkelig.
+
 > Lærdom 3: Automatisk generering av jenkinsfil vil bruke syntaks som ikke bygger.
+
 > Lærdom 4: Det var enklere deaktivere et prosjekt enn å fjerne det, men det er altså mulig om man går til Jenkinsforsiden og viser alle prosjekter. Det er en meny tilknyttet hvert eneste prosjekt.
 
 Hva så med multibranch pipeline?
