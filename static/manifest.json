@@ -31,13 +31,9 @@
         "description": "Et screenshot av hjemmesiden"
     }
 ],
-"related_applications": [
-    {
-        "platform":"windows",
-        "url": " The URL to your app in that app store"
-    }
-],
-"prefer_related_applications": true,
+"related_applications": [],
+"prefer_related_applications": false,
+"display_override": ["window-controls-overlay"],
 "shortcuts": [
 	{
 		"name": "Prosjektseksjon",
@@ -82,12 +78,7 @@
          ]
 	}
 ],
-"display_override": [
-    "standalone"
-  ],
-"categories": [
-"education"
-],
+"categories": [],
 "scope": "/",
 "share_target": {
     "action": "/shared-content-receiver/",
