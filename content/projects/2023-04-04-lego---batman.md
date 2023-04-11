@@ -4,10 +4,12 @@ description: ""
 date: 2023-04-04T07:51:20.708Z
 preview: /img/projects/batman/IMG_2299.JPEG
 draft: false
-tags: []
+tags:
+  - lego
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2023-04-04T07:54:35.171Z
+lastmod: 2023-04-09T12:41:37.986Z
+slug: lego-batman
 ---
 <!--more-->
 

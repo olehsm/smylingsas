@@ -57,6 +57,6 @@ uglyURLs = "false"
     weight = -97
   [[menu.main]]
     name = "Bokmerker"
-    pre = "<i class='fas fa-list'></i>"
+    pre = "<i class='fa fa-star'></i>"
     url = "/bookmarks/"
     weight = -120

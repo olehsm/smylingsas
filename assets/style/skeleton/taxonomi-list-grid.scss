@@ -1,0 +1,44 @@
+
+.taxonomi-list-aside {
+    grid-area: listaside;
+    display: none;
+}
+
+
+.taxonomi-list-header {
+    grid-area: taxonomilistheader;
+}
+
+
+.taxonomi-list-main {
+    grid-area: taxonomilistmain
+}
+
+
+.taxonomi-list {
+    display: grid;
+    grid-template-areas:
+            "taxonomilistheader" 
+            "taxonomilistmain"
+            "footer"        
+            ;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+@media (min-width: $invisible-contentmenu-end) {
+    .taxonomi-list-aside {
+        display: block;
+    }
+    
+    
+    .taxonomi-list {
+        grid-template-areas:
+            "listaside taxonomilistheader" 
+            "listaside taxonomilistmain"
+            "listaside footer"        
+            ;
+        grid-template-columns: 400px 1fr;
+        grid-template-rows: auto 1fr auto;
+    }
+}

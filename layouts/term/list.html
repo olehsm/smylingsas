@@ -1,0 +1,32 @@
+{{ define "main" }}
+    
+    <div class="taxonomi-list">
+        {{ if eq .Kind "term"}}
+            <section class="taxonomi-list-aside">
+                {{ partial "contentlist.html" . }}
+            </section>
+        {{ end }}
+            <div class="taxonomi-list-header">
+                <div class="list-page-header">
+                    <h1 id="list-title">{{.Params.title}}</h1>
+                    {{.Content}}
+                </div>
+            </div>    
+    
+            <div class="taxonomi-list-main">
+                <main class="page-main" id="main-content">    
+                    <section class="page-main-list">
+                        <ul class="reset-list">
+                            {{ range .Pages }}
+                                {{ .Render "summary"}}
+                            {{ end }}
+                        </ul>    
+                    </section>       
+                </main>
+            </div>
+        <footer>
+            {{ partial "footer/footer.html" . }}
+        </footer>
+        
+        
+{{ end }}
