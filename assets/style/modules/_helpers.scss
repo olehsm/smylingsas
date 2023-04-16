@@ -18,9 +18,12 @@
 
 
 .highlight code {
-	margin: 0 auto;
-    width: 79ch;
+	margin: 0 1em;
+    max-width: 103ch;
     display: block;
+    @media screen and (min-width: 875px) {
+        margin: 0 auto;
+    }
 	@media screen and (min-width: 1400px) {
 		width: $default-article-with;
 	}
