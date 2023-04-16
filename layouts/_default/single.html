@@ -46,20 +46,44 @@
             
                     
                 </main>  */}}
-                <div class="article-tags">
+                <section class="article-tags">
                     {{ with .Params.tags }}
                         <i class="fas fa-tag"></i>&nbsp;
                         {{ range . }}
                             <a href="/tags/{{ . | urlize }}/">{{ . }}</a> 
                         {{ end }}
                     {{ end }}
-                </div>
+                </section>
                 
-                <div class="article-resources">
+                <section class="article-resources">
                     {{ with .Params.pageresources }}
                         {{ template "page-header__pageresources"  . }}
                     {{ end }}            
-                </div>
+                </section>
+
+                <aside class="read-next">
+                    <div class="read-next-items">
+
+                            {{ with .PrevInSection }}
+                                <div>
+                                    <h2 class="featured-type-title">Les denne neste gang</h2>
+                                    <ul class="reset-list">
+                                        {{ .Render "summary"}}
+                                    </ul>
+                                </div>
+                            {{ end }}
+
+                            {{ with .NextInSection }}
+                                <div>
+                                    <h2 class="featured-type-title">Det kan hende du liker denne også</h2>
+                                    <ul class="reset-list">
+                                        {{ .Render "summary"}}
+                                    </ul>
+                                </div>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </aside>
                 
             </div>
             <footer>

@@ -180,6 +180,26 @@
 }
 
 
+.read-next {
+    margin-top: 5em;
+
+    .read-next-items {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (min-width: $small-screen-end) {
+    .read-next {
+        .read-next-items {
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+}
+
+
 @media (min-width: $small-screen-end) {
     .sentinel {
         height:2px;
