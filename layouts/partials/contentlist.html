@@ -46,13 +46,25 @@
 
     {{ if eq .Type "tags" }}
         <section class="page-main__latest-articles">
-            <h1>Andre tags</h1>
-            <div class="page-main-list">
+            <h1>Tilgjengelige filter</h1>
+            <div class="page-main-list1">
                 <ul class="reset-list">
                     {{ range .Site.Taxonomies.tags }}
-                        <li>
-                            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
-                        </li>
+                    <li>
+                        <a class="item__link" href='{{ .Page.Permalink }}'>
+                            <article class="item">
+                                <div class="visual">
+
+                                </div>
+                                <div class="item__body">
+                                    <h2 class="item__title" style="text-transform: capitalize;">
+                                        {{ .Page.Title }}
+                                    </h2>
+
+                                </div>
+                            </article>
+                        </a>
+                    </li>
                     {{ end }}
                 </ul>    
             </div>

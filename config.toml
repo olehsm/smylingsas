@@ -51,7 +51,7 @@ uglyURLs = "false"
     url = "/projects/"
     weight = -110
   [[menu.main]]
-    name = "Artikler"
+    name = "Blog"
     pre = "<i class='fas fa-list'></i>"
     url = "/writings/"
     weight = -97
