@@ -17,13 +17,17 @@
 .page-wrapper h3,
 .page-wrapper h4,
 .page-main__latest-articles h1,
-.page-main__read-next-card h1,
+.page-main__read-next-card h1 {
+    color: var(--headline);
+}
+
 .page-header__publication-details  i,
 .last-moded i,
 .hide,
 .show {
     color: var(--theme-color);
 }
+
 
 
 .page-wrapper h1 {

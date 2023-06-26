@@ -7,18 +7,22 @@
 
 .highlight {
 	font-size: 1.3rem;
-	width: 100%;
-  	grid-column: 1 / -1 !important;
+	margin: 2em 0;
 }
 
 
 .highlight pre {
+	overflow-x: hidden;
+}
+
+
+.highlight pre:hover {
 	overflow: auto;
 }
 
 
 .highlight code {
-	margin: 0 1em;
+	padding: 1em;
     max-width: 103ch;
     display: block;
     @media screen and (min-width: 875px) {

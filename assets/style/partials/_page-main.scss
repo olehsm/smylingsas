@@ -21,13 +21,13 @@
 }
 
 .page-main-list {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 5em;
+        padding-right: 5em;
         margin-bottom: 20em;
         ul{
             display: grid;
             grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-            gap: 2rem 1.5rem;
+            gap: 5rem 3rem;
 
             p {
                 margin-bottom: 0em;
