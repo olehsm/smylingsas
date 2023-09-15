@@ -1,21 +1,28 @@
 <header class="header--site-mobile">
     {{ if eq .Kind "home"}}
-    <img src="img/logo.png"
-        alt="Big S on orange background"/>
-    {{ else if ne .Kind "section" "taxonomy" "home" "term"}}
-    <span id="header-mobile-content">
-        <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
-            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-        </a>
-        <h1>{{.Title}}</h1>
-        {{$pageTitle := .Title}}
-        {{$body := "Sjekk ut denne artikkelen"}}
-        {{$pageUrl := "/"}}
-        <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><i class="fa fa-share-square-o" aria-hidden="true"></i></button>
-    </span>
+        <span><img style="aspect-ratio:unset" src="img/logo.png" alt="Big S on orange background"/></span>
+    {{ else if ne .Kind "section" "taxonomy" "home"}}
+        <span class="header-group" style="height:auto;place-items: self-end;">
+            <img style="aspect-ratio:unset" src="{{ $.Site.BaseURL }}img/logo.png" alt="Big S on orange background"/>
+            <span id="header-mobile-content">
+                <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                </a>
+                <h1>{{.Title}}</h1>
+                {{$pageTitle := .Title}}
+                {{$body := "Sjekk ut denne artikkelen"}}
+                {{$pageUrl := "/"}}
+                <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><i class="fa fa-share-square-o" aria-hidden="true"></i></button>
+            </span>
+        </span>
     {{ else if ne .Kind "home" }}
-    <span id="header-mobile-content" class="hide-title">
-        <h1>{{.Title}}</h1>
-    </span>
+        <span class="header-group" style="height:auto;">
+            <img style="aspect-ratio:unset" src="{{ $.Site.BaseURL }}img/logo.png" alt="Big S on orange background"/>
+            <span id="header-mobile-content" class="hide-title">
+                <h1>{{.Title}}</h1>
+            </span>
+        </span>
+        
+        
     {{ end}}
 </header>

@@ -12,6 +12,6 @@
 		"frontMatter.preview.host": ""
 	},
 	"extensions": {
-		"recommendations": ["bungcip.better-toml", "budparr.language-hugo-vscode", "eamodio.gitlens", "eliostruyf.vscode-front-matter", "pwabuilder.pwa-studio"]
+		"recommendations": ["budparr.language-hugo-vscode", "eamodio.gitlens", "eliostruyf.vscode-front-matter", "pwabuilder.pwa-studio"]
 	}
 }

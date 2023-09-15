@@ -14,8 +14,11 @@
         text-decoration: none;
     }
     h1 {
-        text-transform: capitalize;
         font-size: 1.7rem;
+    }
+
+    h1::first-letter {
+        text-transform: capitalize;
     }
 }
 

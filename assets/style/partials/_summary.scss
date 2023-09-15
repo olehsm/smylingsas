@@ -7,7 +7,7 @@
 
 
 .item__body {
-    padding: 1em;
+    padding: 1em 0;
 }
 
 
@@ -20,13 +20,24 @@
 .visual {
     height: auto;
     width: 100%;
+    filter: grayscale(0%);
 
     img {
         margin-left: auto;
         margin-right: auto;
         border-radius: 1%;
+        transition: transform 0.3s;
     }
 }
+
+.visual:hover{
+    filter: grayscale(100%);
+    img {
+        transform: scale(1.1);
+    }
+}
+
+
 
 
 .item__title {

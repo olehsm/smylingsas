@@ -2,7 +2,15 @@
     <a class="item__link" href='{{ .Permalink }}'>
         <article class="item">
             <div class="visual">
-                <img loading="lazy" width="415" height="230" src="{{.Params.preview}}" alt="{{ .Title }}"/>
+                
+                {{ if (eq (.Resources.ByType "image"|len ) 0) }}
+                
+                    <img loading="lazy" width="415" height="230" src="{{.Params.preview}}" alt="{{ .Title }}"/>
+                {{ end }}
+                {{ with .Resources.GetMatch "mainimage" }}
+                    <img src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}">
+                {{ end }}
+                
             </div>
             <div class="item__body">
                 <h2 class="item__title">

@@ -8,16 +8,8 @@
 .highlight {
 	font-size: 1.3rem;
 	margin: 2em 0;
-}
+    overflow-x: auto;
 
-
-.highlight pre {
-	overflow-x: hidden;
-}
-
-
-.highlight pre:hover {
-	overflow: auto;
 }
 
 
@@ -40,7 +32,6 @@
     padding: 0.8em 0.9em;
     border: 2px solid var(--button-border);
     background-color: var(--button-background); //transparent;
-    font-family: Oswald, sans-serif;
     color: var(--button-text);
     font-size: 1.5rem;
     font-weight: bold;

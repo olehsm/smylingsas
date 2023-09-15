@@ -14,7 +14,10 @@ title: Windows Platform FIPS
 date: 2021-08-31T10:08:25.000Z
 draft: false
 preview: /preview-images/keylock.jpg
-lastmod: 2023-01-05T20:18:01.253Z
+lastmod: 2023-08-15T20:09:39.567Z
+resources:
+  - name: mainimage
+    src: images/keylock.jpg
 ---
 
 
@@ -50,10 +53,10 @@ Det går også fint å søke opp Local Security Policy fra Start - menyen.
 ![Local Security Policy overview](/img/Local-Security-Policy.png)
 > Åpne *Local Policies* og deretter *Security Options*
 
-![Slå av fips 1](/img/fips1.PNG)
+![Slå av fips 1](images/fips1.PNG)
 
-![Slå av fips 2](/img/fips2.PNG)
+![Slå av fips 2](images/fips2.PNG)
 
-![Slå av fips 3](/img/fips3.PNG)
+![Slå av fips 3](images/fips3.PNG)
 > I listen over *Policies* velger du *Systemkryptografi: Bruk FIPS-kompatible algoritmer til kryptering, hash-kodisk og sign..*
 

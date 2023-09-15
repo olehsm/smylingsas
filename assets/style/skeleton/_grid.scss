@@ -30,8 +30,9 @@ body {
 
 .header--site-mobile span {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: flex-start;
+    gap: 1em;
+    place-items: self-end;
 }
 
 

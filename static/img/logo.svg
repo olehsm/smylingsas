@@ -27,11 +27,11 @@
      showgrid="false"
      inkscape:zoom="3.4101562"
      inkscape:cx="128"
-     inkscape:cy="127.85338"
-     inkscape:window-width="2560"
-     inkscape:window-height="1369"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:cy="127.70676"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg6" />
   <rect
@@ -40,7 +40,10 @@
      rx="20"
      fill="#f021b2"
      id="rect2"
-     style="fill:#fa5b0f;fill-opacity:1" />
+     style="fill:#ff8906;fill-opacity:1"
+     inkscape:export-filename="C:\ws\smylingsas\static\img\logo.png"
+     inkscape:export-xdpi="11.250001"
+     inkscape:export-ydpi="11.250001" />
   <path
      fill="#fff"
      d="M69.72 65.94L69.72 65.94Q69.72 77.06 61.84 83.53Q53.97 90.00 40.50 90.00L40.50 90.00Q28.74 90.00 21.55 85.21L21.55 85.21L21.55 70.62Q31.82 76.37 40.61 76.37L40.61 76.37Q46.57 76.37 49.92 74.11Q53.27 71.85 53.27 67.91L53.27 67.91Q53.27 65.62 52.55 63.89Q51.84 62.16 50.51 60.67Q49.18 59.18 43.91 55.24L43.91 55.24Q36.56 49.97 33.58 44.81Q30.60 39.65 30.60 33.69L30.60 33.69Q30.60 26.82 33.90 21.42Q37.20 16.02 43.29 13.01Q49.39 10.00 57.32 10.00L57.32 10.00Q68.87 10.00 78.45 15.27L78.45 15.27L72.65 27.67Q64.34 23.73 57.32 23.73L57.32 23.73Q52.90 23.73 50.08 26.13Q47.26 28.52 47.26 32.46L47.26 32.46Q47.26 35.71 49.02 38.13Q50.77 40.55 56.89 44.54L56.89 44.54Q63.33 48.80 66.53 53.94Q69.72 59.07 69.72 65.94Z"

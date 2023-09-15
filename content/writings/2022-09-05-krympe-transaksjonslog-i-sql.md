@@ -3,13 +3,13 @@ title: Krympe transaksjonslog i SQL
 description: ""
 date: 2022-09-05T06:06:37.229Z
 preview: /preview-images/microsoft-sql-server4529.jpg
-draft: ""
+draft: false
 tags:
   - sql
 author: Ole Halvor Smylingsås
 pageresources:
   - https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-shrinkfile-transact-sql?view=sql-server-ver16
-lastmod: 2023-01-05T20:10:37.955Z
+lastmod: 2023-08-08T07:59:46.945Z
 slug: krympe-transaksjonslog-sql
 ---
 

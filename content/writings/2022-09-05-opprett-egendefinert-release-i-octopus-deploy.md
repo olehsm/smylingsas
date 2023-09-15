@@ -3,12 +3,12 @@ title: Opprett egendefinert release i Octopus deploy
 description: ""
 date: 2022-09-05T07:40:47.972Z
 preview: /preview-images/octo-logo.png
-draft: ""
+draft: false
 tags:
   - octopus
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2023-01-05T20:11:01.580Z
+lastmod: 2023-08-08T08:00:32.793Z
 slug: opprett-egendefinert-release-octopus-deploy
 ---
 
