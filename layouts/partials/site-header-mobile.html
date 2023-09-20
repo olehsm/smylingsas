@@ -1,9 +1,13 @@
 <header class="header--site-mobile">
     {{ if eq .Kind "home"}}
-        <span><img style="aspect-ratio:unset" src="img/logo.png" alt="Big S on orange background"/></span>
+        <span>
+            <img style="aspect-ratio:unset" src="img/logo.png" alt="Big S on orange background"/>
+            Smylingsås
+        </span>
     {{ else if ne .Kind "section" "taxonomy" "home"}}
         <span class="header-group" style="height:auto;place-items: self-end;">
             <img style="aspect-ratio:unset" src="{{ $.Site.BaseURL }}img/logo.png" alt="Big S on orange background"/>
+            Smylingsås
             <span id="header-mobile-content">
                 <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
                     <i class="fa fa-arrow-left" aria-hidden="true"></i>
@@ -18,6 +22,7 @@
     {{ else if ne .Kind "home" }}
         <span class="header-group" style="height:auto;">
             <img style="aspect-ratio:unset" src="{{ $.Site.BaseURL }}img/logo.png" alt="Big S on orange background"/>
+            Smylingsås
             <span id="header-mobile-content" class="hide-title">
                 <h1>{{.Title}}</h1>
             </span>

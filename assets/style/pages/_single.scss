@@ -191,7 +191,17 @@
         display: grid;
         gap: 1em;
         grid-template-columns: 1fr;
+        ul {
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
     }
+
+    
 }
 
 

@@ -65,21 +65,21 @@
                     <div class="read-next-items">
 
                             {{ with .PrevInSection }}
-                                <div>
+
                                     <h2 class="featured-type-title">Les denne neste gang</h2>
                                     <ul class="reset-list">
                                         {{ .Render "summary"}}
                                     </ul>
-                                </div>
+
                             {{ end }}
 
                             {{ with .NextInSection }}
-                                <div>
+
                                     <h2 class="featured-type-title">Det kan hende du liker denne også</h2>
                                     <ul class="reset-list">
                                         {{ .Render "summary"}}
                                     </ul>
-                                </div>
+
                             {{ end }}
                         </ul>
                     </div>
