@@ -8,7 +8,7 @@
                     <img loading="lazy" width="415" height="230" src="{{.Params.preview}}" alt="{{ .Title }}"/>
                 {{ end }}
                 {{ with .Resources.GetMatch "mainimage" }}
-                    <img src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}">
+                    <img width="415" alt="{{ .Title }}" height="230" src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}">
                 {{ end }}
                 
             </div>
