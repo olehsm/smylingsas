@@ -57,5 +57,7 @@
         font-size: 1.4rem;
     }
 
-    
+    a::first-letter {
+        text-transform: capitalize;
+    }
 }

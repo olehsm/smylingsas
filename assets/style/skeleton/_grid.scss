@@ -23,7 +23,8 @@ body {
 }
 
 
-.site-menu-mobile {
+.site-menu-mobile,
+.header--topics-nav {
     display: block;
 }
 
@@ -43,13 +44,10 @@ body {
         grid-template-rows: auto;  
     }
 
-    
+
+    .header--site-mobile,
+    .header--topics-nav,
     .site-menu-mobile {
-        display: none;
-    }
-
-
-    .header--site-mobile {
         display: none;
     }
 
