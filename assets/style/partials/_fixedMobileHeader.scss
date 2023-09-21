@@ -5,16 +5,15 @@
     background-color: var(--background);
     z-index: 5;
     color: var(--theme-color);
-    padding: 1em;
-    min-height: 55px;
+    padding: 9px;
     height: auto;
     border-bottom: 1px solid var(--column-border);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     a{
         text-decoration: none;
     }
     h1 {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 
     h1::first-letter {
@@ -27,7 +26,7 @@
     display: flex;
     justify-content: flex-start;
     gap: 1em;
-    place-items: self-end;
+    place-items: center;
 }
 
 
@@ -38,4 +37,25 @@
 
 .hide-title {
     opacity: 0;
+}
+
+.header--topics-nav {
+    position: fixed;
+    top: 49px;
+    width: 100%;
+    background-color: var(--background);
+    z-index: 5;
+    color: var(--theme-color);
+    //padding: 9px;
+    height: auto;
+    border-bottom: 1px solid var(--column-border);
+    font-size: 1.4rem;
+    a{
+        text-decoration: none;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    
 }
