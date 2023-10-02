@@ -39,6 +39,7 @@
     opacity: 0;
 }
 
+
 .header--topics-nav {
     position: fixed;
     top: 49px;
@@ -46,18 +47,15 @@
     background-color: var(--background);
     z-index: 5;
     color: var(--theme-color);
-    //padding: 9px;
+    padding: 4px;
     height: auto;
     border-bottom: 1px solid var(--column-border);
     font-size: 1.4rem;
+    font-weight: 150;
     a{
-        text-decoration: none;
+        text-transform: uppercase
     }
     h1 {
         font-size: 1.4rem;
-    }
-
-    a::first-letter {
-        text-transform: capitalize;
     }
 }
