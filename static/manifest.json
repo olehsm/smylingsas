@@ -2,12 +2,11 @@
 "name": "Smylingsas.net - Min lille utviklerblog",
 "short_name": "Smylingsas.net",
 "start_url": "/",
-"description": "Mitt lille hjørne med tips og triks på web",
+"description": "Mitt eget hjørne av internett hvor jeg publiserer prosjekter og enkelte tutorials, tips og triks om webutvikling.\n\nNettsiden er progressiv web app (PWA) og kan installeres på alle platformer",
 "lang": "nb",
 "dir": "ltr",
 "theme_color": "#0f0e17",
 "background_color": "#0f0e17",
-"orientation": "any",
 "icons": [
     {
         "src": "/img/icon_512.png",
@@ -24,15 +23,25 @@
 ],
 "screenshots": [
     {
+        "src": "/img/Screenshot 2023-10-18 181912.png",
+        "sizes": "464x850",
+        "type": "image/png",
+        "form_factor": "narrow"
+    },
+    {
         "src": "/img/Screenshot 2022-11-13 164020.png",
         "sizes": "1311x732",
         "type": "image/png",
-        "description": "Et screenshot av hjemmesiden"
+        "form_factor": "wide"
     }
+    
 ],
-"related_applications": [],
+
+"related_applications": [{
+    "platform": "webapp",
+    "url": "https://smylingsas.net/manifest.json"
+  }],
 "prefer_related_applications": false,
-"display": "standalone",
 "shortcuts": [
 	{
 		"name": "Prosjektseksjon",
@@ -77,7 +86,13 @@
          ]
 	}
 ],
-"categories": [],
+"categories": [
+    "education",
+    "utilities"
+  ],
+"display": "standalone",
+"display_override": ["standalone", "minimal-ui"],
+"orientation": "portrait",
 "scope": "/",
 "share_target": {
     "action": "/shared-content-receiver/",
