@@ -16,6 +16,13 @@
     scroll-padding: 1rem;
     position: relative;
     text-align: center;
+
+    li:first-child {
+        background-color: var(--theme-color);
+        a{
+            color: var(--tag-color);
+        }
+    }
     
 
     li {

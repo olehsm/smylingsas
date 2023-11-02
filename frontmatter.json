@@ -16,21 +16,6 @@
       "path": "[[workspace]]/content/bookmarks"
     }
   ],
-  "frontMatter.taxonomy.tags": [
-    "amplify",
-    "angularjs",
-    "csharp",
-    "css",
-    "git",
-    "html",
-    "hugo",
-    "javascript",
-    "misc",
-    "octopus",
-    "raspberrypi",
-    "react",
-    "sql"
-  ],
   "frontMatter.content.autoUpdateDate": true,
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.templates.enabled": false,

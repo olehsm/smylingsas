@@ -25,7 +25,7 @@
 .site-menu-mobile li {
     display: flex;
     position: relative;
-    flex: 1 1 calc(100%/4);
+    flex: 1 1 calc(100%/5);
 }
 
 
@@ -44,3 +44,12 @@
         font-size: 1.7rem;
     }
 }
+
+
+@media screen and (min-width: $small-screen-end) {
+    .extra-mobile-menu-item {
+        display: none;
+    }
+}
+
+

@@ -4,6 +4,7 @@
     padding-bottom: 2em;
     display: grid;
     place-content: center;
+    display: none;
 
     ul {
         display: flex;
@@ -46,5 +47,12 @@
         &:hover {
             border: 2px solid var(--tag-stroke);
         }
+    }
+}
+
+
+@media screen and (min-width: $small-screen-end) {
+    .topics-section {
+        display: block;
     }
 }
