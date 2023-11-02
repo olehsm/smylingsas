@@ -12,11 +12,10 @@
 .single {
     display: grid;
     grid-template-areas:
-        "articlesection"
-        "footer"        
+        "articlesection"    
         ;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto;
     min-height: 80vh; 
 }
 
@@ -30,8 +29,7 @@
     .single {
         display: grid;
         grid-template-areas:
-            "articleaside articlesection"
-            "articleaside footer"        
+            "articleaside articlesection"        
             ;
         grid-template-columns: 400px 1fr;
         grid-template-rows: auto;  

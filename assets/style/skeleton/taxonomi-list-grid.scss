@@ -19,11 +19,10 @@
     display: grid;
     grid-template-areas:
             "taxonomilistheader" 
-            "taxonomilistmain"
-            "footer"        
+            "taxonomilistmain"        
             ;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr;
 }
 
 @media (min-width: $invisible-contentmenu-end) {
@@ -36,9 +35,8 @@
         grid-template-areas:
             "listaside taxonomilistheader" 
             "listaside taxonomilistmain"
-            "listaside footer"        
             ;
         grid-template-columns: 400px 1fr;
-        grid-template-rows: auto 1fr auto;
+        grid-template-rows: auto 1fr;
     }
 }
