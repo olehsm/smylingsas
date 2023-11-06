@@ -192,6 +192,19 @@
 
 .read-next {
     margin-top: 5em;
+    h1 {
+        margin: 0 0 2rem 0;
+        padding: 0;
+    }
+
+    h2 {
+        margin:0;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 2rem;
+    }
 
     .read-next-items {
         display: grid;
