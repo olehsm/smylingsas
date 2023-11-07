@@ -11,4 +11,4 @@ lastmod: 2023-04-16T10:33:00.652Z
 slug: css-gradient-text-editor
 ---
 <!--more-->
-https://www.cssgradienttext.com/
+[CSS gradient text editor](https://www.cssgradienttext.com/ "CSS gradient text editor (Ekstern lenke)")

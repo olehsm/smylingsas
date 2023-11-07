@@ -12,4 +12,5 @@ slug: pagespeed-insights
 ---
 
 <!--more-->
-https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect
+
+[PageSpeed Insights](https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect "Gå til PageSpeed Insights (Ekstern lenke)")

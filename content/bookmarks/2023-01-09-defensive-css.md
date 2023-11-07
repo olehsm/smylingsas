@@ -13,3 +13,4 @@ slug: defensive-css
 <!--more-->
 > Practical CSS and design tips that helps in building future-proof user interfaces.
 https://defensivecss.dev/
+[Defensive CSS](https://defensivecss.dev/ "Gå til Defensive CSS (Ekstern lenke)")

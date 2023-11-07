@@ -11,4 +11,4 @@ lastmod: 2023-04-16T10:25:28.335Z
 slug: stark’s-web-accessibility-library
 ---
 <!--more-->
-https://www.getstark.co/library/collections/
+[Stark’s Web Accessibility Library](https://www.getstark.co/library/collections/ "Stark’s Web Accessibility Library (Ekstern lenke)")
