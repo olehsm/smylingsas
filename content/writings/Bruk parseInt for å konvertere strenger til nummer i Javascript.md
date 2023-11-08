@@ -2,14 +2,16 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources:
-  - https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/
+  - pageresourceUrl: https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
 tags:
   - javascript
 slug: hvordan-konvertere-strenger-til-nummer-javascript
 title: Konvertere strenger til nummer i Javascript
 date: 2020-04-30T18:13:48.000Z
 draft: false
-lastmod: 2023-01-05T20:13:56.345Z
+lastmod: 2023-11-08T06:41:47.521Z
 preview: /preview-images/javascript.jpg
 ---
 

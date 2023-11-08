@@ -2,8 +2,12 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources:
-  - https://stackoverflow.com/questions/16192464/window-onerror-not-working-in-chrome/32595040#32595040
-  - https://docs.angularjs.org/api/ng/service/$exceptionHandler
+  - pageresourceUrl: https://stackoverflow.com/questions/16192464/window-onerror-not-working-in-chrome/32595040#32595040
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
+  - pageresourceUrl: https://docs.angularjs.org/api/ng/service/$exceptionHandler
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
 tags:
   - javascript
   - angularjs
@@ -11,7 +15,7 @@ slug: ""
 title: Window.onerror virker ikke i AngularJS
 date: 2020-04-24T20:17:45.000Z
 draft: false
-lastmod: 2023-01-05T20:18:46.151Z
+lastmod: 2023-11-08T06:54:49.965Z
 preview: /preview-images/angularjs.jpg
 ---
 

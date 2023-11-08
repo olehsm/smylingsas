@@ -2,7 +2,9 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources:
-  - https://stackoverflow.com/questions/42515588/how-to-set-time-with-date-in-momentjs
+  - pageresourceUrl: https://stackoverflow.com/questions/42515588/how-to-set-time-with-date-in-momentjs
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
 tags:
   - javascript
 slug: sett-ny-tid-med-momentjs
@@ -10,7 +12,7 @@ title: Sett ny tid med MomentJS
 date: 2021-10-10T11:12:18.000Z
 draft: false
 preview: /preview-images/clock.jpg
-lastmod: 2023-01-05T20:16:44.628Z
+lastmod: 2023-11-08T06:51:13.541Z
 ---
 
 TIL: Hvordan sette ny tid / oppdatere tidspunkt med Moment JS

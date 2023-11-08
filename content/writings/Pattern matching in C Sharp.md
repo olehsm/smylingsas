@@ -2,14 +2,16 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources:
-  - https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching
+  - pageresourceUrl: https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
 tags:
   - csharp
 slug: pattern-matching-
 title: Pattern matching i C#
 date: 2020-02-23T17:48:05.000Z
 draft: false
-lastmod: 2023-01-05T20:17:30.653Z
+lastmod: 2023-11-08T06:49:02.029Z
 preview: /preview-images/dotnet.jpg
 ---
 

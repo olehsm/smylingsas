@@ -2,9 +2,15 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources:
-  - https://medium.com/simply/state-management-with-react-hooks-and-context-api-at-10-lines-of-code-baf6be8302c
-  - https://www.smashingmagazine.com/2020/01/introduction-react-context-api/
-  - https://reactjs.org/docs/hooks-state.html
+  - pageresourceUrl: https://medium.com/simply/state-management-with-react-hooks-and-context-api-at-10-lines-of-code-baf6be8302c
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
+  - pageresourceUrl: https://www.smashingmagazine.com/2020/01/introduction-react-context-api/
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
+  - pageresourceUrl: https://reactjs.org/docs/hooks-state.html
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
 tags:
   - react
   - javascript
@@ -12,7 +18,7 @@ slug: react-hooks-og-context-api
 title: React Hooks og Context API
 date: 2020-02-23T17:41:11.000Z
 draft: false
-lastmod: 2023-01-05T20:17:39.254Z
+lastmod: 2023-11-08T06:50:48.797Z
 preview: /preview-images/react.jpg
 ---
 

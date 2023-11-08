@@ -8,8 +8,10 @@ tags:
   - misc
 author: Ole Halvor Smylingsås
 pageresources:
-  - https://www.regjeringen.no/no/aktuelt/naringsministeren-varsler-en-ny-tid/id2880267/
-lastmod: 2023-01-05T20:11:29.523Z
+  - pageresourceUrl: https://www.regjeringen.no/no/aktuelt/naringsministeren-varsler-en-ny-tid/id2880267/
+    pageresourceTitle: Gå til regjeringen.no (Ekstern lenke)
+    pageresourceText: Regjeringen.no
+lastmod: 2023-11-08T10:04:02.861Z
 slug: sommertid-og-vintertid
 ---
 

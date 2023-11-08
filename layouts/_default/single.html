@@ -98,10 +98,13 @@
 {{ define "page-header__pageresources" }}
     <h2>Referanser:</h2>
     <ul class="page-header__pageresources">
-        {{ range . }}
+        {{ range $key, $value := . }}
             <li>
-                <a rel="noreferrer" target="_blank" href="{{.}}/">{{ . }}</a>
-            </li>
+                <a target="_blank" href="{{$value.pageresourceUrl | safeURL }}"{{ with $value.pageresourceTitle}} title="{{ $value.pageresourceTitle }}"{{ end }}>{{ $value.pageresourceText | safeHTML }}{{ if strings.HasPrefix .pageresourceUrl "https" }} <i class="fa fa-external-link" aria-hidden="true"></i>{{ end }}</a>
+                    {{/*  {{$value.pageresourceUrl}}
+                    {{$value.pageresourceTitle}}
+                    {{$value.pageresourceText}}  */}}
+            </li>            
         {{ end }}
     </ul>
 {{ end }}

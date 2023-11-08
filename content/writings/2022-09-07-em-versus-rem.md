@@ -8,8 +8,10 @@ tags:
   - css
 author: Ole Halvor Smylingsås
 pageresources:
-  - https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/
-lastmod: 2023-01-05T20:21:27.235Z
+  - pageresourceUrl: https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/
+    pageresourceTitle: Gå til FreeCodeCamp (Ekstern lenke)
+    pageresourceText: FreeCodeCamp (CSS units)
+lastmod: 2023-11-08T10:04:49.002Z
 slug: em-rem
 ---
 

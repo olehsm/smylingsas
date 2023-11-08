@@ -8,8 +8,10 @@ tags:
   - sql
 author: Ole Halvor Smylingsås
 pageresources:
-  - https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-shrinkfile-transact-sql?view=sql-server-ver16
-lastmod: 2023-08-08T07:59:46.945Z
+  - pageresourceUrl: https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-shrinkfile-transact-sql?view=sql-server-ver16
+    pageresourceTitle: Gå til Microsoft (Ekstern lenke)
+    pageresourceText: Microsoft Docs (Database console commands)
+lastmod: 2023-11-08T09:04:56.185Z
 slug: krympe-transaksjonslog-sql
 ---
 

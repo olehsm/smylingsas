@@ -2,14 +2,16 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources:
-  - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/sealed
+  - pageresourceUrl: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/sealed
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
 tags:
   - csharp
 slug: sealed-class
 title: C# sealed class
 date: 2020-01-28T21:39:29.000Z
 draft: false
-lastmod: 2023-01-05T20:14:18.169Z
+lastmod: 2023-11-08T06:43:36.075Z
 preview: /preview-images/dotnet.jpg
 ---
 

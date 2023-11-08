@@ -8,8 +8,10 @@ tags:
   - misc
 author: Ole Halvor Smylingsås
 pageresources:
-  - https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
-lastmod: 2023-04-04T07:28:53.367Z
+  - pageresourceUrl: https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
+    pageresourceTitle: Gå til Visual Studio Code (Ekstern lenke)
+    pageresourceText: Visual Studio
+lastmod: 2023-11-08T10:32:21.247Z
 slug: anbefalte-extensions-code
 ---
 Sett opp anbefalte extensions for et prosjekt i Visual Studio Code

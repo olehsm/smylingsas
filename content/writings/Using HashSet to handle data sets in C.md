@@ -2,14 +2,16 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources:
-  - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=netframework-4.8
+  - pageresourceUrl: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=netframework-4.8
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
 tags:
   - csharp
 slug: bruke-hashset-a-handtere-
 title: Bruke HashSet for å håndtere i C#
 date: 2019-11-20T20:52:48.000Z
 draft: false
-lastmod: 2023-01-05T20:17:16.764Z
+lastmod: 2023-11-08T06:54:18.622Z
 preview: /preview-images/dotnet.jpg
 ---
 

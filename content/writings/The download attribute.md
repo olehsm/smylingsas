@@ -2,14 +2,16 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources:
-  - https://twitter.com/umaar/status/1260182825573191680
+  - pageresourceUrl: https://twitter.com/umaar/status/1260182825573191680
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
 tags:
   - html
 slug: download-attributtet-html
 title: Download attributtet i html
 date: 2020-05-22T13:03:17.000Z
 draft: false
-lastmod: 2023-01-05T20:17:23.798Z
+lastmod: 2023-11-08T06:53:12.864Z
 preview: /preview-images/html.jpg
 ---
 

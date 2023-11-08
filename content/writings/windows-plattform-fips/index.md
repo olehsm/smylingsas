@@ -2,11 +2,21 @@
 author: Ole Halvor Smylingsås
 description: ""
 pageresources:
-  - https://www.eonesolutions.com/help-article/this-implementation-is-not-part-of-the-windows-platform-fips-validated-cryptographic-algorithms/
-  - https://www.howtogeek.com/245859/why-you-shouldnt-enable-fips-compliant-encryption-on-windows/
-  - https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards
-  - https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing
-  - https://csrc.nist.gov/publications/detail/fips/140/2/final
+  - pageresourceUrl: https://www.eonesolutions.com/help-article/this-implementation-is-not-part-of-the-windows-platform-fips-validated-cryptographic-algorithms/
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
+  - pageresourceUrl: https://www.howtogeek.com/245859/why-you-shouldnt-enable-fips-compliant-encryption-on-windows/
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
+  - pageresourceUrl: https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
+  - pageresourceUrl: https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
+  - pageresourceUrl: https://csrc.nist.gov/publications/detail/fips/140/2/final
+    pageresourceTitle: noe greier
+    pageresourceText: Microsoft Docs
 tags:
   - misc
 slug: windows-platform-fips
@@ -14,7 +24,7 @@ title: Windows Platform FIPS
 date: 2021-08-31T10:08:25.000Z
 draft: false
 preview: /preview-images/keylock.jpg
-lastmod: 2023-08-15T20:09:39.567Z
+lastmod: 2023-11-08T06:56:41.334Z
 resources:
   - name: mainimage
     src: images/keylock.jpg

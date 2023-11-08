@@ -3,14 +3,18 @@ title: MES- og ERP-systemer
 description: ""
 date: 2022-09-05T08:14:53.947Z
 preview: /preview-images/erpln.png
-draft: ""
+draft: false
 tags:
   - misc
 author: Ole Halvor Smylingsås
 pageresources:
-  - https://www.cognizant.com/nb-no/glossary/manufacturing-execution-system#list-E
-  - https://www.cognizant.com/no/nb/glossary/erp
-lastmod: 2023-01-05T20:10:54.885Z
+  - pageresourceUrl: https://www.cognizant.com/nb-no/glossary/manufacturing-execution-system#list-E
+    pageresourceTitle: Gå til Cognizant (Ekstern lenke)
+    pageresourceText: Cognizant (MES)
+  - pageresourceUrl: https://www.cognizant.com/no/nb/glossary/erp
+    pageresourceTitle: Gå til Cognizant (Ekstern lenke)
+    pageresourceText: Cognizant (ERP)
+lastmod: 2023-11-08T09:12:48.799Z
 slug: mes-og-erp-systemer
 ---
 
