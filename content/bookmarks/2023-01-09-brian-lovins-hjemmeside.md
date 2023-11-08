@@ -13,5 +13,6 @@ slug: brian-lovins-hjemmeside
 
 <!--more-->
 
-https://www.brianlovin.com
+
+[Brian Lovins hjemmeside](https://www.brianlovin.com "Gå til Brian Lovins hjemmeside (Ekstern lenke)")
 

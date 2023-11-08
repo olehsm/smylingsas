@@ -12,3 +12,4 @@ slug: happu-hues
 ---
 <!--more-->
 https://www.happyhues.co/
+[Happu Hues](https://www.happyhues.co/ "Happu Hues (Ekstern lenke)")

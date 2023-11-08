@@ -11,4 +11,5 @@ lastmod: 2023-11-06T21:40:14.873Z
 slug: whatpwacando-today
 ---
 <!--more-->
-https://whatpwacando.today/
+
+[Whatpwacando.today](https://whatpwacando.today/ "Gå til Whatpwacando.today (Ekstern lenke)")

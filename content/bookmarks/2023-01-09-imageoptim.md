@@ -11,4 +11,5 @@ lastmod: 2023-04-16T10:28:52.254Z
 slug: imageoptim
 ---
 <!--more-->
-https://imageoptim.com/api
+
+[ImageOptim](https://imageoptim.com/api "Gå ImageOptim hjemmeside (Ekstern lenke)")

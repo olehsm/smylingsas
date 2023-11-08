@@ -11,5 +11,6 @@ lastmod: 2023-04-16T10:31:06.225Z
 slug: mobile-screen-sizes
 ---
 <!--more-->
-Mobile Screen Sizes, a huge repository of screen sizes and technical details for iOS devices, with guides for icons, design templates, CarPlay and App Store screenshots
+
 https://screensizes.app/
+[Screen size app](https://screensizes.app/ "Gå til Screen size app (Ekstern lenke)")

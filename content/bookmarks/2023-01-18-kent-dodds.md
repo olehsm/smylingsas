@@ -11,4 +11,5 @@ lastmod: 2023-04-04T07:35:42.208Z
 slug: kent-dodds
 ---
 <!--more-->
-https://kentcdodds.com/
+
+[Kent C Dodds hjemmeside](https://kentcdodds.com/ "Kent C Dodds hjemmeside (Ekstern lenke)")

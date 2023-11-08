@@ -11,4 +11,5 @@ lastmod: 2023-04-16T10:35:32.626Z
 slug: regler-visuelt-design
 ---
 <!--more-->
-https://anthonyhobday.com/sideprojects/saferules/
+
+[Anthony Hobday visuell degin guide](https://anthonyhobday.com/sideprojects/saferules/ "Anthony Hobday visuell degin guide (Ekstern lenke)")
