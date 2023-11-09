@@ -7,8 +7,7 @@ draft: ""
 tags:
   - octopus
 author: ""
-pageresources: {}
-lastmod: 2023-01-05T20:11:08.668Z
+lastmod: 2023-11-09T09:06:10.420Z
 slug: redeploy-av-bygg-med-nye-variabler-octopus-deploy
 ---
 

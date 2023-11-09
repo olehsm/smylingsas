@@ -7,8 +7,7 @@ draft: false
 tags:
   - octopus
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-08-08T08:00:32.793Z
+lastmod: 2023-11-09T09:06:19.046Z
 slug: opprett-egendefinert-release-octopus-deploy
 ---
 

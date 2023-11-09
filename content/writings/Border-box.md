@@ -1,14 +1,13 @@
 ---
 author: Ole Halvor Smylingsås
 description: ""
-pageresources: []
 tags:
-  - css
+    - css
 slug: border-box
 title: Border Box
 date: 2020-01-01T22:07:07.000Z
 draft: false
-lastmod: 2023-01-05T20:13:48.193Z
+lastmod: 2023-11-09T09:04:51.273Z
 preview: /preview-images/css.jpg
 ---
 

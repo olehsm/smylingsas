@@ -1,14 +1,13 @@
 ---
 author: Ole Halvor Smylingsås
 description: ""
-pageresources: []
 tags:
-  - javascript
+    - javascript
 slug: refactor-ajax-til-fetch
 title: Refactor Ajax til Fetch
 date: 2020-04-24T20:27:08.000Z
 draft: false
-lastmod: 2023-01-05T20:17:07.939Z
+lastmod: 2023-11-09T09:02:39.601Z
 preview: /preview-images/javascript.jpg
 ---
 

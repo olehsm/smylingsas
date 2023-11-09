@@ -7,8 +7,7 @@ draft: ""
 tags:
   - css
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-01-05T20:11:20.100Z
+lastmod: 2023-11-09T09:06:03.141Z
 slug: scss-feil-ved-bruk-av-verdier-med-ulike-benevninger
 ---
 

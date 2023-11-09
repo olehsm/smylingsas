@@ -7,8 +7,7 @@ draft: false
 tags:
   - lego
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-03-18T15:37:10.964Z
+lastmod: 2023-11-09T09:07:44.289Z
 slug: lego-bonzai-tree
 ---
 <!--more-->

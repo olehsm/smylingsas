@@ -7,8 +7,7 @@ draft: false
 tags:
   - misc
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-08-15T19:37:32.724Z
+lastmod: 2023-11-09T09:07:08.814Z
 slug: hvordan-bruke-app-offline
 resources:
   - name: mainimage

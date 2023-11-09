@@ -7,8 +7,7 @@ draft: ""
 tags:
   - amplify
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-01-05T20:11:48.621Z
+lastmod: 2023-11-09T09:05:39.552Z
 slug: egendefinerte-headere-aws-amplify
 keywords: []
 ---

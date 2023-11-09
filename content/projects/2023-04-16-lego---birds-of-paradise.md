@@ -7,8 +7,7 @@ draft: false
 tags:
   - lego
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-08-08T08:00:20.753Z
+lastmod: 2023-11-09T09:07:37.054Z
 slug: lego-birds-paradise
 ---
 <!--more-->

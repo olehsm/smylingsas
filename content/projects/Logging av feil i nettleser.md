@@ -1,16 +1,15 @@
 ---
 author: Ole Halvor Smylingsås
 description: ""
-pageresources: []
 tags:
-  - javascript
-  - react
-  - angularjs
+    - javascript
+    - react
+    - angularjs
 slug: logging-av-feil-klient-nettleser
 title: Logging av feil i klient/nettleser.
 date: 2020-04-24T20:30:53.000Z
 draft: false
-lastmod: 2023-01-05T20:09:32.948Z
+lastmod: 2023-11-09T09:07:58.984Z
 preview: /preview-images/logging.jpg
 ---
 

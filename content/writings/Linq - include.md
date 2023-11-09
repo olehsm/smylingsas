@@ -1,14 +1,13 @@
 ---
 author: Ole Halvor Smylingsås
 description: ""
-pageresources: []
 tags:
   - csharp
 slug: linq-include
 title: Linq .Include
 date: 2020-01-28T21:42:09.000Z
 draft: false
-lastmod: 2023-01-05T20:16:15.172Z
+lastmod: 2023-11-09T09:03:22.421Z
 preview: /preview-images/dotnet.jpg
 ---
 

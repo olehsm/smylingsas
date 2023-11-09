@@ -7,8 +7,7 @@ draft: false
 tags:
   - lego
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-03-18T15:31:01.635Z
+lastmod: 2023-11-09T09:07:51.379Z
 slug: lego-santa-visit
 ---
 

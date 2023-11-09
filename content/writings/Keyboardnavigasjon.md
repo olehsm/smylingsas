@@ -1,15 +1,14 @@
 ---
 author: Ole Halvor Smylingsås
 description: ""
-pageresources: []
 tags:
-  - hugo
-  - javascript
+    - hugo
+    - javascript
 slug: tastaturnavigasjon-mellom-artikler
 title: Tastaturnavigasjon mellom artikler
 date: 2020-07-12T11:38:11.000Z
 draft: false
-lastmod: 2023-01-05T20:16:07.719Z
+lastmod: 2023-11-09T09:03:29.736Z
 preview: /preview-images/javascript.jpg
 ---
 

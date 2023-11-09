@@ -7,7 +7,6 @@ draft: true
 tags:
   - sql
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-06-10T21:37:55.597Z
+lastmod: 2023-11-09T09:05:10.761Z
 slug: intersect-og-union-sql
 ---

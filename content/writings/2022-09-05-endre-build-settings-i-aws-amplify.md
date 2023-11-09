@@ -7,8 +7,7 @@ draft: ""
 tags:
   - amplify
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-01-05T20:10:22.243Z
+lastmod: 2023-11-09T09:06:33.377Z
 slug: endre-build-settings-aws-amplify
 ---
 

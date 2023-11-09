@@ -5,14 +5,13 @@ date: 2022-09-29T07:50:17.020Z
 preview: /preview-images/mysite-project.png
 draft: ""
 tags:
-  - amplify
-  - css
-  - html
-  - hugo
-  - javascript
+    - amplify
+    - css
+    - html
+    - hugo
+    - javascript
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-03-12T15:20:45.122Z
+lastmod: 2023-11-09T09:07:22.651Z
 slug: oppdateringer-om-utviklingen-av-dette-nettstedet
 ---
 

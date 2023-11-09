@@ -7,8 +7,7 @@ draft: false
 tags:
   - lego
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-04-09T12:41:37.986Z
+lastmod: 2023-11-09T09:07:30.226Z
 slug: lego-batman
 ---
 <!--more-->

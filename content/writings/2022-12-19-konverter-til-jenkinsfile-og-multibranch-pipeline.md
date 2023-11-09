@@ -7,8 +7,7 @@ draft: false
 tags:
     - jenkins
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-11-06T20:30:52.741Z
+lastmod: 2023-11-09T09:05:22.546Z
 slug: konverter-til-jenkinsfile-og-multibranch-pipeline
 ---
 

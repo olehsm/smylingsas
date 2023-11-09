@@ -1,14 +1,13 @@
 ---
 author: Ole Halvor Smylingsås
 description: ""
-pageresources: []
 tags:
   - css
 slug: overflow-hidden-behover-position-relative
 title: Overflow:hidden behøver position:relative
 date: 2020-04-09T19:57:51.000Z
 draft: false
-lastmod: 2023-01-05T20:18:23.446Z
+lastmod: 2023-11-09T09:03:02.584Z
 preview: /preview-images/css.jpg
 ---
 

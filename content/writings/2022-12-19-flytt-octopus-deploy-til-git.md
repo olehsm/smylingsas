@@ -7,8 +7,7 @@ draft: true
 tags:
   - octopus
 author: Ole Halvor Smylingsås
-pageresources: {}
-lastmod: 2023-01-17T07:53:52.934Z
+lastmod: 2023-11-09T09:05:30.895Z
 slug: flytt-octopus-deploy-til-git
 ---
 Konfigurasjon i kode
