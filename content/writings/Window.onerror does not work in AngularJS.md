@@ -3,11 +3,11 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://stackoverflow.com/questions/16192464/window-onerror-not-working-in-chrome/32595040#32595040
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Stack Overflow (Ektern lenke)
+    pageresourceText: Stack Overflow - window.onerror
   - pageresourceUrl: https://docs.angularjs.org/api/ng/service/$exceptionHandler
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til AngularJS Docs (Ekstern lenke)
+    pageresourceText: AngularJs - ExceptionHandler
 tags:
   - javascript
   - angularjs

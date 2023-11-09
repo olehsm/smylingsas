@@ -3,20 +3,20 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://www.eonesolutions.com/help-article/this-implementation-is-not-part-of-the-windows-platform-fips-validated-cryptographic-algorithms/
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Eone Solutions (Ektern lenke)
+    pageresourceText: This implementation is not part of the windows platform fips validated cryptographic algorithms
   - pageresourceUrl: https://www.howtogeek.com/245859/why-you-shouldnt-enable-fips-compliant-encryption-on-windows/
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til How to Geek (Ekstern lenke)
+    pageresourceText: Why you shouldnt enable fips compliant encryption on windows
   - pageresourceUrl: https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Wikipedia EN (Ekstern lenke)
+    pageresourceText: Wikipedia (Federal information Processing Standards)
   - pageresourceUrl: https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing
-    pageresourceTitle: noe greier
+    pageresourceTitle: Gå til Microsoft Docs (Ekstern lenke)
     pageresourceText: Microsoft Docs
   - pageresourceUrl: https://csrc.nist.gov/publications/detail/fips/140/2/final
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til National Institute of Standards and Technology (Ektern lenke)
+    pageresourceText: Security Requirements for Cryptographic Modules
 tags:
   - misc
 slug: windows-platform-fips

@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://docs.gimp.org/en/gimp-tutorial-quickie-crop.html
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Gimp tutorial (Ektern lenke)
+    pageresourceText: Gimp turorial crop
 tags:
   - misc
 slug: beskjaere-bilder-gimp

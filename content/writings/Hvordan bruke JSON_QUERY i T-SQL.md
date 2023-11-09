@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://docs.microsoft.com/en-us/sql/t-sql/functions/json-query-transact-sql?view=sql-server-ver15
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Microsoft docs (Ektern lenke)
+    pageresourceText: Microsoft Docs - JSON Query
 tags:
   - sql
 slug: hvordan-bruke-json-query-sql

@@ -3,14 +3,14 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://medium.com/simply/state-management-with-react-hooks-and-context-api-at-10-lines-of-code-baf6be8302c
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Medium (Ektern lenke)
+    pageresourceText: Medium - State Management
   - pageresourceUrl: https://www.smashingmagazine.com/2020/01/introduction-react-context-api/
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Smashing Magazine (Ektern lenke)
+    pageresourceText: Smashing Magazine - React Contet
   - pageresourceUrl: https://reactjs.org/docs/hooks-state.html
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til ReactJS (Ektern lenke)
+    pageresourceText: ReactJS - State and Hooks
 tags:
   - react
   - javascript

@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://stackoverflow.com/questions/9021881/how-to-run-a-test-method-with-multiple-parameters-in-mstest/13710788#13710788s
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Stack overflow (Ekstern lenke)
+    pageresourceText: StackOverflow - How to run a test with multiple parameters
 tags:
   - csharp
 slug: hvordan-bruke-datatestmethod

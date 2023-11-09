@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-rename-transact-sql?view=sql-server-ver15
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Microsoft Docs (Ekstern lenke)
+    pageresourceText: Microsoft Docs - rename in t-sql
 tags:
   - sql
 slug: endre-navn-pa-tabeller-sql

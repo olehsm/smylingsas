@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://twitter.com/IMAC2/status/1298222172616499200
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til X (Ekstern lenke)
+    pageresourceText: Gå til X-status
 tags:
   - css
 slug: smooth-scrolling

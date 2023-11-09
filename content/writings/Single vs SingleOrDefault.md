@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://stackoverflow.com/questions/5619283/should-i-use-single-or-singleordefault-if-there-is-a-chance-that-the-element
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Stack Overflow (Ektern lenke)
+    pageresourceText: Stack Overflow - Use Single or SingleOrDefault
 tags:
   - csharp
 slug: single-singleordefault

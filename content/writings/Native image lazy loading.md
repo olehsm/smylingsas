@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://twitter.com/umaar/status/1292763931048652800
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til lenket post på X (Ekstern lenke)
+    pageresourceText: X
 tags:
   - html
 slug: lazy-lasting-av-bilder

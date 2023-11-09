@@ -3,7 +3,7 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/sealed
-    pageresourceTitle: noe greier
+    pageresourceTitle: Gå til Microsoft docs (Ekstern lenke)
     pageresourceText: Microsoft Docs
 tags:
   - csharp

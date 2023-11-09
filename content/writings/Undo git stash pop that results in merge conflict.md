@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://stackoverflow.com/questions/22207256/undo-git-stash-pop-that-results-in-merge-conflict
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Stack Overflow (Ekstern lenke)
+    pageresourceText: Stack Overflow - Undo git stash pop
 tags:
   - git
 slug: angre-git-stash-pop-som-ender-en-mergekonflikt

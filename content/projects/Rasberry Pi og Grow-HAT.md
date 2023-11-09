@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://libguides.nyit.edu/c.php?g=469894&p=3365470
-    pageresourceTitle: noe
-    pageresourceText: annet
+    pageresourceTitle: Gå til Lib Guides (Ektern lenke)
+    pageresourceText: LibGuides
 tags:
   - raspberrypi
 slug: oppsett-av-rasberry-pi-og-grow-hat-kit

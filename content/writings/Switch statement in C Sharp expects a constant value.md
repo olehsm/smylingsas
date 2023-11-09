@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://stackoverflow.com/questions/7593377/switch-case-in-c-sharp-a-constant-value-is-expected
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Stack Overflow (Ektern lenke)
+    pageresourceText: Stack overflow - Switch case i C#
 tags:
   - csharp
 slug: switch-utrykk-krever-en-konstant-verdi

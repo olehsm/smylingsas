@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Go make things (Ekstern lenke)
+    pageresourceText: Go Make Things
 tags:
   - javascript
 slug: hvordan-konvertere-strenger-til-nummer-javascript
