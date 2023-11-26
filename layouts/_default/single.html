@@ -85,6 +85,13 @@
                         </ul>
                     </div>  */}}
                 </aside>
+                <section>
+                    {{ with .GitInfo }}
+                        {{ .AbbreviatedHash }}
+                        {{ .AuthorDate.Format "2006-01-02" }}
+                        {{ .Subject }}
+                    {{ end }}
+                </section>    
                 
             </div>
             {{/*  <footer>

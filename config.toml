@@ -10,6 +10,7 @@ publishDir = "public"
 
 canonifyURLs = "false"
 uglyURLs = "false"
+enableGitInfo = true
 
 [params]
     owner = "Ole Halvor Smylingsås"
