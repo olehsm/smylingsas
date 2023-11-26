@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://www.dotnetperls.com/list-find
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til DotNet Pearls (Ekstern lenke)
+    pageresourceText: DotNet Pearls - find()
 tags:
   - csharp
 slug: find-og-exist-linq

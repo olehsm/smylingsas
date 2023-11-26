@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://stackoverflow.com/questions/42515588/how-to-set-time-with-date-in-momentjs
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Stack Overflow (Ekstern lenke)
+    pageresourceText: Stack Overflow - How to set time and date in MomentJS
 tags:
   - javascript
 slug: sett-ny-tid-med-momentjs

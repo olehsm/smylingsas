@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://stackoverflow.com/questions/16192464/window-onerror-not-working-in-chrome
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Stack Overflow (Ekstern lenke)
+    pageresourceText: Stack overflow - window.onerror
 tags:
   - javascript
 slug: window-onerror-chrome

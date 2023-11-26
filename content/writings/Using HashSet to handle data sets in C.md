@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=netframework-4.8
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Microsoft docs (Ekstern lenke)
+    pageresourceText: Microsoft Docs - HashSet
 tags:
   - csharp
 slug: bruke-hashset-a-handtere-

@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://sentry.io/answers/unique-key-prop/
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Sentry (Ekstern lenke)
+    pageresourceText: Sentry
 tags:
   - react
 slug: lokker-react-behover-en-unik-nokkel

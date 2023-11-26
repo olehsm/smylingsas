@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://www.geeksforgeeks.org/c-sharp-params/
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til geeks for geeks (Ektern lenke)
+    pageresourceText: Geeks for geeks - C# params
 tags:
   - csharp
 slug: params

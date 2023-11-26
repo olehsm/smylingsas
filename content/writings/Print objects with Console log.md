@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://twitter.com/chriscoyier/status/1326192332518133762
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til X (Ekstern lenke)
+    pageresourceText: Chris Coyier(X)
 tags:
   - javascript
 slug: printe-objekter-med-console-log

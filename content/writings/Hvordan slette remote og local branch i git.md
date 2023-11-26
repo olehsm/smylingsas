@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Stack Overflow (Ektern lenke)
+    pageresourceText: Stack overflow - delete local and remote branch in git
 tags:
   - git
 slug: slette-brancher-git

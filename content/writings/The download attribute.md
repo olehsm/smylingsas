@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://twitter.com/umaar/status/1260182825573191680
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til X (Ekstern lenke)
+    pageresourceText: Gå til X status
 tags:
   - html
 slug: download-attributtet-html

@@ -3,8 +3,8 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til Microsoft docs (Ekstern lenke)
+    pageresourceText: Microsoft Docs - Pattern matching
 tags:
   - csharp
 slug: pattern-matching-

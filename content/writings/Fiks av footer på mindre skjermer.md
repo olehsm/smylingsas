@@ -3,11 +3,11 @@ author: Ole Halvor Smylingsås
 description: ""
 pageresources:
   - pageresourceUrl: https://css-tricks.com/css-fix-for-100vh-in-mobile-webkit/
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til CSS-Tricks (Ekstern lenke)
+    pageresourceText: CSS-Tricks - CSS fix for 100vh in mobile viewports
   - pageresourceUrl: https://allthingssmitty.com/2020/05/11/css-fix-for-100vh-in-mobile-webkit/
-    pageresourceTitle: noe greier
-    pageresourceText: Microsoft Docs
+    pageresourceTitle: Gå til All things smitty (Ekstern lenke)
+    pageresourceText: All things Smitty 
 tags:
   - css
 slug: fixed-footer-smaller-viewports
