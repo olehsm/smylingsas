@@ -20,7 +20,7 @@
 .visual {
     height: auto;
     width: 100%;
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 
     img {
         margin-left: auto;
@@ -31,10 +31,7 @@
 }
 
 .visual:hover{
-    filter: grayscale(100%);
-    img {
-        transform: scale(1.1);
-    }
+    filter: grayscale(0%);
 }
 
 
@@ -55,4 +52,13 @@
 
 .item .page-header__publication-details__pubdate {
     color:var(--card-paragraph);
+}
+
+
+@media (min-width: $small-screen-end) {
+    .visual:hover{
+        img {
+            transform: scale(1.1);
+        }
+    }
 }

@@ -6,28 +6,59 @@
 <section class="featured-section" id="featured-section">
     <div class="featured-items">
         <div>
-            <h2 class="featured-type-title">Sist oppdaterte artikkel</h2>
+            <h2 class="featured-type-title">Blogposter.</h2>
             <ul class="reset-list">
-                {{ range first 1 $writingpages }}
+                {{ range first 3 $writingpages }}
                     {{ .Render "summary"}}
                 {{ end }}
             </ul>
+            <a class="button" href="/writings">
+                <svg>
+                    <rect
+                        x="0" y="0" 
+                        fill="none"
+                        width="100%"
+                        height="100%"
+                    />
+                </svg>
+                Les blog.
+            </a>
         </div>
         <div>
-            <h2 class="featured-type-title">Sist oppdaterte prosjekt</h2>
+            <h2 class="featured-type-title">Prosjekter.</h2>
             <ul class="reset-list">
-                {{ range first 1 $projectpages }}
+                {{ range first 3 $projectpages }}
                     {{ .Render "summary"}}
                 {{ end }}
             </ul>
+            <a class="button" href="/projects">
+                <svg>
+                    <rect
+                        x="0" y="0" 
+                        fill="none"
+                        width="100%"
+                        height="100%"
+                    />
+                </svg>
+                Se projektene</a>
         </div>
         <div>
-            <h2 class="featured-type-title">Sist oppdaterte bokmerke</h2>
+            <h2 class="featured-type-title">Bokmerker.</h2>
             <ul class="reset-list">
-                {{ range first 1 $bookmarkpages }}
+                {{ range first 3 $bookmarkpages }}
                     {{ .Render "summary"}}
                 {{ end }}
             </ul>
+            <a class="button" href="/bookmarks">
+                <svg>
+                    <rect
+                        x="0" y="0" 
+                        fill="none"
+                        width="100%"
+                        height="100%"
+                    />
+                </svg>
+                Bokmerker</a>
         </div>
     </div>
 </section>
