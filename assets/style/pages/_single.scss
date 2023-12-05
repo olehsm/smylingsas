@@ -233,18 +233,18 @@
             grid-template-columns: repeat(2,1fr);
         }
     }
-}
 
-
-@media (min-width: $small-screen-end) {
+    
     .sentinel {
         height:2px;
         display: block;
     }
 
+
     #fixed-header {
         display: flex;
     }
+
 
     .list-of-content {
         background-color: var(--background);
@@ -256,6 +256,7 @@
         left: 100px;
         width: 400px;
     }
+
 
     .page-wrapper h1 {
         margin-top: 0;
@@ -272,6 +273,7 @@
     
     .list-of-content .page-main-list {
         padding: 0;
+        gap:0;
     }
 
 
@@ -305,6 +307,10 @@
 @media (min-width: $small-leftmenu-end) {
     .list-of-content {
         left: 220px;
+    }
+
+    .list-of-content .page-main-list {
+        gap:0;
     }
     
     
