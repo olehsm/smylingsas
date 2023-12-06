@@ -276,10 +276,11 @@
     }
 
 
-    .list-of-content .page-main-list ul {
-        gap:0;
+    .list-of-content .page-main-list {  
+        ul{
+            gap: 1rem;
+        }
     }
-    
 
 
     .list-of-content .item {
@@ -313,11 +314,7 @@
     .list-of-content {
         left: 220px;
     }
-
-    .list-of-content .page-main-list ul {
-        gap:0;
-    }
-    
+  
     
     .page-header__publication-details a {
         font-size: 1.6rem;
