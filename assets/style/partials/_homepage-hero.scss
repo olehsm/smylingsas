@@ -75,7 +75,7 @@ section.hero {
     
     .subhead {
         font-size: 1.7rem;
-        color: var(--headline);
+        color: #fffffe
     }
 }
 
@@ -116,6 +116,11 @@ section.hero > * {
 
         .subhead {
             margin-bottom: 3em;
+        }
+
+        .subhead {
+            font-size: 1.7rem;
+            color: var(--headline)
         }
 
         svg.down-arrow {

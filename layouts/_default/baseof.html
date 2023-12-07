@@ -85,6 +85,35 @@
             }    
         </script>
 
+        <script>
+            const contentSentinel = document.getElementById("content-sentinel");
+            const contentListHeader = document.getElementById("content-fixed-header");
+
+            if(contentSentinel && contentListHeader)
+            {
+                const options = {
+                    rootMargin: '0px',
+                    threshold: 0
+                }
+                
+                const callback = (entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) 
+                        {
+                            contentListHeader.classList.remove('show');
+                            contentListHeader.classList.add('hide');
+                        } else {
+                            contentListHeader.classList.remove('hide');
+                            contentListHeader.classList.add('show');
+                        }
+                    });
+                }
+    
+                observer = new IntersectionObserver(callback, options);
+                observer.observe(contentSentinel);
+            }    
+        </script>
+
         {{ if eq .Kind "home"}}
         
         {{ else if ne .Kind "section" "taxonomy" "home" "term"}}
