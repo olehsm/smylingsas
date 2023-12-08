@@ -5,19 +5,19 @@
         <div class="list-page-header">
             <h1 id="list-title">{{.Params.title}}</h1>            
             {{ if eq .Type "writings" }}
-                <p>Totalt antall poster i blog:
-                    {{ len (where .Site.RegularPages "Section" "==" "writings") }}.
-                </p>
+                <div class="circle">
+                    {{ len (where .Site.RegularPages "Section" "==" "writings") }}
+                </div>
             {{ end }}
             {{ if eq .Type "projects" }}
-                <p>Totalt antall poster i prosjekter:
-                    {{ len (where .Site.RegularPages "Section" "==" "projects") }}.
-                </p>
+                <div class="circle">
+                    {{ len (where .Site.RegularPages "Section" "==" "projects") }}
+                </div>
             {{ end }}
             {{ if eq .Type "bookmarks" }}
-                <p>Totalt antall poster i bokmerker:
-                    {{ len (where .Site.RegularPages "Section" "==" "bookmarks") }}.
-                </p>
+                <div class="circle">
+                    {{ len (where .Site.RegularPages "Section" "==" "bookmarks") }}
+                </div>
             {{ end }}
             {{.Content}} 
             {{ partial "topics.html" . }}
