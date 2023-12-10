@@ -2,7 +2,7 @@
 <html>
  
     <head>
-        <title>Smylingsas.net - You are offline!</title>
+        <title>Smylingsas.net - Offlinemodus</title>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,13 +11,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
         <meta name="apple-mobile-web-app-status-bar" content="#0f0e17" />
         <meta name="theme-color" content="#0f0e17" />
+        <link rel="stylesheet" type="text/css" href="css/skins/theme-4.css" class="alternate-style" title="theme-4"/>
         <style>
             body {
                 height: 100vh;
                 display: grid;
                 place-items: center;
                 text-align: center;
-                background-color: #0f0e17;
+                background-color: var(--background);
             }
             
             #container {
@@ -44,19 +45,19 @@
             p {
                 font-family: 'Noto Sans', sans-serif;
                 text-align: center;
-                color: #ff8906;
+                color: var(--theme-color);
                 line-height: 1.5;               
                 font-weight: bolder;
                 text-transform: uppercase;
                 letter-spacing: 1rem;
-                text-shadow: 1px 1px 2px #ff8906;
+                text-shadow: 1px 1px 2px var(--theme-color);;
                 font-size: 3rem;
             }
 
             p span {
                 font-weight: bold;
                 font-size: 2.5rem;
-                color: #ff8906;
+                color: var(--theme-color);;
             }
             a {
                 text-decoration: none;
@@ -69,10 +70,16 @@
         <div id="container">
             <p id="burger">🍔</p>
         </div>
-        <p><span>Du er offline akkurat nå</span><br/>Kos deg med denne hoppende burgeren.</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        
+        <p><span>Internett ser ut til å være frakoblet </span><br/>Kos deg med denne hoppende burgeren.</p>
+        <p id="network-info">&nbsp;</p>
+        <script>
+            let type = navigator.connection;
+            let a = document.getElementById("network-info");
+            if(a) {
+                a.innerHTML = type;
+                console.log(type);
+            }
+        </script>
     </body>
  
 </html>
