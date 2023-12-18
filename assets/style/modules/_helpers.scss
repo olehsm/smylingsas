@@ -44,7 +44,7 @@
 // }
 
 .button {
-    color: #fffffe;
+    color: var(--button-text);
     cursor: pointer;
     font-size: 1.2rem;
     line-height: 2.5rem;
@@ -74,7 +74,7 @@
 
 .button rect {      
     fill: none;
-    stroke: #fff;
+    stroke: var(--button-text);
     stroke-width: 2;
     stroke-dasharray: 450, 0;
     transition: all 0.5s linear;
