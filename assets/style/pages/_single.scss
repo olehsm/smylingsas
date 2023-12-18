@@ -193,6 +193,13 @@
     }        
 }
 
+#fixed-contentlist-header {
+    margin:0;
+    .circle {
+        margin:0
+    }
+}
+
 
 .read-next {
     margin-top: 5em;
@@ -247,6 +254,10 @@
     justify-content: space-between;
     align-items: center;
     padding-right: 15px;
+    position: sticky;
+    top: 0;
+    background-color: var(--background);
+    z-index: 5
 }
 
 
