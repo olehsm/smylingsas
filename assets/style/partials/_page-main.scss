@@ -56,6 +56,12 @@
 
 
 @media (min-width: 1470px) {
+    .page-main-list {
+        padding-left:15px;
+        padding-right: 15px;;
+    }
+    
+    
     .page-main-list {  
         ul{
             grid-template-columns: repeat(auto-fill,minmax(290px,1fr));

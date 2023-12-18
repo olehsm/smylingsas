@@ -62,6 +62,7 @@
             <h1>Tilgjengelige filter</h1>
             <div class="page-main-list1">
                 <ul class="reset-list">
+                    
                     {{ range .Site.Taxonomies.tags }}
                     <li>
                         <a class="item__link" href='{{ .Page.Permalink }}'>
@@ -71,9 +72,9 @@
                                 </div>
                                 <div class="item__body">
                                     <h2 class="item__title" style="text-transform: capitalize;">
-                                        {{ .Page.Title }}
+                                        {{ .Page.Title }} 
                                     </h2>
-
+                                    <div class="circle">{{.Count}}</div>
                                 </div>
                             </article>
                         </a>
