@@ -11,11 +11,35 @@ tags:
     - hugo
     - javascript
 author: Ole Halvor Smylingsås
-lastmod: 2023-11-09T09:07:22.651Z
+lastmod: 2024-01-14T21:47:30.945Z
 slug: oppdateringer-om-utviklingen-av-dette-nettstedet
 ---
 
 <!--more-->
+## 7 januar 2024
+Oppdaterte Dockerfil (nå med innhold ;)
+
+```bash
+FROM golang
+
+WORKDIR /code
+
+ENV HUGO_VERSION 0.116.1
+ENV HUGO_BIN_NAME hugo_${HUGO_VERSION}_linux-arm64.tar.gz
+ENV HUGO_BIN_URL https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BIN_NAME}
+
+RUN wget -qO- "${HUGO_BIN_URL}" | tar xz
+
+ENV PATH "/code:${PATH}"
+
+CMD ["hugo", "version"]
+```
+
+Fungerer ikke helt optimalt ennå. Dette dockerimage klarer ikke bygge Hugoversjonen jeg bruker. I og med at jeg benytter SASS og bildeprosessering benytter jeg en utvided versjon av Hugo. Det blir rullet ut en ordinær versjon og en utvidet versjon hver gang det er ny release av Hugo.
+
+## 10 desember 2023
+Implementerte første versjon av nettverksovervåkning på nettsiden ved hjelp av [Networking API](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API)
+
 ## 12 mars 2023 
 Ferdig imlplementert nytt fargetema. Alle farger hentes fra en egen fil med CSS variabler 
 
