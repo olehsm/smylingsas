@@ -7,7 +7,7 @@ slug: css-white-space-property
 title: CSS white space property
 date: 2018-01-02T21:23:24+01:00
 draft: false
-lastmod: 2023-01-05T20:21:35.764Z
+lastmod: 2024-01-14T21:24:17.541Z
 preview: /preview-images/css.jpg
 ---
 
@@ -21,5 +21,6 @@ p
     white-space: pre-line
 }
 {{</highlight>}}
+
 Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary, and on line breaks
     
