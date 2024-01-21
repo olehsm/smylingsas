@@ -60,6 +60,23 @@
             a {
                 text-decoration: none;
             }
+
+
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: auto;
+              }
+              
+              td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+              }
+              
+              tr:nth-child(even) {
+                background-color: #dddddd;
+              }
             
         </style>
     </head>
@@ -69,13 +86,45 @@
             <p id="burger">🍔</p>
         </div>
         <p><span>Internett ser ut til å være frakoblet </span><br/>Kos deg med denne hoppende burgeren.</p>
-        <p id="network-info">&nbsp;</p>
+        <table id="network-information">
+            <tr>
+                <th>Network information</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Effective bandwidth (mbit/s)</td>
+                <td id="network-downlink"> </td>
+            </tr>
+            <tr>
+                <td>Effective type of the connection</td>
+                <td id="network-effetive-type"> </td>
+            </tr>
+            <tr>
+                <td>Round-trip time of the current connection (RTT)</td>
+                <td id="network-rtt"> </td>
+            </tr>
+            <tr>
+                <td>User has set a reduced data usage option</td>
+                <td id="network-save-data"></td>
+            </tr>
+        </table>
         <script>
-            let type = navigator.connection;
-            let a = document.getElementById("network-info");
-            if(a) {
-                a.innerHTML = type;
-                console.log(type);
+            const connection = navigator.connection;
+            
+            console.log(connection)
+
+            if(connection) {
+                const downlink = document.getElementById('network-downlink')
+                downlink.innerText = connection.downlink
+
+                const effectiveType = document.getElementById('network-effetive-type')
+                effectiveType.innerText = connection.effectiveType
+
+                const rtt = document.getElementById('network-rtt')
+                rtt.innerText = connection.rtt
+
+                const saveData = document.getElementById('network-save-data')
+                saveData.innerText = connection.saveData
             }
         </script>
     </body>
