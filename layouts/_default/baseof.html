@@ -92,8 +92,9 @@
         <script>
             const mobileHeader = document.getElementById("header-mobile-content")
             const title = document.getElementById("article-title")
+            const mobileHeaderLogo = document.getElementById("header-mobile-logo")
 
-            if(mobileHeader && title) {
+            if(mobileHeader && title && mobileHeaderLogo) {
                 const options = {
                     rootMargin: '0px',
                     threshold: 0
@@ -105,9 +106,11 @@
                         {
                             mobileHeader.classList.remove('show-title');
                             mobileHeader.classList.add('hide-title');
+                            mobileHeaderLogo.classList.remove('hide-header-logo')
                         } else {
                             mobileHeader.classList.remove('hide-title');
                             mobileHeader.classList.add('show-title');
+                            mobileHeaderLogo.classList.add('hide-header-logo')
                         }
                     });
                 }
@@ -119,10 +122,11 @@
         
         {{ else if ne .Kind "home" }}
             <script>
-                const mobileHeader = document.getElementById("header-mobile-content")
+                const headerMobileLogo = document.getElementById("header-mobile-logo")
                 const listTitle = document.getElementById("list-title")
+                const mobileMobileTitle = document.getElementById("header-mobile-title")
 
-                if(mobileHeader && listTitle) {
+                if(headerMobileLogo && listTitle && mobileMobileTitle) {
                     const options = {
                         rootMargin: '0px',
                         threshold: 0
@@ -132,11 +136,13 @@
                         entries.forEach(entry => {
                             if (entry.isIntersecting) 
                             {
-                                mobileHeader.classList.remove('show-title');
-                                mobileHeader.classList.add('hide-title');
+                                mobileMobileTitle.classList.remove('show-title');
+                                mobileMobileTitle.classList.add('hide-title');
+                                headerMobileLogo.classList.remove('hide-header-logo')
                             } else {
-                                mobileHeader.classList.remove('hide-title');
-                                mobileHeader.classList.add('show-title');
+                                mobileMobileTitle.classList.remove('hide-title');
+                                mobileMobileTitle.classList.add('show-title');
+                                headerMobileLogo.classList.add('hide-header-logo')
                             }
                         });
                     }

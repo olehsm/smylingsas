@@ -245,6 +245,8 @@
     font-size: 1.5rem;
     padding-top: 4px;
     margin-top: 1em;
+    margin-bottom: 1em;
+
 }
 
 
@@ -259,6 +261,12 @@
     background-color: var(--background);
     z-index: 5;
     margin-bottom: 3em;
+}
+
+.tag-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 
@@ -303,6 +311,7 @@
     .list-of-content .page-main__latest-articles h1, 
     .list-of-content .page-main__read-next-card h1 {
         margin-top: 1em;
+        margin-bottom: 1em;
     }
 
     

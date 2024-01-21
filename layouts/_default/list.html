@@ -4,21 +4,6 @@
     <div class="grid-header">
         <div class="list-page-header">
             <h1 id="list-title">{{.Params.title}}</h1>            
-            {{ if eq .Type "writings" }}
-                <div class="circle">
-                    {{ len (where .Site.RegularPages "Section" "==" "writings") }}
-                </div>
-            {{ end }}
-            {{ if eq .Type "projects" }}
-                <div class="circle">
-                    {{ len (where .Site.RegularPages "Section" "==" "projects") }}
-                </div>
-            {{ end }}
-            {{ if eq .Type "bookmarks" }}
-                <div class="circle">
-                    {{ len (where .Site.RegularPages "Section" "==" "bookmarks") }}
-                </div>
-            {{ end }}
             {{.Content}} 
             {{ partial "topics.html" . }}
         </div>

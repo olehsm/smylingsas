@@ -6,7 +6,7 @@
     z-index: 5;
     color: var(--theme-color);
     padding: 9px;
-    height: auto;
+    height: 49px;
     border-bottom: 1px solid var(--column-border);
     font-size: 1.4rem;
     a{
@@ -39,6 +39,34 @@
     opacity: 0;
 }
 
+
+#header-mobile-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+
+#header-mobile-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    width: 100%;
+}
+
+#header-mobile-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    width: 100%;
+}
+
+
+.hide-header-logo {
+    display: none !important;
+}
 
 .header--topics-nav {
     position: fixed;
