@@ -16,6 +16,7 @@ enableGitInfo = true
     owner = "Ole Halvor Smylingsås"
     dateform        = "Jan 2, 2006"
     favicon = "favicon.svg"
+    themecolor = "#eff0f3"
     dateformShort   = "Jan 2"
     dateformNum     = "2006-01-02"
     dateformNumTime = "2006-01-02 15:04 -0700"

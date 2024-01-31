@@ -5,9 +5,9 @@
     "description": "Mitt eget hjørne av internett hvor jeg publiserer prosjekter og enkelte tutorials, tips og triks om webutvikling.\n\nNettsiden er progressiv web app (PWA) og kan installeres på alle platformer",
     "lang": "nb",
     "dir": "ltr",
-    "theme_color": "#0f0e17",
+    "theme_color": "#eff0f3",
     "id": "smylingsas",
-    "background_color": "#0f0e17",
+    "background_color": "#eff0f3",
     "icons": [
         {
           "src": "/img/icon_512.png",
