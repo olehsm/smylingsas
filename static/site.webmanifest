@@ -8,6 +8,7 @@
     "theme_color": "#eff0f3",
     "id": "smylingsas",
     "background_color": "#eff0f3",
+    "scope": "/",
     "icons": [
         {
           "src": "icon_512.png",
