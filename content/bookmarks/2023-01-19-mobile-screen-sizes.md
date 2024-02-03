@@ -7,10 +7,9 @@ draft: false
 tags: ""
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2023-04-16T10:31:06.225Z
+lastmod: 2024-02-03T21:54:48.174Z
 slug: mobile-screen-sizes
 ---
 <!--more-->
 
-https://screensizes.app/
 [Screen size app](https://screensizes.app/ "Gå til Screen size app (Ekstern lenke)")
