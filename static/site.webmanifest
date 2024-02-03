@@ -9,6 +9,9 @@
     "id": "smylingsas",
     "background_color": "#eff0f3",
     "scope": "/",
+    "scope_extensions": [
+      
+    ],
     "icons": [
         {
           "src": "icon_512.png",
