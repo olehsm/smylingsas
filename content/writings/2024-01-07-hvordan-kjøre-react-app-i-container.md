@@ -2,14 +2,15 @@
 title: Hvordan kjøre React app i container?
 description: ""
 date: 2024-01-07T11:31:57.545Z
-preview: ""
+preview: /preview-images/docker-logo.svg
 draft: true
 tags:
     - docker
     - react
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2024-01-07T14:08:04.791Z
+lastmod: 2024-03-09T15:32:44.953Z
+slug: hvordan-kjore-react-app-container
 ---
 
 <!--more-->

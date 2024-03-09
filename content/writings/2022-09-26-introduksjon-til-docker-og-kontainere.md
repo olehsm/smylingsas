@@ -2,12 +2,12 @@
 title: Introduksjon til Docker og kontainere
 description: ""
 date: 2022-09-26T16:43:21.351Z
-preview: ""
-draft: true
+preview: /preview-images/docker-logo.svg
+draft: false
 tags:
   - docker
 author: Ole Halvor Smylingsås
-lastmod: 2023-11-09T09:05:46.656Z
+lastmod: 2024-03-09T15:30:51.325Z
 slug: introduksjon-til-docker-og-kontainere
 ---
 
