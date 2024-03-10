@@ -10,7 +10,7 @@
                 {{ else if ne .Kind "section" "taxonomy" "home" }}
                     <div>
                         <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
-                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                            <i aria-hidden="true">&larr;</i>
                         </a>
                     </div>
                     
@@ -18,7 +18,7 @@
                     {{$body := "Sjekk ut denne artikkelen"}}
                     {{$pageUrl := "/"}}
                     {{ $pageTitle}}
-                    <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><i class="fa fa-share-square-o" aria-hidden="true"></i></button>
+                    <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><i aria-hidden="true">&#128389;</i></button>
                 {{ else if ne .Kind "home" }}
                     {{.Title}}
                 {{ end}}
@@ -28,11 +28,11 @@
                 <div id="sentinel" class="sentinel"></div>
                 <div class="page-header__publication-details">
                     <span>
-                        <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i class="fas fa-calendar-day"></i>&nbsp;{{ .Date.Format "Jan 2, 2006" }}</time>
+                        <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i>&#128467;</i>&nbsp;{{ .Date.Format "Jan 2, 2006" }}</time>
                         //<time class="page-header__publication-details__pubdate" datetime="{{ .Lastmod.Format "Mon, Jan 2, 2006" }}"></i>&nbsp;Sist oppdatert:&nbsp;{{ .Lastmod.Format "Jan 2, 2006" }}</time>
                     </span>
-                    <span><i class="fas fa-file-alt"></i>&nbsp;{{ .WordCount }}&nbsp;ord</span>
-                    <span><i class="fas fa-clock"></i>&nbsp;{{ .ReadingTime }}&nbsp;minutt(er)</span>
+                    <span><i>&#128196;</i>&nbsp;{{ .WordCount }}&nbsp;ord</span>
+                    <span><i>&#x23F0;</i>&nbsp;{{ .ReadingTime }}&nbsp;minutt(er)</span>
                 </div>
            
                 {{.Content}}
@@ -42,7 +42,7 @@
                 
                 <section class="article-tags">
                     {{ with .Params.tags }}
-                        <i class="fas fa-tag"></i>&nbsp;
+                        <i>&#xFF03;</i>&nbsp;
                         {{ range . }}
                             <a href="/tags/{{ . | urlize }}/">{{ . }}</a> 
                         {{ end }}
@@ -102,10 +102,7 @@
     <ul class="page-header__pageresources">
         {{ range $key, $value := . }}
             <li>
-                <a target="_blank" href="{{$value.pageresourceUrl | safeURL }}"{{ with $value.pageresourceTitle}} title="{{ $value.pageresourceTitle }}"{{ end }}>{{ $value.pageresourceText | safeHTML }}{{ if strings.HasPrefix .pageresourceUrl "https" }} <i class="fa fa-external-link" aria-hidden="true"></i>{{ end }}</a>
-                    {{/*  {{$value.pageresourceUrl}}
-                    {{$value.pageresourceTitle}}
-                    {{$value.pageresourceText}}  */}}
+                <a target="_blank" href="{{$value.pageresourceUrl | safeURL }}"{{ with $value.pageresourceTitle}} title="{{ $value.pageresourceTitle }}"{{ end }}>{{ $value.pageresourceText | safeHTML }}{{ if strings.HasPrefix .pageresourceUrl "https" }} <i aria-hidden="true">&#128279;</i>{{ end }}</a>
             </li>            
         {{ end }}
     </ul>

@@ -27,38 +27,38 @@ enableGitInfo = true
 [[params.sociallinks.developer]]
 	name = "GitHub"
 	url = "https://github.com/olehsm"
-	icon = "fab fa-github"
+	icon = ""
   desc = "Følg meg på Github"
 [[params.sociallinks.developer]]
 	name = "Instagram"
 	url = "https://instagram.com/habbheim"
-	icon = "fab fa-instagram"
+	icon = ""
   desc = "Følg meg på Instagram"
 [[params.sociallinks.developer]]
-	name ="Twitter"
-	url = "https://twitter.com/olehsm"
-	icon = "fab fa-twitter"
-  desc = "Følg meg på Twitter"
+	name ="X"
+	url = "https://x.com/olehsm"
+	icon = "&#120143;"
+  desc = "Følg meg på X"
 
 
 [menu]
   [[menu.main]]
     name = "Hjem"
-    pre = "<i class='fas fa-home'></i>"
+    pre = "<i>&#x2302;</i>"
     url = "/"
     weight = -140
   [[menu.main]]
     name = "Prosjekter"
-    pre = "<i class='fas fa-project-diagram'></i>"
+    pre = "<i>&#x1F6E0;</i>"
     url = "/projects/"
     weight = -110
   [[menu.main]]
     name = "Blog"
-    pre = "<i class='fas fa-list'></i>"
+    pre = "<i>&#128395;</i>"
     url = "/writings/"
     weight = -97
   [[menu.main]]
     name = "Bokmerker"
-    pre = "<i class='fa fa-star'></i>"
+    pre = "<i>&#128366;</i>"
     url = "/bookmarks/"
     weight = -120

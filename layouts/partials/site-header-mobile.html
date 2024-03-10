@@ -24,13 +24,13 @@
             </div>
             <div id="header-mobile-content">
                 <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
-                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    <i aria-hidden="true">&larr;</i>
                 </a>
                 <h1>{{.Title}}</h1>
                 {{$pageTitle := .Title}}
                 {{$body := "Sjekk ut denne artikkelen"}}
                 {{$pageUrl := "/"}}
-                <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><i class="fa fa-share-square-o" aria-hidden="true"></i></button>
+                <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><i aria-hidden="true">&#128389;</i></button>
             </div>
         </span>
     {{ else if ne .Kind "home" }}
