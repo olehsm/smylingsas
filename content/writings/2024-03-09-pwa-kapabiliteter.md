@@ -3,12 +3,13 @@ title: PWA kapabiliteter
 description: ""
 date: 2024-03-09T22:56:29.628Z
 preview: /preview-images/pwa-logo.png
-draft: false
+draft: true
 tags: []
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2024-03-10T10:23:50.089Z
+lastmod: 2024-03-10T10:55:24.568Z
 type: writings
+slug: pwa-kapabiliteter
 ---
 <!--more-->
 
@@ -146,4 +147,5 @@ type: writings
 ## Network API
 
 ## Edge sidebar
+[Edge sidebar panel (Ekstern lenke)](https://docs.pwabuilder.com/#/builder/manifest?id=edge_side_panel-object)
 
