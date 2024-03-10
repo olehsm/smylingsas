@@ -11,11 +11,14 @@ tags:
     - hugo
     - javascript
 author: Ole Halvor Smylingsås
-lastmod: 2024-01-14T21:47:30.945Z
+lastmod: 2024-03-10T10:54:16.688Z
 slug: oppdateringer-om-utviklingen-av-dette-nettstedet
 ---
 
 <!--more-->
+## 10 mars 2024
+PWA - utgaven av nettsiden støtter nå Edge sidebar panel. [Les mer om dette på denne siden](/../writings/pwa-kapabiliteter)
+
 ## 7 januar 2024
 Oppdaterte Dockerfil (nå med innhold ;)
 
