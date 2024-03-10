@@ -2,20 +2,6 @@
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "projects",
-      "path": "[[workspace]]/content/projects"
-    },
-    {
-      "title": "writings",
-      "path": "[[workspace]]/content/writings"
-    },
-    {
-      "title": "bookmarks",
-      "path": "[[workspace]]/content/bookmarks"
-    }
-  ],
   "frontMatter.content.autoUpdateDate": true,
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.templates.enabled": false,
@@ -74,6 +60,20 @@
           "type": "datetime"
         }
       ]
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "bookmarks",
+      "path": "[[workspace]]/content/bookmarks"
+    },
+    {
+      "title": "projects",
+      "path": "[[workspace]]/content/projects"
+    },
+    {
+      "title": "writings",
+      "path": "[[workspace]]/content/writings"
     }
   ]
 }
