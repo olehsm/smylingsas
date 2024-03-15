@@ -76,5 +76,5 @@ enableGitInfo = true
     lineNumbersInTable = true
     noClasses = true
     noHl = false
-    style = 'github'
+    style = 'xcode'
     tabWidth = 4
