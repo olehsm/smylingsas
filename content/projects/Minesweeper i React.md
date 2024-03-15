@@ -11,7 +11,7 @@ title: Minesweeper i React
 date: 2020-11-09T21:18:55.000Z
 draft: false
 preview: /preview-images/minesweeper-project.png
-lastmod: 2023-11-09T09:08:06.629Z
+lastmod: 2024-03-15T12:15:11.690Z
 ---
 
 <!--more-->
@@ -35,7 +35,7 @@ TileModel og TileType
 ## Legge til støtte for Typescript på serveren
 Det siste bygget feilet i Amplify. I og med at jeg hadde lagt til støtte for TypeScript lokalt måtte jeg også legge til dette i Amplify.yml som beskriver byggoppsettet i Amplify.
 
-{{<highlight yml>}}
+{{<highlight yaml>}}
 version: 1
 frontend:
   phases:
