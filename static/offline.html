@@ -112,6 +112,28 @@
                 <td id="network-save-data"></td>
             </tr>
         </table>
+        <table id="battery-information">
+            <tr>
+                <th>Battery information</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Plugged in? (yes/no)</td>
+                <td id="battery-charging"></td>
+            </tr>
+            <tr>
+                <td>Battery level</td>
+                <td id="battery-level"> </td>
+            </tr>
+            <tr>
+                <td>Time remaining to fully charged battery</td>
+                <td id="battery-chargetime"> </td>
+            </tr>
+            <tr>
+                <td>Time remaining to empty battery</td>
+                <td id="battery-dischargetime"></td>
+            </tr>
+        </table>
         <script>
             const connection = navigator.connection;
             if(connection) {
@@ -127,6 +149,57 @@
                 const saveData = document.getElementById('network-save-data')
                 saveData.innerText = connection.saveData
             }
+        </script>
+        <script>
+            navigator.getBattery().then((battery) => {
+                function updateAllBatteryInfo() {
+                    updateChargeInfo();
+                    updateLevelInfo();
+                    updateChargingInfo();
+                    updateDischargingInfo();
+                }
+                updateAllBatteryInfo();
+
+                battery.addEventListener("chargingchange", () => {
+                    updateChargeInfo();
+                });
+
+                function updateChargeInfo() {
+                    let batteryCharging = document.getElementById('battery-charging')
+                    batteryCharging.innerText = `${battery.charging ? "yes" : "no"}`
+                    console.log(`Lader batteriet? ${battery.charging ? "Ja" : "Nei"}`);
+                }
+
+                battery.addEventListener("levelchange", () => {
+                    updateLevelInfo();
+                });
+
+                function updateLevelInfo() {
+                    let batteryLevel = document.getElementById('battery-level')
+                    batteryLevel.innerText = `${battery.level * 100}%`
+                    console.log(`Batterinivå: ${battery.level * 100}%`);
+                }
+
+                battery.addEventListener("chargingtimechange", () => {
+                    updateChargingInfo();
+                });
+
+                function updateChargingInfo() {
+                    let batteryChargetime = document.getElementById('battery-chargetime')
+                    batteryChargetime.innerText = `${battery.chargingTime} sekunder`
+                    console.log(`Battery charging time: ${battery.chargingTime} sekunder`);
+                }
+
+                battery.addEventListener("dischargingtimechange", () => {
+                    updateDischargingInfo();
+                });
+
+                function updateDischargingInfo() {
+                    let batteryDischargetime = document.getElementById('battery-dischargetime')
+                    batteryDischargetime.innerText = `${battery.dischargingTime} sekunder`
+                    console.log(`Battery discharging time: ${battery.dischargingTime} sekunder`);
+                }
+            });
         </script>
     </body>
  
