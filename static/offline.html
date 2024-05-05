@@ -167,7 +167,6 @@
                 function updateChargeInfo() {
                     let batteryCharging = document.getElementById('battery-charging')
                     batteryCharging.innerText = `${battery.charging ? "yes" : "no"}`
-                    console.log(`Lader batteriet? ${battery.charging ? "Ja" : "Nei"}`);
                 }
 
                 battery.addEventListener("levelchange", () => {
@@ -177,7 +176,6 @@
                 function updateLevelInfo() {
                     let batteryLevel = document.getElementById('battery-level')
                     batteryLevel.innerText = `${battery.level * 100}%`
-                    console.log(`Batterinivå: ${battery.level * 100}%`);
                 }
 
                 battery.addEventListener("chargingtimechange", () => {
@@ -186,8 +184,7 @@
 
                 function updateChargingInfo() {
                     let batteryChargetime = document.getElementById('battery-chargetime')
-                    batteryChargetime.innerText = `${battery.chargingTime} sekunder`
-                    console.log(`Battery charging time: ${battery.chargingTime} sekunder`);
+                    batteryChargetime.innerText = `${battery.chargingTime} sec`
                 }
 
                 battery.addEventListener("dischargingtimechange", () => {
@@ -196,8 +193,7 @@
 
                 function updateDischargingInfo() {
                     let batteryDischargetime = document.getElementById('battery-dischargetime')
-                    batteryDischargetime.innerText = `${battery.dischargingTime} sekunder`
-                    console.log(`Battery discharging time: ${battery.dischargingTime} sekunder`);
+                    batteryDischargetime.innerText = `${battery.dischargingTime} sec`
                 }
             });
         </script>
