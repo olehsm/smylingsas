@@ -69,5 +69,18 @@
     {{end}}
 </title>
 
+<style>
+    .page-wrapper {
+        display: grid;
+        grid-template-columns: 
+            1fr 
+            min(65ch, calc(100% - 30px)) 
+            1fr;
+        grid-column-gap: 15px;
+        font-size:  2rem;
+        line-height: 1.8;
+        margin-bottom: 20em;
+    }
+</style>
 
 {{ partial "styles.html" . }}

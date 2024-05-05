@@ -2,20 +2,6 @@
 <html lang="no-nb">
     <head>
         {{ partial "head.html" . }}
-        <style>
-
-            .page-wrapper {
-                display: grid;
-                grid-template-columns: 
-                    1fr 
-                    min(65ch, calc(100% - 30px)) 
-                    1fr;
-                grid-column-gap: 15px;
-                font-size:  2rem;
-                line-height: 1.8;
-                margin-bottom: 20em;
-            }
-        </style>
     </head>
     <body>
         {{ partial "site-header-mobile.html" . }}
@@ -27,6 +13,7 @@
                 <!-- The part of the page that begins to differ between templates -->
             {{ end }}
         </section>
+        
         {{ partial "site-menu-mobile.html" . }}
         {{/*  {{ partial "theme-switcher.html" }}  */}}
        
