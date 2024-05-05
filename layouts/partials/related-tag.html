@@ -6,7 +6,7 @@
         <div class="page-main-list1">
             <ul class="reset-list">
                 {{ range $relatedTagPosts }}
-                    {{ .Render "summary"}}
+                    <li>{{.Title}}</li>
                 {{ end }}
             </ul>
         </div>

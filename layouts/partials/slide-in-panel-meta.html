@@ -1,0 +1,25 @@
+<div id="mySidenav-meta" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h2>Publiseringdetaljer</h2>
+    <ul>
+        <li>Postet opprinnelig: <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}">&nbsp;{{ .Date.Format "Jan 2, 2006" }}</time></li>
+        <li>Sist oppdatert: <time class="page-header__publication-details__pubdate" datetime="{{ .Lastmod.Format "Mon, Jan 2, 2006" }}">&nbsp;{{ .Lastmod.Format "Jan 2, 2006" }}</time></li>
+    </ul>
+    <h2>Lesedetaljer</h2>
+    <ul>
+        <li>
+            Antall ord: {{ .WordCount }}&nbsp;ord
+        </li>
+        <li>
+            Lesetid: {{ .ReadingTime }}&nbsp;minutt(er)
+        </li>
+    </ul>
+    {{ with .GitInfo }}
+    <h2>Versjoneringdetaljer</h2>   
+    <ul>
+        <li>Commit hash for siste oppdatering: {{ .AbbreviatedHash }}</li>
+        <li>Dato for siste oppdateting: {{ .AuthorDate.Format "2006-01-02" }}</li>
+        <li>Navn på commit: '{{ .Subject }}'</li>
+    </ul>
+    {{ end }}
+</div>

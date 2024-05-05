@@ -1,0 +1,19 @@
+<div id="mySidenav-reference" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeReferences()">&times;</a>
+    <section class="article-resources">
+        {{ with .Params.pageresources }}
+            {{ template "page-header__pageresources"  . }}
+        {{ end }}            
+    </section>
+</div>
+
+{{ define "page-header__pageresources" }}
+    <h2>Referanser:</h2>
+    <ul class="page-header__pageresources">
+        {{ range $key, $value := . }}
+            <li>
+                <a target="_blank" href="{{$value.pageresourceUrl | safeURL }}"{{ with $value.pageresourceTitle}} title="{{ $value.pageresourceTitle }}"{{ end }}>{{ $value.pageresourceText | safeHTML }}{{ if strings.HasPrefix .pageresourceUrl "https" }} <i aria-hidden="true">&#128279;</i>{{ end }}</a>
+            </li>            
+        {{ end }}
+    </ul>
+{{ end }}

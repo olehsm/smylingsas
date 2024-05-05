@@ -1,5 +1,29 @@
 {{ define "main" }}
+<script>
+function openNav() {
+document.getElementById("mySidenav-meta").style.width = "580px";
+}
 
+function closeNav() {
+document.getElementById("mySidenav-meta").style.width = "0";
+}
+
+function openReferences() {
+    document.getElementById("mySidenav-reference").style.width = "580px";
+}
+
+function closeReferences() {
+    document.getElementById("mySidenav-reference").style.width = "0";
+}
+
+function openRelatedTag() {
+    document.getElementById("mySidenav-relatedtag").style.width = "580px";
+}
+
+function closeRelatedTag() {
+    document.getElementById("mySidenav-relatedtag").style.width = "0";
+}
+</script>
     <div class="single">
         <section class="article-aside">
             {{ partial "contentlist.html" . }}
@@ -27,36 +51,33 @@
                 <h1 id="article-title">{{.Params.title}}</h1>
                 <div id="sentinel" class="sentinel"></div>
                 <div class="page-header__publication-details">
-                    <span>
-                        <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i>&#128467;</i>&nbsp;{{ .Date.Format "Jan 2, 2006" }}</time>
-                        //<time class="page-header__publication-details__pubdate" datetime="{{ .Lastmod.Format "Mon, Jan 2, 2006" }}"></i>&nbsp;Sist oppdatert:&nbsp;{{ .Lastmod.Format "Jan 2, 2006" }}</time>
-                    </span>
-                    <span><i>&#128196;</i>&nbsp;{{ .WordCount }}&nbsp;ord</span>
-                    <span><i>&#x23F0;</i>&nbsp;{{ .ReadingTime }}&nbsp;minutt(er)</span>
+                    <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i>&#128467;</i>&nbsp;{{ .Date.Format "Jan 2, 2006" }}</time> 
                 </div>
-           
+
+                <ul>
+                    <li><a href="#" onclick="openNav()">Metadata</a></li>
+                    <li><a href="#" onclick="openReferences()">Referanser</a></li>
+                    <li><a href="#" onclick="openRelatedTag()">Poster med lik tag</a></li>
+                </ul>
+                
+                
+                
+                
+
                 {{.Content}}
          
-                
-                
-                
                 <section class="article-tags">
                     {{ with .Params.tags }}
-                        <i>&#xFF03;</i>&nbsp;
                         {{ range . }}
                             <a href="/tags/{{ . | urlize }}/">{{ . }}</a> 
                         {{ end }}
                     {{ end }}
                 </section>
                 
-                <section class="article-resources">
-                    {{ with .Params.pageresources }}
-                        {{ template "page-header__pageresources"  . }}
-                    {{ end }}            
-                </section>
+                
 
-                <aside class="read-next">
-                    {{- partial "related-tag.html" . -}}
+                
+                    
                     {{/*  <div class="read-next-items">
 
                             {{ with .PrevInSection }}
@@ -78,32 +99,13 @@
                             {{ end }}
                         </ul>
                     </div>  */}}
-                </aside>
-                <section>
-                    {{ with .GitInfo }}
-                        {{ .AbbreviatedHash }}
-                        {{ .AuthorDate.Format "2006-01-02" }}
-                        {{ .Subject }}
-                    {{ end }}
-                </section>    
-                
             </div>
-            {{/*  <footer>
-                {{ partial "footer/footer.html" . }}
-            </footer>    */}}
         </section>
-        {{ partial "slide-in-panel.html" . -}}      
+        
+        
+        {{ partial "slide-in-panel-relatedtag.html" . }}
+        {{ partial "slide-in-panel-meta.html" . }}
+        {{ partial "slide-in-panel-references.html" . }}
+        
     </div>
-{{ end }}
-
-
-{{ define "page-header__pageresources" }}
-    <h2>Referanser:</h2>
-    <ul class="page-header__pageresources">
-        {{ range $key, $value := . }}
-            <li>
-                <a target="_blank" href="{{$value.pageresourceUrl | safeURL }}"{{ with $value.pageresourceTitle}} title="{{ $value.pageresourceTitle }}"{{ end }}>{{ $value.pageresourceText | safeHTML }}{{ if strings.HasPrefix .pageresourceUrl "https" }} <i aria-hidden="true">&#128279;</i>{{ end }}</a>
-            </li>            
-        {{ end }}
-    </ul>
 {{ end }}
