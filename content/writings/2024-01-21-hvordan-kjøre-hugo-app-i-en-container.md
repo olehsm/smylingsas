@@ -9,6 +9,7 @@ tags:
     - hugo
 author: Ole Halvor Smylingsås
 pageresources: {}
-lastmod: 2024-01-21T09:55:25.955Z
+lastmod: 2024-05-05T11:34:25.298Z
 slug: hvordan-kjore-hugo-app-en-container
+type: writings
 ---
