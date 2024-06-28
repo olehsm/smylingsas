@@ -70,6 +70,36 @@
 </title>
 
 <style>
+    @view-transition {
+        navigation: auto;
+    }
+
+    /* forward navigation */
+html:active-view-transition-type(forward) {
+    &[data-transition="slide"]::view-transition-old(root) {
+      animation-name: slide-out;
+    }
+  
+    &[data-transition="slide"]::view-transition-new(root) {
+      animation-name: slide-in;
+      mix-blend-mode: normal;
+    }
+  }
+  
+  /* back navigation */
+  html:active-view-transition-type(back) {
+    &[data-transition="slide"]::view-transition-new(root) {
+      animation-name: slide-out-reverse;
+    }
+  
+    &[data-transition="slide"]::view-transition-old(root) {
+      animation-name: slide-in-reverse;
+      mix-blend-mode: normal;
+      z-index: 1;
+    }
+  }
+
+
     .page-wrapper {
         display: grid;
         grid-template-columns: 
