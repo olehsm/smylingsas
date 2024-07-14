@@ -34,7 +34,10 @@ function closeRelatedTag() {
                 {{ else if ne .Kind "section" "taxonomy" "home" }}
                     <div>
                         <a title="Tilbake til {{.Type}}" href="/{{.Type}}">
-                            <i aria-hidden="true">&larr;</i>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
+                                <path d="M10 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M5.41415 13.6026L6.38058 14.3639C7.94638 15.5974 8.72928 16.2141 9.36464 15.9328C10 15.6515 10 14.6881 10 12.7613V11.2387C10 9.31191 10 8.34853 9.36464 8.06721C8.72928 7.7859 7.94638 8.40264 6.38059 9.63612L5.41415 10.3974C4.47138 11.1401 4 11.5115 4 12C4 12.4885 4.47138 12.8599 5.41415 13.6026Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
                         </a>
                     </div>
                     
@@ -42,7 +45,10 @@ function closeRelatedTag() {
                     {{$body := "Sjekk ut denne artikkelen"}}
                     {{$pageUrl := "/"}}
                     {{ $pageTitle}}
-                    <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><i aria-hidden="true">&#128389;</i></button>
+                    <button class="sharebutton" type="button" title="Del artikkel" onclick="share( {{ $pageTitle}}, {{$body }}, {{$pageUrl}} )"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
+                        <path d="M18 7C18.7745 7.16058 19.3588 7.42859 19.8284 7.87589C21 8.99181 21 10.7879 21 14.38C21 17.9721 21 19.7681 19.8284 20.8841C18.6569 22 16.7712 22 13 22H11C7.22876 22 5.34315 22 4.17157 20.8841C3 19.7681 3 17.9721 3 14.38C3 10.7879 3 8.99181 4.17157 7.87589C4.64118 7.42859 5.2255 7.16058 6 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                        <path d="M12.0253 2.00052L12 14M12.0253 2.00052C11.8627 1.99379 11.6991 2.05191 11.5533 2.17492C10.6469 2.94006 9 4.92886 9 4.92886M12.0253 2.00052C12.1711 2.00657 12.3162 2.06476 12.4468 2.17508C13.3531 2.94037 15 4.92886 15 4.92886" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></button>
                 {{ else if ne .Kind "home" }}
                     {{.Title}}
                 {{ end}}
@@ -51,7 +57,13 @@ function closeRelatedTag() {
                 <h1 id="article-title">{{.Params.title}}</h1>
                 <div id="sentinel" class="sentinel"></div>
                 <div class="page-header__publication-details">
-                    <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><i>&#128467;</i>&nbsp;{{ .Date.Format "Jan 2, 2006" }}</time> 
+                    <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
+                        <path d="M18 2V4M6 2V4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M11.9955 13H12.0045M11.9955 17H12.0045M15.991 13H16M8 13H8.00897M8 17H8.00897" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M3.5 8H20.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2.5 12.2432C2.5 7.88594 2.5 5.70728 3.75212 4.35364C5.00424 3 7.01949 3 11.05 3H12.95C16.9805 3 18.9958 3 20.2479 4.35364C21.5 5.70728 21.5 7.88594 21.5 12.2432V12.7568C21.5 17.1141 21.5 19.2927 20.2479 20.6464C18.9958 22 16.9805 22 12.95 22H11.05C7.01949 22 5.00424 22 3.75212 20.6464C2.5 19.2927 2.5 17.1141 2.5 12.7568V12.2432Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M3 8H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>&nbsp;{{ .Date.Format "Jan 2, 2006" }}</time> 
                 </div>
 
                 <ul>
