@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="no-nb" data-transition="slide">
+<html lang="nb" data-transition="slide">
     <head>
         {{ partial "head.html" . }}
     </head>
@@ -16,23 +16,6 @@
         
         {{ partial "site-menu-mobile.html" . }}
         {{/*  {{ partial "theme-switcher.html" }}  */}}
-
-
-        <script>
-            // determine the transition type
-            const direction = isBackNavigation() ? 'back' : 'forward';
-
-            // get the new page somehow
-            const template = getNewPageHTML();
-
-            document.startViewTransition({
-            update: () => {
-                document.body.innerHTML = template;
-            },
-            // set the transition type
-            types: [direction]
-            }); 
-        </script>
        
         <!-- Service worker -->
         <script>

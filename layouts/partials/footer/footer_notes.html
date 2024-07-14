@@ -12,9 +12,9 @@
 {{ define "social-links" }}
     <ul class="reset-list">
         {{ range . }}
-            <li class="" data-toggle="tooltip" data-placement="top" title="{{ .name }}">
-                <a aria-label="{{ .name }}" rel="noreferrer" target="_blank" href="{{ .url }}">
-                    <i class="{{ .icon }}"></i> {{ .name }}
+            <li data-toggle="tooltip" data-placement="top">
+                <a aria-label="{{ .name }}" rel="noreferrer" title="{{ .desc }}" target="_blank" href="{{ .url }}">
+                    {{ .icon }} {{ .name }}
                 </a>
             </li>
         {{ end }}
