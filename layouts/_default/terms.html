@@ -8,12 +8,20 @@
     <ul class="reset-list page-main-list">
         {{ range $key, $value := .Data.Terms.Alphabetical }}
             <li class="tag-content-line">
-                <h2 class="tag-header">{{.Page.Title }} <a title="Bla gjennom" href="{{.Page.Permalink}}">></a></h2>
+                <h2 class="tag-header">#{{.Page.Title }} 
+                    <a title="Bla gjennom" href="{{.Page.Permalink}}">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M16 12L8 12M16 12C16 12.7002 14.0057 14.0085 13.5 14.5M16 12C16 11.2998 14.0057 9.99153 13.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </h2>
                 <ul class="reset-list">
                     {{ range $value.Pages }}
                         {{ .Render "summary"}}
                     {{ end }}
                 </ul>
+                
             </li>            
         {{ end }}
     </ul>
