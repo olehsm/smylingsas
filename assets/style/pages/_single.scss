@@ -269,6 +269,30 @@
     align-items: baseline;
 }
 
+.tag-item {
+    width: auto;
+    margin-right: 1.2em;
+    display: block;
+    background-color: #eee;
+    padding: 0.5em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--paragraph);
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 10%;
+}
+
+.tag-item:hover {
+    background-color: var(--theme-color);
+    color:#fff;
+}
+
+.tags-section ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 @media (min-width: $small-screen-end) {
     .read-next {
