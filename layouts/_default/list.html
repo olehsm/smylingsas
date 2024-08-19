@@ -12,6 +12,14 @@
     <div class="grid-main">
         <main class="page-main" id="main-content">    
             <section class="page-main-list">
+                {{ $pages := where site.RegularPages "Type" "writings" }}
+{{ $paginator := .Paginate $pages.ByTitle 10 }}
+
+{{ range $paginator.Pages }}
+  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+{{ end }}
+
+{{ template "_internal/pagination.html" . }}
                 <ul class="reset-list">
                     {{ range .Pages }}
                         {{ .Render "summary"}}
