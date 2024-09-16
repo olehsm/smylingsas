@@ -42,35 +42,6 @@
             
         </script>
 
-        <!-- Fixed header large screens -->
-        <script>
-            const sentinel = document.getElementById("sentinel");
-            const header = document.getElementById("fixed-header");
-
-            if(sentinel && header)
-            {
-                const options = {
-                    rootMargin: '0px',
-                    threshold: 0
-                }
-                
-                const callback = (entries, observer) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) 
-                        {
-                            header.classList.remove('show');
-                            header.classList.add('hide');
-                        } else {
-                            header.classList.remove('hide');
-                            header.classList.add('show');
-                        }
-                    });
-                }
-    
-                observer = new IntersectionObserver(callback, options);
-                observer.observe(sentinel);
-            }    
-        </script>
 
         {{ if eq .Kind "home"}}
         

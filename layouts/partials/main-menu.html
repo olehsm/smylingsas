@@ -1,3 +1,16 @@
+<script>
+    function openOverlayNav() {
+        console.log("hello moen camping")
+        document.getElementById("overlay-menu").style.width = "100%";
+    }
+
+    function openOverlayNav() {
+        document.getElementById("overlay-menu").style.width = "0";
+    }
+</script>
+
+{{ partial "overlay-menu.html" . }}
+
 <ul class="reset-list">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
@@ -25,7 +38,7 @@
         {{ end }}
     {{ end }}
     <li class="extra-mobile-menu-item">
-        <a href="/additional-mobilemenu/">
+        <a href="#" onclick="openOverlayNav()">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                 <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -35,3 +48,6 @@
         </a>
     </li>
 </ul>
+
+
+

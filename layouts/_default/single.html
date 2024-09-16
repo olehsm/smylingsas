@@ -29,7 +29,7 @@ function closeRelatedTag() {
             {{ partial "contentlist.html" . }}
         </section>
         <section class="article-section">
-            <div id="fixed-header" class="hide">
+            <div id="fixed-header" class="show">
                 {{ if eq .Kind "home"}}
                 {{ else if ne .Kind "section" "taxonomy" "home" }}
                     <div>
@@ -54,8 +54,8 @@ function closeRelatedTag() {
                 {{ end}}
             </div>
             <div class="page-wrapper">
-                <h1 id="article-title">{{.Params.title}}</h1>
-                <div id="sentinel" class="sentinel"></div>
+                {{/*  <h1 id="article-title">{{.Params.title}}</h1>  */}}
+                {{/*  <div id="sentinel" class="sentinel"></div>  */}}
                 <div class="page-header__publication-details">
                     <time class="page-header__publication-details__pubdate" datetime="{{ .Date.Format "Mon, Jan 2, 2006" }}"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
                         <path d="M18 2V4M6 2V4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
